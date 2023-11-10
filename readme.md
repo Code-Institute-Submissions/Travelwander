@@ -110,8 +110,13 @@ Specify the license under which your project is distributed. You can choose from
 ## UX and UI
 
 - In this section, document decisions at each stage of the 5 planes of UX design.
--
-<details>
+- Strategy => Scope => Structure => Skeleten => Surface
+- Project goals, customer goals (user stories), features, information structure, presentation, and the look and feel of your site.
+- review personas and user stories
+----
+### Personas:
+
+  <details>
   <summary>Persona: Family Adventurers</summary>
 
   ## Background
@@ -181,7 +186,7 @@ Specify the license under which your project is distributed. You can choose from
 
   By understanding the detailed travel preferences, budget considerations, and decision-making process of the Müller family, TravelWander can tailor its offerings to provide a more personalized and satisfactory experience.
 </details>
--<details>
+<details>
   <summary>Persona: Emma Adams</summary>
 
   ## Background
@@ -240,7 +245,7 @@ Specify the license under which your project is distributed. You can choose from
 
   By understanding Emma's unique needs as a university student, TravelWander can provide tailored options that align with her budget and desire for diverse travel experiences.
 </details>
--<details>
+<details>
   <summary>Persona: Mark Johnson</summary>
 
   ## Background
@@ -300,9 +305,45 @@ Specify the license under which your project is distributed. You can choose from
   By understanding Mark's preferences and priorities, TravelWander can provide a seamless and personalized experience for his vacation planning.
 </details>
 
+### User Stories:
+
+1. **Family Adventurers (Müller Family):**
+   - **Discover Family-Friendly Vacations:**
+     - Explore a user-friendly interface to easily discover family-friendly vacation options on TravelWander.
+   - **Customize Vacation Plans:**
+     - Utilize a simple and intuitive platform to customize vacation plans, considering the needs of both adults and children.
+   - **Access Comprehensive Information:**
+     - Find comprehensive information on safety measures, kid-friendly accommodations, and valuable travel tips.
+   - **Flexible Itineraries:**
+     - Choose from flexible itineraries that cater to the interests and energy levels of both adults and children.
+   - **Engage with the Community:**
+     - Connect with and contribute to the family-friendly community on TravelWander.
+
+2. **Emma Adams (University Student):**
+   - **Explore Budget-Friendly Options:**
+     - Navigate a visually engaging platform to explore budget-friendly travel options for university breaks.
+   - **Efficient Filtering:**
+     - Use efficient filtering options to explore travel packages based on affordability, travel dates, and student-friendly activities.
+   - **Detailed Destination Information:**
+     - Access detailed information about each destination, including cultural experiences and budget-friendly activities.
+   - **Secure Booking Process:**
+     - Experience a secure and efficient booking process that accommodates academic schedules.
+   - **Connect with Fellow Students:**
+     - Connect with a community of fellow students for travel insights and recommendations.
+
+3. **Solo Explorer (Mark Johnson):**
+   - **Visually Engaging Discovery:**
+     - Discover unique and exciting destinations through a visually engaging platform on TravelWander.
+   - **Efficient Filtering Options:**
+     - Use efficient filtering options to explore travel packages based on budget, preferred activities, and travel dates.
+   - **Informed Decision-Making:**
+     - Access detailed information about each destination to make informed decisions about solo adventures.
+   - **Streamlined Booking Process:**
+     - Enjoy a streamlined and secure booking process for the selected travel package.
+   
 
 
-- Project goals, customer goals (user stories), features, information structure, presentation, and the look and feel of your site.
+
 
 ## Wireframes
 
