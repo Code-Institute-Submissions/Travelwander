@@ -70,7 +70,6 @@ TravelWander is built using a variety of technologies and tools to provide a sea
 
 - **Development Tools**:
   - Visual Studio Code or other code editors
-  - Postman (for API testing)
   - Browser DevTools for debugging
   - Gitpod (for cloud-based development)
 
