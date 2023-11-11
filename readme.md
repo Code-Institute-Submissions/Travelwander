@@ -348,6 +348,8 @@ Specify the license under which your project is distributed. You can choose from
 ## Wireframes
 
 - Provide links to wireframes that serve as blueprints for your site. Include wireframes for different screen sizes (mobile, tablet, desktop).
+- ![TravelWander first wirefram](./assets/wireframes/first_wireframe.png)
+
 
 ## Mock-ups (Optional)
 
