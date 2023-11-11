@@ -348,7 +348,7 @@ Specify the license under which your project is distributed. You can choose from
 ## Wireframes
 
 - Provide links to wireframes that serve as blueprints for your site. Include wireframes for different screen sizes (mobile, tablet, desktop).
-- <img src="./assets/wireframes/first_wireframe.png" style="width: 40%; height: 40%;">
+- <img src="./assets/wireframes/first_wireframe.png" style="width: 40%; height: 60%;">  - <img src="./assets/wireframes/mobile_first_wireframe.png" style="width: 200px; height: 360px;">
 
 
 
