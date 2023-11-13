@@ -349,7 +349,7 @@ Specify the license under which your project is distributed. You can choose from
 
 - Provide links to wireframes that serve as blueprints for your site. Include wireframes for different screen sizes (mobile, tablet, desktop).
 - <img src="./assets/wireframes/first_wireframe.png" style="width: 60%; height: 60%;">  - <img src="./assets/wireframes/mobile_first_wireframe.png" style="width: 30%; height: 50%;">-- <img src="./assets/wireframes/mobile_first_modify.png" style="width: 30%; height: 50%;">--<img src="./assets/wireframes/secondpage.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_secondpage.png" style="width: 30%; height: 50%;">--third lists and map hotels --<img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_hotelsmap.png" style="width: 30%; height: 50%;">
-<img src="./assets/wireframes/mobile_hotelslist.png" style="width: 30%; height: 50%;">--<img src="./assets/wireframes/hotelfulldetails.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_hotelfulldetails.png" style="width: 30%; height: 50%;">
+<img src="./assets/wireframes/mobile_hotelslists.png" style="width: 30%; height: 50%;">--<img src="./assets/wireframes/hotelfulldetails.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_hotelfulldetails.png" style="width: 30%; height: 50%;">
 
 
 
