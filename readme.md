@@ -355,7 +355,7 @@ Specify the license under which your project is distributed. You can choose from
 
 <img src="./assets/wireframes/first_wireframe_color.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_firstpage_color.png" style="width: 30%; height: 50%;">
 
-<img src="./assets/wireframes/second_page_color1.png" style="width: 60%; height: 60%;">
+<img src="./assets/wireframes/second_page_color1.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_second_page_col1.png" style="width: 30%; height: 50%;">
 
 ## Mock-ups (Optional)
 
