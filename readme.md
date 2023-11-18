@@ -362,8 +362,11 @@ Specify the license under which your project is distributed. You can choose from
 <img src="./assets/wireframes/packages.png" style="width: 60%; height: 60%;">
 <img src="./assets/wireframes/package_details.png" style="width: 60%; height: 60%;">
 <img src="./assets/wireframes/contact_page.png" style="width: 60%; height: 60%;">
-
-
+<img src="./assets/wireframes/contact1.png" style="width: 60%; height: 60%;">
+<img src="./assets/wireframes/deals1.png" style="width: 60%; height: 60%;">
+<img src="./assets/wireframes/mobile_contact_menu.png" style="width: 24%; height: 38%;">
+<img src="./assets/wireframes/mobile_contact.png" style="width: 24%; height: 38%;">
+<img src="./assets/wireframes/mobile_second_page_col1.png" style="width: 24%; height: 38%;">
 
 
 
