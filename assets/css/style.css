@@ -12,7 +12,7 @@ body{
 /* ------ header ------ --------------------*/
 
 header{
-    background-color: aqua;
+    background-color: rgb(209, 210, 210);
     grid-column: 2/12;
     grid-row:1/2 ;
 
@@ -22,20 +22,25 @@ header{
     display:flex;
     width: 100%;
     border: 1px dashed blue;
+    color:rgba(34, 93, 119, 85%);
+    text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
 }
 
 .logo{
 width:30%;
-border: 1px solid red ;
+
 display: flex;
 align-items: center;
-   
+font-family: 'Roboto Serif', serif;
+font-size: larger;
+font-weight: 600;  
 }
 .logo img{
     width: 40%;
+    filter: drop-shadow(0px 2px 8px rgba(90, 85, 85, 0.558));
 }
 .navmenu{
-    border: 1px solid yellow;
+    
     width: 40%;
     display: flex;
     align-items: center;
@@ -51,11 +56,29 @@ align-items: center;
 .navmenu li{
     list-style-type: none;
     margin: 5%;
-    color:rgba(34, 93, 119, 85%);
-    font-family: 'Noto Sans Display', sans-serif;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
 
 }
+.navmenu li:first-child{
+    color:rgb(165, 14, 138);
+}
 
+.social{
+    
+    
+    flex-grow:1;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+}
+.social > span{
+    color:rgb(223, 101, 14);
+    margin: 4%;
+    
+}
 
 
 
