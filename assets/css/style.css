@@ -193,4 +193,10 @@ footer{
     /* background-color: blanchedalmond; */
     grid-column: 2/12;
     grid-row:3/4;
+    text-align: center;
+    color:white;
+    padding: 2%;
+}
+footer a{
+    color:aquamarine
 }
