@@ -16,7 +16,14 @@ header{
     grid-column: 2/12;
     grid-row:1/2 ;
 
+
 }
+.navitems{
+    display:flex;
+    width: 100%;
+    border: 1px dashed blue;
+}
+
 .logo{
 width:30%;
 border: 1px solid red ;
@@ -26,6 +33,27 @@ align-items: center;
 }
 .logo img{
     width: 40%;
+}
+.navmenu{
+    border: 1px solid yellow;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.navmenu ul{
+    display:flex;
+    text-decoration: none;
+    
+}
+.navmenu li{
+    list-style-type: none;
+    margin: 5%;
+    color:rgba(34, 93, 119, 85%);
+    font-family: 'Noto Sans Display', sans-serif;
+
 }
 
 
