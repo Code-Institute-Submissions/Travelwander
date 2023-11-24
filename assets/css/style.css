@@ -111,8 +111,69 @@ main .inviting{
     display: flex;
 
 }
-.continents>div{
+.continents div{
+    width: 240px;
+    height: 138px;
+    color:antiquewhite;
     
+}
+.continents div:first-child{
+    background-color: azure;
+    
+    background: url(/assets/images/america.png) left no-repeat;
+    
+    background-size:cover;
+    position: relative;
+    padding: 0.4em;
+
+    
+}
+.continents div:nth-child(1) p{
+    position: absolute;
+    width: 50%;
+    top:0.8em;
+    left:0.8em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.766);
+
+}
+.continents div:nth-child(2){
+    background-color: black;
+    background: url(/assets/images/placementAreae6a51aa8.png) left no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align:start;
+    padding: 0.4em;
+
+
+}
+.continents div:nth-child(2) p{
+    position: absolute;
+    bottom:2em;
+    left:3.7em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.399);
+
+
+}
+
+.continents div:nth-child(3){
+    background-color: beige;
+    background: url(/assets/images/placementArea.png) left no-repeat;
+    
+    background-size: cover;
+
+    text-align: end;
+    padding: 0.4em;
+    position: relative;
+
+
+}
+.continents div:nth-child(3) p{
+    position: absolute;
+    top:1em;
+    right:0.8em;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.399);
+
+
 }
 
 
