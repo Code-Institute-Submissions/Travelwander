@@ -5,6 +5,7 @@ body{
     background: url(/assets/images/placementArea64282058.png);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     margin:0 auto;
     justify-content: center;
     
@@ -201,3 +202,12 @@ footer{
 footer a{
     color:aquamarine
 }
+
+
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+      grid-template-columns: repeat(5,120);
+    }
+    
+  }
