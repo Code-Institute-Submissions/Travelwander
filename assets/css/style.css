@@ -17,6 +17,18 @@ header{
     grid-row:1/2 ;
 
 }
+.logo{
+width:30%;
+border: 1px solid red ;
+display: flex;
+align-items: center;
+   
+}
+.logo img{
+    width: 40%;
+}
+
+
 
 
 /* ------main  -------------------  ------ */
