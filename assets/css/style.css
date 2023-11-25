@@ -214,6 +214,9 @@ footer{
 footer a{
     color:aquamarine
 }
+.sidebar{
+    display: none;
+}
 
 
 @media screen and (max-width: 500px) {
