@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Menu</title>
+    <link rel="stylesheet" href="/assets/css/style2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar">
+                <a href="#" class="logo">Logo</a>
+
+                <button class="hamburger" onclick="toggleNav()">☰</button>
+            </nav>
+        </header>
+
+        <main>
+            <h1>Main Content</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ultricies, eros ut luctus tincidunt, quam erat viverra enim, nec faucibus tellus mauris ac neque. Sed semper leo velit, eu tincidunt lacus scelerisque. Nullam eu urna sit amet arcu mattis ullamcorper. Donec mattis, odio ac luctus semper, quam elit semper enim, at mattis ante turpis ac enim.</p>
+            <p>Donec euismod, urna nec ullamcorper semper, tortor odio semper enim, ac euismod ipsum diam id quam. Donec aliquet, enim at egestas semper, magna turpis tempor ipsum, vitae faucibus odio tellus et eros. Nullam at est ac neque elementum sagittis. Sed eget quam a lectus faucibus laoreet ac eget ipsum.</p>
+        </main>
+
+        <aside class="sidebar">
+            <h2>Navigation Menu</h2>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <script>
+        function toggleNav() {
+            const sidebar = document.querySelector('.sidebar');
+            sidebar.classList.toggle('active');
+        }
+    </script>
+</body>
+</html>
