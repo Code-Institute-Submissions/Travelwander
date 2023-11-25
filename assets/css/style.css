@@ -288,15 +288,20 @@ footer a{
         
         background-color: rgba(79, 81, 80, 0.187);
     }
-    
+    .continents div{
+        width: 280px;
+        height: 158px;
+        color:antiquewhite;
+        border: 1px solid rgba(255, 255, 255, 0.372);
+        
+    }
     
     .continents{
         display: flex;
         flex-direction: column;
         gap:1em;
         align-items: center;
-        border: 1px solid red;
-    
+   
     }
 
     /*----footer style--- */
