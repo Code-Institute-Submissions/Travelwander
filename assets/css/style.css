@@ -96,6 +96,9 @@ font-weight: 600;
 
 }
 
+header .hamburger{
+    display: none;
+}
 
 
 /* ------main  -------------------  ------ */
@@ -257,6 +260,9 @@ footer a{
 
     .navmenu,.social{
         display: none; /* hide menu for mobile view */
+    }
+    header .hamburger{
+        display: block;
     }
 
     /* ---------main ____- */
