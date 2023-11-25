@@ -278,6 +278,11 @@ footer a{
         font-size: larger;
         color: antiquewhite;
     }
+    .hamburger.cross{
+        position: fixed;
+        top: 0;
+        left: 9em;
+    }
 
     .sidebar.active {
         display: block;
@@ -289,12 +294,19 @@ footer a{
         background-color: #fff;
         overflow: auto;
         z-index: 1;
+
     }
     aside{
-        
-        padding:1em;
-        
-        
+        padding:1em; 
+    }
+    .cross{
+        position: fixed;
+        top:0.9em;
+        left:7.7em;
+        width: 20px;
+        height: 30px;
+
+        font-size: larger;
     }
 
 

@@ -1,84 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif,opsz@1,8..144&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="/assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif,opsz@1,8..144&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/ecedfde1ad.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="/assets/css/style.css" />
 
     <title>Travelwander.com</title>
-</head>
+  </head>
 
-<body>
-    
+  <body>
     <header>
-        <nav class="navitems">
-            <div class="logo"><img src="/assets/images/travellogo1.png" alt="Logo of travelwander">Travelwander.com</div>
-            <div class="navmenu">
-                <ul class="menu_line">
-                    <li>deals</li>
-                    <li>package</li>
-                    <li>contact</li>
-                    <li>about</li>
-                </ul>
-            </div>
-            <div class="social">
-                <span class="insta"><i class="fa-brands fa-instagram"></i></span>
-                <span class="face"><i class="fa-brands fa-facebook-f"></i></span>
-                <span class="twitter"><i class="fa-brands fa-x-twitter"></i></span>
-            </div>
-            <button class="hamburger" onclick="toggleNav()">☰</button>
-            <aside class="sidebar">
-                <h2>Navigation Menu</h2>
-                <ul class="sidebar_ul">
-                    <li><a href="#">HOME</a></li>
-                    <li><a href="#">Deals</a></li>
-                    <li><a href="#">Packages</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">About</a></li>
-
-                </ul>
-            </aside>
-        </nav>
+      <nav class="navitems">
+        <div class="logo">
+          <img
+            src="/assets/images/travellogo1.png"
+            alt="Logo of travelwander"
+          />Travelwander.com
+        </div>
+        <div class="navmenu">
+          <ul class="menu_line">
+            <li>deals</li>
+            <li>package</li>
+            <li>contact</li>
+            <li>about</li>
+          </ul>
+        </div>
+        <div class="social">
+          <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+          <span class="face"><i class="fa-brands fa-facebook-f"></i></span>
+          <span class="twitter"><i class="fa-brands fa-x-twitter"></i></span>
+        </div>
+        <button class="hamburger" onclick="toggleNav()">☰</button>
+        <aside class="sidebar">
+          <h2>Navigation Menu</h2>
+          <ul class="sidebar_ul">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">About</a></li>
+          </ul>
+          <button  class="cross">X</button>
+        </aside>
+      </nav>
     </header>
     <main>
-        <div class="inviting">
-            <div class="text_h2_p">
-            <h2>Embark on your Next Adventure</h2>
-            <p>"Discover captivating destinations and plan your next adventure with TravelWander.com Where will your
-                journey take you?</p>
-            </div>
+      <div class="inviting">
+        <div class="text_h2_p">
+          <h2>Embark on your Next Adventure</h2>
+          <p>
+            "Discover captivating destinations and plan your next adventure with
+            TravelWander.com Where will your journey take you?
+          </p>
         </div>
-        <div class="continents">
-            <div class="namerica">
-                <p>NORTH AMERICA</p>
-            </div>
-            <div class="europe">
-                <p>EUROPE</p>
-            </div>
-            <div class="asia">
-                <p>ASIA</p>
-            </div>
+      </div>
+      <div class="continents">
+        <div class="namerica">
+          <p>NORTH AMERICA</p>
         </div>
+        <div class="europe">
+          <p>EUROPE</p>
+        </div>
+        <div class="asia">
+          <p>ASIA</p>
+        </div>
+      </div>
     </main>
     <footer>
-        <p>Call a customer support rep at <a href="tel:0448987555666">0448987555666</a>.</p>
-
+      <p>
+        Call a customer support rep at
+        <a href="tel:0448987555666">0448987555666</a>.
+      </p>
     </footer>
-    
+
     <script>
-        function toggleNav() {
-            const sidebar = document.querySelector('.sidebar');
-            sidebar.classList.toggle('active');
-        }
+      function toggleNav() {
+        const sidebar = document.querySelector(".sidebar");
+
+        sidebar.classList.toggle("active");
+      }
+      function closeNav() {
+        const sidebar = document.querySelector(".sidebar");
+        sidebar.classList.remove("active");
+      }
+      document.querySelector('.cross').addEventListener('click',closeNav);
+      
     </script>
-
-</body>
-
+  </body>
 </html>
