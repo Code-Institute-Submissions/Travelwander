@@ -284,7 +284,7 @@ footer a{
         left: 9em;
     }
 
-    .sidebar.active {
+  /*   .sidebar.active {
         display: block;
         position: fixed;
         top: 0;
@@ -295,14 +295,33 @@ footer a{
         overflow: auto;
         z-index: 1;
 
-    }
+    } */
+    .sidebar {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 250px; 
+        height: 100%;
+        background: #fff;
+        transition: right 0.5s ease-out; 
+      }
+      
+      .sidebar.active {
+        right: 0;
+      }
+
+    
+      
+    
     aside{
-        padding:1em; 
+        padding:1em;
+        position: relative;
     }
     .cross{
-        position: fixed;
-        top:0.9em;
-        left:7.7em;
+        position: relative;
+        top:-7.2em;
+        right:1.8em;
         width: 20px;
         height: 30px;
 
