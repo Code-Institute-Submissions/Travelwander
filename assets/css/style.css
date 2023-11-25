@@ -303,13 +303,39 @@ footer a{
         right: -100%;
         width: 250px; 
         height: 100%;
-        background: #fff;
+        background:rgba(38, 38, 106, 0.687);
+        backdrop-filter: blur(20px);
+        
         transition: right 0.5s ease-out; 
+
+        color :white;
+        
+        z-index: 4;
+
+
+      }
+      .sidebar a{
+        color:white;
+        text-decoration: none;
+        padding: 0.5em;
+
       }
       
       .sidebar.active {
         right: 0;
       }
+      .sidebar li{
+        list-style: none;
+        padding: 0.5em;
+        border-bottom: 1px solid white;
+
+      }
+      .sidebar li i{
+        width:20px;
+        padding-right: 0.6em;
+
+      }
+
 
     
       
