@@ -46,7 +46,7 @@ header{
     display:flex;
     width: 100%;
     
-    color:rgba(34, 93, 119, 85%);
+    color:rgba(229, 235, 238, 0.85);
     text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
 z-index: 10;
 }
@@ -102,7 +102,7 @@ font-weight: 600;
     gap:1.5em;
 }
 .social > span{
-    color:rgb(223, 101, 14);
+    color:rgb(202, 223, 14);
     
     text-shadow: 0px 2px 07px rgba(203, 111, 18, 0.549);
 
