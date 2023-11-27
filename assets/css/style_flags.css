@@ -106,12 +106,22 @@ main{
     /* background-color: blue; */
     grid-column: 2/12;
     grid-row: 2/3;
+    height: 26em;
     
     display: flex;
-    flex-direction: column;
+    gap: 1em;
     align-items: center;
+    justify-content: center;
     border:1px solid red ;
 
+}
+main .usa{
+    width: 12em;
+    height: 10em;
+    background:url(/assets/images/flags/usa_flag.png);
+    background-size: cover;
+
+    background-color: #7f7777;
 }
 
 
