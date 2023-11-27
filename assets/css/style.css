@@ -122,6 +122,9 @@ main .inviting{
     padding-bottom: 6%;
     
 }
+.inviting .mobile_heading{
+    display: none;
+}
 .inviting .text_h2_p{
     width:80%;
     padding:1em;
@@ -268,6 +271,9 @@ footer a{
         display: flex;
         gap:10em;
         align-items: center;
+
+        border-bottom: 1px solid red;
+
     }
     header .hamburger{
         display: block;
@@ -301,9 +307,10 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 250px; 
+        width: 150px; 
         height: 100%;
         background:rgba(38, 38, 106, 0.687);
+        background: #71718596;
         backdrop-filter: blur(20px);
         
         transition: right 0.5s ease-out; 
@@ -311,11 +318,13 @@ footer a{
         color :white;
         
         z-index: 4;
+        border-top-left-radius: 1em;
 
 
       }
       .sidebar a{
-        color:white;
+        color:rgb(51, 50, 50);
+        font-size: larger;
         text-decoration: none;
         padding: 0.5em;
 
@@ -352,6 +361,7 @@ footer a{
         height: 30px;
 
         font-size: larger;
+        border-radius: 1em;
     }
 
 
@@ -378,11 +388,24 @@ footer a{
         
     }
     .inviting .text_h2_p{
+        display: none;
+    }
+    .inviting .mobile_heading{
+        display: block;
         width:100%;
         padding:1em;
         line-height: 1.6em;
+        font-family: 'Roboto Serif', serif;
+        text-shadow: 1px 1px #aeb1b4;
+        color:rgb(74, 37, 37)
+
         
-        background-color: rgba(79, 81, 80, 0.187);
+    }
+    .mobile_heading p {
+        font-size: 1.4em;
+        color: #2c2b2b;
+        text-shadow: 1px 1px #aeb1b4;
+        padding-left: 8%;
     }
     .continents div{
         width: 280px;
