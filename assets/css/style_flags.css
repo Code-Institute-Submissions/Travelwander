@@ -1,5 +1,7 @@
 *{margin: 0;
     padding: 0;
+    box-sizing: border-box;
+
 }
 
 body{
@@ -115,13 +117,50 @@ main{
     border:1px solid red ;
 
 }
-main .usa{
+main .mid_flag{
     width: 12em;
     height: 10em;
+    border-radius: 1em;
+
+}
+main .usa{
+    
     background:url(/assets/images/flags/usa_flag.png);
     background-size: cover;
 
-    background-color: #7f7777;
+}
+main .jamaica{
+    width: 12em;
+    height: 10em;
+    background:url(/assets/images/flags/Jamaica.svg.png);
+    background-size: cover;
+
+}
+main .panama{
+    
+    background:url(/assets/images/flags/panama.png);
+    background-position:center;
+    
+
+}
+main .mexico{
+   
+    background:url(/assets/images/flags/Mexico_flag-3.png);
+    background-size: cover;
+
+}
+
+main .latest{
+    position:relative;
+    top:5em;
+    width:12em;
+    height: 5em;
+    background-color: rgba(10, 38, 38, 0.427);
+    border-radius: 1em ;
+    backdrop-filter: blur(10px);
+    color:white;
+    padding: 0.5em;
+
 }
 
 
