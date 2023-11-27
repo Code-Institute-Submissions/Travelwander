@@ -324,9 +324,9 @@ footer a{
       }
       .sidebar a{
         color:rgb(51, 50, 50);
-        font-size: larger;
+        font-size: 1.2em;
         text-decoration: none;
-        padding: 0.5em;
+        padding: 0.7em;
 
       }
       
@@ -354,13 +354,11 @@ footer a{
         position: relative;
     }
     .cross{
+        color:#2c2b2b;
         position: relative;
-        top:-7.2em;
-        right:1.8em;
-        width: 20px;
-        height: 30px;
+      
 
-        font-size: larger;
+        font-size: x-large;
         border-radius: 1em;
     }
 
