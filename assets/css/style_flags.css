@@ -141,8 +141,7 @@ main .usa{
 
 }
 main .jamaica{
-    width: 12em;
-    height: 10em;
+   
     background:url(/assets/images/flags/Jamaica.svg.png);
     background-size: cover;
 
@@ -196,7 +195,6 @@ footer a{
 @media screen and (max-width: 500px) {
     body{
 
-        background: url(/assets/images/placementArea64282058.png);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -208,10 +206,15 @@ footer a{
     
         grid-template-rows: repeat(3,minmax(100px,auto));
     
-       
+       overflow: hidden;
         align-items: center;
-
     
+    
+    }
+    .whole_bg{
+         height: 110vh;
+        z-index: -1; 
+       
     }
 
     header{
@@ -246,8 +249,8 @@ footer a{
         position: fixed;
         top:0;
         background-color: #d7dcd6a3;
-        backdrop-filter: blur(20px);
-
+        backdrop-filter: blur(10px);
+        color:#184046;
 
     }
     header .hamburger{
@@ -271,11 +274,10 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 170px; 
-        height: 100%;
-        background:rgba(38, 38, 106, 0.687);
-        background: #71718596;
-        backdrop-filter: blur(20px);
+        width: 188px; 
+        height: 200vh;
+        background: #aaaaadb9;
+        backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
 
@@ -284,8 +286,7 @@ footer a{
         
         border-top-left-radius: 1em;
         font-family: 'Roboto Serif', sans-serif;
-
-
+        
       }
       .sidebar ul{
         margin-top: 1em;
@@ -305,6 +306,7 @@ footer a{
       .sidebar.active {
         right: 0;
         
+     
       }
 
       .sidebar li{
@@ -346,57 +348,39 @@ footer a{
         grid-row: 2/3;
         align-items: center;
         align-content: center;
+        
+        justify-items: center;
         width: 100%;
-        
-    }
-    main .inviting{
-        color:rgb(43, 41, 41);
-        
-       /*  background-color: rgba(0, 0, 0, 0.252); */
-        
-        padding:2%;
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 8%;
-        
-        
-    }
-    .inviting .text_h2_p{
-        display: none;
-    }
-    .inviting .mobile_heading{
-        display: block;
-        width:100%;
-        padding:1em;
-        line-height: 1.6em;
-        font-family: 'Roboto Serif', serif;
-        text-shadow: 1px 1px #aeb1b4;
-        color:rgb(74, 37, 37)
+        height: 70vh;
 
         
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
     }
-    .mobile_heading p {
-        font-size: 1.4em;
-        color: #2c2b2b;
-        text-shadow: 1px 1px #aeb1b4;
-        padding-left: 8%;
-    }
-    .continents div{
-        width: 326px;
-        height: 158px;
-        color:antiquewhite;
-        border: 1px solid rgba(255, 255, 255, 0.372);
-        font-size: 1.4em;
-        z-index: -1;
-    }
+    main .mid_flag{
+        width: 10em;
+        height: 10em;
+        border-radius: 50em;
     
-    .continents{
-        display: flex;
-        flex-direction: column;
-        gap:1em;
+    }
+    main .latest{
+        position:relative;
         align-items: center;
+        justify-content: center;
+        top:1em;
+        right:-0.1em;
+        width:10em;
+        height: 10em;
+        border-radius: 50em;
+        background-color: rgba(10, 38, 38, 0.427);
+        backdrop-filter: blur(10px);
+        color:white;
+        padding: 0.5em;
+        text-align: center;
     
     }
+    
 
     /*----footer style--- */
     footer{
