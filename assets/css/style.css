@@ -330,17 +330,20 @@ footer a{
         text-decoration: none;
         padding: 0.7em;
 
+        
       }
       
       .sidebar.active {
         right: 0;
       }
       .sidebar li{
+        line-height: 1.5em;
         list-style: none;
-        padding: 0.5em;
+        padding: 0.6em;
         border-bottom: 1px solid white;
 
       }
+      
       .sidebar li i{
         width:20px;
         padding-right: 0.6em;
