@@ -330,7 +330,10 @@ footer a{
         text-decoration: none;
         padding: 0.7em;
 
-        
+
+      }
+      .sidebar a:hover{
+        color:white;
       }
       
       .sidebar.active {
