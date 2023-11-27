@@ -319,9 +319,8 @@ footer a{
 
         color :white;
         
-        z-index: 4;
+        
         border-top-left-radius: 1em;
-
 
       }
       .sidebar a{
@@ -338,6 +337,7 @@ footer a{
       
       .sidebar.active {
         right: 0;
+        
       }
       .sidebar li{
         line-height: 1.5em;
@@ -419,6 +419,7 @@ footer a{
         color:antiquewhite;
         border: 1px solid rgba(255, 255, 255, 0.372);
         font-size: 1.4em;
+        z-index: -1;
     }
     
     .continents{
@@ -426,7 +427,7 @@ footer a{
         flex-direction: column;
         gap:1em;
         align-items: center;
-   
+    
     }
 
     /*----footer style--- */
@@ -437,6 +438,7 @@ footer a{
         text-align: center;
         color:white;
         padding: 1%;
+        font-size: 1.1em;
         
     }
     footer a{
