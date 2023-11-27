@@ -274,7 +274,9 @@ footer a{
 
         position: fixed;
         top:0;
-        background-color: #d7dcd6;
+        background-color: #d7dcd6a3;
+        backdrop-filter: blur(20px);
+
 
     }
     header .hamburger{
