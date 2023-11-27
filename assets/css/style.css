@@ -325,6 +325,9 @@ footer a{
 
 
       }
+      .sidebar ul{
+        margin-top: 1em;
+      }
       .sidebar a{
         color:rgb(51, 50, 50);
         font-size: 1.2em;
@@ -341,8 +344,9 @@ footer a{
         right: 0;
         
       }
+
       .sidebar li{
-        line-height: 1.5em;
+        line-height: 1.7em;
         list-style: none;
         padding: 0.6em;
         border-bottom: 1px solid white;
