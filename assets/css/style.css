@@ -309,7 +309,7 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 150px; 
+        width: 170px; 
         height: 100%;
         background:rgba(38, 38, 106, 0.687);
         background: #71718596;
@@ -321,6 +321,8 @@ footer a{
         
         
         border-top-left-radius: 1em;
+        font-family: 'Roboto Serif', sans-serif;
+
 
       }
       .sidebar a{
