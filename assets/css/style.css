@@ -272,7 +272,9 @@ footer a{
         gap:10em;
         align-items: center;
 
-        border-bottom: 1px solid red;
+        position: fixed;
+        top:0;
+        background-color: #d7dcd6;
 
     }
     header .hamburger{
