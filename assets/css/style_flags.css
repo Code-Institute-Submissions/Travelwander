@@ -6,7 +6,7 @@
 
 body{
 
-    background: url(/assets/images/placementArea64282058.png);
+    background: url(/assets/images/flags/bg_image.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -21,8 +21,17 @@ body{
    grid-template-areas: 'header . . .'
                         'main main footer'
                         'footer main footer';
+    max-width: 100%;
+    overflow-x: hidden;
 
-
+}
+.whole_bg{
+    position: fixed;
+    z-index: -1;
+    width:109vw;
+    height:100vh;
+    background-color: rgba(67, 66, 65, 0.446);
+    backdrop-filter: blur(1px);
 }
 /* ------ header ------ --------------------*/
 
@@ -39,6 +48,7 @@ header{
     
     color:rgba(34, 93, 119, 85%);
     text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
+z-index: 10;
 }
 
 .logo{
@@ -114,7 +124,8 @@ main{
     gap: 1em;
     align-items: center;
     justify-content: center;
-    border:1px solid red ;
+    
+    
 
 }
 main .mid_flag{
