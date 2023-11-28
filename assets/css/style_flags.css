@@ -196,6 +196,8 @@ main .special{
     font-family: 'Roboto', sans-serif;
 
     border-radius: 1em;
+    position: relative; /* Ensure relative positioning */
+
 }
 
 .sp_notes{
@@ -220,16 +222,14 @@ main .special{
     padding-bottom: 0.5em;
     position: absolute;
     bottom: 0;
-    right:8em;
+    right: 1em; /* Adjust the right position */
     cursor: pointer;
 
 }
 .sp_notes h3{
     color:rgb(35, 35, 35);
 }
-.sp_notes h3~p{
-    
-}
+
 .sp_img img{
     width: 12em;
     height: 13em;
@@ -246,6 +246,7 @@ footer{
     display: flex;
     color:white;
     padding: 2%;
+    
     
     align-items: end;
     justify-content: center;
@@ -271,7 +272,7 @@ footer a{
         display: grid;
         grid-template-columns: 1fr ;
     
-        grid-template-rows: repeat(3,minmax(100px,auto));
+        grid-template-rows: repeat(4,minmax(100px,auto));
     
        
         align-items: center;
@@ -280,7 +281,7 @@ footer a{
     
     }
     .whole_bg{
-         height: 110vh;
+         height: 120vh;
         z-index: -1; 
        
     }
@@ -415,6 +416,7 @@ footer a{
         grid-column: 1/12;
         grid-row: 2/3;
         justify-content: center;
+        display: flex;
 
             
     }
@@ -457,24 +459,26 @@ footer a{
     
     }
      */
-     .special:last-child{
-        display:none;
-     }
-     .special:first-child {
-        display: block;
-        width: fit-content;
-
-    }
+    
     /*----footer style--- */
     footer{
         /* background-color: blanchedalmond; */
         grid-column: 1/12;
-        
+        grid-row:end;
+        height: 13em;
         text-align: center;
         color:white;
-        padding: 1%;
+        padding: 0em;
         font-size: 1.1em;
         
+        align-content: center;
+
+        
+    }
+    footer p{
+        background-color: rgb(27, 16, 7);
+        border-radius: 1em 1em 0 0;
+        padding: .3em;
     }
     footer a{
         text-decoration:none;
