@@ -163,9 +163,9 @@ main .mexico{
 
 main .latest{
     position:relative;
-    top:5em;
+    top:5.99em;
     width:12em;
-    height: 5em;
+    height: 4em;
     background-color: rgba(10, 38, 38, 0.427);
     border-radius: 1em ;
     backdrop-filter: blur(10px);
@@ -187,13 +187,16 @@ main .latest:hover{
     padding: 0.5em;
 
 }
-img.wicon{
+img.wicon{ /* icon image inside latest */
     position: absolute;
     right:0em;
     top:5px;
 
 }
-
+.latest p{
+    color:rgb(243, 236, 220);
+    font-size: smaller;
+}
 main .special{
     width: 25em;
     height: 13em;
