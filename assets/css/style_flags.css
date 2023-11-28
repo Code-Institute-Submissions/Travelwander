@@ -172,6 +172,19 @@ main .latest{
     padding: 0.5em;
 
 }
+main .latest:hover{
+    transition: ease-in-out 0.7s;
+    position:relative;
+    top:2em;
+    width:12em;
+    height:8em;
+    background-color: rgba(10, 38, 38, 0.427);
+    border-radius: 1em ;
+    backdrop-filter: blur(10px);
+    color:white;
+    padding: 0.5em;
+
+}
 
 
 /* ------footer ------------------ ------ */
