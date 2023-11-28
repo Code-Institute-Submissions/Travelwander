@@ -193,6 +193,9 @@ img.wicon{ /* icon image inside latest */
     top:5px;
 
 }
+[id^="weather"]{
+    text-shadow: 1px 1px #463118;
+}
 .latest p{
     color:rgb(243, 236, 220);
     font-size: smaller;
@@ -271,6 +274,7 @@ footer a{
 
 
 @media screen and (max-width: 500px) {
+   
     body{
 
         background-position: center;
@@ -441,6 +445,23 @@ footer a{
         align-items: center;
         justify-content: center;
         top:.1em;
+        line-height: 1.3em;
+        
+        width:7.5em;
+        height: 7.5em;
+        border-radius: 50%;
+        background-color: rgba(10, 38, 38, 0.125);
+        backdrop-filter: blur(2px);
+        color:white;
+        padding: 0.5em;
+        text-align: center;
+    
+    }
+    main .latest:hover{
+        position:relative;
+        align-items: center;
+        justify-content: center;
+        top:.1em;
         
         width:7.5em;
         height: 7.5em;
@@ -450,6 +471,16 @@ footer a{
         color:white;
         padding: 0.5em;
         text-align: center;
+    }
+    
+    .latest p:last-child{
+        display: none;
+        
+    }
+    img.wicon{ /* icon image inside latest */
+        position: relative;
+        right:0em;
+        top:0px;
     
     }
   /*   main .latest{
