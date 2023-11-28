@@ -1,9 +1,9 @@
 // Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8trr';
 
 
 // Array of cities
-const cities = ['London', 'New York', 'Tokyo', 'Sydney'];
+const cities = ['Miami', 'Panamá', 'Papanoa', 'Jamaica'];
 
 // Fetch weather each city
 cities.forEach(city => {
@@ -31,12 +31,31 @@ cities.forEach(city => {
         // Create HTML content with weather information
         const htmlContent = `
           <h4>${data.name}, ${data.sys.country}</h4>
-          <p>Temperature: ${data.main.temp} &deg;C</p>
+          <img class="wicon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="Weather Icon">
+          <p>Temp: ${data.main.temp} &deg;C</p>
           <p>Weather: ${data.weather[0].description}</p>
+          
+
         `;
 
         // Update the content of the weather info container
-        weatherInfoContainer.innerHTML = htmlContent;
+
+        switch (city) {
+        case 'Miami':
+          weatherInfoContainerUSA.innerHTML = htmlContent;
+          break;
+        case 'Jamaica':
+          weatherInfoContainerJamaica.innerHTML = htmlContent;
+          break;
+        case 'Panamá':
+          weatherInfoContainerPanama.innerHTML = htmlContent;
+          break;
+        case 'Papanoa':
+          weatherInfoContainerMexico.innerHTML = htmlContent;
+          break;
+        default:
+          break;
+      }
 
       // display the temperature in the #weather-info div
       //document.getElementById('weather-info').innerHTML += `<p>${city}: ${data.main.temp} K</p>`;

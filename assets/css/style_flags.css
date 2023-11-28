@@ -171,6 +171,7 @@ main .latest{
     backdrop-filter: blur(10px);
     color:white;
     padding: 0.5em;
+    overflow: hidden;
 
 }
 main .latest:hover{
@@ -184,6 +185,12 @@ main .latest:hover{
     backdrop-filter: blur(10px);
     color:white;
     padding: 0.5em;
+
+}
+img.wicon{
+    position: absolute;
+    right:0em;
+    top:5px;
 
 }
 
