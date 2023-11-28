@@ -273,8 +273,9 @@ footer a{
     
         grid-template-rows: repeat(3,minmax(100px,auto));
     
-       overflow: hidden;
+       
         align-items: center;
+        overflow-y: scroll;
     
     
     }
@@ -413,17 +414,9 @@ footer a{
     main{
         grid-column: 1/12;
         grid-row: 2/3;
-        align-items: center;
-        align-content: center;
-        
-        justify-items: center;
-        width: 100%;
-        height: 70vh;
+        justify-content: center;
 
-        
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        
+            
     }
     main .mid_flag{
         width: 7.5em;
@@ -464,7 +457,14 @@ footer a{
     
     }
      */
+     .special:last-child{
+        display:none;
+     }
+     .special:first-child {
+        display: block;
+        width: fit-content;
 
+    }
     /*----footer style--- */
     footer{
         /* background-color: blanchedalmond; */
