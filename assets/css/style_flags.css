@@ -16,11 +16,9 @@ body{
     display: grid;
     grid-template-columns: repeat(12,100px);
 
-    grid-template-rows: repeat(3,minmax(20px,auto));
+    grid-template-rows: repeat(3,minmax(80px,auto));
 
-   grid-template-areas: 'header . . .'
-                        'main main footer'
-                        'footer main footer';
+   
     max-width: 100%;
     overflow-x: hidden;
 
@@ -122,9 +120,11 @@ main{
     
     display: flex;
     flex-wrap: wrap;
-    gap: 1em;
+    gap: 1.8em;
     align-items: top;
     justify-content: center;
+
+    padding-top: 2em;
     
     
 
@@ -190,7 +190,7 @@ main .latest:hover{
 main .special{
     width: 25em;
     height: 13em;
-    background-color: #ece8e850;
+    background-color: #fdfbfb8f;
     backdrop-filter: blur(18px);
     display: flex;
     font-family: 'Roboto', sans-serif;
@@ -203,6 +203,12 @@ main .special{
     line-height: 1.4em;   
 }
 .sp_notes button{
+    
+    display: none;
+}
+.sp_notes:hover button{
+    display: block;
+    
     background-color: #197a30;
     border-radius: 1em;
     border: 1px solid rgba(255, 255, 255, 0.568);
@@ -215,6 +221,8 @@ main .special{
     position: absolute;
     bottom: 0;
     right:8em;
+    cursor: pointer;
+
 }
 .sp_notes h3{
     color:rgb(35, 35, 35);
@@ -235,9 +243,13 @@ footer{
     /* background-color: blanchedalmond; */
     grid-column: 2/12;
     grid-row:3/4;
-    text-align: center;
+    display: flex;
     color:white;
     padding: 2%;
+    
+    align-items: end;
+    justify-content: center;
+    
 }
 footer a{
     color:aquamarine
