@@ -213,7 +213,7 @@ footer a{
         background-attachment: fixed;
         margin:0 auto;
         
-        max-width: 100%;
+        max-width: 100vw;
         display: grid;
         grid-template-columns: 1fr ;
     
@@ -372,8 +372,8 @@ footer a{
         
     }
     main .mid_flag{
-        width: 10em;
-        height: 10em;
+        width: 9em;
+        height: 9em;
         border-radius: 50em;
     
     }
@@ -381,11 +381,11 @@ footer a{
         position:relative;
         align-items: center;
         justify-content: center;
-        top:1em;
-        right:-0.1em;
-        width:10em;
-        height: 10em;
-        border-radius: 50em;
+        top:.1em;
+        
+        width:9em;
+        height: 9em;
+        border-radius: 50%;
         background-color: rgba(10, 38, 38, 0.427);
         backdrop-filter: blur(10px);
         color:white;
@@ -393,7 +393,23 @@ footer a{
         text-align: center;
     
     }
+  /*   main .latest{
+        position:relative;
+        align-items: center;
+        justify-content: center;
+        top:0.5em;
+        right:-0.1em;
+        width:9em;
+        height: 9em;
+        border-radius: 50%;
+        background-color: rgba(10, 38, 38, 0.427);
+        backdrop-filter: blur(10px);
+        color:white;
+        padding: 0.5em;
+        text-align: center;
     
+    }
+     */
 
     /*----footer style--- */
     footer{
