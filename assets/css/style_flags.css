@@ -121,8 +121,9 @@ main{
     height: 26em;
     
     display: flex;
+    flex-wrap: wrap;
     gap: 1em;
-    align-items: center;
+    align-items: top;
     justify-content: center;
     
     
@@ -184,6 +185,47 @@ main .latest:hover{
     color:white;
     padding: 0.5em;
 
+}
+
+main .special{
+    width: 25em;
+    height: 13em;
+    background-color: #ece8e850;
+    backdrop-filter: blur(18px);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+    border-radius: 1em;
+}
+
+.sp_notes{
+    padding: 1em;
+    line-height: 1.4em;   
+}
+.sp_notes button{
+    background-color: #197a30;
+    border-radius: 1em;
+    border: 1px solid rgba(255, 255, 255, 0.568);
+    color:rgba(255, 255, 255, 0.786);
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    position: absolute;
+    bottom: 0;
+    right:8em;
+}
+.sp_notes h3{
+    color:rgb(35, 35, 35);
+}
+.sp_notes h3~p{
+    
+}
+.sp_img img{
+    width: 12em;
+    height: 13em;
+    border-radius: 0em 1em 1em 0em;
 }
 
 
@@ -372,8 +414,8 @@ footer a{
         
     }
     main .mid_flag{
-        width: 9em;
-        height: 9em;
+        width: 7.5em;
+        height: 7.5em;
         border-radius: 50em;
     
     }
@@ -383,8 +425,8 @@ footer a{
         justify-content: center;
         top:.1em;
         
-        width:9em;
-        height: 9em;
+        width:7.5em;
+        height: 7.5em;
         border-radius: 50%;
         background-color: rgba(10, 38, 38, 0.427);
         backdrop-filter: blur(10px);
