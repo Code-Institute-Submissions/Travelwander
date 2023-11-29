@@ -288,54 +288,39 @@ footer a{
         width: 100%;
         
     }
-    main .inviting{
-        color:rgb(43, 41, 41);
-        
-       /*  background-color: rgba(0, 0, 0, 0.252); */
-        
-        padding:2%;
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 8%;
-        
-        
-    }
-    .inviting .text_h2_p{
-        display: none;
-    }
-    .inviting .mobile_heading{
-        display: block;
-        width:100%;
-        padding:1em;
-        line-height: 1.6em;
-        font-family: 'Roboto Serif', serif;
-        text-shadow: 1px 1px #aeb1b4;
-        color:rgb(74, 37, 37)
+    .whole_form{
 
-        
-    }
-    .mobile_heading p {
-        font-size: 1.4em;
-        color: #2c2b2b;
-        text-shadow: 1px 1px #aeb1b4;
-        padding-left: 8%;
-    }
-    .continents div{
-        width: 326px;
-        height: 158px;
-        color:antiquewhite;
-        border: 1px solid rgba(255, 255, 255, 0.372);
-        font-size: 1.4em;
-        z-index: -1;
-    }
-    
-    .continents{
         display: flex;
         flex-direction: column;
-        gap:1em;
         align-items: center;
-    
+        text-align: center;
+
+        border:2px solid red;
+        
+        width: 90%;
+        
     }
+    fieldset{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    legend{
+        color: white;
+
+    }
+    div.create{
+        color: black;
+    }
+    form{
+        
+    }
+    form input{
+        padding:0.5em;
+        border-radius: 1em;
+    }
+
+
 
     /*----footer style--- */
     footer{
