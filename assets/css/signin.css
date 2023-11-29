@@ -290,6 +290,8 @@ footer a{
         
     }
     .whole_form{
+        font-family: 'Roboto', sans-serif;
+
 
         display: flex;
         flex-direction: column;
@@ -321,6 +323,12 @@ footer a{
         line-height: 2em;    
         padding: 1em;
         font-size: 1.3em;
+        font-weight: 800;
+        
+    }
+    legend:first-child{
+
+        text-shadow: 1px 1px #9fa592;
     }
     legend a{
         color: blue;
@@ -348,7 +356,7 @@ input[type="checkbox"] {
     padding-left: 10px; /* between the checkbox and label */
     cursor: pointer;
     font-size: 16px; /* Adjust label font size */
-    padding-right: ;
+    
   }
 
   input[type="checkbox"] + label::before {
@@ -366,7 +374,9 @@ input[type="checkbox"] {
   }
 
   input[type="checkbox"]:checked + label::before {
-    content: ;
+    content: "\2713";
+    color:white;
+    font-weight: 700;
     background-color: blue; /* Change background color when checked */
     border: 2px solid blue; /* Change border color when checked */
   }
