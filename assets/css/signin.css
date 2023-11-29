@@ -4,7 +4,7 @@
 
 body{
 
-    background: url(/assets/images/placementArea64282058.png);
+    background: url(/assets/images/sign_images/background.png);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -135,8 +135,8 @@ footer a{
 @media screen and (max-width: 500px) {
     body{
 
-        background: url(/assets/images/placementArea64282058.png);
-        background-position: center;
+        background: url(/assets/images/sign_images/background.png);
+        background-position:center;
         background-size: cover;
         background-attachment: fixed;
         margin:0 auto;
