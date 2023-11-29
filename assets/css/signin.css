@@ -211,10 +211,13 @@ footer a{
         top: 0;
         right: -100%;
         width: 170px; 
-        height: 100%;
-        background:rgba(38, 38, 106, 0.687);
-        background: #71718596;
-        backdrop-filter: blur(20px);
+        height: 100vh;
+        background:  #8d8b8b;
+        ;
+
+
+
+        backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
 
@@ -223,7 +226,7 @@ footer a{
         
         border-top-left-radius: 1em;
         font-family: 'Roboto Serif', sans-serif;
-
+        
 
       }
       .sidebar ul{
@@ -243,6 +246,7 @@ footer a{
       
       .sidebar.active {
         right: 0;
+        
         
       }
 
@@ -290,6 +294,7 @@ footer a{
         
     }
     .whole_form{
+        z-index: -1;
         font-family: 'Roboto', sans-serif;
 
 
@@ -303,7 +308,7 @@ footer a{
         width: 80%;
         background-color: rgba(172, 173, 174, 0.77);
         backdrop-filter: blur(20px);
-        border-radius: 1em;;
+        border-radius: 1em;
         
     }
     form{
