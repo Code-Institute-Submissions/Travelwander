@@ -348,6 +348,11 @@ footer a{
         font-size: 1.1em;
         
     }
+    footer p{
+        background-color: rgb(27, 16, 7);
+        border-radius: 1em 1em 0 0;
+        padding: .3em;
+    }
     footer a{
         text-decoration:none;
     }
