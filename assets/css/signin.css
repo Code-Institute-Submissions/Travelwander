@@ -16,9 +16,7 @@ body{
 
     grid-template-rows: repeat(3,minmax(20px,auto));
 
-   grid-template-areas: 'header . . .'
-                        'main main footer'
-                        'footer main footer';
+
 
 
 }
@@ -35,8 +33,9 @@ header{
     display:flex;
     width: 100%;
     
-    color:rgba(34, 93, 119, 85%);
-    text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
+/*     color:rgba(34, 93, 119, 85%); */ 
+    color:#e0e3e5eb;
+   text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
 }
 
 .logo{
@@ -76,7 +75,7 @@ font-weight: 600;
 
 }
 .navmenu li:first-child{
-    color:rgb(165, 14, 138);
+    color:#ff5b78;
 }
 
 .social{
@@ -90,7 +89,7 @@ font-weight: 600;
     gap:1.5em;
 }
 .social > span{
-    color:rgb(223, 101, 14);
+    color:rgb(250, 250, 250);
     
     text-shadow: 0px 2px 07px rgba(203, 111, 18, 0.549);
 
@@ -111,6 +110,145 @@ main{
     flex-direction: column;
     align-items: center;
 
+}
+.whole_form{
+    z-index: -1;
+    font-family: 'Roboto', sans-serif;
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
+    
+    width: 80%;
+    background-color: rgba(172, 173, 174, 0.77);
+    backdrop-filter: blur(20px);
+    border-radius: 1em;
+    
+}
+form{
+    padding-top: 1.4em;
+}
+
+fieldset{
+    position: relative;
+    border:none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+legend{
+    color: white;
+    line-height: 2em;    
+    padding: 1em;
+    font-size: 1.3em;
+    font-weight: 800;
+    
+}
+legend:first-child{
+
+    text-shadow: 1px 1px #9fa592;
+}
+legend a{
+    color: blue;
+    text-decoration: none;
+    
+}
+
+div.create{
+    color: black;
+    font-size: 0.7em;
+}
+
+form input[type="text"],input[type="password"]{
+    padding: 0.9em;
+    border-radius: 1em;
+    border:1px solid white;
+}
+/* Hide checkbox */
+input[type="checkbox"] {
+display: none; /* Hide the default checkbox */
+}
+
+input[type="checkbox"] + label {
+position: relative;
+padding-left: 10px; /* between the checkbox and label */
+cursor: pointer;
+font-size: 16px; /* Adjust label font size */
+
+}
+
+input[type="checkbox"] + label::before {
+content: "";
+position: absolute;
+left: 2em;
+top: -0.2em;
+width: 22px; /* the width */
+border-radius: 6px;
+height: 25px; /*  the height */
+border: 2px solid blue; 
+background-color: blue; /* Bg color */
+cursor: pointer;
+display: inline-block;
+}
+
+input[type="checkbox"]:checked + label::before {
+content: "\2713";
+color:white;
+font-weight: 700;
+background-color: blue; /* Change background color when checked */
+border: 2px solid blue; /* Change border color when checked */
+}
+
+input[type="submit"]{
+background-color: #7DB816;
+color:white;
+padding: 0.7em;
+border-radius: 1.4em;
+border:1px solid #679813;
+margin: 0 auto;
+width: 16em;
+}
+.whole_form p{
+position: relative;
+
+color:rgb(236, 232, 232);
+
+
+
+margin-top: 1em;
+font-size: 0.7;
+
+}
+p span{
+position: relative;
+top: 0.3em;
+padding: 4px;
+color:black
+
+
+}
+
+
+
+.line {
+color:white;
+top:-10em;
+}
+
+/*modify sign in icons for login */
+.signicons{
+padding: 1.4em;
+}
+.signicons i{
+
+margin:0.4em;
+font-size: 1.5em;
+color: rgb(255, 255, 255);
 }
 
 
