@@ -295,10 +295,11 @@ footer a{
         align-items: center;
         text-align: center;
 
-        border:2px solid red;
+        border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
         
         width: 80%;
-        background-color: rgb(172, 173, 174);
+        background-color: rgba(172, 173, 174, 0.77);
+        backdrop-filter: blur(20px);
         border-radius: 1em;;
         
     }
@@ -378,7 +379,7 @@ input[type="checkbox"] {
   }
   .whole_form p{
     position: relative;
-    background-color: #7DB816;
+    background-color: #bcbdbaf6;
     top:0.54em;
     margin-top: 1em;
     font-size: 0.7;
@@ -386,7 +387,7 @@ input[type="checkbox"] {
   div.line{
     width:13em;
     height: 1px;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.811);
   }
 /*modify sign in icons for login */
 .signicons{
