@@ -141,7 +141,8 @@ footer a{
         background-attachment: fixed;
         margin:0 auto;
         
-        max-width: 100%;
+        max-width: 100vw;
+        height: 95.5vh;
         display: grid;
         grid-template-columns: 1fr ;
     
@@ -149,6 +150,7 @@ footer a{
     
        
         align-items: center;
+        overflow: hidden;
 
     
     }
@@ -290,7 +292,7 @@ footer a{
         align-items: center;
         align-content: center;
         width: 100%;
-        padding-top: 2em;
+        padding-top: 5em;
         
     }
     .whole_form{
@@ -443,7 +445,8 @@ input[type="checkbox"] {
         color:white;
         padding: 1%;
         font-size: 1.1em;
-        
+        margin-bottom: -7.5em;
+
     }
     footer p{
         background-color: rgb(27, 16, 7);
@@ -453,6 +456,7 @@ input[type="checkbox"] {
     footer a{
         text-decoration:none;
     }
+
 
 
     
