@@ -302,21 +302,29 @@ footer a{
         border-radius: 1em;;
         
     }
+
     fieldset{
         padding: 1em;
         display: flex;
         flex-direction: column;
         
     }
+
     legend{
         color: white;
         line-height: 2em;    
         padding: 1em;
+        font-size: 1.3em;
+    }
+    legend a{
+        color: blue;
+        text-decoration: none;
+        
     }
 
     div.create{
         color: black;
-        padding: 0.5em;
+        font-size: 0.7em;
     }
     
     form input[type="text"],input[type="password"]{
@@ -365,7 +373,15 @@ input[type="checkbox"] {
     margin: 0 auto;
     width: 16em;
   }
-
+/*modify sign in icons for login */
+.signicons{
+    padding: 1.4em;
+}
+.signicons i{
+    margin:0.4em;
+    font-size: 1.5em;
+    color: rgb(216, 216, 216);
+}
 
 
     /*----footer style--- */
