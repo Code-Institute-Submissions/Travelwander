@@ -286,6 +286,7 @@ footer a{
         align-items: center;
         align-content: center;
         width: 100%;
+        padding-top: 2em;
         
     }
     .whole_form{
@@ -334,6 +335,7 @@ footer a{
     form input[type="text"],input[type="password"]{
         padding: 0.9em;
         border-radius: 1em;
+        border:1px solid white;
     }
 /* Hide checkbox */
 input[type="checkbox"] {
@@ -383,12 +385,14 @@ input[type="checkbox"] {
     top:0.54em;
     margin-top: 1em;
     font-size: 0.7;
+    
   }
   div.line{
     width:13em;
     height: 1px;
     border-bottom: 2px solid rgba(255, 255, 255, 0.811);
-  }
+    
+}
 /*modify sign in icons for login */
 .signicons{
     padding: 1.4em;
