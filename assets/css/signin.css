@@ -297,28 +297,74 @@ footer a{
 
         border:2px solid red;
         
-        width: 90%;
+        width: 80%;
+        background-color: rgb(172, 173, 174);
+        border-radius: 1em;;
         
     }
     fieldset{
+        padding: 1em;
         display: flex;
         flex-direction: column;
         
     }
     legend{
         color: white;
-
+        line-height: 2em;    
+        padding: 1em;
     }
+
     div.create{
         color: black;
+        padding: 0.5em;
     }
-    form{
-        
-    }
-    form input{
-        padding:0.5em;
+    
+    form input[type="text"],input[type="password"]{
+        padding: 0.9em;
         border-radius: 1em;
     }
+/* Hide checkbox */
+input[type="checkbox"] {
+    display: none; /* Hide the default checkbox */
+  }
+
+  input[type="checkbox"] + label {
+    position: relative;
+    padding-left: 10px; /* between the checkbox and label */
+    cursor: pointer;
+    font-size: 16px; /* Adjust label font size */
+    padding-right: ;
+  }
+
+  input[type="checkbox"] + label::before {
+    content: "";
+    position: absolute;
+    left: 3em;
+    top: -0.3em;
+    width: 22px; /* the width */
+    border-radius: 6px;
+    height: 25px; /*  the height */
+    border: 2px solid blue; 
+    background-color: blue; /* Bg color */
+    cursor: pointer;
+    display: inline-block;
+  }
+
+  input[type="checkbox"]:checked + label::before {
+    content: ;
+    background-color: blue; /* Change background color when checked */
+    border: 2px solid blue; /* Change border color when checked */
+  }
+  
+  input[type="submit"]{
+    background-color: #7DB816;
+    color:white;
+    padding: 0.7em;
+    border-radius: 1.4em;
+    border:1px solid #679813;
+    margin: 0 auto;
+    width: 16em;
+  }
 
 
 
