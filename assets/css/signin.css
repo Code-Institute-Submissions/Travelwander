@@ -302,9 +302,12 @@ footer a{
         border-radius: 1em;;
         
     }
+    form{
+        padding-top: 1.4em;
+    }
 
     fieldset{
-        padding: 1em;
+        
         display: flex;
         flex-direction: column;
         
@@ -347,8 +350,8 @@ input[type="checkbox"] {
   input[type="checkbox"] + label::before {
     content: "";
     position: absolute;
-    left: 3em;
-    top: -0.3em;
+    left: 2em;
+    top: -0.2em;
     width: 22px; /* the width */
     border-radius: 6px;
     height: 25px; /*  the height */
@@ -373,11 +376,24 @@ input[type="checkbox"] {
     margin: 0 auto;
     width: 16em;
   }
+  .whole_form p{
+    position: relative;
+    background-color: #7DB816;
+    top:0.54em;
+    margin-top: 1em;
+    font-size: 0.7;
+  }
+  div.line{
+    width:13em;
+    height: 1px;
+    border-bottom: 2px solid white;
+  }
 /*modify sign in icons for login */
 .signicons{
     padding: 1.4em;
 }
 .signicons i{
+    
     margin:0.4em;
     font-size: 1.5em;
     color: rgb(216, 216, 216);
