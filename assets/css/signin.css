@@ -263,7 +263,8 @@ footer{
     padding: 2%;
 }
 footer a{
-    color:rgb(10, 103, 72)
+    color:rgb(229, 6, 6);
+    font-weight: 600;
 }
 footer p{
     color: black;
@@ -593,11 +594,13 @@ input[type="checkbox"] {
     }
     footer p{
         background-color: rgb(27, 16, 7);
+        color: #ece8e8;
         border-radius: 1em 1em 0 0;
         padding: .3em;
     }
     footer a{
         text-decoration:none;
+        font-weight: 600;;
     }
 
 
