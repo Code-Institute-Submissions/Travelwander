@@ -112,7 +112,7 @@ main{
 
 }
 .whole_form{
-    z-index: -1;
+    
     font-family: 'Roboto', sans-serif;
 
 
@@ -299,6 +299,7 @@ footer p{
     header{
         grid-column: 1/12;
         grid-row: 1/2;
+        z-index: 1;
     }
     .logo{
         width:40%;
@@ -438,7 +439,7 @@ footer p{
         
     }
     .whole_form{
-        z-index: -1;
+        
         font-family: 'Roboto', sans-serif;
 
 
