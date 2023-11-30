@@ -124,7 +124,8 @@ main{
     border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
     
     width: 80%;
-    background-color: rgba(172, 173, 174, 0.77);
+    background-color: rgba(172, 173, 174, 0.176);
+
     backdrop-filter: blur(20px);
     border-radius: 1em;
     
@@ -235,10 +236,7 @@ color:black
 
 
 
-.line {
-color:white;
-top:-10em;
-}
+
 
 /*modify sign in icons for login */
 .signicons{
@@ -263,7 +261,8 @@ footer{
     padding: 2%;
 }
 footer a{
-    color:rgb(10, 103, 72)
+    color:rgb(229, 6, 6);
+    font-weight: 600;
 }
 footer p{
     color: black;
@@ -439,6 +438,7 @@ footer p{
         
     }
     .whole_form{
+        border:1px solid rgba(255, 255, 255, 0.371);
         
         font-family: 'Roboto', sans-serif;
 
@@ -448,10 +448,9 @@ footer p{
         align-items: center;
         text-align: center;
 
-        border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
         
         width: 80%;
-        background-color: rgba(172, 173, 174, 0.77);
+        background-color: rgba(172, 173, 174, 0.176);
         backdrop-filter: blur(20px);
         border-radius: 1em;
         
@@ -472,12 +471,14 @@ footer p{
         color: white;
         line-height: 2em;    
         padding: 1em;
-        font-size: 1.3em;
+        font-size: 1.em;
         font-weight: 800;
         
     }
-    legend:first-child{
 
+    legend:first-child{
+    
+    
         text-shadow: 1px 1px #9fa592;
     }
     legend a{
@@ -593,11 +594,13 @@ input[type="checkbox"] {
     }
     footer p{
         background-color: rgb(27, 16, 7);
+        color: #ece8e8;
         border-radius: 1em 1em 0 0;
         padding: .3em;
     }
     footer a{
         text-decoration:none;
+        font-weight: 600;;
     }
 
 
