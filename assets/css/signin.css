@@ -440,6 +440,7 @@ footer p{
         
     }
     .whole_form{
+        border:1px solid rgba(255, 255, 255, 0.371);
         
         font-family: 'Roboto', sans-serif;
 
@@ -449,7 +450,6 @@ footer p{
         align-items: center;
         text-align: center;
 
-        border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
         
         width: 80%;
         background-color: rgba(172, 173, 174, 0.77);
@@ -473,12 +473,14 @@ footer p{
         color: white;
         line-height: 2em;    
         padding: 1em;
-        font-size: 1.3em;
+        font-size: 1.em;
         font-weight: 800;
         
     }
-    legend:first-child{
 
+    legend:first-child{
+    
+    
         text-shadow: 1px 1px #9fa592;
     }
     legend a{
