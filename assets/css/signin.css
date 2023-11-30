@@ -124,7 +124,8 @@ main{
     border:2px solid rgba(193, 191, 191, 0.277)(222, 217, 217);
     
     width: 80%;
-    background-color: rgba(172, 173, 174, 0.77);
+    background-color: rgba(172, 173, 174, 0.176);
+
     backdrop-filter: blur(20px);
     border-radius: 1em;
     
@@ -452,7 +453,7 @@ footer p{
 
         
         width: 80%;
-        background-color: rgba(172, 173, 174, 0.77);
+        background-color: rgba(172, 173, 174, 0.176);
         backdrop-filter: blur(20px);
         border-radius: 1em;
         
