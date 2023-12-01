@@ -22,7 +22,7 @@
           method: "GET",
           headers: {
             "X-RapidAPI-Key":
-              "6a5ae4b8c4mshbeceb59411239d2p1543f2jsn15c99f5b23a7", // Replace with your RapidAPI key
+              "6a5ae4b8c4mshbeceb59411239d2p1543f2jsn15c99f5b23", // Replace with your RapidAPI key
             "X-RapidAPI-Host": "apidojo-booking-v1.p.rapidapi.com",
           },
         };
@@ -36,7 +36,7 @@
           const hotelsContainer = document.getElementById("hotels-container");
           const hotels = data.result || [];
 
-          mapboxgl.accessToken = "pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t7Q";
+          mapboxgl.accessToken = "pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7Q";
           var map = new mapboxgl.Map({
             container: "map",
             center: [hotels[0]?.longitude || 0, hotels[0]?.latitude || 0],
