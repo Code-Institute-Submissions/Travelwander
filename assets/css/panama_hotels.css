@@ -129,83 +129,23 @@ main{
     
 
 }
-main .mid_flag{
-    width: 12em;
-    height: 10em;
-    border-radius: 1em;
 
-}
-main .usa{
-    
-    background:url(/assets/images/flags/usa_flag.png);
-    background-size: cover;
 
-}
-main .jamaica{
-   
-    background:url(/assets/images/flags/Jamaica.svg.png);
-    background-size: cover;
-
-}
-main .panama{
-    
-    background:url(/assets/images/flags/panama.png);
-    background-position:center;
-    
-
-}
-main .mexico{
-   
-    background:url(/assets/images/flags/Mexico_flag-3.png);
-    background-size: cover;
-
-}
-
-main .latest{
-    position:relative;
-    top:5.99em;
-    width:12em;
-    height: 4em;
-    background-color: rgba(10, 38, 38, 0.427);
-    border-radius: 1em ;
-    backdrop-filter: blur(10px);
-    color:white;
-    padding: 0.5em;
-    overflow: hidden;
-
-}
-main .latest:hover{
-    transition: ease-in-out 0.7s;
-    position:relative;
-    top:2em;
-    width:12em;
-    height:8em;
-    background-color: rgba(10, 38, 38, 0.427);
-    border-radius: 1em ;
-    backdrop-filter: blur(10px);
-    color:white;
-    padding: 0.5em;
-
-}
 img.wicon{ /* icon image inside latest */
     position: absolute;
     right:0em;
     top:5px;
 
 }
-[id^="weather"]{
-    text-shadow: 1px 1px #463118;
-}
-.latest p{
-    color:rgb(243, 236, 220);
-    font-size: smaller;
-}
+
+
 main .special{
     width: 25em;
     height: 13em;
     background-color: #fdfbfb8f;
     backdrop-filter: blur(18px);
     display: flex;
+    justify-content: space-between;
     font-family: 'Roboto', sans-serif;
 
     border-radius: 1em;
@@ -243,10 +183,12 @@ main .special{
     color:rgb(35, 35, 35);
 }
 
+
 .sp_img img{
     width: 12em;
     height: 13em;
     border-radius: 0em 1em 1em 0em;
+    
 }
 
 
@@ -286,8 +228,8 @@ footer a{
         display: grid;
         grid-template-columns: 1fr ;
     
-        grid-template-rows: repeat(4,minmax(100px,auto));
-    
+/*         grid-template-rows: repeat(,minmax(100px,auto));
+ */    
        
         align-items: center;
         overflow-y: scroll;
@@ -434,97 +376,36 @@ footer a{
 
             
     }
-    main .mid_flag{
-        width: 7.5em;
-        height: 7.5em;
-        border-radius: 50em;
-    
-    }
-    main .latest{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:.1em;
-        line-height: 1.3em;
-        
-        width:7.5em;
-        height: 7.5em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.125);
-        backdrop-filter: blur(2px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    
-    }
-    main .latest:hover{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:.1em;
-        
-        width:7.5em;
-        height: 7.5em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.427);
-        backdrop-filter: blur(10px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    }
-    
-    .latest p:last-child{
-        display: none;
-        
-    }
-    img.wicon{ /* icon image inside latest */
-        position: relative;
-        right:0em;
-        top:0px;
-    
-    }
-  /*   main .latest{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:0.5em;
-        right:-0.1em;
-        width:9em;
-        height: 9em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.427);
-        backdrop-filter: blur(10px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    
-    }
-     */
+
+
+   .fa-solid, .fas {
+    font-weight: 900;
+    padding:0.1em;
+}
     
     /*----footer style--- */
-    footer{
-        /* background-color: blanchedalmond; */
-        grid-column: 1/12;
-        grid-row:end;
-        height: 13em;
+    footer {
+        position: fixed;
+        bottom: 0; /* Stick the footer to the bottom */
+        width: 100%; /* Full width of the viewport */
         text-align: center;
-        color:white;
-        padding: 0em;
+        color: white;
+        padding: 1em; /* Adjust padding as needed */
         font-size: 1.1em;
-        
-        align-content: center;
-
-        
-    }
-    footer p{
         background-color: rgb(27, 16, 7);
         border-radius: 1em 1em 0 0;
-        padding: .3em;
-    }
-    footer a{
-        text-decoration:none;
     }
 
+    footer p {
+        padding: 0.3em;
+        margin: 0; /* Remove default margin */
+    }
+
+    footer a {
+        text-decoration: none;
+        color: white; /* Adjust link color */
+    }
+}
 
     
-  }
+  
