@@ -1,88 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js"></script>
-    <link
-      href="https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css"
-      rel="stylesheet"
-    />
-
-    <title>Hotel Search Results</title>
-  </head>
-  <body>
-    <div id="hotels-container"></div>
-
-    <script>
-      async function fetchHotels() {
-       // const url = 'https://apidojo-booking-v1.p.rapidapi.com/locations/auto-complete?text=Bocas%20del%20Toro&languagecode=en-us';
- 
-        const url ='https://apidojo-booking-v1.p.rapidapi.com/properties/list-by-map?arrival_date=2023-12-18&departure_date=2023-12-20&room_qty=1&guest_qty=1&bbox=48.8156%2C2.2241%2C48.9022%2C2.4699&search_id=none&languagecode=en-us&order_by=popularity'
-
-          
-        const options = {
-          method: "GET",
-          headers: {
-            "X-RapidAPI-Key":
-              "6a5ae4b8c4mshbeceb59411239d2p1543f2jsn15c99f5b23a7", // Replace with your RapidAPI key
-            "X-RapidAPI-Host": "apidojo-booking-v1.p.rapidapi.com",
-          },
-        };
-
-        try {
-          const response = await fetch(url, options);
-          const data = await response.json();
-
-          console.log(data); // Log the data to inspect its structure
-
-          const hotelsContainer = document.getElementById("hotels-container");
-          const hotels = data.result || [];
-
-          mapboxgl.accessToken = "pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t";
-          var map = new mapboxgl.Map({
-            container: "map",
-            center: [hotels[0]?.longitude || 0, hotels[0]?.latitude || 0],
-
-            style: "mapbox://styles/mapbox/streets-v11",
-            zoom:10,
-
-          });
-
-          hotels.forEach((hotel, index) => {
-            const hotelElement = document.createElement("div");
-            hotelElement.className = "hotel";
-
-            const hotelName = document.createElement("h3");
-            hotelName.textContent = hotel.hotel_name || `Hotel ${index + 1}`;
-            hotelElement.appendChild(hotelName);
-
-            const hotelAddress = document.createElement("p");
-            hotelAddress.textContent = hotel.address || "Address not available";
-            hotelElement.appendChild(hotelAddress);
-
-            const hotelPrice = document.createElement("p");
-            hotelPrice.textContent = `Price: ${hotel.min_total_price || "Not available"}`;
-            hotelElement.appendChild(hotelPrice);
-
-            hotelsContainer.appendChild(hotelElement);
-            new mapboxgl.Marker()
-                .setLngLat([hotel.longitude || 0, hotel.latitude || 0])
-                .addTo(map);
-        });
-
-
-
-          //});
-        } catch (error) {
-          console.error("Error fetching hotels:", error);
-        }
-      }
-
-      fetchHotels();
-    </script>
-
-    <div id="map" style="width: 400px; height: 300px"></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
     
-  </body>
+</body>
 </html>
