@@ -361,73 +361,14 @@ footer a{
 
             
     }
-    main .mid_flag{
-        width: 7.5em;
-        height: 7.5em;
-        border-radius: 50em;
     
-    }
-    main .latest{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:.1em;
-        line-height: 1.3em;
-        
-        width:7.5em;
-        height: 7.5em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.125);
-        backdrop-filter: blur(2px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    
-    }
-    main .latest:hover{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:.1em;
-        
-        width:7.5em;
-        height: 7.5em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.427);
-        backdrop-filter: blur(10px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    }
-    
-    .latest p:last-child{
-        display: none;
-        
-    }
     img.wicon{ /* icon image inside latest */
         position: relative;
         right:0em;
         top:0px;
     
     }
-  /*   main .latest{
-        position:relative;
-        align-items: center;
-        justify-content: center;
-        top:0.5em;
-        right:-0.1em;
-        width:9em;
-        height: 9em;
-        border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.427);
-        backdrop-filter: blur(10px);
-        color:white;
-        padding: 0.5em;
-        text-align: center;
-    
-    }
-     */
-    
+ 
     /*----footer style--- */
     footer{
         /* background-color: blanchedalmond; */
