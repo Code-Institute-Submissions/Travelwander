@@ -174,7 +174,7 @@ main .special{
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     position: absolute;
-    bottom: 0;
+    bottom: 1em;
     right: 1em; /* Adjust the right position */
     cursor: pointer;
 
