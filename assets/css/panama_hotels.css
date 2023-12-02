@@ -239,7 +239,7 @@ footer a{
     
     }
     .whole_bg{
-         height: 120vh;
+         height: 200vh; /*to cover whole page on iphone se screen */
         z-index: -1; 
        
     }
@@ -378,6 +378,19 @@ footer a{
 
             
     }
+    main .special{
+        width: auto;
+        height: auto;
+        background-color: #fdfbfb8f;
+        backdrop-filter: blur(18px);
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Roboto', sans-serif;
+    
+        border-radius: 1em;
+        position: relative; /* Ensure relative positioning */
+    
+    }
 
 
    .fa-solid, .fas {
@@ -387,7 +400,7 @@ footer a{
     
     /*----footer style--- */
     footer {
-        
+        /* font-family: 'Roboto Serif', serif; */
         position: fixed;
         bottom: 0; /* Stick the footer to the bottom */
         left:38%;
