@@ -400,7 +400,7 @@ footer a{
     
     /*----footer style--- */
     footer {
-        /* font-family: 'Roboto Serif', serif; */
+        font-family: 'Roboto Serif', serif; 
         position: fixed;
         bottom: 0; /* Stick the footer to the bottom */
         left:38%;
