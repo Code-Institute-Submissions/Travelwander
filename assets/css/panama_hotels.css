@@ -301,7 +301,7 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 188px; 
+        width: 200px; 
         height: 200vh;
         background: #aaaaadb9;
         backdrop-filter: blur(30px);
@@ -349,6 +349,10 @@ footer a{
         padding-right: 0.6em;
 
       }
+      .sidebar .fa-solid, .fas {
+        font-weight: 900;
+        margin-top: -3px;
+    }
 
 
     
@@ -393,7 +397,7 @@ footer a{
     }
 
 
-   .fa-solid, .fas {
+   .special .fa-solid, .fas {
     font-weight: 900;
     padding:0.1em;
 }
