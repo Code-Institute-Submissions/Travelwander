@@ -233,6 +233,8 @@ footer a{
        
         align-items: center;
         overflow-y: scroll;
+
+        height: fit-content;
     
     
     }
@@ -372,7 +374,7 @@ footer a{
         grid-column: 1/12;
         grid-row: 2/3;
         justify-content: center;
-        display: flex;
+        height: 100%;
 
             
     }
@@ -385,19 +387,23 @@ footer a{
     
     /*----footer style--- */
     footer {
+        
         position: fixed;
         bottom: 0; /* Stick the footer to the bottom */
-        width: 100%; /* Full width of the viewport */
+        left:38%;
+        width: 26%; /* Full width of the viewport */
+        height: 2.5em;
         text-align: center;
         color: white;
-        padding: 1em; /* Adjust padding as needed */
-        font-size: 1.1em;
-        background-color: rgb(27, 16, 7);
-        border-radius: 1em 1em 0 0;
+        padding: 0.5em; /* Adjust padding as needed */
+        font-size: 0.9em;
+        background-color: rgb(19, 107, 23);
+        border-radius: 1em 1em 1em 1em;
+        
     }
 
     footer p {
-        padding: 0.3em;
+        padding: 0.2em;
         margin: 0; /* Remove default margin */
     }
 
