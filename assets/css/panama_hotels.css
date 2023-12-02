@@ -161,7 +161,7 @@ main .special{
     
     display: none;
 }
-.sp_notes:hover button{
+.special:hover button{
     display: block;
     
     background-color: #197a30;
