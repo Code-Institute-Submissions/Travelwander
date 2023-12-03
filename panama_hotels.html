@@ -11,6 +11,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
+    href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
+    rel="stylesheet"
+/>
+  <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
@@ -148,9 +152,20 @@
   <!-- to handle map view and list view -->
   <script src="/assets/js/mapview.js"></script>
   <script src="/assets/js/sidebar.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+
+
   <script>
     //mbox
-    
+    mapboxgl.accessToken = 'MAPBOX_ACCESS';
+    document.querySelectorAll('.special').forEach(function (special) {
+        var coordinates = special.getAttribute('coor').split(',').map(Number);
+
+        
+    });
+  
+
+
   </script>
 
 
