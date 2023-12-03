@@ -3,11 +3,14 @@
 }
 
 body{
-
-    background: url(/assets/images/placementArea64282058.png);
-    background-position: center;
+    background: 
+    url(/assets/images/plane4.png)
+    /* url(/assets/images/placementAreae6a51aa8.png) */;
     background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+    
+    background-position: center;
     margin:0 auto;
     justify-content: center;
     
