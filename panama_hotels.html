@@ -155,9 +155,21 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
 
 
+
+
   <script>
     //mbox
     mapboxgl.accessToken = 'MAPBOX_ACCESS';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/mapbox/streets-v11', //  map style
+    center: [-82.29688224381005, 9.375697101796055], // center
+    zoom: 12 // set  zoom level
+});
+
+
+
+
     document.querySelectorAll('.special').forEach(function (special) {
         var coordinates = special.getAttribute('coor').split(',').map(Number);
 
