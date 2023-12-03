@@ -383,8 +383,8 @@ footer a{
             
     }
     main .special{
-        width: auto;
-        height: auto;
+        max-width: 360px;
+        /* height: auto; */
         background-color: #fdfbfb8f;
         backdrop-filter: blur(18px);
         display: flex;
@@ -400,6 +400,9 @@ footer a{
    .special .fa-solid, .fas {
     font-weight: 900;
     padding:0.1em;
+}
+div map{
+    display: none;
 }
     
 #mapContainer iframe{
