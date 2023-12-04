@@ -416,10 +416,11 @@ footer a{
         height: 100%;
 
         flex-wrap: wrap;
-        gap: 1.8em;
+        gap: 0.5em;
         align-items: top;
         justify-content: center;
         padding-top: 2em; 
+        margin-top: 0 !important;
 
             
     }
