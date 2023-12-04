@@ -10,10 +10,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.css"
-    rel="stylesheet"
-/>
+ 
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
@@ -141,6 +142,7 @@
     <div id="mapContainer" style="display: none;" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39699.592845248124!2d-0.1571465!3d51.5457813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1701522714652!5m2!1sen!2suk" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 
   </main>
+  <div id="map" style="width: 500px;height: 500px;"></div>
   
   <footer>
     <p id="mapview">
@@ -159,9 +161,9 @@
 
   <script>
     //mbox
-    mapboxgl.accessToken = 'MAPBOX_ACCESS';
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t7';
     const map = new mapboxgl.Map({
-    container: 'mapContainer',
+    container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11', //  map style
     center: [-82.29688224381005, 9.375697101796055], // center
     zoom: 12 // set  zoom level
@@ -178,8 +180,6 @@
             .setLngLat(coordinates)
             .addTo(map);
 
-
-        
     });
   
 
