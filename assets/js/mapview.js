@@ -1,5 +1,5 @@
 const mainContent = document.getElementById('mainContent');
-const mapContainer = document.getElementById('mapContainer');
+const mapContainer = document.getElementById('map');
 const mapView = document.getElementById('mapview');
 const windowWidth = window.innerWidth;
 
