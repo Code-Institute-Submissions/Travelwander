@@ -196,8 +196,8 @@
         specialElements.forEach((element) => {
            element.addEventListener('click', (event) => {
              // Inside the event listener function
-
-                window.location.href = 'hotel_details.html';
+            const elementContent = element.textContent; // special element's text content
+            window.location.href = 'hotel_details.html?specialContent=${elementContent}';
 
            });
         });
