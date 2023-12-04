@@ -73,6 +73,73 @@
         "👶"
       ],
       "imageSrc": "/assets/images/flags/deal3.png"
-    }
-  ]
-  
+    },
+  {
+    "coordinates": "15.727114331728367, -95.89943018653811",
+    "type": "adventure",
+    "price": "£600",
+    "rating": 4.5,
+    "name": "Hotel Bogavante Papanoa",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "details": [
+      "Beachfront location",
+      "Ocean views",
+      "Swimming pool",
+      "Restaurant",
+      "Bar"
+    ],
+    "imageSrc": "/assets/images/hotels/bogavante.jpg"
+  },
+  {
+    "coordinates": "15.72423652066237, -95.89672170247559",
+    "type": "relax",
+    "price": "£750",
+    "rating": 4.2,
+    "name": "Hotel Club Papanoa",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "details": [
+      "Spa",
+      "Yoga classes",
+      "Meditation sessions",
+      "Hammocks",
+      "Beachfront lounge"
+    ],
+    "imageSrc": "/assets/images/hotels/club-papanoa.jpg"
+  },
+  {
+    "coordinates": "15.72338977350761, -95.9003768617573",
+    "type": "family",
+    "price": "£850",
+    "rating": 4.8,
+    "name": "Hotel Berakah Papanoa",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "details": [
+      "Kids' club",
+      "Water park",
+      "Playground",
+      "Family-friendly activities",
+      "Buffet restaurant"
+    ],
+    "imageSrc": "/assets/images/hotels/berakah.jpg"
+  },
+  {
+    "coordinates": "15.722887712513217, -95.89645137358789",
+    "type": "romantic",
+    "price": "£950",
+    "rating": 4.7,
+    "name": "Hotel El Navegante",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "details": [
+      "Private beach",
+      "Adults-only resort",
+      "Fine dining",
+      "Oceanfront suites",
+      "Spa with couples' treatments"
+    ],
+    "imageSrc": "/assets/images/hotels/el-navegante.jpg"
+  }
+]
