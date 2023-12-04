@@ -248,6 +248,9 @@ footer a{
 .sidebar{
     display: none;
 }
+#mapview{
+    display: none;
+}
 
 @media screen and (max-width: 500px) {
    
@@ -476,9 +479,12 @@ footer a{
         
     }
 
-    footer p {
+    footer p#mapview {
         padding: 0.2em;
         margin: 0; /* Remove default margin */
+    }
+    #mapview{
+        display: block;
     }
 
     footer a {
