@@ -58,7 +58,9 @@
     </nav>
   </header>
   <main id="mainContents">
-
+    <div class="special">
+         
+    </div>
 
    <div id="map" class="sizemp" style="display: none;"></div>
   </main>
@@ -80,19 +82,9 @@
   
     <!-- hotel_details.html -->
 <script>
-    // Function to get URL parameters by name
-    function getUrlParameter(name) {
-        name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
-        var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
-        var results = regex.exec(location.search);
-        return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
-    }
-
-    // Get the hotelId parameter from the URL
-    var hotelId = getUrlParameter('hotelId');
-
-    // Use the hotelId to fetch details or display content as needed
-    // ...
+ const specialContent = new URLSearchParams(window.location.search).get('specialContent');
+ const specialContentDiv = document.getElementById('special');
+    special.textContent = specialContent;
 
 </script>
 
