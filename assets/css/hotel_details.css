@@ -112,30 +112,6 @@ header .hamburger{
 
 
 /* ------main  -------------------  ------ */
-main{
-    /* background-color: blue; */
-    grid-column: 2/12;
-    grid-row: 2/3;
-    height: 26em;
-    
-    display: grid;
-    grid-template-columns: 1fr,3fr;
-    grid-template-rows: repeat(3,1fr);
-    gap: 0.5em;
-
-    
-    margin-top: 3em;
-    
-    
-    /* flex-wrap: wrap;
-    gap: 1.8em;
-    align-items: top;
-    justify-content: center;
-    padding-top: 2em;  */
-
-    
-
-}
 
 
 
@@ -339,71 +315,16 @@ footer a{
 
             
     }
-    main .special{
-        max-width: 360px;
-        /* height: auto; */
-        background-color: #fdfbfb8f;
-        backdrop-filter: blur(18px);
-        display: flex;
-        justify-content: space-between;
-        font-family: 'Roboto', sans-serif;
-    
-        border-radius: 1em;
-        position: relative; /* Ensure relative positioning */
-    
-    }
-
-
-   .special .fa-solid, .fas {
-    font-weight: 900;
-    padding:0.1em;
-}
-
-
-#map:nth-child(5) {
-    grid-column: 1/3 !important;
-    grid-row: unset;
-}
-    
-#map{
-    
-    width: 96vw !important ;
-    height: 100.5vh !important;
-    margin-top: -2em;
-   border:1px solid red;
-    
-}
+   
 
 
     /*----footer style--- */
     footer {
-        font-family: 'Roboto Serif', serif; 
-        position: fixed;
-        bottom: 0; /* Stick the footer to the bottom */
-        left:38%;
-        width: 26%; /* Full width of the viewport */
-        height: 2.5em;
-        text-align: center;
-        color: white;
-        padding: 0.5em; /* Adjust padding as needed */
-        font-size: 0.9em;
-        background-color: rgb(19, 107, 23);
-        border-radius: 1em 1em 1em 1em;
+        
         
     }
 
-    footer p#mapview {
-        padding: 0.2em;
-        margin: 0; /* Remove default margin */
-    }
-    #mapview{
-        display: block;
-    }
 
-    footer a {
-        text-decoration: none;
-        color: white; /* Adjust link color */
-    }
 }
 
     
