@@ -173,11 +173,11 @@
 
 
     document.querySelectorAll('.special').forEach(function (special) {
-        var coordinates = special.getAttribute('coor').split(',').map(Number);
+        const [latitude, longitude] = special.getAttribute('coor').split(',').map(Number);
 
         // Create a marker
         var marker = new mapboxgl.Marker()
-            .setLngLat(coordinates)
+            .setLngLat([longitude, latitude])
             .addTo(map);
 
     });
