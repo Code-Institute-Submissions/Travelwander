@@ -1,0 +1,78 @@
+[
+    {
+      "coordinates": "9.360986997837108, -82.24957948295597",
+      "type": "adventure",
+      "price": "£580",
+      "rating": 4,
+      "name": "Villa Paraiso",
+      "location": "Isla Colon",
+      "country": "Panama",  // Add country property
+      "details": [
+        "Flight + hotel",
+        "Half Board",
+        "🍽️",
+        "☕",
+        "⛰️",
+        "🚶"
+      ],
+      "imageSrc": "/assets/images/flags/deal2.png"
+    },
+    {
+      "coordinates": "9.376621275953982, -82.23896368205936",
+      "type": "family",
+      "price": "£790",
+      "rating": 4,
+      "name": "La Coralina",
+      "location": "Newport City",
+      "country": "Panama",  // Add country property
+      "details": [
+        "Flight + hotel + car",
+        "All inclusive",
+        "📶",
+        "🅿️",
+        "☕",
+        "❤️",
+        "👶"
+      ],
+      "imageSrc": "/assets/images/flags/deal3.png"
+    },
+    {
+      "coordinates": "9.375697101796055, -82.29688224381005",
+      "type": "family",
+      "price": "£790",
+      "rating": 4,
+      "name": "Punta Caracol",
+      "location": "Newport City",
+      "country": "Panama",  
+      "details": [
+        "Flight + hotel + car",
+        "All inclusive",
+        "📶",
+        "🅿️",
+        "☕",
+        "❤️",
+        "👶"
+      ],
+      "imageSrc": "/assets/images/flags/deal3.png"
+    },
+    {
+      "coordinates": "9.348921520064861, -82.25194126789903",
+      "type": "family",
+      "price": "£790",
+      "rating": 4,
+      "name": "Koko Lodge",
+      "location": "Newport City",
+      "country": "Panama",  
+      "details": [
+        "Flight + hotel + car",
+        "All inclusive",
+        "📶",
+        "🅿️",
+        "☕",
+        "❤️",
+        "👶"
+      ],
+      "imageSrc": "/assets/images/flags/deal3.png"
+    }
+  ]
+  
