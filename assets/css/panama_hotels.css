@@ -249,19 +249,6 @@ footer a{
     display: none;
 }
 
-
-/* Default marker color */
-.mapboxgl-marker {
-    
-}
-
-/* Marker color on hover */
-.mapboxgl-marker:hover {
-    background-color: #ff5733;
-}
-
-
-
 @media screen and (max-width: 500px) {
    
     body{
