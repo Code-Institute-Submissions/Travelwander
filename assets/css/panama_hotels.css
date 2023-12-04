@@ -167,7 +167,6 @@ main #map:nth-child(5){
     grid-column: 2/3;
 }
 #map{
-    border:1px solid red;
     width: 50vw;
     height: 98.5vh;
     
@@ -457,7 +456,6 @@ footer a{
     width: 96vw !important ;
     height: 100.5vh !important;
     margin-top: -2em;
-   border:1px solid red;
     
 }
 
