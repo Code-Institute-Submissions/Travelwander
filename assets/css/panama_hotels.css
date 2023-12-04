@@ -121,6 +121,11 @@ main{
     display: grid;
     grid-template-columns: 1fr,3fr;
     grid-template-rows: repeat(3,1fr);
+    gap: 0.5em;
+
+    
+    margin-top: 3em;
+    
     
     /* flex-wrap: wrap;
     gap: 1.8em;
@@ -128,7 +133,7 @@ main{
     justify-content: center;
     padding-top: 2em;  */
 
-    gap: 0.5em;
+    
 
 }
 
@@ -164,7 +169,7 @@ main #mapContainer:nth-child(5){
 #mapContainer iframe{
     
     width: 50vw;
-    height: 84.5vh;
+    height: 98.5vh;
     
 }
 main .special{
