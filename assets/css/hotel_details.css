@@ -29,7 +29,7 @@ body{
     width:109vw;
     height:100vh;
     background-color: rgba(67, 66, 65, 0.446);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(15px);
 }
 /* ------ header ------ --------------------*/
 
