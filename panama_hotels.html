@@ -180,7 +180,9 @@ specialElements.forEach((element) => {
                 .then(data => {
                     
                     const selectedHotel = data.find(hotel => hotel.name === hotelName);
-                    
+                    if (selectedHotel) {
+                        
+                        sessionStorage.setItem('selectedHotelIndex', data.indexOf(selectedHotel));
 
       }else {
             console.error('Unable to determine the hotel name.');
