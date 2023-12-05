@@ -123,12 +123,13 @@
                 document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
                 
                 document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
-                document.getElementById('hotelDetails').innerText = selectedHotel.details.join(', ');
+                document.getElementById('hotelDetails').innerText = selectedHotel.description+selectedHotel.details.join('');
+                
               /* but for icons we use try to get hotel Icons id */
               const iconsContainer = document.getElementById('hotelIcons');
                 selectedHotel.details.forEach(detail => {
                     const icon = document.createElement('span');
-                    const randomIcon = all_icons[Math.floor(Math.random() * allIcons.length)];
+                    const randomIcon = all_icons[Math.floor(Math.random() * all_icons.length)];
                     icon.className = randomIcon;
                     iconsContainer.appendChild(icon);
                   });
