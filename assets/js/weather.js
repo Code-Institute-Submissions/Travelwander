@@ -1,5 +1,5 @@
 // Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8tr';
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8t';
 
 
 // Array of cities

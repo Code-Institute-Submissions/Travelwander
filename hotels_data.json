@@ -6,7 +6,7 @@
       "rating": 4,
       "name": "Villa Paraiso",
       "location": "Isla Colon",
-      "country": "Panama",  // Add country property
+      "country": "Panama",  
       "details": [
         "Flight + hotel",
         "Half Board",
@@ -24,7 +24,7 @@
       "rating": 4,
       "name": "La Coralina",
       "location": "Newport City",
-      "country": "Panama",  // Add country property
+      "country": "Panama", 
       "details": [
         "Flight + hotel + car",
         "All inclusive",
@@ -209,5 +209,612 @@
       "Couples' spa treatments"
     ],
     "imageSrc": "/assets/images/hotels/the-setai-miami-beach.jpg"
+  },
+  {
+    "coordinates": "18.174416077269818, -76.39857550586866",
+    "type": "adventure",
+    "price": "$250",
+    "rating": 4.5,
+    "name": "Royalton Negril",
+    "location": "Negril, Jamaica",
+    "country": "Jamaica",
+    "details": [
+      "All-inclusive resort",
+      "Water sports",
+      "Nightlife",
+      "Shopping",
+      "Dining"
+    ],
+    "imageSrc": "/assets/images/hotels/royalton-negril.jpg"
+  },
+  {
+    "coordinates": "18.16208817858469, -76.38519674393263",
+    "type": "relax",
+    "price": "$350",
+    "rating": 4.2,
+    "name": "Sandals Negril",
+    "location": "Negril, Jamaica",
+    "country": "Jamaica",
+    "details": [
+      "Adults-only resort",
+      "Spa",
+      "Yoga classes",
+      "Swimming pools",
+      "Beachfront cabanas"
+    ],
+    "imageSrc": "/assets/images/hotels/sandals-negril.jpg"
+  },
+  {
+    "coordinates": "18.160333462097896, -76.40072966846687",
+    "type": "family",
+    "price": "$450",
+    "rating": 4.8,
+    "name": "Moon Palace Jamaica",
+    "location": "Ocho Rios, Jamaica",
+    "country": "Jamaica",
+    "details": [
+      "Kids' club",
+      "Water park",
+      "Playground",
+      "Family-friendly activities",
+      "On-site dining"
+    ],
+    "imageSrc": "/assets/images/hotels/moon-palace-jamaica.jpg"
+  },
+  {
+    "coordinates": "18.15599728009909, -76.38817299195474",
+    "type": "romantic",
+    "price": "$550",
+    "rating": 4.7,
+    "name": "Couples Swept Away",
+    "location": "Ocho Rios, Jamaica",
+    "country": "Jamaica",
+    "details": [
+      "Private beach",
+      "Adults-only resort",
+      "Fine dining",
+      "Oceanfront suites",
+      "Couples' spa treatments"
+    ],
+    "imageSrc": "/assets/images/hotels/couples-swept-away.jpg"
+  }
+,
+  {
+    "coordinates": "35.66170043252027, 139.70048336861303",
+    "type": "adventure",
+    "price": "¥15,000",
+    "rating": 4.5,
+    "name": "Hotel Chinzanso",
+    "location": "Tokyo, Japan",
+    "country": "Japan",
+    "details": [
+      "Traditional Japanese ryokan",
+      "Zen garden",
+      "Tea ceremony",
+      "Kimono rental",
+      "Japanese cuisine"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-chinzanso.jpg"
+  },
+  {
+    "coordinates": "35.655833331125364, 139.6887132279747",
+    "type": "relax",
+    "price": "¥20,000",
+    "rating": 4.2,
+    "name": "Hotel Okura Tokyo",
+    "location": "Tokyo, Japan",
+    "country": "Japan",
+    "details": [
+      "Modern hotel with traditional touches",
+      "Spa",
+      "Michelin-starred restaurant",
+      "Panoramic views of the city",
+      "Japanese gardens"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-okura-tokyo.jpg"
+  },
+  {
+    "coordinates": "35.65293872239935, 139.69698990943805",
+    "type": "family",
+    "price": "¥25,000",
+    "rating": 4.8,
+    "name": "Tokyo DisneySea Resort Hotel MiraCosta",
+    "location": "Tokyo, Japan",
+    "country": "Japan",
+    "details": [
+      "Disney-themed hotel",
+      "Kids' club",
+      "Character dining",
+      "Easy access to Tokyo DisneySea",
+      "Family-friendly amenities"
+    ],
+    "imageSrc": "/assets/images/hotels/tokyo-disneysea-resort-hotel-miracosta.jpg"
+  },
+  {
+    "coordinates": "35.64987020106559, 139.7069214132866",
+    "type": "romantic",
+    "price": "¥30,000",
+    "rating": 4.7,
+    "name": "The Capitol Hotel Tokyu",
+    "location": "Tokyo, Japan",
+    "country": "Japan",
+    "details": [
+      "Luxury hotel with French flair",
+      "Michelin-starred restaurants",
+      "Romantic rooftop bar",
+      "Elegant spa",
+      "Panoramic views of the city"
+    ],
+    "imageSrc": "/assets/images/hotels/the-capitol-hotel-tokyu.jpg"
+  },
+  {
+    "coordinates": "13.73690009204964, 100.53152588765548",
+    "type": "adventure",
+    "price": "฿2,000",
+    "rating": 4.5,
+    "name": "Khao Lak Explorer",
+    "location": "Khao Lak, Thailand",
+    "country": "Thailand",
+    "details": [
+      "Beachfront location",
+      "Jungle excursions",
+      "Island hopping",
+      "Water sports",
+      "Thai cuisine"
+    ],
+    "imageSrc": "/assets/images/hotels/khao-lak-explorer.jpg"
+  },
+  {
+    "coordinates": "13.73471655193812, 100.5355928914927",
+    "type": "relax",
+    "price": "฿2,500",
+    "rating": 4.2,
+    "name": "The Sarojin",
+    "location": "Khao Lak, Thailand",
+    "country": "Thailand",
+    "details": [
+      "Luxury resort with traditional Thai touches",
+      "Spa",
+      "Private beach",
+      "Fine dining",
+      "Panoramic views of the Andaman Sea"
+    ],
+    "imageSrc": "/assets/images/hotels/the-sarojin.jpg"
+  },
+  {
+    "coordinates": "13.73253301172656, 100.5396699053955",
+    "type": "family",
+    "price": "฿3,000",
+    "rating": 4.8,
+    "name": "Bang Niang Beach Resort",
+    "location": "Khao Lak, Thailand",
+    "country": "Thailand",
+    "details": [
+      "Family-friendly resort with kids' club",
+      "Water park",
+      "Children's activities",
+      "Multiple swimming pools",
+      "Beachfront location"
+    ],
+    "imageSrc": "/assets/images/hotels/bang-niang-beach-resort.jpg"
+  },
+  {
+    "coordinates": "13.73034947151498, 100.54374701923632",
+    "type": "romantic",
+    "price": "฿3,500",
+    "rating": 4.7,
+    "name": "The Pavilions Phuket",
+    "location": "Khao Lak, Thailand",
+    "country": "Thailand",
+    "details": [
+      "Luxury resort with private villas",
+      "Adults-only pool",
+      "Spa",
+      "Fine dining",
+      "Secluded beach"
+    ],
+    "imageSrc": "/assets/images/hotels/the-pavilions-phuket.jpg"
+  },
+  {
+    "coordinates": "37.5150135002148, 127.04202702012823",
+    "type": "adventure",
+    "price": "₩100,000",
+    "rating": 4.5,
+    "name": "Lotte World Hotel",
+    "location": "Seoul, South Korea",
+    "country": "South Korea",
+    "details": [
+      "Located in the Lotte World amusement park",
+      "Direct access to the park's attractions",
+      "Indoor adventure sports",
+      "Family-friendly amenities",
+      "Multiple dining options"
+    ],
+    "imageSrc": "/assets/images/hotels/lotte-world-hotel.jpg"
+  },
+  {
+    "coordinates": "37.510986997837108, 127.03957948295597",
+    "type": "relax",
+    "price": "₩120,000",
+    "rating": 4.2,
+    "name": "JW Marriott Seoul",
+    "location": "Seoul, South Korea",
+    "country": "South Korea",
+    "details": [
+      "Luxury hotel with a spa and wellness center",
+      "Michelin-starred restaurant",
+      "Panoramic views of the city",
+      "Elegant accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/jw-marriott-seoul.jpg"
+  },
+  {
+    "coordinates": "37.50786749542978, 127.03712280273437",
+    "type": "family",
+    "price": "₩140,000",
+    "rating": 4.8,
+    "name": "Grand Hyatt Seoul",
+    "location": "Seoul, South Korea",
+    "country": "South Korea",
+    "details": [
+      "Family-friendly hotel with kids' club",
+      "Large swimming pool",
+      "Variety of dining options",
+      "Convenient location near shopping and attractions",
+      "Kid-friendly amenities"
+    ],
+    "imageSrc": "/assets/images/hotels/grand-hyatt-seoul.jpg"
+  },
+  {
+    "coordinates": "37.50474799302455, 127.03466612311279",
+    "type": "romantic",
+    "price": "₩160,000",
+    "rating": 4.7,
+    "name": "The Shilla Seoul",
+    "location": "Seoul, South Korea",
+    "country": "South Korea",
+    "details": [
+      "Luxury hotel with traditional Korean décor",
+      "Michelin-starred restaurant",
+      "Spa with traditional Korean treatments",
+      "Panoramic views of the city",
+      "Elegant accommodations"
+    ],
+    "imageSrc": "/assets/images/hotels/the-shilla-seoul.jpg"
+  },
+  {
+    "coordinates": "-8.711793908935416, 115.22888708051325",
+    "type": "adventure",
+    "price": "Rp1,000,000",
+    "rating": 4.5,
+    "name": "Alila Ubud",
+    "location": "Ubud, Bali, Indonesia",
+    "country": "Indonesia",
+    "details": [
+      "Luxury resort nestled in the rice fields of Ubud",
+      "Yoga and meditation classes",
+      "Cooking classes",
+      "Balinese cultural immersion experiences",
+      "Fine dining"
+    ],
+    "imageSrc": "/assets/images/hotels/alila-ubud.jpg"
+  },
+  {
+    "coordinates": "-8.714134326001149, 115.23212976100402",
+    "type": "relax",
+    "price": "Rp1,250,000",
+    "rating": 4.2,
+    "name": "Four Seasons Resort Bali at Sayan",
+    "location": "Ubud, Bali, Indonesia",
+    "country": "Indonesia",
+    "details": [
+      "Luxury resort overlooking the Ayung River",
+      "Spa with traditional Balinese treatments",
+      "Multiple swimming pools",
+      "Fine dining",
+      "Panoramic views of the rainforest"
+    ],
+    "imageSrc": "/assets/images/hotels/four-seasons-resort-bali-at-sayan.jpg"
+  },
+  {
+    "coordinates": "-8.716474743666014, 115.23537292480469",
+    "type": "family",
+    "price": "Rp1,500,000",
+    "rating": 4.8,
+    "name": "Ayana Resort and Spa",
+    "location": "Ubud, Bali, Indonesia",
+    "country": "Indonesia",
+    "details": [
+      "Family-friendly resort with kids' club",
+      "Water park",
+      "Children's activities",
+      "Multiple swimming pools",
+      "Beachfront location"
+    ],
+    "imageSrc": "/assets/images/hotels/ayana-resort-and-spa.jpg"
+  },
+  {
+    "coordinates": "-8.718815161330814, 115.2386162941895",
+    "type": "romantic",
+    "price": "Rp1,750,000",
+    "rating": 4.7,
+    "name": "The Ritz-Carlton, Bali",
+    "location": "Ubud, Bali, Indonesia",
+    "country": "Indonesia",
+    "details": [
+      "Luxury resort with private villas",
+      "Adults-only pool",
+      "Spa",
+      "Fine dining",
+      "Secluded beach"
+    ],
+    "imageSrc": "/assets/images/hotels/the-ritz-carlton-bali.jpg"
+  }
+,
+  {
+    "coordinates": "37.40937054023613, 23.293043468974017",
+    "type": "adventure",
+    "price": "€100",
+    "rating": 4.5,
+    "name": "Hotel Grande Bretagne",
+    "location": "Athens, Greece",
+    "country": "Greece",
+    "details": [
+      "Rooftop pool with Acropolis views",
+      "Spa with hammam and sauna",
+      "Fine dining restaurant",
+      "Elegant accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-grande-bretagne.jpg"
+  },
+  {
+    "coordinates": "37.41047657169305, 23.29498288183418",
+    "type": "relax",
+    "price": "€120",
+    "rating": 4.2,
+    "name": "King George Hotel",
+    "location": "Athens, Greece",
+    "country": "Greece",
+    "details": [
+      "Rooftop garden with panoramic city views",
+      "Spa with a variety of treatments",
+      "Fine dining restaurant",
+      "Elegant accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/king-george-hotel.jpg"
+  },
+  {
+    "coordinates": "37.41219135699314, 23.29239268823158",
+    "type": "family",
+    "price": "€140",
+    "rating": 4.8,
+    "name": "Electra Palace Hotel",
+    "location": "Athens, Greece",
+    "country": "Greece",
+    "details": [
+      "Family-friendly amenities",
+      "Kids' club",
+      "Swimming pool",
+      "Restaurant with a variety of options",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/electra-palace-hotel.jpg"
+  },
+  {
+    "coordinates": "37.411526888614844, 23.29584718109066",
+    "type": "romantic",
+    "price": "€160",
+    "rating": 4.7,
+    "name": "Hotel New York",
+    "location": "Athens, Greece",
+    "country": "Greece",
+    "details": [
+      "Rooftop bar with Acropolis views",
+      "Spa with couples' treatments",
+      "Fine dining restaurant",
+      "Elegant accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-new-york.jpg"
+  },
+  {
+    "coordinates": "38.34073334371869, -0.4963564322804473",
+    "type": "adventure",
+    "price": "€100",
+    "rating": 4.5,
+    "name": "Hotel Urban",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "details": [
+      "Rooftop terrace with city views",
+      "Spa with a variety of treatments",
+      "Fine dining restaurant",
+      "Stylish accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-urban-valencia.jpg"
+  },
+  {
+    "coordinates": "38.34008718872123, -0.4951330786761789",
+    "type": "relax",
+    "price": "€120",
+    "rating": 4.2,
+    "name": "Hotel SH Valencia Palace",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "details": [
+      "Spa with a variety of treatments",
+      "Outdoor pool",
+      "Fine dining restaurant",
+      "Elegant accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-sh-valencia-palace.jpg"
+  },
+  {
+    "coordinates": "38.34239738426724, -0.4940606456947253",
+    "type": "family",
+    "price": "€140",
+    "rating": 4.8,
+    "name": "Hotel Sorolla Centro",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "details": [
+      "Family-friendly amenities",
+      "Kids' club",
+      "Swimming pool",
+      "Restaurant with a variety of options",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-sorolla-centro.jpg"
+  },
+  {
+    "coordinates": "38.34027580132939, -0.4938597562149938",
+    "type": "romantic",
+    "price": "€160",
+    "rating": 4.7,
+    "name": "Hotel Hospes Valencia",
+    "location": "Valencia, Spain",
+    "country": "Spain",
+    "details": [
+      "Rooftop terrace with city views",
+      "Spa with couples' treatments",
+      "Fine dining restaurant",
+      "Stylish accommodations",
+      "Attentive service"
+    ],
+    "imageSrc": "/assets/images/hotels/hotel-hospes-valencia.jpg"
+  },
+  {
+    "coordinates": "48.20858067150413, 16.367183191051705",
+    "type": "adventure",
+    "price": "€100",
+    "rating": 4.5,
+    "name": "Hotel Altstadt Vienna",
+    "location": "Vienna, Austria",
+    "country": "Austria",
+    "details": [
+      "Located in the heart of Vienna's historic district",
+      "Close to popular attractions like St. Stephen's Cathedral and the Hofburg Palace",
+      "Offers a variety of outdoor activities, including hiking, biking, and skiing",
+      "Has a traditional Austrian restaurant with a focus on local cuisine",
+      "[Image of Hotel Altstadt Vienna, Vienna](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.20541547942394, 16.36576567268983",
+    "type": "relax",
+    "price": "€120",
+    "rating": 4.2,
+    "name": "Hotel Imperial Vienna",
+    "location": "Vienna, Austria",
+    "country": "Austria",
+    "details": [
+      "Luxury hotel with a grand lobby and elegant rooms",
+      "Spa with a variety of treatments, including massages, facials, and saunas",
+      "Fine dining restaurant with a Michelin star",
+      "Rooftop terrace with panoramic views of the city",
+      "[Image of Hotel Imperial Vienna, Vienna](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.21061017542805, 16.37529997966682",
+    "type": "family",
+    "price": "€140",
+    "rating": 4.8,
+    "name": "Hotel Schloss Schönbrunn",
+    "location": "Vienna, Austria",
+    "country": "Austria",
+    "details": [
+      "Family-friendly hotel located in the Schönbrunn Palace gardens",
+      "Kids' club with a variety of activities, including games, crafts, and swimming lessons",
+      "Large swimming pool and playground",
+      "Buffet restaurant with a variety of options to please everyone",
+      "[Image of Hotel Schloss Schönbrunn, Vienna](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.21136540840894, 16.37284683506638",
+    "type": "romantic",
+    "price": "€160",
+    "rating": 4.7,
+    "name": "Hotel The Ritz-Carlton Vienna",
+    "location": "Vienna, Austria",
+    "country": "Austria",
+    "details": [
+      "Luxury hotel with elegant rooms and a romantic atmosphere",
+      "Spa with couples' treatments, including massages, facials, and saunas",
+      "Michelin-starred restaurant with a focus on fine dining",
+      "Panoramic views of the city from the rooftop terrace",
+      "[Image of Hotel The Ritz-Carlton Vienna, Vienna](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.80646692741136, 2.320277156965621",
+    "type": "adventure",
+    "price": "€100",
+    "rating": 4.5,
+    "name": "Hotel Les Deux Rives",
+    "location": "Paris, France",
+    "country": "France",
+    "details": [
+      "Located on the banks of the Seine River",
+      "Offers a variety of outdoor activities, including boat tours, kayaking, and biking",
+      "Has a rooftop terrace with panoramic views of the city",
+      "Serves traditional French cuisine with a modern twist",
+      "[Image of Hotel Les Deux Rives, Paris](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.80323487904107, 2.325361353324516",
+    "type": "relax",
+    "price": "€120",
+    "rating": 4.2,
+    "name": "Hotel Le Meurice",
+    "location": "Paris, France",
+    "country": "France",
+    "details": [
+      "Luxury hotel with a lavish spa and wellness center",
+      "Michelin-starred restaurant with a focus on fine dining",
+      "Elegant accommodations with views of the Eiffel Tower",
+      "Attentive service and concierge services",
+      "[Image of Hotel Le Meurice, Paris](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.81038898103122, 2.319881132171504",
+    "type": "family",
+    "price": "€140",
+    "rating": 4.8,
+    "name": "Hotel du Louvre",
+    "location": "Paris, France",
+    "country": "France",
+    "details": [
+      "Family-friendly hotel with kids' club and playground",
+      "Convenient location near the Louvre Museum",
+      "Buffet restaurant with a variety of options to please everyone",
+      "Attentive service and family-friendly amenities",
+      "[Image of Hotel du Louvre, Paris](https://picsum.photos/200/300)"
+    ]
+  },
+  {
+    "coordinates": "48.81225423092889, 2.322007203674188",
+    "type": "romantic",
+    "price": "€160",
+    "rating": 4.7,
+    "name": "Hotel Ritz Paris",
+    "location": "Paris, France",
+    "country": "France",
+    "details": [
+      "Luxury hotel with elegant rooms and a romantic atmosphere",
+      "Spa with couples' treatments, including massages, facials, and saunas",
+      "Michelin-starred restaurant with a focus on fine dining",
+      "Attentive service and personalized experiences",
+      "[Image of Hotel Ritz Paris, Paris](https://picsum.photos/200/300)"
+    ]
   }
 ]
+
