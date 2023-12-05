@@ -141,5 +141,73 @@
       "Spa with couples' treatments"
     ],
     "imageSrc": "/assets/images/hotels/el-navegante.jpg"
+  },
+  {
+    "coordinates": "25.77427432253104, -80.19000849210656",
+    "type": "adventure",
+    "price": "$450",
+    "rating": 4.5,
+    "name": "South Beach Hotel",
+    "location": "South Beach, Miami, Florida",
+    "country": "USA",
+    "details": [
+      "Oceanfront location",
+      "Water sports",
+      "Nightlife",
+      "Shopping",
+      "Dining"
+    ],
+    "imageSrc": "/assets/images/hotels/south-beach-hotel.jpg"
+  },
+  {
+    "coordinates": "25.767728336882466, -80.1890794058156",
+    "type": "relax",
+    "price": "$550",
+    "rating": 4.2,
+    "name": "Miami Beach Resort",
+    "location": "Miami Beach, Florida",
+    "country": "USA",
+    "details": [
+      "Spa",
+      "Yoga classes",
+      "Swimming pools",
+      "Beachfront cabanas",
+      "Tropical gardens"
+    ],
+    "imageSrc": "/assets/images/hotels/miami-beach-resort.jpg"
+  },
+  {
+    "coordinates": "25.76333452239523, -80.19302753644129",
+    "type": "family",
+    "price": "$650",
+    "rating": 4.8,
+    "name": "Coconut Grove Family Hotel",
+    "location": "Coconut Grove, Miami, Florida",
+    "country": "USA",
+    "details": [
+      "Kids' club",
+      "Water park",
+      "Playground",
+      "Family-friendly activities",
+      "On-site dining"
+    ],
+    "imageSrc": "/assets/images/hotels/coconut-grove-family-hotel.jpg"
+  },
+  {
+    "coordinates": "25.75950929802217, -80.19506328479713",
+    "type": "romantic",
+    "price": "$750",
+    "rating": 4.7,
+    "name": "The Setai Miami Beach",
+    "location": "South Beach, Miami, Florida",
+    "country": "USA",
+    "details": [
+      "Private beach",
+      "Adults-only pool",
+      "Fine dining",
+      "Oceanfront suites",
+      "Couples' spa treatments"
+    ],
+    "imageSrc": "/assets/images/hotels/the-setai-miami-beach.jpg"
   }
 ]
