@@ -117,9 +117,9 @@ main{
     grid-column: 2/11;
     grid-row: 2/3;
 
-    
-
-
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 1fr 1fr 1fr auto auto;
 
 }
 
