@@ -173,6 +173,11 @@ specialElements.forEach((element) => {
   <script>
     function showHotelDetails(button) { /* button parent */
       const specialDiv = button.closest('.special');
+      if (specialDiv) {
+
+      }else {
+            console.error('Unable to determine the hotel name.');
+        }
            
     }
 </script>
