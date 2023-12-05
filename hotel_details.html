@@ -102,7 +102,14 @@
                 
                 document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
                 document.getElementById('hotelDetails').innerText = selectedHotel.details.join(', ');
-
+              /* but for icons we use try to get hotel Icons id */
+              const iconsContainer = document.getElementById('hotelIcons');
+                selectedHotel.details.forEach(detail => {
+                    const icon = document.createElement('span');
+                    icon.innerText = detail; // just check
+                    iconsContainer.appendChild(icon);
+                });
+                
 
   </script>
 
