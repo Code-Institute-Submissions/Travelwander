@@ -183,6 +183,9 @@ specialElements.forEach((element) => {
                     if (selectedHotel) {
                         
                         sessionStorage.setItem('selectedHotelIndex', data.indexOf(selectedHotel));
+                        
+                        window.location.href = 'hotel-details.html';
+                   
 
       }else {
             console.error('Unable to determine the hotel name.');
