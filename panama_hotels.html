@@ -171,12 +171,9 @@ specialElements.forEach((element) => {
 
   </script> -->
   <script>
-    function showHotelDetails(index) {
-             // index in session storage for save
-        sessionStorage.setItem('selectedHotelIndex', index);
-
-                    // Redirect to hotel-details page
-        window.location.href = 'hotel_details.html';
+    function showHotelDetails(button) { /* button parent */
+      const specialDiv = button.closest('.special');
+           
     }
 </script>
 
