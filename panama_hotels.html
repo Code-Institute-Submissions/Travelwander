@@ -177,6 +177,10 @@ specialElements.forEach((element) => {
         const hotelName = specialDiv.querySelector('h3').innerText; /* get name then fetch json*/
         fetch('hotels-data.json')
                 .then(response => response.json())
+                .then(data => {
+                    
+                    const selectedHotel = data.find(hotel => hotel.name === hotelName);
+                    
 
       }else {
             console.error('Unable to determine the hotel name.');
