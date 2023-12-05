@@ -81,7 +81,7 @@
     </div>
     <div class="special" coor="9.376621275953982, -82.23896368205936">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(0)">more info</button>
+        <button type="button" onclick="showHotelDetails(1)">more info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -101,7 +101,7 @@
     </div>
     <div class="special" coor="9.375697101796055, -82.29688224381005">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(0)">more info</button>
+        <button type="button" onclick="showHotelDetails(2)">more info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -121,7 +121,7 @@
     </div>
     <div class="special" coor="9.348921520064861, -82.25194126789903">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(0)">more info</button>
+        <button type="button" onclick="showHotelDetails(3)">more info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -154,7 +154,7 @@
   <script src="/assets/js/sidebar.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
   <script src="/assets/js/mapbox.js"></script>
-  <script>
+  <!-- <script>
    const specialContent = ''; // Define global variable for special content
 
 const specialElements = document.querySelectorAll('.special');
@@ -169,7 +169,17 @@ specialElements.forEach((element) => {
   });
 });
 
-  </script>
+  </script> -->
+  <script>
+    function showHotelDetails(index) {
+             // index in session storage for save
+        sessionStorage.setItem('selectedHotelIndex', index);
+
+                    // Redirect to hotel-details page
+        window.location.href = 'hotel-details.html';
+    }
+</script>
+
   
 
 
