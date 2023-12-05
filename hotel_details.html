@@ -94,10 +94,14 @@
     fetch('hotels-data.json')
             .then(response => response.json())
             .then(data => {
-                // Get the selected hotel data
+                /*  selected hotel data */
                 const selectedHotel = data[selectedHotelIndex];
                 document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
+               
+                document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
                 
+                document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
+                document.getElementById('hotelDetails').innerText = selectedHotel.details.join(', ');
 
 
   </script>
