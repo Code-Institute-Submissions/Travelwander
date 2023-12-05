@@ -89,9 +89,9 @@
     
     const selectedHotelIndex = sessionStorage.getItem('selectedHotelIndex'); /* Retrieve index from session storage */
     
-
-    // Fetch and parse the JSON data
-    fetch('hotels-data.json')
+    if (selectedHotelIndex !== null) {
+    
+    fetch('hotels-data.json') /* Fetch and parse the JSON data */
             .then(response => response.json())
             .then(data => {
                 /*  selected hotel data */
@@ -121,6 +121,10 @@
                 });
 
               })
+              .catch(error => console.error('Error fetching data:', error));
+    } else {
+        console.error('No hotel selected.');
+    }
 
   </script>
 
