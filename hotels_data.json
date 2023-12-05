@@ -20,7 +20,7 @@
     {
       "coordinates": "9.376621275953982, -82.23896368205936",
       "type": "family",
-      "price": "£790",
+      "price": "£1000",
       "rating": 4,
       "name": "La Coralina",
       "location": "Newport City",
@@ -57,8 +57,8 @@
     },
     {
       "coordinates": "9.348921520064861, -82.25194126789903",
-      "type": "family",
-      "price": "£790",
+      "type": "romantic",
+      "price": "£1220",
       "rating": 4,
       "name": "Koko Lodge",
       "location": "Newport City",
