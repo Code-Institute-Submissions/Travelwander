@@ -86,7 +86,7 @@
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
   
   <script>
-    const all_icones=[
+    const all_icons=[
   "fas fa-hotel",
   "fas fa-bed",
   "fas fa-suitcase",
@@ -128,9 +128,10 @@
               const iconsContainer = document.getElementById('hotelIcons');
                 selectedHotel.details.forEach(detail => {
                     const icon = document.createElement('span');
-                    icon.innerText = detail; // just check
+                    const randomIcon = all_icons[Math.floor(Math.random() * allIcons.length)];
+                    icon.className = randomIcon;
                     iconsContainer.appendChild(icon);
-                });
+                  });
                 /* price */
               document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
               /* reserve button */
