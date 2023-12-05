@@ -62,7 +62,7 @@
 
     <div class="special" coor="9.360986997837108, -82.24957948295597">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(0)">More Info</button>
+        <button type="button" onclick="showHotelDetails(this)">More Info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> adventure <br> price : £580 pp</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -101,7 +101,7 @@
     </div>
     <div class="special" coor="9.375697101796055, -82.29688224381005">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(2)">more info</button>
+        <button type="button" onclick="showHotelDetails(this)">more info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -121,7 +121,7 @@
     </div>
     <div class="special" coor="9.348921520064861, -82.25194126789903">
       <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(3)">more info</button>
+        <button type="button" onclick="showHotelDetails(this)">more info</button>
 
         <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
         <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
@@ -178,7 +178,7 @@ specialElements.forEach((element) => {
             const hotelName = specialDiv.querySelector('h3').innerText;
             
             // Fetch and parse the JSON data
-            fetch('hotels-data.json')
+            fetch('hotels_data.json')
                 .then(response => response.json())
                 .then(data => {
                     /* Find specified name*/
@@ -189,7 +189,7 @@ specialElements.forEach((element) => {
                         sessionStorage.setItem('selectedHotelIndex', data.indexOf(selectedHotel));
 
                         
-                        window.location.href = 'hotel-details.html'; /* Redirect  */
+                        window.location.href = 'hotel_details.html'; /* Redirect  */
                     } else {
                         console.error(`Hotel with name '${hotelName}' not found in the data.`);
                     }
