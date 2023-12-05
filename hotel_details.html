@@ -93,6 +93,11 @@
     // Fetch and parse the JSON data
     fetch('hotels-data.json')
             .then(response => response.json())
+            .then(data => {
+                // Get the selected hotel data
+                const selectedHotel = data[selectedHotelIndex];
+                document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
+                
 
 
   </script>
