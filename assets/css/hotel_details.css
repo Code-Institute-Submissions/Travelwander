@@ -112,6 +112,16 @@ header .hamburger{
 
 
 /* ------main  -------------------  ------ */
+main{
+    border:2px solid blue;
+    grid-column: 2/11;
+    grid-row: 2/3;
+
+    
+
+
+
+}
 
 
 
