@@ -1,5 +1,66 @@
 [
   {
+    "coordinates": "9.361305400086944, -82.24976308005241",
+    "type": "adventure",
+    "price": "£580",
+    "rating": 4.2,
+    "name": "Hotel Punta Roca",
+    "location": "Isla Colon",
+    "country": "Panama",
+    "description": "Embark on an unforgettable adventure at Hotel Punta Roca, a secluded beachfront oasis offering endless opportunities for exploration and excitement. Immerse yourself in the vibrant marine life with our snorkeling and diving excursions, or embark on exhilarating hiking trails through the lush rainforest. Unwind in our tranquil guest rooms, each designed to provide a haven of comfort and relaxation after a day of adventure.",
+    "details": [
+      "Flight + hotel",
+      "All Inclusive",
+      "On-site water sports center",
+      "Yoga and pilates classes",
+      "Nature trails and excursions",
+      "Outdoor movie nights",
+      "Adventure concierge service"
+    ],
+    "imageSrc": "/assets/images/flags/hotel-punta-roca.jpg"
+  },
+  {
+    "coordinates": "9.36046580059851, -82.25025901958435",
+    "type": "relax",
+    "price": "£620",
+    "rating": 4.5,
+    "name": "Isla Colon Beach Resort",
+    "location": "Isla Colon",
+    "country": "Panama",
+    "description": "Indulge in a tranquil escape at Isla Colon Beach Resort, a luxurious haven of relaxation and rejuvenation. Surrender to pampering treatments at our world-class spa, or simply unwind in our infinity pool with breathtaking ocean views. Savor delectable culinary creations at our gourmet restaurant, featuring fresh local ingredients and innovative dishes.",
+    "details": [
+      "Flight + hotel",
+      "All Inclusive",
+      "Full-service spa",
+      "Infinity pool with ocean views",
+      "Gourmet restaurant",
+      "Beachfront yoga and meditation classes",
+      "Personalized concierge service"
+    ],
+    "imageSrc": "/assets/images/flags/isla-colon-beach-resort.jpg"
+  },
+  {
+    "coordinates": "9.360788873367892, -82.24892266504714",
+    "type": "family",
+    "price": "£480",
+    "rating": 4.7,
+    "name": "Family Adventures Resort",
+    "location": "Isla Colon",
+    "country": "Panama",
+    "description": "Create unforgettable memories with the whole family at Family Adventures Resort, a vibrant and engaging resort designed to delight children of all ages. Splash around in our expansive pool complex, featuring a pirate ship-themed water playground, exhilarating water slides, and a dedicated kids' pool. Our engaging kids' club offers a variety of fun-filled activities and games, while our family-friendly entertainment ensures endless fun for the whole family.",
+    "details": [
+      "Flight + hotel",
+      "All Inclusive",
+      "Spacious family-friendly accommodations",
+      "Pirate ship-themed water playground",
+      "Engaging kids' club with a variety of activities",
+      "Family-friendly entertainment",
+      "Dedicated kids' menu",
+      "Adventure concierge service"
+    ],
+    "imageSrc": "/assets/images/flags/family-adventures-resort.jpg"
+  },
+  {
     "coordinates": "9.360986997837108, -82.24957948295597",
     "type": "adventure",
     "price": "£580",
