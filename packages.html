@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
  
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
 <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
 
 
@@ -60,7 +60,7 @@
   <main id="mainContents">
 
 
-    <div class="special" coor="9.360986997837108, -82.24957948295597">
+ <!--    <div class="special" coor="9.360986997837108, -82.24957948295597">
       <div class="sp_notes">
         <button type="button" onclick="showHotelDetails(this)">More Info</button>
 
@@ -78,7 +78,7 @@
         </p>
       </div>
       <div class="sp_img"><img src="/assets/images/flags/deal2.png" alt="special family offer image"></div>
-    </div>
+    </div> -->
     <div id="hotelsContainer"></div>
 <!--   -->  
 <!--     <div id="mapContainer" style="display: none;width: 500px;height: 500px;" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39699.592845248124!2d-0.1571465!3d51.5457813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1701522714652!5m2!1sen!2suk" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
@@ -137,7 +137,7 @@
     }
 </script>
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
+/*     document.addEventListener('DOMContentLoaded', function () {
         // Get the country parameter from the URL
         const urlParams = new URLSearchParams(window.location.search);
         const country = urlParams.get('country');
@@ -153,16 +153,16 @@
             })
             .catch(error => console.error('Error fetching hotels data:', error));
     });
-
+ */
     // Function to filter hotels by country from your JSON data
-    function getHotelsByCountry(data, country) {
+  /*   function getHotelsByCountry(data, country) {
         // Your logic to filter hotels based on the country
         // Return an array of hotels
         return data.filter(hotel => hotel.country === country);
-    }
+    } */
 
     // Function to display hotels in the container
-    function displayHotels(hotels) {
+   /*  function displayHotels(hotels) {
         const hotelsContainer = document.getElementById('hotelsContainer');
         hotelsContainer.classList.add('special-container')
 
@@ -214,8 +214,9 @@
             // Append the hotelDiv to the hotelsContainer
             hotelsContainer.appendChild(hotelDiv);
         });
-    }
+    } */
 </script>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
 <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
   <script src="/assets/js/mapbox.js"></script>
 
