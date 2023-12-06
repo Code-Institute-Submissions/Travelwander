@@ -88,8 +88,8 @@
             style="color: #fbe709;"></i><i class="fa-solid fa-star" style="color: #fbe709;"></i><i
             class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
         <h3>Hotel Punta Roca</h3>
-        <p><i class="fa-solid fa-location-dot"></i>Newport City<br>
-          Flight + hotel + car<br> All inclusive <br>
+        <p><i class="fa-solid fa-location-dot"></i>Newport City
+          <br> All inclusive <br>
           <i class="fa-solid fa-wifi"></i>
           <i class="fa-solid fa-square-parking"></i>
           <i class="fa-solid fa-mug-saucer"></i>
@@ -109,7 +109,7 @@
             class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
         <h3>Isla Colon Beach Resort</h3>
         <p><i class="fa-solid fa-location-dot"></i>Newport City<br>
-          Flight + hotel + car<br> All inclusive <br>
+           All inclusive <br>
           <i class="fa-solid fa-wifi"></i>
           <i class="fa-solid fa-square-parking"></i>
           <i class="fa-solid fa-mug-saucer"></i>
@@ -128,8 +128,8 @@
             style="color: #fbe709;"></i><i class="fa-solid fa-star" style="color: #fbe709;"></i><i
             class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
         <h3>Family Adventures Resort</h3>
-        <p><i class="fa-solid fa-location-dot"></i>Newport City<br>
-          Flight + hotel + car<br> All inclusive <br>
+        <p><i class="fa-solid fa-location-dot"></i>Newport City</p>
+        <p>All inclusive <br>
           <i class="fa-solid fa-wifi"></i>
           <i class="fa-solid fa-square-parking"></i>
           <i class="fa-solid fa-mug-saucer"></i>
@@ -171,12 +171,13 @@ specialElements.forEach((element) => {
 
   </script> -->
   <script>
-    const hotelNames = document.querySelectorAll('.special h3'); /*check hotel name lenght if more than 13 then decrease font size */
-
+    const hotelNames = document.querySelectorAll('.special h3'); /*check hotel name lenght if more than 13 then decrease font size  and reduce line height*/
           for (const hotelName of hotelNames) {
             const contentLength = hotelName.textContent.length;
-            if (contentLength > 13) {
-              hotelName.style.fontSize = '16px';
+            const parent_of_h3 = hotelName.parentElement;
+            if (contentLength > 15) {
+              hotelName.style.fontSize = '18px';
+              parent_of_h3.style.lineHeight = '1.3em';
             }
           }
 
