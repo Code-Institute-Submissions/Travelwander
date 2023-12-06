@@ -80,26 +80,64 @@
     ],
     "imageSrc": "/assets/images/flags/deal2.png"
   }
-  ,
-    {
+  ,{
+      "coordinates": "15.722887712513217, -95.89645137358789",
+      "type": "family",
+      "price": "£800",
+      "rating": 4.5,
+      "name": "Oceanfront Family Retreat",
+      "location": "Papanoa, Guerrero, Mexico",
+      "country": "Mexico",
+      "description": "Experience the perfect family getaway at our Oceanfront Family Retreat. Enjoy spacious suites with stunning ocean views and a range of family-friendly activities.",
+      "details": [
+        "Private beach access",
+        "Family-friendly resort",
+        "Oceanfront suites",
+        "Kids' club activities",
+        "Swimming pools",
+        "Outdoor family adventures"
+      ],
+      "imageSrc": "/assets/images/hotels/oceanfront-family-retreat.jpg"
+    }
+    ,{
       "coordinates": "15.722887712513217, -95.89645137358789",
       "type": "romantic",
       "price": "£950",
       "rating": 4.7,
-      "name": "Hotel El Navegante",
+      "name": "Oceanview Romantic Retreat",
       "location": "Papanoa, Guerrero, Mexico",
       "country": "Mexico",
-      "description": "Escape to romance at Hotel El Navegante. Indulge in luxury on a private beach, and savor fine dining with oceanfront views.",
+      "description": "Escape to romance at our Oceanview Romantic Retreat. Indulge in luxury on a private beach, savor fine dining with oceanfront views, and experience intimate moments with your loved one.",
       "details": [
         "Private beach",
-        "Adults-only resort",
-        "Oceanfront suites",
         "Couples' spa treatments",
+        "Oceanfront suites",
+        "Romantic dining experiences",
         "Sunset cruises",
         "Champagne welcome"
       ],
-      "imageSrc": "/assets/images/hotels/el-navegante.jpg"
-    },
+      "imageSrc": "/assets/images/hotels/oceanview-romantic-retreat.jpg"
+    }
+    ,{
+      "coordinates": "15.722887712513217, -95.89645137358789",
+      "type": "adventure",
+      "price": "£750",
+      "rating": 4.6,
+      "name": "Jungle Adventure Lodge",
+      "location": "Papanoa, Guerrero, Mexico",
+      "country": "Mexico",
+      "description": "Embark on an adventure at our Jungle Adventure Lodge. Surrounded by nature, explore thrilling outdoor activities and experience the beauty of the jungle.",
+      "details": [
+        "Nature excursions",
+        "Zip-lining adventures",
+        "Hiking trails",
+        "Guided jungle tours",
+        "Wildlife encounters",
+        "Adventure-packed stay"
+      ],
+      "imageSrc": "/assets/images/hotels/jungle-adventure-lodge.jpg"
+    }
+    ,
     {
       "coordinates": "25.77427432253104, -80.19000849210656",
       "type": "adventure",
