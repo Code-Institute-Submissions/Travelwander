@@ -80,67 +80,7 @@
       <div class="sp_img"><img src="/assets/images/flags/deal2.png" alt="special family offer image"></div>
     </div>
     <div id="hotelsContainer"></div>
-
-    <div class="special" coor="9.376621275953982, -82.23896368205936">
-      <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(this)">More Info</button>
-
-        <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
-        <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
-            style="color: #fbe709;"></i><i class="fa-solid fa-star" style="color: #fbe709;"></i><i
-            class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
-        <h3>Hotel Punta Roca</h3>
-        <p><i class="fa-solid fa-location-dot"></i>Newport City
-          <br> All inclusive <br>
-          <i class="fa-solid fa-wifi"></i>
-          <i class="fa-solid fa-square-parking"></i>
-          <i class="fa-solid fa-mug-saucer"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-children"></i>
-        </p>
-      </div>
-      <div class="sp_img"><img src="/assets/images/flags/deal3.png" alt="special family offer image"></div>
-    </div>
-    <div class="special" coor="9.375697101796055, -82.29688224381005">
-      <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(this)">more info</button>
-
-        <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
-        <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
-            style="color: #fbe709;"></i><i class="fa-solid fa-star" style="color: #fbe709;"></i><i
-            class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
-        <h3>Isla Colon Beach Resort</h3>
-        <p><i class="fa-solid fa-location-dot"></i>Newport City<br>
-           All inclusive <br>
-          <i class="fa-solid fa-wifi"></i>
-          <i class="fa-solid fa-square-parking"></i>
-          <i class="fa-solid fa-mug-saucer"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-children"></i>
-        </p>
-      </div>
-      <div class="sp_img"><img src="/assets/images/flags/deal3.png" alt="special family offer image"></div>
-    </div>
-    <div class="special" coor="9.348921520064861, -82.25194126789903">
-      <div class="sp_notes">
-        <button type="button" onclick="showHotelDetails(this)">more info</button>
-
-        <h4><i class="fa-solid fa-tag" style="color: #e40754;"></i></i> family <br> price : £790</h4>
-        <h4><i class="fa-solid fa-star" style="color: #fbe709;"></i><i class="fa-solid fa-star"
-            style="color: #fbe709;"></i><i class="fa-solid fa-star" style="color: #fbe709;"></i><i
-            class="fa-solid fa-star" style="color: #fbe709;"></i></h4>
-        <h3>Family Adventures Resort</h3>
-        <p><i class="fa-solid fa-location-dot"></i>Newport City</p>
-        <p>All inclusive <br>
-          <i class="fa-solid fa-wifi"></i>
-          <i class="fa-solid fa-square-parking"></i>
-          <i class="fa-solid fa-mug-saucer"></i>
-          <i class="fa-solid fa-heart"></i>
-          <i class="fa-solid fa-children"></i>
-        </p>
-      </div>
-      <div class="sp_img"><img src="/assets/images/flags/deal3.png" alt="special family offer image"></div>
-    </div>
+<!--   -->  
 <!--     <div id="mapContainer" style="display: none;width: 500px;height: 500px;" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39699.592845248124!2d-0.1571465!3d51.5457813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1701522714652!5m2!1sen!2suk" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
  -->    <div id="map" class="sizemp" style="display: none;"></div>
   </main>
@@ -154,24 +94,8 @@
   <!-- to handle map view and list view -->
   <script src="/assets/js/mapview.js"></script>
   <script src="/assets/js/sidebar.js"></script>
-  <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-  <script src="/assets/js/mapbox.js"></script>
-  <!-- <script>
-   const specialContent = ''; // Define global variable for special content
 
-const specialElements = document.querySelectorAll('.special');
 
-specialElements.forEach((element) => {
-  element.addEventListener('click', (event) => {
-    // Update special content from element
-    specialContent = element.textContent;
-
-    // Redirect to hotel details page with special content
-    window.location.href = `hotel_details.html?specialContent=${specialContent}`;
-  });
-});
-
-  </script> -->
   <script>
     const hotelNames = document.querySelectorAll('.special h3'); /*check hotel name lenght if more than 13 then decrease font size  and reduce line height*/
           for (const hotelName of hotelNames) {
@@ -212,8 +136,6 @@ specialElements.forEach((element) => {
         }
     }
 </script>
-// packages.html
-// packages.html
 <script>
     document.addEventListener('DOMContentLoaded', function () {
         // Get the country parameter from the URL
@@ -294,7 +216,8 @@ specialElements.forEach((element) => {
         });
     }
 </script>
-
+<script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+  <script src="/assets/js/mapbox.js"></script>
 
 
   
