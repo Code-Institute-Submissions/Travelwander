@@ -79,6 +79,8 @@
       </div>
       <div class="sp_img"><img src="/assets/images/flags/deal2.png" alt="special family offer image"></div>
     </div>
+    <div id="hotelsContainer"></div>
+
     <div class="special" coor="9.376621275953982, -82.23896368205936">
       <div class="sp_notes">
         <button type="button" onclick="showHotelDetails(this)">More Info</button>
@@ -210,6 +212,90 @@ specialElements.forEach((element) => {
         }
     }
 </script>
+// packages.html
+// packages.html
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Get the country parameter from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const country = urlParams.get('country');
+
+        // Fetch hotels based on the selected country
+        fetch('hotels_data.json')
+            .then(response => response.json())
+            .then(data => {
+                const hotels = getHotelsByCountry(data, country);
+
+                // Display hotels in the container
+                displayHotels(hotels);
+            })
+            .catch(error => console.error('Error fetching hotels data:', error));
+    });
+
+    // Function to filter hotels by country from your JSON data
+    function getHotelsByCountry(data, country) {
+        // Your logic to filter hotels based on the country
+        // Return an array of hotels
+        return data.filter(hotel => hotel.country === country);
+    }
+
+    // Function to display hotels in the container
+    function displayHotels(hotels) {
+        const hotelsContainer = document.getElementById('hotelsContainer');
+        hotelsContainer.classList.add('special-container')
+
+        hotels.forEach(hotel => {
+            // Create elements to display hotel information
+            const hotelDiv = document.createElement('div');
+            hotelDiv.classList.add('special'); // Add 'special' class
+            hotelDiv.setAttribute('coor', hotel.coordinates); // Add 'coor' attribute
+
+            const spNotesDiv = document.createElement('div');
+            spNotesDiv.classList.add('sp_notes');
+
+            const moreInfoButton = document.createElement('button');
+            moreInfoButton.setAttribute('type', 'button');
+            moreInfoButton.setAttribute('onclick', 'showHotelDetails(this)');
+            moreInfoButton.textContent = 'More Info';
+
+            const h4Adventure = document.createElement('h4');
+            h4Adventure.innerHTML = `<i class="fa-solid fa-tag" style="color: #e40754;"></i> adventure <br> price : ${hotel.price} ${hotel.currency}`;
+
+            const h4Stars = document.createElement('h4');
+            h4Stars.innerHTML = '<i class="fa-solid fa-star" style="color: #fbe709;"></i>'.repeat(hotel.rating);
+
+            const h3HotelName = document.createElement('h3');
+            h3HotelName.textContent = hotel.name;
+
+            const pLocation = document.createElement('p');
+            pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
+
+            // Append elements to the spNotesDiv
+            spNotesDiv.appendChild(moreInfoButton);
+            spNotesDiv.appendChild(h4Adventure);
+            spNotesDiv.appendChild(h4Stars);
+            spNotesDiv.appendChild(h3HotelName);
+            spNotesDiv.appendChild(pLocation);
+
+            const spImgDiv = document.createElement('div');
+            spImgDiv.classList.add('sp_img');
+
+            const imgHotel = document.createElement('img');
+            imgHotel.src = hotel.imageSrc;
+            imgHotel.alt = `${hotel.name} image`;
+
+            // Append elements to the hotelDiv
+            hotelDiv.appendChild(spNotesDiv);
+            hotelDiv.appendChild(spImgDiv);
+            spImgDiv.appendChild(imgHotel);
+
+            // Append the hotelDiv to the hotelsContainer
+            hotelsContainer.appendChild(hotelDiv);
+        });
+    }
+</script>
+
+
 
   
 
