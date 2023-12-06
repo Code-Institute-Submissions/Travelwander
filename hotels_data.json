@@ -100,7 +100,7 @@
       "imageSrc": "/assets/images/hotels/oceanfront-family-retreat.jpg"
     }
     ,{
-      "coordinates": "15.722887712513217, -95.89645137358789",
+      "coordinates": "15.722887712513217, -95.89645137357990",
       "type": "romantic",
       "price": "£950",
       "rating": 4.7,
@@ -119,7 +119,7 @@
       "imageSrc": "/assets/images/hotels/oceanview-romantic-retreat.jpg"
     }
     ,{
-      "coordinates": "15.722887712513217, -95.89645137358789",
+      "coordinates": "17.300535478884512, -101.0507614140407",
       "type": "adventure",
       "price": "£750",
       "rating": 4.6,
