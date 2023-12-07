@@ -13,6 +13,10 @@ body{
     margin:0 auto;
     justify-content: center;
     
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    
     display: grid;
     grid-template-columns: repeat(12,100px);
 
@@ -256,11 +260,15 @@ main .special{
     border-radius: 0em 1em 1em 0em;
     
 }
+
 #map{
-    width: 50vw;
-    height: 83.5vh;
+
+    width: 40vw !important ;
+    height: 66vh !important;
+
     border: 1px solid red;
     border-radius: 2em;
+
     
 }
 
