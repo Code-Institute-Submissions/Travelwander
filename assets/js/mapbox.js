@@ -52,7 +52,7 @@ function displayHotels(hotels) {
     moreInfoButton.textContent = 'More Info';
 
     const h4Adventure = document.createElement('h4');
-    h4Adventure.innerHTML = `<i class="fa-solid fa-tag" style="color: #e40754;"></i> adventure <br> price : ${hotel.price} ${hotel.currency}`;
+    h4Adventure.innerHTML = `<i class="fa-solid fa-tag" style="color: #e40754;"></i> adventure <br> price : ${hotel.price}`;
 
     const h4Stars = document.createElement('h4');
     h4Stars.innerHTML = '<i class="fa-solid fa-star" style="color: #fbe709;"></i>'.repeat(hotel.rating);
