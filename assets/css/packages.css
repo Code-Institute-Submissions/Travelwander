@@ -188,8 +188,8 @@ main .special-container{
     flex-direction: column;
     gap:0.6em;
 
-    height: 40em;
-    max-width: max-content;
+    height: 38.5em;
+    
     overflow-y: scroll;
     overflow-x: visible;
     min-width: 29.6em;
@@ -258,7 +258,7 @@ main .special{
 }
 #map{
     width: 50vw;
-    height: 98.5vh;
+    height: 83.5vh;
     border: 1px solid red;
     border-radius: 2em;
     
@@ -268,20 +268,37 @@ main .special{
 /* ------footer ------------------ ------ */
 
 footer{
+    margin-top: 4em;
     /* background-color: blanchedalmond; */
-    grid-column: 2/12;
-    grid-row:3/4;
+    grid-column: 1/14;
+    grid-row:end;
     display: flex;
-    color:white;
+    background-color: rgba(10, 2, 74, 0.376);
+    backdrop-filter: blur(60px);
     padding: 2%;
-    
-    
-    align-items: end;
-    justify-content: center;
+    height: 10em;
+text-align: center;
+overflow: hidden;
+
+
     
 }
-footer a{
-    color:aquamarine
+
+footer .tel i{
+    width:2em;
+    
+    font-size: xxx-large;
+    margin-bottom: 0.6em;
+    color:#f2f3ef
+}
+footer .tel a{
+    color:rgb(255, 255, 255)
+}
+
+.atol_img{
+    width:16%;
+    margin-bottom: -0.2em;
+    
 }
 .sidebar{
     display: none;
