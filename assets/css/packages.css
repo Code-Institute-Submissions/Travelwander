@@ -488,9 +488,11 @@ footer .tel a{
             
     }
     main .tel {
-        position: unset;
+        position:unset;
+        
     
         border-radius: 2em;
+        
         text-align: center;
         background-color: #10107cb7;
         backdrop-filter: blur(30px);
@@ -524,6 +526,12 @@ footer .tel a{
         border-radius: 1em;
         position: relative; /* Ensure relative positioning */
     
+    }
+    .sp_img img {
+        width: 11em;
+        height: 13em;
+        border-radius: 0em 1em 1em 0em;
+        align-self: center;
     }
 
 
