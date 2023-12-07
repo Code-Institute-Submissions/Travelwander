@@ -134,7 +134,23 @@ main{
     
 
 }
+main .tel{
+    font-family: 'Roboto Serif', serif;
 
+    position: fixed;
+    top:8em;
+    right:12em;
+    background-color: rgb(16, 27, 95);
+    padding: 0.3em;
+    
+}
+.tel a{
+    text-decoration: none;
+    color:#d9dad6;
+    font-size: 1.2em;
+
+    
+}
 
 
 
