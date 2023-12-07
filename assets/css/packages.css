@@ -183,13 +183,28 @@ main #map:nth-child(5){
  */
 
 main .special-container{
+    direction: rtl;
     display: flex;
     flex-direction: column;
     gap:0.6em;
-}
 
+    height: 40em;
+    max-width: max-content;
+    overflow-y: scroll;
+    overflow-x: visible;
+    min-width: 29.6em;
+
+}
+.special-container::-webkit-scrollbar {
+    width: 3px; /* Mostly for vertical scrollbars */
+    height: 10px; /* Mostly for horizontal scrollbars */
+  }
+  .special-container::-webkit-scrollbar-thumb { /* Foreground */
+    background: #e6e2e200;
+  }
 main .special{
     
+    direction: ltr;
     width: 29em;
     height: 13em;
     background-color: #fdfbfb8f;
@@ -201,7 +216,7 @@ main .special{
     border-radius: 1em;
     position: relative; /* Ensure relative positioning */
 
-    
+    scrollbar-color: #191010 #d02d2d;
 }
 
 .sp_notes{
