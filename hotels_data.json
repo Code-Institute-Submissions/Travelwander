@@ -250,31 +250,6 @@
     ]
   },
   {
-    "coordinates": "25.77427432253104, -80.19000849210656",
-    "type": "adventure",
-    "price": "$450",
-    "rating": 4.5,
-    "name": "South Beach Hotel",
-    "location": "South Beach, Miami, Florida",
-    "country": "USA",
-    "description": "Embark on an adventure at South Beach Hotel. Experience water sports, vibrant nightlife, and discover luxury in an oceanfront location. The hotel offers thrilling adventures, a vibrant nightlife scene, and luxurious accommodations in a prime oceanfront location.",
-    "details": [
-      "Oceanfront location",
-      "Water sports",
-      "Nightlife",
-      "Shopping",
-      "Dining",
-      "Excursions to nearby islands",
-      "Surfing lessons",
-      "Bike tours",
-      "Live music events"
-    ],
-    "imageSrc": [
-      "/assets/images/hotel_images/South_Beach_Hotel1.jpg",
-      "/assets/images/hotel_images/South_Beach_Hotel2.jpg"
-    ]
-  },
-  {
     "coordinates": "25.767728336882466, -80.1890794058156",
     "type": "relax",
     "price": "$550",
