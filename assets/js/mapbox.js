@@ -61,9 +61,10 @@ function displayHotels(hotels) {
     h3HotelName.textContent = hotel.name;
 
     const pLocation = document.createElement('p');
-    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
+/*     pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
+ */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
 
-    // Append elements to the spNotesDiv
+    /* Append elements to the spNotesDiv */
     spNotesDiv.appendChild(moreInfoButton);
     spNotesDiv.appendChild(h4Adventure);
     spNotesDiv.appendChild(h4Stars);
@@ -77,7 +78,7 @@ function displayHotels(hotels) {
     imgHotel.src = hotel.imageSrc[0];
     imgHotel.alt = `${hotel.name} image`;
 
-    // Append elements to the hotelDiv
+     /* elements to the hotelDiv */
     hotelDiv.appendChild(spNotesDiv);
     hotelDiv.appendChild(spImgDiv);
     spImgDiv.appendChild(imgHotel);
@@ -87,8 +88,8 @@ function displayHotels(hotels) {
   });
 }
 
-// Map initialization function
-// Map initialization function
+
+/* Map initialization function */
 function initializeMap(centerCoordinates) {
   mapboxgl.accessToken = 'pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t';
   const map = new mapboxgl.Map({
