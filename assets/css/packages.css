@@ -13,10 +13,6 @@ body{
     margin:0 auto;
     justify-content: center;
     
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    
     display: grid;
     grid-template-columns: repeat(12,100px);
 
@@ -39,7 +35,7 @@ body{
 
 header{
 /*     background-color: rgb(209, 210, 210);
- */    grid-column: 2/12;
+ */    grid-column: 2/14;
     grid-row:1/2 ;
 
 
@@ -118,7 +114,7 @@ header .hamburger{
 /* ------main  -------------------  ------ */
 main{
     /* background-color: blue; */
-    grid-column: 4/13;
+    grid-column: 3/14;
     grid-row: 2/3;
     height: 26em;
     display: flex;
@@ -261,14 +257,14 @@ main .special{
     
 }
 
-#map{
 
+#map{
+    margin-top:0.5em;
     width: 40vw !important ;
     height: 66vh !important;
-
     border: 1px solid red;
     border-radius: 2em;
-
+    
     
 }
 
@@ -563,7 +559,7 @@ footer .tel a{
 #map{
     margin-top:0.5em;
     width: 96vw !important ;
-    height: 78vh !important;
+    height: 66vh !important;
     
     
 }
