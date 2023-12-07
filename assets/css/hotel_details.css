@@ -124,6 +124,10 @@ main{
     
 
 }
+.bigger{
+    width: 42vw;
+    height: 44vh;
+}
 .photos{
     grid-column: 3/7;
     grid-row:1/6;
@@ -329,19 +333,30 @@ footer a{
     main{
         grid-column: 1/12;
         grid-row: 2/3;
-        justify-content: center;
+        
         height: 100%;
-
+        display: flex;
         flex-wrap: wrap;
-        gap: 0.5em;
+        
         align-items: top;
         justify-content: center;
-        padding-top: 2em; 
+        padding-top: 0em; 
         margin-top: 0 !important;
 
-            
+            position: relative;
     }
-   
+    .bigger{
+        width: unset;
+        height: 46vh;
+    }
+   .smaller{
+    position: fixed;
+    top:8em;
+    left:5em;
+    aspect-ratio: 3/2;
+    
+    width:10em;
+   }
 
 
     /*----footer style--- */

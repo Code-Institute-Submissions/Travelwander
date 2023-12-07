@@ -59,13 +59,14 @@
   </header>
   <main id="mainContents">
     <section class="photos">
-      <div class="small_img"></div>
-      <div class="big_img"></div>
+      <div class="small_img" id="small_img"></div>
+      <div class="big_img" id="big_img"></div>
     </section>
     <section class="hotel_notes">
       <h3 id="hotelName"></h3>
       <p class="reviews" id="hotelRating"></p>
       <p id="hotelLocation"></p>
+      <p id="hotelDescription"></p>
       <p id="hotelDetails"></p>
       <div class="icones" id="hotelIcons"></div>
       <div class="price" id="hotelPrice"></div>
@@ -118,13 +119,20 @@
             .then(data => {
                 /*  selected hotel data */
                 const selectedHotel = data[selectedHotelIndex];
+                //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
+                document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
+                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}">`;
+
+                
                 document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
                
                 document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
                 
                 document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
-                document.getElementById('hotelDetails').innerText = selectedHotel.description+selectedHotel.details.join('');
-                
+                document.getElementById('hotelDescription').innerText = selectedHotel.description;
+                //document.getElementById('hotelDetails').innerText = `${selectedHotel.details.join('')}`;
+
+                document.getElementById('hotelDetails').innerHTML = `${selectedHotel.details.join('<br>')}`;
               /* but for icons we use try to get hotel Icons id */
               const iconsContainer = document.getElementById('hotelIcons');
                 selectedHotel.details.forEach(detail => {
