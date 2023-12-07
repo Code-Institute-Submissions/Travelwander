@@ -118,7 +118,7 @@ header .hamburger{
 /* ------main  -------------------  ------ */
 main{
     /* background-color: blue; */
-    grid-column: 2/12;
+    grid-column: 4/13;
     grid-row: 2/3;
     height: 26em;
     display: flex;
