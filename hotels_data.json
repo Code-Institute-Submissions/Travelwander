@@ -17,7 +17,10 @@
       "Outdoor movie nights",
       "Adventure concierge service"
     ],
-    "imageSrc": "/assets/images/flags/hotel-punta-roca.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Punta_Roca1.jpg",
+      "/assets/images/hotel_images/Hotel_Punta_Roca2.jpg"
+    ]
   },
   {
     "coordinates": "9.36046580059851, -82.25025901958435",
@@ -37,7 +40,10 @@
       "Beachfront yoga and meditation classes",
       "Personalized concierge service"
     ],
-    "imageSrc": "/assets/images/flags/isla-colon-beach-resort.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Isla_Colon_Beach_Resort1.jpg",
+      "/assets/images/hotel_images/Isla_Colon_Beach_Resort2.jpg"
+    ]
   },
   {
     "coordinates": "9.360788873367892, -82.24892266504714",
@@ -58,7 +64,10 @@
       "Dedicated kids' menu",
       "Adventure concierge service"
     ],
-    "imageSrc": "/assets/images/flags/family-adventures-resort.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Family_Adventures_Resort1.jpg",
+      "/assets/images/hotel_images/Family_Adventures_Resort2.jpg"
+    ]
   },
   {
     "coordinates": "9.360986997837108, -82.24957948295597",
@@ -73,128 +82,148 @@
       "Flight + hotel",
       "Half Board",
       "On-site spa",
-    "Fitness center",
-    "Beachfront access",
-    "Family-friendly entertainment",
-    "Adventure concierge service"
+      "Fitness center",
+      "Beachfront access",
+      "Family-friendly entertainment",
+      "Adventure concierge service"
     ],
-    "imageSrc": "/assets/images/flags/deal2.png"
-  }
-  ,{
-      "coordinates": "15.776330167420443, -96.09934782302574",
-      "type": "family",
-      "price": "£800",
-      "rating": 4.5,
-      "name": "La Barda villa",
-      "location": "Papanoa, Guerrero, Mexico",
-      "country": "Mexico",
-      "description": "Experience the perfect family getaway at our Oceanfront Family Retreat. Enjoy spacious suites with stunning ocean views and a range of family-friendly activities.",
-      "details": [
-        "Private beach access",
-        "Family-friendly resort",
-        "Oceanfront suites",
-        "Kids' club activities",
-        "Swimming pools",
-        "Outdoor family adventures"
-      ],
-      "imageSrc": "/assets/images/hotels/oceanfront-family-retreat.jpg"
-    }
-    ,{
-      "coordinates": "15.764796955268448, -96.10558818341374",
-      "type": "romantic",
-      "price": "£950",
-      "rating": 4.7,
-      "name": "Oceanview Romantic Retreat",
-      "location": "Papanoa, Guerrero, Mexico",
-      "country": "Mexico",
-      "description": "Escape to romance at our Oceanview Romantic Retreat. Indulge in luxury on a private beach, savor fine dining with oceanfront views, and experience intimate moments with your loved one.",
-      "details": [
-        "Private beach",
-        "Couples' spa treatments",
-        "Oceanfront suites",
-        "Romantic dining experiences",
-        "Sunset cruises",
-        "Champagne welcome"
-      ],
-      "imageSrc": "/assets/images/hotels/oceanview-romantic-retreat.jpg"
-    }
-    ,{
-      "coordinates": "15.87241268289079, -95.88420445989469",
-      "type": "adventure",
-      "price": "£750",
-      "rating": 4.6,
-      "name": "Jungle Adventure Lodge",
-      "location": "Papanoa, Guerrero, Mexico",
-      "country": "Mexico",
-      "description": "Embark on an adventure at our Jungle Adventure Lodge. Surrounded by nature, explore thrilling outdoor activities and experience the beauty of the jungle.",
-      "details": [
-        "Nature excursions",
-        "Zip-lining adventures",
-        "Hiking trails",
-        "Guided jungle tours",
-        "Wildlife encounters",
-        "Adventure-packed stay"
-      ],
-      "imageSrc": "/assets/images/hotels/jungle-adventure-lodge.jpg"
-    }
-    ,
-    {
-      "coordinates": "25.77427432253104, -80.19000849210656",
-      "type": "adventure",
-      "price": "$450",
-      "rating": 4.5,
-      "name": "South Beach Hotel",
-      "location": "South Beach, Miami, Florida",
-      "country": "USA",
-      "description": "Embark on an adventure at South Beach Hotel. Experience water sports, vibrant nightlife, and discover luxury in an oceanfront location.",
-      "details": [
-        "Oceanfront location",
-        "Water sports",
-        "Nightlife",
-        "Shopping",
-        "Excursions to nearby islands",
-        "Live music events"
-      ],
-      "imageSrc": "/assets/images/hotels/south-beach-hotel.jpg"
-    },
-    {
-      "coordinates": "25.767728336882466, -80.1890794058156",
-      "type": "relax",
-      "price": "$550",
-      "rating": 4.2,
-      "name": "Miami Beach Resort",
-      "location": "Miami Beach, Florida",
-      "country": "USA",
-      "description": "Unwind in luxury at Miami Beach Resort. Indulge in spa treatments, join yoga classes, and relax in beachfront cabanas.",
-      "details": [
-        "Spa",
-        "Yoga classes",
-        "Swimming pools",
-        "Beachfront cabanas",
-        "Gourmet dining",
-        "Sunset yoga on the beach"
-      ],
-      "imageSrc": "/assets/images/hotels/miami-beach-resort.jpg"
-    },
-    {
-      "coordinates": "25.76333452239523, -80.19302753644129",
-      "type": "family",
-      "price": "$650",
-      "rating": 4.8,
-      "name": "Coconut Grove Family Hotel",
-      "location": "Coconut Grove, Miami, Florida",
-      "country": "USA",
-      "description": "Create family memories at Coconut Grove Family Hotel. Enjoy a kids' club, water park, playground, and family-friendly activities.",
-      "details": [
-        "Kids' club",
-        "Water park",
-        "Playground",
-        "Family-friendly activities",
-        "On-site dining",
-        "Adventure trails for children"
-      ],
-      "imageSrc": "/assets/images/hotels/coconut-grove-family-hotel.jpg"
-    },
+    "imageSrc": [
+      "/assets/images/hotel_images/Villa_Paraiso1.jpg",
+      "/assets/images/hotel_images/Villa_Paraiso2.jpg"
+    ]
+  },
+  {
+    "coordinates": "15.776330167420443, -96.09934782302574",
+    "type": "family",
+    "price": "£800",
+    "rating": 4.5,
+    "name": "La Barda villa",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "description": "Experience the perfect family getaway at our Oceanfront Family Retreat. Enjoy spacious suites with stunning ocean views and a range of family-friendly activities.",
+    "details": [
+      "Private beach access",
+      "Family-friendly resort",
+      "Oceanfront suites",
+      "Kids' club activities",
+      "Swimming pools",
+      "Outdoor family adventures"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/La_Barda_villa1.jpg",
+      "/assets/images/hotel_images/La_Barda_villa2.jpg"
+    ]
+  },
+  {
+    "coordinates": "15.764796955268448, -96.10558818341374",
+    "type": "romantic",
+    "price": "£950",
+    "rating": 4.7,
+    "name": "Oceanview Romantic Retreat",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "description": "Escape to romance at our Oceanview Romantic Retreat. Indulge in luxury on a private beach, savor fine dining with oceanfront views, and experience intimate moments with your loved one.",
+    "details": [
+      "Private beach",
+      "Couples' spa treatments",
+      "Oceanfront suites",
+      "Romantic dining experiences",
+      "Sunset cruises",
+      "Champagne welcome"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Oceanview_Romantic_Retreat1.jpg",
+      "/assets/images/hotel_images/Oceanview_Romantic_Retreat2.jpg"
+    ]
+  },
+  {
+    "coordinates": "15.87241268289079, -95.88420445989469",
+    "type": "adventure",
+    "price": "£750",
+    "rating": 4.6,
+    "name": "Jungle Adventure Lodge",
+    "location": "Papanoa, Guerrero, Mexico",
+    "country": "Mexico",
+    "description": "Embark on an adventure at our Jungle Adventure Lodge. Surrounded by nature, explore thrilling outdoor activities and experience the beauty of the jungle.",
+    "details": [
+      "Nature excursions",
+      "Zip-lining adventures",
+      "Hiking trails",
+      "Guided jungle tours",
+      "Wildlife encounters",
+      "Adventure-packed stay"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Jungle_Adventure_Lodge1.jpg",
+      "/assets/images/hotel_images/Jungle_Adventure_Lodge2.jpg"
+    ]
+  },
+  {
+    "coordinates": "25.77427432253104, -80.19000849210656",
+    "type": "adventure",
+    "price": "$450",
+    "rating": 4.5,
+    "name": "South Beach Hotel",
+    "location": "South Beach, Miami, Florida",
+    "country": "USA",
+    "description": "Embark on an adventure at South Beach Hotel. Experience water sports, vibrant nightlife, and discover luxury in an oceanfront location.",
+    "details": [
+      "Oceanfront location",
+      "Water sports",
+      "Nightlife",
+      "Shopping",
+      "Excursions to nearby islands",
+      "Live music events"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/South_Beach_Hotel1.jpg",
+      "/assets/images/hotel_images/South_Beach_Hotel2.jpg"
+    ]
+  },
+  {
+    "coordinates": "25.767728336882466, -80.1890794058156",
+    "type": "relax",
+    "price": "$550",
+    "rating": 4.2,
+    "name": "Miami Beach Resort",
+    "location": "Miami Beach, Florida",
+    "country": "USA",
+    "description": "Unwind in luxury at Miami Beach Resort. Indulge in spa treatments, join yoga classes, and relax in beachfront cabanas.",
+    "details": [
+      "Spa",
+      "Yoga classes",
+      "Swimming pools",
+      "Beachfront cabanas",
+      "Gourmet dining",
+      "Sunset yoga on the beach"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Miami_Beach_Resort1.jpg",
+      "/assets/images/hotel_images/Miami_Beach_Resort2.jpg"
+    ]
+  },
+  {
+    "coordinates": "25.76333452239523, -80.19302753644129",
+    "type": "family",
+    "price": "$650",
+    "rating": 4.8,
+    "name": "Coconut Grove Family Hotel",
+    "location": "Coconut Grove, Miami, Florida",
+    "country": "USA",
+    "description": "Create family memories at Coconut Grove Family Hotel. Enjoy a kids' club, water park, playground, and family-friendly activities.",
+    "details": [
+      "Kids' club",
+      "Water park",
+      "Playground",
+      "Family-friendly activities",
+      "On-site dining",
+      "Adventure trails for children"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
+      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
+    ]
+  },
   {
     "coordinates": "15.722887712513217, -95.89645137358789",
     "type": "romantic",
@@ -203,8 +232,7 @@
     "name": "Hotel El Navegante",
     "location": "Papanoa, Guerrero, Mexico",
     "country": "Mexico",
-    "description": 
-      "Embark on an adventure at South Beach Hotel. Experience water sports, vibrant nightlife, and discover luxury in an oceanfront location. The hotel offers thrilling adventures, a vibrant nightlife scene, and luxurious accommodations in a prime oceanfront location.",
+    "description": "Embark on an adventure at South Beach Hotel. Experience water sports, vibrant nightlife, and discover luxury in an oceanfront location. The hotel offers thrilling adventures, a vibrant nightlife scene, and luxurious accommodations in a prime oceanfront location.",
     "details": [
       "Private beach",
       "Adults-only resort",
@@ -216,7 +244,10 @@
       "Stargazing nights",
       "Intimate candlelit dinners"
     ],
-    "imageSrc": "/assets/images/hotels/el-navegante.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_El_Navegante1.jpg",
+      "/assets/images/hotel_images/Hotel_El_Navegante2.jpg"
+    ]
   },
   {
     "coordinates": "25.77427432253104, -80.19000849210656",
@@ -238,7 +269,10 @@
       "Bike tours",
       "Live music events"
     ],
-    "imageSrc": "/assets/images/hotels/south-beach-hotel.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/South_Beach_Hotel1.jpg",
+      "/assets/images/hotel_images/South_Beach_Hotel2.jpg"
+    ]
   },
   {
     "coordinates": "25.767728336882466, -80.1890794058156",
@@ -248,8 +282,7 @@
     "name": "Miami Beach Resort",
     "location": "Miami Beach, Florida",
     "country": "USA",
-    "description":  "Unwind in luxury at Miami Beach Resort. Indulge in spa treatments, join yoga classes, and relax in beachfront cabanas."
-    ,
+    "description": "Unwind in luxury at Miami Beach Resort. Indulge in spa treatments, join yoga classes, and relax in beachfront cabanas.",
     "details": [
       "Spa",
       "Yoga classes",
@@ -261,7 +294,10 @@
       "Gourmet dining",
       "Sunset yoga on the beach"
     ],
-    "imageSrc": "/assets/images/hotels/miami-beach-resort.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Miami_Beach_Resort1.jpg",
+      "/assets/images/hotel_images/Miami_Beach_Resort2.jpg"
+    ]
   },
   {
     "coordinates": "25.76333452239523, -80.19302753644129",
@@ -271,8 +307,7 @@
     "name": "Coconut Grove Family Hotel",
     "location": "Coconut Grove, Miami, Florida",
     "country": "USA",
-    "description":"Create family memories at Coconut Grove Family Hotel and Enjoy a kids' club, water park, playground,and family-friendly activities."
-    ,
+    "description": "Create family memories at Coconut Grove Family Hotel and Enjoy a kids' club, water park, playground,and family-friendly activities.",
     "details": [
       "Kids' club",
       "Water park",
@@ -284,7 +319,10 @@
       "Babysitting services",
       "Adventure trails for children"
     ],
-    "imageSrc": "/assets/images/hotels/coconut-grove-family-hotel.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
+      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
+    ]
   },
   {
     "coordinates": "25.75950929802217, -80.19506328479713",
@@ -302,9 +340,11 @@
       "Oceanfront suites",
       "Couples' spa treatments"
     ],
-    "imageSrc": "/assets/images/hotels/the-setai-miami-beach.jpg"
-  }
-  ,
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Setai_Miami_Beach1.jpg",
+      "/assets/images/hotel_images/The_Setai_Miami_Beach2.jpg"
+    ]
+  },
   {
     "coordinates": "18.174416077269818, -76.39857550586866",
     "type": "adventure",
@@ -313,18 +353,21 @@
     "name": "Royalton Negril",
     "location": "Negril, Jamaica",
     "country": "Jamaica",
-    "description":"Experience the ultimate family adventure at Royalton Negril, an all-inclusive resort featuring a kids' club, outdoor movie nights, water sports, vibrant nightlife, and fantastic shopping and dining options for an unforgettable vacation.",
+    "description": "Experience the ultimate family adventure at Royalton Negril, an all-inclusive resort featuring a kids' club, outdoor movie nights, water sports, vibrant nightlife, and fantastic shopping and dining options for an unforgettable vacation.",
     "details": [
       "This family-friendly hotel is ideal for a fun-filled vacation.",
-  "Kids' club with a variety of activities.",
-  "Outdoor movie nights.",
+      "Kids' club with a variety of activities.",
+      "Outdoor movie nights.",
       "All-inclusive resort",
       "Water sports",
       "Nightlife",
       "Shopping",
       "Dining"
     ],
-    "imageSrc": "/assets/images/hotels/royalton-negril.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Royalton_Negril1.jpg",
+      "/assets/images/hotel_images/Royalton_Negril2.jpg"
+    ]
   },
   {
     "coordinates": "18.16208817858469, -76.38519674393263",
@@ -334,21 +377,24 @@
     "name": "Sandals Negril",
     "location": "Negril, Jamaica",
     "country": "Jamaica",
-    "description":"Indulge in relaxation and style at Sandals Negril, a sleek and modern hotel perfect for business or leisure. Enjoy state-of-the-art amenities like a business center, on-site restaurant, rooftop terrace with panoramic views, 24-hour gym, adults-only atmosphere, spa, yoga classes, and beachfront cabanas.",
+    "description": "Indulge in relaxation and style at Sandals Negril, a sleek and modern hotel perfect for business or leisure. Enjoy state-of-the-art amenities like a business center, on-site restaurant, rooftop terrace with panoramic views, 24-hour gym, adults-only atmosphere, spa, yoga classes, and beachfront cabanas.",
     "details": [
       "This stylish hotel is perfect for a business or leisure trip.",
-  "Modern rooms with sleek design.",
-  "State-of-the-art business center.",
-  "On-site restaurant with a variety of cuisines.",
-  "Rooftop terrace with panoramic city views.",
-  "24-hour gym.",
+      "Modern rooms with sleek design.",
+      "State-of-the-art business center.",
+      "On-site restaurant with a variety of cuisines.",
+      "Rooftop terrace with panoramic city views.",
+      "24-hour gym.",
       "Adults-only resort",
       "Spa",
       "Yoga classes",
       "Swimming pools",
       "Beachfront cabanas"
     ],
-    "imageSrc": "/assets/images/hotels/sandals-negril.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Sandals_Negril1.jpg",
+      "/assets/images/hotel_images/Sandals_Negril2.jpg"
+    ]
   },
   {
     "coordinates": "18.160333462097896, -76.40072966846687",
@@ -358,21 +404,24 @@
     "name": "Moon Palace Jamaica",
     "location": "Ocho Rios, Jamaica",
     "country": "Jamaica",
-    "description":"Discover tranquility at Moon Palace Jamaica, nestled in a serene setting. Relax in spacious rooms with garden-view balconies, savor a delicious breakfast buffet, and unwind by the large outdoor pool. The hotel offers a spa, children's playground, kids' club, water park, and family-friendly activities for a perfect getaway.",
+    "description": "Discover tranquility at Moon Palace Jamaica, nestled in a serene setting. Relax in spacious rooms with garden-view balconies, savor a delicious breakfast buffet, and unwind by the large outdoor pool. The hotel offers a spa, children's playground, kids' club, water park, and family-friendly activities for a perfect getaway.",
     "details": [
       "Nestled in a tranquil setting, this hotel is perfect for a relaxing getaway.",
-  "Spacious rooms with balconies overlooking the garden.",
-  "Delicious breakfast buffet.",
-  "Large outdoor pool.",
-  "Spa with a variety of treatments.",
-  "Children's playground.",
+      "Spacious rooms with balconies overlooking the garden.",
+      "Delicious breakfast buffet.",
+      "Large outdoor pool.",
+      "Spa with a variety of treatments.",
+      "Children's playground.",
       "Kids' club",
       "Water park",
       "Playground",
       "Family-friendly activities",
       "On-site dining"
     ],
-    "imageSrc": "/assets/images/hotels/moon-palace-jamaica.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Moon_Palace_Jamaica1.jpg",
+      "/assets/images/hotel_images/Moon_Palace_Jamaica2.jpg"
+    ]
   },
   {
     "coordinates": "18.15599728009909, -76.38817299195474",
@@ -382,7 +431,7 @@
     "name": "Couples Swept Away",
     "location": "Ocho Rios, Jamaica",
     "country": "Jamaica",
-    "description":"Ignite romance at Couples Swept Away, an adults-only resort with a private beach, oceanfront suites, fine dining experiences, and couples' spa treatments. Enjoy an intimate escape in this tropical paradise designed for love and relaxation.",
+    "description": "Ignite romance at Couples Swept Away, an adults-only resort with a private beach, oceanfront suites, fine dining experiences, and couples' spa treatments. Enjoy an intimate escape in this tropical paradise designed for love and relaxation.",
     "details": [
       "Private beach",
       "Adults-only resort",
@@ -390,9 +439,11 @@
       "Oceanfront suites",
       "Couples' spa treatments"
     ],
-    "imageSrc": "/assets/images/hotels/couples-swept-away.jpg"
-  }
-,
+    "imageSrc": [
+      "/assets/images/hotel_images/Couples_Swept_Away1.jpg",
+      "/assets/images/hotel_images/Couples_Swept_Away2.jpg"
+    ]
+  },
   {
     "coordinates": "35.66170043252027, 139.70048336861303",
     "type": "adventure",
@@ -401,21 +452,24 @@
     "name": "Hotel Chinzanso",
     "location": "Tokyo, Japan",
     "country": "Japan",
-    "description":"Immerse yourself in the heart of Tokyo at Hotel Chinzanso, where comfort meets convenience. Experience the city's major attractions with comfortable rooms, a warm and helpful staff, a refreshing swimming pool, fitness center, and the charm of a traditional Japanese ryokan, complete with a zen garden, tea ceremony, kimono rental, and delectable Japanese cuisine",
+    "description": "Immerse yourself in the heart of Tokyo at Hotel Chinzanso, where comfort meets convenience. Experience the city's major attractions with comfortable rooms, a warm and helpful staff, a refreshing swimming pool, fitness center, and the charm of a traditional Japanese ryokan, complete with a zen garden, tea ceremony, kimono rental, and delectable Japanese cuisine",
     "details": [
       "Located in the heart of the city, this hotel is close to all the major attractions.",
-  "Comfortable rooms with modern amenities.",
-  "Friendly and helpful staff.",
-  "Swimming pool.",
-  "Fitness center.",
-  "Restaurant.",
+      "Comfortable rooms with modern amenities.",
+      "Friendly and helpful staff.",
+      "Swimming pool.",
+      "Fitness center.",
+      "Restaurant.",
       "Traditional Japanese ryokan",
       "Zen garden",
       "Tea ceremony",
       "Kimono rental",
       "Japanese cuisine"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-chinzanso.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Chinzanso1.jpg",
+      "/assets/images/hotel_images/Hotel_Chinzanso2.jpg"
+    ]
   },
   {
     "coordinates": "35.655833331125364, 139.6887132279747",
@@ -425,7 +479,7 @@
     "name": "Hotel Okura Tokyo",
     "location": "Tokyo, Japan",
     "country": "Japan",
-    "description":"Immerse yourself in tranquility at Hotel Okura Tokyo, a modern oasis with traditional touches. Indulge in the spa, dine at a Michelin-starred restaurant, and savor panoramic views of the city alongside serene Japanese gardens.",
+    "description": "Immerse yourself in tranquility at Hotel Okura Tokyo, a modern oasis with traditional touches. Indulge in the spa, dine at a Michelin-starred restaurant, and savor panoramic views of the city alongside serene Japanese gardens.",
     "details": [
       "Modern hotel with traditional touches",
       "Spa",
@@ -433,7 +487,10 @@
       "Panoramic views of the city",
       "Japanese gardens"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-okura-tokyo.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Okura_Tokyo1.jpg",
+      "/assets/images/hotel_images/Hotel_Okura_Tokyo2.jpg"
+    ]
   },
   {
     "coordinates": "35.65293872239935, 139.69698990943805",
@@ -443,7 +500,7 @@
     "name": "Tokyo DisneySea Resort Hotel MiraCosta",
     "location": "Tokyo, Japan",
     "country": "Japan",
-    "description":"Experience the magic at Tokyo DisneySea Resort Hotel MiraCosta, a Disney-themed haven. Enjoy family-friendly amenities, a kids' club, character dining, and convenient access to Tokyo DisneySea for an enchanting stay.",
+    "description": "Experience the magic at Tokyo DisneySea Resort Hotel MiraCosta, a Disney-themed haven. Enjoy family-friendly amenities, a kids' club, character dining, and convenient access to Tokyo DisneySea for an enchanting stay.",
     "details": [
       "Disney-themed hotel",
       "Kids' club",
@@ -451,7 +508,10 @@
       "Easy access to Tokyo DisneySea",
       "Family-friendly amenities"
     ],
-    "imageSrc": "/assets/images/hotels/tokyo-disneysea-resort-hotel-miracosta.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta1.jpg",
+      "/assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta2.jpg"
+    ]
   },
   {
     "coordinates": "35.64987020106559, 139.7069214132866",
@@ -461,7 +521,7 @@
     "name": "The Capitol Hotel Tokyu",
     "location": "Tokyo, Japan",
     "country": "Japan",
-    "description":"Elevate your romance at The Capitol Hotel Tokyu, a luxury retreat with French flair. Delight in Michelin-starred restaurants, a romantic rooftop bar, an elegant spa, and breathtaking panoramic views of the city.",
+    "description": "Elevate your romance at The Capitol Hotel Tokyu, a luxury retreat with French flair. Delight in Michelin-starred restaurants, a romantic rooftop bar, an elegant spa, and breathtaking panoramic views of the city.",
     "details": [
       "Luxury hotel with French flair",
       "Michelin-starred restaurants",
@@ -469,7 +529,10 @@
       "Elegant spa",
       "Panoramic views of the city"
     ],
-    "imageSrc": "/assets/images/hotels/the-capitol-hotel-tokyu.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Capitol_Hotel_Tokyu1.jpg",
+      "/assets/images/hotel_images/The_Capitol_Hotel_Tokyu2.jpg"
+    ]
   },
   {
     "coordinates": "13.73690009204964, 100.53152588765548",
@@ -479,7 +542,7 @@
     "name": "Khao Lak Explorer",
     "location": "Khao Lak, Thailand",
     "country": "Thailand",
-    "description":"Embark on an adventurous journey at Khao Lak Explorer, located on the beachfront. Dive into jungle excursions, island hopping, water sports, and savor the flavors of Thai cuisine for an exhilarating experience.",
+    "description": "Embark on an adventurous journey at Khao Lak Explorer, located on the beachfront. Dive into jungle excursions, island hopping, water sports, and savor the flavors of Thai cuisine for an exhilarating experience.",
     "details": [
       "Beachfront location",
       "Jungle excursions",
@@ -487,7 +550,10 @@
       "Water sports",
       "Thai cuisine"
     ],
-    "imageSrc": "/assets/images/hotels/khao-lak-explorer.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Khao_Lak_Explorer1.jpg",
+      "/assets/images/hotel_images/Khao_Lak_Explorer2.jpg"
+    ]
   },
   {
     "coordinates": "13.73471655193812, 100.5355928914927",
@@ -497,7 +563,7 @@
     "name": "The Sarojin",
     "location": "Khao Lak, Thailand",
     "country": "Thailand",
-    "description":"Discover serenity at The Sarojin, a luxury resort blending traditional Thai touches. Enjoy the spa, a private beach, fine dining experiences, and panoramic views of the Andaman Sea for a truly rejuvenating escape.",
+    "description": "Discover serenity at The Sarojin, a luxury resort blending traditional Thai touches. Enjoy the spa, a private beach, fine dining experiences, and panoramic views of the Andaman Sea for a truly rejuvenating escape.",
     "details": [
       "Luxury resort with traditional Thai touches",
       "Spa",
@@ -505,7 +571,10 @@
       "Fine dining",
       "Panoramic views of the Andaman Sea"
     ],
-    "imageSrc": "/assets/images/hotels/the-sarojin.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Sarojin1.jpg",
+      "/assets/images/hotel_images/The_Sarojin2.jpg"
+    ]
   },
   {
     "coordinates": "13.73253301172656, 100.5396699053955",
@@ -515,7 +584,7 @@
     "name": "Bang Niang Beach Resort",
     "location": "Khao Lak, Thailand",
     "country": "Thailand",
-    "description":"Create lasting family memories at Bang Niang Beach Resort, a family-friendly haven with a kids' club, water park, children's activities, multiple swimming pools, and a beachfront location offering endless fun for everyone.",
+    "description": "Create lasting family memories at Bang Niang Beach Resort, a family-friendly haven with a kids' club, water park, children's activities, multiple swimming pools, and a beachfront location offering endless fun for everyone.",
     "details": [
       "Family-friendly resort with kids' club",
       "Water park",
@@ -523,7 +592,10 @@
       "Multiple swimming pools",
       "Beachfront location"
     ],
-    "imageSrc": "/assets/images/hotels/bang-niang-beach-resort.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Bang_Niang_Beach_Resort1.jpg",
+      "/assets/images/hotel_images/Bang_Niang_Beach_Resort2.jpg"
+    ]
   },
   {
     "coordinates": "13.73034947151498, 100.54374701923632",
@@ -533,7 +605,7 @@
     "name": "The Pavilions Phuket",
     "location": "Khao Lak, Thailand",
     "country": "Thailand",
-    "description":"Embark on a romantic getaway at The Pavilions Phuket, a luxury resort offering private villas, an adults-only pool, a rejuvenating spa, fine dining experiences, and the charm of a secluded beach.",
+    "description": "Embark on a romantic getaway at The Pavilions Phuket, a luxury resort offering private villas, an adults-only pool, a rejuvenating spa, fine dining experiences, and the charm of a secluded beach.",
     "details": [
       "Luxury resort with private villas",
       "Adults-only pool",
@@ -541,7 +613,10 @@
       "Fine dining",
       "Secluded beach"
     ],
-    "imageSrc": "/assets/images/hotels/the-pavilions-phuket.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Pavilions_Phuket1.jpg",
+      "/assets/images/hotel_images/The_Pavilions_Phuket2.jpg"
+    ]
   },
   {
     "coordinates": "37.5150135002148, 127.04202702012823",
@@ -551,7 +626,7 @@
     "name": "Lotte World Hotel",
     "location": "Seoul, South Korea",
     "country": "South Korea",
-    "description":"Indulge in adventure at Lotte World Hotel, nestled in the heart of Lotte World amusement park. Enjoy direct access to the park's attractions, engage in indoor adventure sports, and experience family-friendly amenities along with a variety of dining options.",
+    "description": "Indulge in adventure at Lotte World Hotel, nestled in the heart of Lotte World amusement park. Enjoy direct access to the park's attractions, engage in indoor adventure sports, and experience family-friendly amenities along with a variety of dining options.",
     "details": [
       "Located in the Lotte World amusement park",
       "Direct access to the park's attractions",
@@ -559,7 +634,10 @@
       "Family-friendly amenities",
       "Multiple dining options"
     ],
-    "imageSrc": "/assets/images/hotels/lotte-world-hotel.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Lotte_World_Hotel1.jpg",
+      "/assets/images/hotel_images/Lotte_World_Hotel2.jpg"
+    ]
   },
   {
     "coordinates": "37.510986997837108, 127.03957948295597",
@@ -569,7 +647,7 @@
     "name": "JW Marriott Seoul",
     "location": "Seoul, South Korea",
     "country": "South Korea",
-    "description":"Relax in style at JW Marriott Seoul, a luxury hotel featuring a spa and wellness center, a Michelin-starred restaurant, panoramic city views, elegant accommodations, and attentive service for a tranquil and sophisticated escape",
+    "description": "Relax in style at JW Marriott Seoul, a luxury hotel featuring a spa and wellness center, a Michelin-starred restaurant, panoramic city views, elegant accommodations, and attentive service for a tranquil and sophisticated escape",
     "details": [
       "Luxury hotel with a spa and wellness center",
       "Michelin-starred restaurant",
@@ -577,7 +655,10 @@
       "Elegant accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/jw-marriott-seoul.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/JW_Marriott_Seoul1.jpg",
+      "/assets/images/hotel_images/JW_Marriott_Seoul2.jpg"
+    ]
   },
   {
     "coordinates": "37.50786749542978, 127.03712280273437",
@@ -587,7 +668,7 @@
     "name": "Grand Hyatt Seoul",
     "location": "Seoul, South Korea",
     "country": "South Korea",
-    "description":"Enjoy a family-friendly retreat at Grand Hyatt Seoul. Kids will love the dedicated club, and you can relax by the large pool. With diverse dining options and a convenient location near shopping and attractions, it's the perfect family getaway.",
+    "description": "Enjoy a family-friendly retreat at Grand Hyatt Seoul. Kids will love the dedicated club, and you can relax by the large pool. With diverse dining options and a convenient location near shopping and attractions, it's the perfect family getaway.",
     "details": [
       "Family-friendly hotel with kids' club",
       "Large swimming pool",
@@ -595,7 +676,10 @@
       "Convenient location near shopping and attractions",
       "Kid-friendly amenities"
     ],
-    "imageSrc": "/assets/images/hotels/grand-hyatt-seoul.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Grand_Hyatt_Seoul1.jpg",
+      "/assets/images/hotel_images/Grand_Hyatt_Seoul2.jpg"
+    ]
   },
   {
     "coordinates": "37.50474799302455, 127.03466612311279",
@@ -605,7 +689,7 @@
     "name": "The Shilla Seoul",
     "location": "Seoul, South Korea",
     "country": "South Korea",
-    "description":"Experience luxury at The Shilla Seoul with its traditional Korean décor. Indulge in Michelin-starred dining, pamper yourself at the spa with traditional Korean treatments, and enjoy panoramic city views from your elegant accommodations.",
+    "description": "Experience luxury at The Shilla Seoul with its traditional Korean décor. Indulge in Michelin-starred dining, pamper yourself at the spa with traditional Korean treatments, and enjoy panoramic city views from your elegant accommodations.",
     "details": [
       "Luxury hotel with traditional Korean décor",
       "Michelin-starred restaurant",
@@ -613,7 +697,10 @@
       "Panoramic views of the city",
       "Elegant accommodations"
     ],
-    "imageSrc": "/assets/images/hotels/the-shilla-seoul.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Shilla_Seoul1.jpg",
+      "/assets/images/hotel_images/The_Shilla_Seoul2.jpg"
+    ]
   },
   {
     "coordinates": "-8.711793908935416, 115.22888708051325",
@@ -623,7 +710,7 @@
     "name": "Alila Ubud",
     "location": "Ubud, Bali, Indonesia",
     "country": "Indonesia",
-    "description":"Immerse yourself in luxury at Alila Ubud, nestled in the rice fields of Ubud, Bali. Engage in yoga and meditation classes, cooking classes, Balinese cultural experiences, and relish in fine dining at this adventurous escape.",
+    "description": "Immerse yourself in luxury at Alila Ubud, nestled in the rice fields of Ubud, Bali. Engage in yoga and meditation classes, cooking classes, Balinese cultural experiences, and relish in fine dining at this adventurous escape.",
     "details": [
       "Luxury resort nestled in the rice fields of Ubud",
       "Yoga and meditation classes",
@@ -631,7 +718,10 @@
       "Balinese cultural immersion experiences",
       "Fine dining"
     ],
-    "imageSrc": "/assets/images/hotels/alila-ubud.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Alila_Ubud1.jpg",
+      "/assets/images/hotel_images/Alila_Ubud2.jpg"
+    ]
   },
   {
     "coordinates": "-8.714134326001149, 115.23212976100402",
@@ -641,7 +731,7 @@
     "name": "Four Seasons Resort Bali at Sayan",
     "location": "Ubud, Bali, Indonesia",
     "country": "Indonesia",
-    "description":"Unwind in luxury at Four Seasons Resort Bali at Sayan, overlooking the Ayung River. Indulge in a spa with traditional Balinese treatments, relax by multiple swimming pools, savor fine dining, and embrace panoramic views of the rainforest.",
+    "description": "Unwind in luxury at Four Seasons Resort Bali at Sayan, overlooking the Ayung River. Indulge in a spa with traditional Balinese treatments, relax by multiple swimming pools, savor fine dining, and embrace panoramic views of the rainforest.",
     "details": [
       "Luxury resort overlooking the Ayung River",
       "Spa with traditional Balinese treatments",
@@ -649,7 +739,10 @@
       "Fine dining",
       "Panoramic views of the rainforest"
     ],
-    "imageSrc": "/assets/images/hotels/four-seasons-resort-bali-at-sayan.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan1.jpg",
+      "/assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan2.jpg"
+    ]
   },
   {
     "coordinates": "-8.716474743666014, 115.23537292480469",
@@ -659,7 +752,7 @@
     "name": "Ayana Resort and Spa",
     "location": "Ubud, Bali, Indonesia",
     "country": "Indonesia",
-    "description":"Unwind in the family-friendly Ayana Resort and Spa in Ubud, Bali. Let your kids explore the kids' club, splash in multiple pools, enjoy beachfront activities, and experience the joy of a water park.",
+    "description": "Unwind in the family-friendly Ayana Resort and Spa in Ubud, Bali. Let your kids explore the kids' club, splash in multiple pools, enjoy beachfront activities, and experience the joy of a water park.",
     "details": [
       "Family-friendly resort with kids' club",
       "Water park",
@@ -667,7 +760,10 @@
       "Multiple swimming pools",
       "Beachfront location"
     ],
-    "imageSrc": "/assets/images/hotels/ayana-resort-and-spa.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Ayana_Resort_and_Spa1.jpg",
+      "/assets/images/hotel_images/Ayana_Resort_and_Spa2.jpg"
+    ]
   },
   {
     "coordinates": "-8.718815161330814, 115.2386162941895",
@@ -677,7 +773,7 @@
     "name": "The Ritz-Carlton, Bali",
     "location": "Ubud, Bali, Indonesia",
     "country": "Indonesia",
-    "description":"Immerse yourself in luxury at The Ritz-Carlton, Bali, nestled in Ubud, Bali. Indulge in private villas, relax by the adults-only pool, rejuvenate at the spa, savor fine dining, and embrace the tranquility of a secluded beach.",
+    "description": "Immerse yourself in luxury at The Ritz-Carlton, Bali, nestled in Ubud, Bali. Indulge in private villas, relax by the adults-only pool, rejuvenate at the spa, savor fine dining, and embrace the tranquility of a secluded beach.",
     "details": [
       "Luxury resort with private villas",
       "Adults-only pool",
@@ -685,9 +781,11 @@
       "Fine dining",
       "Secluded beach"
     ],
-    "imageSrc": "/assets/images/hotels/the-ritz-carlton-bali.jpg"
-  }
-,
+    "imageSrc": [
+      "/assets/images/hotel_images/The_Ritz-Carlton,_Bali1.jpg",
+      "/assets/images/hotel_images/The_Ritz-Carlton,_Bali2.jpg"
+    ]
+  },
   {
     "coordinates": "37.40937054023613, 23.293043468974017",
     "type": "adventure",
@@ -696,7 +794,7 @@
     "name": "Hotel Grande Bretagne",
     "location": "Athens, Greece",
     "country": "Greece",
-    "description":"Experience adventure at Hotel Grande Bretagne in Athens, Greece. Take a dip in the rooftop pool with Acropolis views, indulge in the spa's hammam and sauna, relish fine dining, and enjoy elegant accommodations with attentive service.",
+    "description": "Experience adventure at Hotel Grande Bretagne in Athens, Greece. Take a dip in the rooftop pool with Acropolis views, indulge in the spa's hammam and sauna, relish fine dining, and enjoy elegant accommodations with attentive service.",
     "details": [
       "Rooftop pool with Acropolis views",
       "Spa with hammam and sauna",
@@ -704,7 +802,10 @@
       "Elegant accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-grande-bretagne.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Grande_Bretagne1.jpg",
+      "/assets/images/hotel_images/Hotel_Grande_Bretagne2.jpg"
+    ]
   },
   {
     "coordinates": "37.41047657169305, 23.29498288183418",
@@ -714,7 +815,7 @@
     "name": "King George Hotel",
     "location": "Athens, Greece",
     "country": "Greece",
-    "description":"Find relaxation at King George Hotel in Athens, Greece. Delight in the rooftop garden's panoramic city views, pamper yourself at the spa, savor fine dining, and unwind in elegant accommodations with attentive service",
+    "description": "Find relaxation at King George Hotel in Athens, Greece. Delight in the rooftop garden's panoramic city views, pamper yourself at the spa, savor fine dining, and unwind in elegant accommodations with attentive service",
     "details": [
       "Rooftop garden with panoramic city views",
       "Spa with a variety of treatments",
@@ -722,7 +823,10 @@
       "Elegant accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/king-george-hotel.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/King_George_Hotel1.jpg",
+      "/assets/images/hotel_images/King_George_Hotel2.jpg"
+    ]
   },
   {
     "coordinates": "37.41219135699314, 23.29239268823158",
@@ -732,7 +836,7 @@
     "name": "Electra Palace Hotel",
     "location": "Athens, Greece",
     "country": "Greece",
-    "description":"Create family memories at Electra Palace Hotel in Athens, Greece. Benefit from family-friendly amenities, entertain your kids at the kids' club, enjoy the swimming pool, relish diverse restaurant options, and experience attentive service.",
+    "description": "Create family memories at Electra Palace Hotel in Athens, Greece. Benefit from family-friendly amenities, entertain your kids at the kids' club, enjoy the swimming pool, relish diverse restaurant options, and experience attentive service.",
     "details": [
       "Family-friendly amenities",
       "Kids' club",
@@ -740,7 +844,10 @@
       "Restaurant with a variety of options",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/electra-palace-hotel.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Electra_Palace_Hotel1.jpg",
+      "/assets/images/hotel_images/Electra_Palace_Hotel2.jpg"
+    ]
   },
   {
     "coordinates": "37.411526888614844, 23.29584718109066",
@@ -750,7 +857,7 @@
     "name": "Hotel New York",
     "location": "Athens, Greece",
     "country": "Greece",
-    "description":"Elevate your romantic escape at Hotel New York in Athens, Greece. Enjoy breathtaking Acropolis views from the rooftop bar, indulge in spa treatments for couples, and relish fine dining in an elegant ambiance.",
+    "description": "Elevate your romantic escape at Hotel New York in Athens, Greece. Enjoy breathtaking Acropolis views from the rooftop bar, indulge in spa treatments for couples, and relish fine dining in an elegant ambiance.",
     "details": [
       "Rooftop bar with Acropolis views",
       "Spa with couples' treatments",
@@ -758,7 +865,10 @@
       "Elegant accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-new-york.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_New_York1.jpg",
+      "/assets/images/hotel_images/Hotel_New_York2.jpg"
+    ]
   },
   {
     "coordinates": "38.34073334371869, -0.4963564322804473",
@@ -768,7 +878,7 @@
     "name": "Hotel Urban",
     "location": "Valencia, Spain",
     "country": "Spain",
-    "description":"Embark on an adventurous journey at Hotel Urban in Valencia, Spain. Experience the thrill of city views from the rooftop terrace, unwind with diverse spa treatments, and enjoy stylish accommodations with attentive service.",
+    "description": "Embark on an adventurous journey at Hotel Urban in Valencia, Spain. Experience the thrill of city views from the rooftop terrace, unwind with diverse spa treatments, and enjoy stylish accommodations with attentive service.",
     "details": [
       "Rooftop terrace with city views",
       "Spa with a variety of treatments",
@@ -776,7 +886,10 @@
       "Stylish accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-urban-valencia.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Urban1.jpg",
+      "/assets/images/hotel_images/Hotel_Urban2.jpg"
+    ]
   },
   {
     "coordinates": "38.34008718872123, -0.4951330786761789",
@@ -786,7 +899,7 @@
     "name": "Hotel SH Valencia Palace",
     "location": "Valencia, Spain",
     "country": "Spain",
-    "description":"Discover the perfect blend of adventure and relaxation at Hotel SH Valencia Palace in Spain. Immerse yourself in unforgettable moments with a variety of spa treatments, an outdoor pool, fine dining, and elegant accommodations.",
+    "description": "Discover the perfect blend of adventure and relaxation at Hotel SH Valencia Palace in Spain. Immerse yourself in unforgettable moments with a variety of spa treatments, an outdoor pool, fine dining, and elegant accommodations.",
     "details": [
       "Escape to paradise with Villa Paraiso,",
       "where adventure meets relaxation.",
@@ -797,7 +910,10 @@
       "Elegant accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-sh-valencia-palace.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_SH_Valencia_Palace1.jpg",
+      "/assets/images/hotel_images/Hotel_SH_Valencia_Palace2.jpg"
+    ]
   },
   {
     "coordinates": "38.34239738426724, -0.4940606456947253",
@@ -807,7 +923,7 @@
     "name": "Hotel Sorolla Centro",
     "location": "Valencia, Spain",
     "country": "Spain",
-    "description":"Create lasting family memories at Hotel Sorolla Centro in Valencia, Spain. With family-friendly amenities, a kids' club, a refreshing swimming pool, and a restaurant offering diverse options, enjoy a delightful stay with attentive service.",
+    "description": "Create lasting family memories at Hotel Sorolla Centro in Valencia, Spain. With family-friendly amenities, a kids' club, a refreshing swimming pool, and a restaurant offering diverse options, enjoy a delightful stay with attentive service.",
     "details": [
       "Family-friendly amenities",
       "Kids' club",
@@ -815,7 +931,10 @@
       "Restaurant with a variety of options",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-sorolla-centro.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Sorolla_Centro1.jpg",
+      "/assets/images/hotel_images/Hotel_Sorolla_Centro2.jpg"
+    ]
   },
   {
     "coordinates": "38.34027580132939, -0.4938597562149938",
@@ -825,7 +944,7 @@
     "name": "Hotel Hospes Valencia",
     "location": "Valencia, Spain",
     "country": "Spain",
-    "description":"Immerse yourself in the romantic ambiance of Hotel Hospes Valencia, located in the heart of Valencia, Spain. Enjoy breathtaking city views from the rooftop terrace, indulge in rejuvenating spa treatments for couples, and savor exquisite meals at the fine dining restaurant. With stylish accommodations and attentive service, this hotel promises a romantic getaway.",
+    "description": "Immerse yourself in the romantic ambiance of Hotel Hospes Valencia, located in the heart of Valencia, Spain. Enjoy breathtaking city views from the rooftop terrace, indulge in rejuvenating spa treatments for couples, and savor exquisite meals at the fine dining restaurant. With stylish accommodations and attentive service, this hotel promises a romantic getaway.",
     "details": [
       "Rooftop terrace with city views",
       "Spa with couples' treatments",
@@ -833,7 +952,10 @@
       "Stylish accommodations",
       "Attentive service"
     ],
-    "imageSrc": "/assets/images/hotels/hotel-hospes-valencia.jpg"
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Hospes_Valencia1.jpg",
+      "/assets/images/hotel_images/Hotel_Hospes_Valencia2.jpg"
+    ]
   },
   {
     "coordinates": "48.20858067150413, 16.367183191051705",
@@ -843,12 +965,16 @@
     "name": "Hotel Altstadt Vienna",
     "location": "Vienna, Austria",
     "country": "Austria",
-    "description":"Discover the charm of Vienna's historic district at Hotel Altstadt Vienna. Nestled in the heart of the city, this adventure-themed hotel offers proximity to iconic attractions like St. Stephen's Cathedral and the Hofburg Palace. Embrace outdoor activities such as hiking, biking, and skiing, followed by delightful meals at the traditional Austrian restaurant.",
+    "description": "Discover the charm of Vienna's historic district at Hotel Altstadt Vienna. Nestled in the heart of the city, this adventure-themed hotel offers proximity to iconic attractions like St. Stephen's Cathedral and the Hofburg Palace. Embrace outdoor activities such as hiking, biking, and skiing, followed by delightful meals at the traditional Austrian restaurant.",
     "details": [
       "Located in the heart of Vienna's historic district",
       "Close to popular attractions like St. Stephen's Cathedral and the Hofburg Palace",
       "Offers a variety of outdoor activities, including hiking, biking, and skiing",
       "Has a traditional Austrian restaurant with a focus on local cuisine"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Altstadt_Vienna1.jpg",
+      "/assets/images/hotel_images/Hotel_Altstadt_Vienna2.jpg"
     ]
   },
   {
@@ -859,13 +985,16 @@
     "name": "Hotel Imperial Vienna",
     "location": "Vienna, Austria",
     "country": "Austria",
-    "description":"Experience luxury at its finest at Hotel Imperial Vienna in Austria. The grand lobby and elegant rooms set the stage for a relaxing stay. Indulge in spa treatments, including massages, facials, and saunas, and relish gourmet cuisine at the Michelin-starred restaurant. Unwind on the rooftop terrace with panoramic city views.",
+    "description": "Experience luxury at its finest at Hotel Imperial Vienna in Austria. The grand lobby and elegant rooms set the stage for a relaxing stay. Indulge in spa treatments, including massages, facials, and saunas, and relish gourmet cuisine at the Michelin-starred restaurant. Unwind on the rooftop terrace with panoramic city views.",
     "details": [
       "Luxury hotel with a grand lobby and elegant rooms",
       "Spa with a variety of treatments, including massages, facials, and saunas",
       "Fine dining restaurant with a Michelin star",
       "Rooftop terrace with panoramic views of the city"
-      
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Imperial_Vienna1.jpg",
+      "/assets/images/hotel_images/Hotel_Imperial_Vienna2.jpg"
     ]
   },
   {
@@ -876,13 +1005,16 @@
     "name": "Hotel Schloss Schönbrunn",
     "location": "Vienna, Austria",
     "country": "Austria",
-    "description":"Plan a delightful family retreat at Hotel Schloss Schönbrunn, nestled in the gardens of Schönbrunn Palace in Vienna, Austria. This family-friendly hotel offers a kids' club with a variety of activities, a large swimming pool, and a playground. The buffet restaurant caters to diverse tastes, ensuring a joyful experience for every family member.",
+    "description": "Plan a delightful family retreat at Hotel Schloss Schönbrunn, nestled in the gardens of Schönbrunn Palace in Vienna, Austria. This family-friendly hotel offers a kids' club with a variety of activities, a large swimming pool, and a playground. The buffet restaurant caters to diverse tastes, ensuring a joyful experience for every family member.",
     "details": [
       "Family-friendly hotel located in the Schönbrunn Palace gardens",
       "Kids' club with a variety of activities, including games, crafts, and swimming lessons",
       "Large swimming pool and playground",
       "Buffet restaurant with a variety of options to please everyone"
-  
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Schloss_Schönbrunn1.jpg",
+      "/assets/images/hotel_images/Hotel_Schloss_Schönbrunn2.jpg"
     ]
   },
   {
@@ -893,12 +1025,16 @@
     "name": "Hotel The Ritz-Carlton Vienna",
     "location": "Vienna, Austria",
     "country": "Austria",
-    "description":"Experience opulence at the Hotel The Ritz-Carlton Vienna in the heart of Vienna, Austria. This luxury hotel boasts elegant rooms exuding a romantic atmosphere. Indulge in the spa's couples' treatments, featuring massages, facials, and saunas. Delight your palate at the Michelin-starred restaurant, offering a culinary journey through fine dining. Take in panoramic views of the city from the rooftop terrace, completing your enchanting stay.",
+    "description": "Experience opulence at the Hotel The Ritz-Carlton Vienna in the heart of Vienna, Austria. This luxury hotel boasts elegant rooms exuding a romantic atmosphere. Indulge in the spa's couples' treatments, featuring massages, facials, and saunas. Delight your palate at the Michelin-starred restaurant, offering a culinary journey through fine dining. Take in panoramic views of the city from the rooftop terrace, completing your enchanting stay.",
     "details": [
       "Luxury hotel with elegant rooms and a romantic atmosphere",
       "Spa with couples' treatments, including massages, facials, and saunas",
       "Michelin-starred restaurant with a focus on fine dining",
       "Panoramic views of the city from the rooftop terrace"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna1.jpg",
+      "/assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna2.jpg"
     ]
   },
   {
@@ -909,12 +1045,16 @@
     "name": "Hotel Les Deux Rives",
     "location": "Paris, France",
     "country": "France",
-    "description":"Situated on the banks of the Seine River, Hotel Les Deux Rives invites you to an adventure in the heart of Paris, France. Immerse yourself in outdoor activities, from boat tours to kayaking and biking. Capture breathtaking cityscapes from the rooftop terrace. Indulge in traditional French cuisine with a modern twist, making your stay a perfect blend of exploration and relaxation.",
+    "description": "Situated on the banks of the Seine River, Hotel Les Deux Rives invites you to an adventure in the heart of Paris, France. Immerse yourself in outdoor activities, from boat tours to kayaking and biking. Capture breathtaking cityscapes from the rooftop terrace. Indulge in traditional French cuisine with a modern twist, making your stay a perfect blend of exploration and relaxation.",
     "details": [
       "Located on the banks of the Seine River",
       "Offers a variety of outdoor activities, including boat tours, kayaking, and biking",
       "Has a rooftop terrace with panoramic views of the city",
       "Serves traditional French cuisine with a modern twist"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Les_Deux_Rives1.jpg",
+      "/assets/images/hotel_images/Hotel_Les_Deux_Rives2.jpg"
     ]
   },
   {
@@ -925,12 +1065,16 @@
     "name": "Hotel Le Meurice",
     "location": "Paris, France",
     "country": "France",
-    "description":"Discover the epitome of relaxation at Hotel Le Meurice in Paris, France. This luxury hotel features a lavish spa and wellness center, ensuring a tranquil escape. Delight your senses at the Michelin-starred restaurant with a focus on fine dining. Enjoy elegant accommodations offering views of the iconic Eiffel Tower. Experience attentive service and concierge services, making your stay a true Parisian delight.",
+    "description": "Discover the epitome of relaxation at Hotel Le Meurice in Paris, France. This luxury hotel features a lavish spa and wellness center, ensuring a tranquil escape. Delight your senses at the Michelin-starred restaurant with a focus on fine dining. Enjoy elegant accommodations offering views of the iconic Eiffel Tower. Experience attentive service and concierge services, making your stay a true Parisian delight.",
     "details": [
       "Luxury hotel with a lavish spa and wellness center",
       "Michelin-starred restaurant with a focus on fine dining",
       "Elegant accommodations with views of the Eiffel Tower",
       "Attentive service and concierge services"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Le_Meurice1.jpg",
+      "/assets/images/hotel_images/Hotel_Le_Meurice2.jpg"
     ]
   },
   {
@@ -941,12 +1085,16 @@
     "name": "Hotel du Louvre",
     "location": "Paris, France",
     "country": "France",
-    "description":"For a family-friendly retreat, Hotel du Louvre in Paris, France, is the perfect choice. Enjoy a welcoming atmosphere with a kids' club and playground. Benefit from the convenient location near the Louvre Museum. Dine at the buffet restaurant offering a variety of options to please every palate. Experience attentive service and family-friendly amenities, ensuring a memorable stay for all.",
+    "description": "For a family-friendly retreat, Hotel du Louvre in Paris, France, is the perfect choice. Enjoy a welcoming atmosphere with a kids' club and playground. Benefit from the convenient location near the Louvre Museum. Dine at the buffet restaurant offering a variety of options to please every palate. Experience attentive service and family-friendly amenities, ensuring a memorable stay for all.",
     "details": [
       "Family-friendly hotel with kids' club and playground",
       "Convenient location near the Louvre Museum",
       "Buffet restaurant with a variety of options to please everyone",
       "Attentive service and family-friendly amenities"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_du_Louvre1.jpg",
+      "/assets/images/hotel_images/Hotel_du_Louvre2.jpg"
     ]
   },
   {
@@ -957,13 +1105,16 @@
     "name": "Hotel Ritz Paris",
     "location": "Paris, France",
     "country": "France",
-    "description":"Indulge in romance at the Hotel Ritz Paris, an epitome of luxury in the heart of Paris, France. Experience elegance in every detail with rooms exuding a romantic atmosphere. Pamper yourselves with spa treatments designed for couples, including massages, facials, and saunas. Delight in the culinary excellence of the Michelin-starred restaurant. Enjoy attentive service and personalized experiences, making your stay at Hotel Ritz Paris truly enchanting.",
+    "description": "Indulge in romance at the Hotel Ritz Paris, an epitome of luxury in the heart of Paris, France. Experience elegance in every detail with rooms exuding a romantic atmosphere. Pamper yourselves with spa treatments designed for couples, including massages, facials, and saunas. Delight in the culinary excellence of the Michelin-starred restaurant. Enjoy attentive service and personalized experiences, making your stay at Hotel Ritz Paris truly enchanting.",
     "details": [
       "Luxury hotel with elegant rooms and a romantic atmosphere",
       "Spa with couples' treatments, including massages, facials, and saunas",
       "Michelin-starred restaurant with a focus on fine dining",
       "Attentive service and personalized experiences"
+    ],
+    "imageSrc": [
+      "/assets/images/hotel_images/Hotel_Ritz_Paris1.jpg",
+      "/assets/images/hotel_images/Hotel_Ritz_Paris2.jpg"
     ]
   }
 ]
-
