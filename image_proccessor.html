@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel Image Processor</title>
+</head>
+<body>
+  <script >
+    const hotelData = {
+  "name": "South Beach Hotel",
+  "imageSrc": "/assets/images/hotels/south-beach-hotel.jpg"
+};
+
+function generateImageSrcArray(hotelData) {
+  const hotelName = hotelData.name;
+  const newHotelName = hotelName.replace(/\s+/g, '_');
+  const imageSrcArray = [];
+  for (let i = 1; i <= 2; i++) {
+    const imageUrl = `/assets/images/hotel_images/${newHotelName}${i}.jpg`;
+    imageSrcArray.push(imageUrl);
+  }
+  return imageSrcArray;
+}
+
+const newImageSrcArray = generateImageSrcArray(hotelData);
+hotelData.imageSrc = newImageSrcArray;
+
+console.log(JSON.stringify(hotelData));
+
+
+const fetchData = async () => {
+  try {
+    let response = await fetch('hotels_data.json');
+    let data = await response.json();
+    return data;
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+const processData = async () => {
+  const allHotelData = await fetchData();
+  allHotelData.forEach(hotelData => {
+    const newImageSrcArray = generateImageSrcArray(hotelData);
+    hotelData.imageSrc = newImageSrcArray;
+  });
+
+  console.log(allHotelData);
+};
+
+processData();
+
+
+  </script>
+</body>
+</html>
