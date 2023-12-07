@@ -150,6 +150,7 @@ Specify the license under which your project is distributed. You can choose from
 
 - **Challenge 1**: Balancing adventure and family-friendly activities for both adults and children.
 - **Challenge 2**: Navigating travel options that accommodate the preferences and energy levels of young kids.
+- **Challenge 3**: Gather enough Informations about holiday packages
 
 ## Travel Details
 
@@ -169,7 +170,7 @@ Specify the license under which your project is distributed. You can choose from
 ## User Journey
 
 1. **Discovery**: The Müller family explores TravelWander to find destinations suitable for family adventures.
-2. **Planning**: Mark and Emily use filters to discover vacation packages with a mix of adventurous activities and kid-friendly attractions.
+2. **Planning**: Mark and Emily use filters to discover vacation packages with  adventurous activities .
 3. **Customization**: They customize the vacation plan to include family-oriented amenities and services.
 4. **Booking**: The family securely books the vacation, ensuring it meets safety standards and provides a seamless experience for the children.
 5. **Post-Trip**: After the trip, they share their experiences on TravelWander, contributing to the family-friendly community.
@@ -368,8 +369,6 @@ Specify the license under which your project is distributed. You can choose from
 <img src="./assets/wireframes/mobile_contact.png" style="width: 24%; height: 38%;">
 <img src="./assets/wireframes/mobile_signup.png" style="width: 24%; height: 38%;">
 <img src="./assets/wireframes/mobile_signin.png" style="width: 24%; height: 38%;">
-
-
 
 ## Mock-ups (Optional)
 
