@@ -469,8 +469,10 @@ footer .tel a{
     main{
         grid-column: 1/12;
         grid-row: 2/3;
-        justify-content: center;
+        
         height: 100%;
+        max-width: 100%;
+        overflow: hidden;
 
         flex-wrap: wrap;
         gap: 0.5em;
@@ -479,9 +481,37 @@ footer .tel a{
         padding-top: 2em; 
         margin-top: 0 !important;
 
+        justify-items: center;
+        align-items: center;
+        align-content: center;
+
             
     }
+    main .tel {
+        position: unset;
+        border-radius: 2em;
+        text-align: center;
+        background-color: #10107cb7;
+        backdrop-filter: blur(30px);
+    }
+    main .special-container{
+        
+       direction: unset;
+        display: flex;
+        flex-direction: column;
+        
+        
+        align-items: center;
+
+        overflow-y: visible;
+        overflow-x: visible;
+        min-width: 29.6em;
+        max-height: max-content;
+    
+    }
+
     main .special{
+        
         max-width: 360px;
         /* height: auto; */
         background-color: #fdfbfb8f;
@@ -532,6 +562,11 @@ footer .tel a{
         border-radius: 1em 1em 1em 1em;
         
     }
+    
+    body > footer > p.tel{
+        display: none;
+    }
+    
 
     footer p#mapview {
         padding: 0.2em;
