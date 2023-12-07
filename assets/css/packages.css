@@ -467,6 +467,7 @@ footer .tel a{
     /* ---------main ____- */
 
     main{
+
         grid-column: 1/12;
         grid-row: 2/3;
         
@@ -526,6 +527,11 @@ footer .tel a{
         border-radius: 1em;
         position: relative; /* Ensure relative positioning */
     
+    }
+
+    .sp_notes {
+        padding: 0.8em;
+        line-height: 1.3em;
     }
     .sp_img img {
         width: 11em;

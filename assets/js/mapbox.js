@@ -62,7 +62,7 @@ function displayHotels(hotels) {
 
     const pLocation = document.createElement('p');
 /*     pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
- */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details[0]}<br>${hotel.details[1]} <br>`;
+ */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details[0]} <br>`;
 
     /* Append elements to the spNotesDiv */
     spNotesDiv.appendChild(moreInfoButton);
