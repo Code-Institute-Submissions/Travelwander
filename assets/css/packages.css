@@ -479,7 +479,7 @@ footer .tel a{
         align-items: top;
         justify-content: center;
         padding-top: 2em; 
-        margin-top: 0 !important;
+        margin-top: -1em !important;
 
         justify-items: center;
         align-items: center;
@@ -489,6 +489,7 @@ footer .tel a{
     }
     main .tel {
         position: unset;
+    
         border-radius: 2em;
         text-align: center;
         background-color: #10107cb7;
@@ -499,14 +500,14 @@ footer .tel a{
        direction: unset;
         display: flex;
         flex-direction: column;
-        
-        
+    
         align-items: center;
 
         overflow-y: visible;
         overflow-x: visible;
         min-width: 29.6em;
-        max-height: max-content;
+        height: 100%;
+        
     
     }
 
@@ -538,10 +539,10 @@ footer .tel a{
 }
     
 #map{
-    
+    margin-top:0.5em;
     width: 96vw !important ;
-    height: 100.5vh !important;
-    margin-top: -2em;
+    height: 78vh !important;
+    
     
 }
 
@@ -570,7 +571,8 @@ footer .tel a{
 
     footer p#mapview {
         padding: 0.2em;
-        margin: 0; /* Remove default margin */
+        margin: 0 auto;
+        /* Remove default margin */
     }
     #mapview{
         display: block;

@@ -15,7 +15,7 @@ if (windowWidth < 600) {
 
     function toggleView() {
       // Toggle visibility 
-      const specialElements = document.querySelectorAll('.special');
+      const specialElements = document.querySelectorAll('.special-container');
       specialElements.forEach(element => {
         element.style.display = element.style.display === 'none' ? 'flex' : 'none';
         
