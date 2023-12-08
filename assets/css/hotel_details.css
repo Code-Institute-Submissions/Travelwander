@@ -340,7 +340,7 @@ footer a{
     main{
         grid-column: 1/12;
         grid-row: 2/3;
-        
+        border:none;
         height: 100%;
         width:unset;
         display: flex;
