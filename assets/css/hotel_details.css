@@ -353,7 +353,42 @@ footer a{
 
             position: relative;
     }
- 
+    .photos{
+        position: relative;
+    }
+    .small_img{ /*place of small img */
+        position: absolute;
+        
+        
+        width: 99%;
+        height: 4em;
+    
+        bottom: 0em;
+        border-radius: 1em;
+        
+        background-color: rgba(20, 21, 21, 0.127);
+        backdrop-filter: blur(20px);
+    }
+    .bigger{
+        width: unset;
+        height: 46vh;
+    }
+   .smaller{ /* second picture */
+    position: absolute;
+    top:0em;
+    right:3em;
+    aspect-ratio: 3/2;
+
+    
+    width:6em;
+    border-radius: 1em;
+    border:1px solid rgba(255, 255, 255, 0.297);
+    opacity: 1;
+   }
+   .smaller:hover,.smaller:focus{
+    opacity: 1;
+    border:5px solid rgba(255, 255, 255, 0.777);
+   }
 
 
    .hotel_notes{
