@@ -376,7 +376,10 @@ Specify the license under which your project is distributed. You can choose from
 
 ## Testing (To Be Added)
 
-- Describe your testing strategy and use the defined user stories for the testing section of your README.
+- Used Map box api for generate map base of hotels address  [mapbox Api link ](https://www.mapbox.com)
+- I have been using Rapidapi/booking [booking api link](https://rapidapi.com/apidojo/api/booking) but their system and api cost alot so decided to use local Json data file for fetching Data results
+- Used and testing weather open api for fetching recent information [Api link](https://api.openweathermap.org) used for flags html
+- By using json file tried to create **dynamic web page**
 
 ## Next Steps (Optional)
 
