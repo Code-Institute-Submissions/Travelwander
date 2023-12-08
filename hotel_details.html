@@ -11,9 +11,11 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap" rel="stylesheet">
-<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
 
 
   <link
@@ -60,7 +62,9 @@
   </header>
   <main id="mainContents">
     <section class="photos">
-      <div class="small_img" id="small_img"><div class="price" id="hotelPrice"></div></div>
+      <div class="small_img" id="small_img">
+        <div class="price" id="hotelPrice"></div>
+      </div>
       <div class="big_img" id="big_img"></div>
     </section>
     <section class="hotel_notes">
@@ -72,10 +76,16 @@
       <div class="icones" id="hotelIcons"></div>
       <div class="price" id="hotelPrice"></div>
       <button type="submit" id="reserveBtn"></button>
-  </section>
+    </section>
 
   </main>
   <footer>
+    <section class='tel'>
+      <p><a href="tel:0448987555666">CALL OUR EXPERTS ON 0448987555666</a></p>
+      <p><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-visa"></i><img class="atol_img"
+          src="/assets/images/ATOL-andWHITE.png" alt="Atol images"></p>
+    </section>
+
     <p id="mapview">
       <!-- Call a customer support rep at
           <a href="tel:0448987555666">0448987555666</a>. -->
@@ -83,80 +93,99 @@
     </p>
   </footer>
   <!-- to handle map view and list view -->
+  <div id="confirmationModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id="confirmationMessage"></p>
+    </div>
+  </div>
 
   <script src="/assets/js/sidebar.js"></script>
   <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
-  
+
   <script>
-    const all_icons=[
-  "fas fa-hotel",
-  "fas fa-bed",
-  "fas fa-suitcase",
-  "fas fa-briefcase",
-  "fas fa-swimmer",
-  "fas fa-sun",
-  "fas fa-beach-ball",
-  "fas fa-cocktail",
-  "fas fa-palm-tree",
-  "fas fa-umbrella-beach",
-  "fas fa-ship",
-  "fas fa-plane",
-  "fas fa-train",
-  "fas fa-car",
-  "fas fa-bicycle",
-  "fas fa-hiking",
-  "fas fa-camera",
-  "fas fa-utensils",
-  "fas fa-coffee",
-  "fas fa-ice-cream"
-]
+    const all_icons = [
+      "fas fa-hotel",
+      "fas fa-bed",
+      "fas fa-suitcase",
+      "fas fa-briefcase",
+      "fas fa-swimmer",
+      "fas fa-sun",
+      "fas fa-beach-ball",
+      "fas fa-cocktail",
+      "fas fa-palm-tree",
+      "fas fa-umbrella-beach",
+      "fas fa-ship",
+      "fas fa-plane",
+      "fas fa-train",
+      "fas fa-car",
+      "fas fa-bicycle",
+      "fas fa-hiking",
+      "fas fa-camera",
+      "fas fa-utensils",
+      "fas fa-coffee",
+      "fas fa-ice-cream"
+    ]
 
     const selectedHotelIndex = sessionStorage.getItem('selectedHotelIndex'); /* Retrieve index from session storage */
-    
+
     if (selectedHotelIndex !== null) {
-    
-    fetch('hotels_data.json') /* Fetch and parse the JSON data */
-            .then(response => response.json())
-            .then(data => {
-                /*  selected hotel data */
-                const selectedHotel = data[selectedHotelIndex];
-                //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
-                document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
-                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p class="price_tag">${selectedHotel.price}<span>per person</span></p>`;
 
-                
-                document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
-               
-                document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
-                
-                document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
-                document.getElementById('hotelDescription').innerText = selectedHotel.description;
-                //document.getElementById('hotelDetails').innerText = `${selectedHotel.details.join('')}`;
+      fetch('hotels_data.json') /* Fetch and parse the JSON data */
+        .then(response => response.json())
+        .then(data => {
+          /*  selected hotel data */
+          const selectedHotel = data[selectedHotelIndex];
+          //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
+          document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
+          document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p class="price_tag">${selectedHotel.price}<span>per person</span></p>`;
 
-                document.getElementById('hotelDetails').innerHTML = `${selectedHotel.details.join('<br>')}`;
-              /* but for icons we use try to get hotel Icons id */
-              const iconsContainer = document.getElementById('hotelIcons');
-                selectedHotel.details.forEach(detail => {
-                    const icon = document.createElement('span');
-                    const randomIcon = all_icons[Math.floor(Math.random() * all_icons.length)];
-                    icon.className = randomIcon;
-                    iconsContainer.appendChild(icon);
-                  });
-                /* price */
-              document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
-              /* reserve button */
-                const reserveBtn = document.getElementById('reserveBtn');
-                reserveBtn.innerText = 'Reserve Now';
 
-                reserveBtn.addEventListener('click', () => {
-                    // Add logic for handling reservation, if needed
-                    alert(`Reservation for ${selectedHotel.name} confirmed!`);
-                });
+          document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
 
-              })
-              .catch(error => console.error('Error fetching data:', error));
+          document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
+
+          document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
+          document.getElementById('hotelDescription').innerText = selectedHotel.description;
+          //document.getElementById('hotelDetails').innerText = `${selectedHotel.details.join('')}`;
+
+          document.getElementById('hotelDetails').innerHTML = `${selectedHotel.details.join('<br>')}`;
+          /* but for icons we use try to get hotel Icons id */
+          const iconsContainer = document.getElementById('hotelIcons');
+          selectedHotel.details.forEach(detail => {
+            const icon = document.createElement('span');
+            const randomIcon = all_icons[Math.floor(Math.random() * all_icons.length)];
+            icon.className = randomIcon;
+            iconsContainer.appendChild(icon);
+          });
+          /* price */
+          document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
+          /* reserve button */
+          const reserveBtn = document.getElementById('reserveBtn');
+          reserveBtn.innerText = 'Reserve Now';
+
+          reserveBtn.addEventListener('click', () => {
+            // Add logic for handling reservation, if needed
+
+            // Display confirmation message in the modal
+            const confirmationModal = document.getElementById('confirmationModal');
+            const confirmationMessage = document.getElementById('confirmationMessage');
+
+            confirmationMessage.innerText = `Reservation for ${selectedHotel.name} confirmed!`;
+            confirmationModal.style.display = 'block';
+
+            // Close the modal if the close button is clicked
+            const closeButton = document.querySelector('.close');
+            closeButton.addEventListener('click', () => {
+              confirmationModal.style.display = 'none';
+            });
+          });
+
+
+        })
+        .catch(error => console.error('Error fetching data:', error));
     } else {
-        console.error('No hotel selected.');
+      console.error('No hotel selected.');
     }
 
   </script>
