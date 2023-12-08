@@ -59,7 +59,7 @@
   </header>
   <main id="mainContents">
     <section class="photos">
-      <div class="small_img" id="small_img"></div>
+      <div class="small_img" id="small_img"><div class="price" id="hotelPrice"></div></div>
       <div class="big_img" id="big_img"></div>
     </section>
     <section class="hotel_notes">
@@ -121,7 +121,7 @@
                 const selectedHotel = data[selectedHotelIndex];
                 //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
                 document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
-                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}">`;
+                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p clas="price_tag">Price: ${selectedHotel.price}</p>`;
 
                 
                 document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
