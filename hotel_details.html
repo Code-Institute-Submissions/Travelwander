@@ -121,7 +121,7 @@
                 const selectedHotel = data[selectedHotelIndex];
                 //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
                 document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
-                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p clas="price_tag">Price: ${selectedHotel.price}</p>`;
+                document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p class="price_tag">${selectedHotel.price}<span>per person</span></p>`;
 
                 
                 document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */

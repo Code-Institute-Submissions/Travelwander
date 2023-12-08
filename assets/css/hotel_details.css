@@ -364,10 +364,16 @@ footer a{
         height: 4em;
     
         bottom: 0em;
-        border-radius: 1em;
+        border-radius: 30em;
         
         background-color: rgba(20, 21, 21, 0.127);
         backdrop-filter: blur(20px);
+
+        display: flex;
+        justify-content:flex-start;
+        align-items: center;
+        
+        
     }
     .bigger{
         width: unset;
@@ -398,6 +404,19 @@ footer a{
 
     padding: 2em;
     
+}
+.price_tag{
+    color:white;
+    margin-left: 4em;
+    font-size: larger;
+    
+    
+}
+.price_tag> span{
+    color:#b98e0cde;
+    font-size: 0.7em;
+    padding-left: 0.2em;
+
 }
 
 
