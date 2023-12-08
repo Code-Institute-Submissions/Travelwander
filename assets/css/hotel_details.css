@@ -443,7 +443,7 @@ footer a{
     align-self: center;
     padding: 0.5em;
     border-radius: 1em;
-    background-color: rgba(15, 112, 80, 0.785);
+    background-color: rgb(10, 146, 80);
     backdrop-filter: blur(30px);
     color:white;
     border:none;
