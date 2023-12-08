@@ -138,11 +138,12 @@ main{
 }
 
 .hotel_notes{
-    background-color: aliceblue;
+    background-color: rgb(132, 133, 134);
     grid-column:1/2;
     grid-row: 1/6;
 
     padding: 1em;
+    font-family: 'Roboto';
 }
 
 
@@ -180,6 +181,8 @@ footer a{
     }
    
     body{
+       background: none;
+       background-color: rgb(28, 27, 27);
 
         background-position: center;
         background-size: cover;
@@ -398,11 +401,18 @@ footer a{
 
 
    .hotel_notes{
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(19, 18, 18, 0);
+    backdrop-filter: blur(30px);
     grid-column:1/2;
     grid-row: 1/6;
+    display: flex;
+    flex-direction: column;
 
     padding: 2em;
+    color:white;
+
+    line-height: 1.5em;
+
     
 }
 .price_tag{
@@ -424,7 +434,22 @@ footer a{
 
 
 }
+#reserveBtn{
+    margin-top: 0.5em;
+    width:80%;
+    height:2.8em;
+    align-self: center;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: rgba(15, 112, 80, 0.785);
+    backdrop-filter: blur(30px);
+    color:white;
+    border:none;
+    
 
+    font-weight: 500;
+    
+}
 
 
     /*----footer style--- */
