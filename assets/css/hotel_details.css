@@ -358,6 +358,7 @@ footer a{
     }
     .photos{
         position: relative;
+        background-color: #2d0c58;
     }
     .small_img{ /*place of small img */
         position: absolute;
@@ -402,6 +403,7 @@ footer a{
 
    .hotel_notes{
     background-color: rgba(19, 18, 18, 0);
+    background-color: rgba(5, 16, 43, 0.541);
     backdrop-filter: blur(30px);
     grid-column:1/2;
     grid-row: 1/6;
