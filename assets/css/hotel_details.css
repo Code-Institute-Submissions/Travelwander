@@ -497,12 +497,14 @@ footer a{
     padding: 20px;
     z-index: 1;
     height: 10em;
+    width: 15em;
     border-radius: 2em;
   }
   
   .modal-content {
     text-align: center;
-    width:20em;
+    
+    font-size: larger;
     
   }
   
