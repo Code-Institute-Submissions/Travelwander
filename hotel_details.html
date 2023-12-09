@@ -137,8 +137,8 @@
           /*  selected hotel data */
           const selectedHotel = data[selectedHotelIndex];
           //document.getElementsByClassName('big_img').innerHTML=`<img src="${selectedHotel.imageSrc[0]}"`
-          document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" src="${selectedHotel.imageSrc[0]}">`;
-          document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller" src="${selectedHotel.imageSrc[1]}"><p class="price_tag">${selectedHotel.price}<span>per person</span></p>`;
+          document.getElementById('big_img').innerHTML = `<img alt="${selectedHotel.imageSrc[0]}" class="bigger" id="mainImg" src="${selectedHotel.imageSrc[0]}">`;
+          document.getElementById('small_img').innerHTML = `<img alt="${selectedHotel.imageSrc[1]}" class="smaller"  id="notMainImg" src="${selectedHotel.imageSrc[1]}"><p class="price_tag">${selectedHotel.price}<span>per person</span></p>`;
 
 
           document.getElementById('hotelName').innerText = selectedHotel.name;/*Update HTML elements */
@@ -171,6 +171,7 @@
 
   </script>
   <script src="/assets/js/reserve.js"></script>
+  <script src="/assets/js/swaping_img.js"></script>
 
 
 </body>
