@@ -141,13 +141,20 @@ main{
 
 }
 .small_img{ /* div container for small image .smaller */
-    background-color: #ccc;
+        position: absolute;
+
+    background-color: #5d56564f;
+    backdrop-filter: blur(30px);
+
+
     display: flex;
     flex-direction: row-reverse;
     
     justify-content: space-between;
-    width: 66%;
+    width: 43.2%;
     height: 3em;
+
+
     
 }
 .smaller{
