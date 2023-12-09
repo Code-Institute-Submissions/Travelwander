@@ -192,12 +192,35 @@ main{
 
 
 .hotel_notes{
-    background-color: rgb(132, 133, 134);
+    background-color: #e0e0de;
     grid-column:1/2;
     grid-row: 1/6;
 
     padding: 1em;
-    font-family: 'Roboto';
+    padding-left: 2.2em;
+
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 20px;
+    
+}
+.hotel_notes span{
+    padding: 0.3em;
+}
+#reserveBtn{
+    margin-top: 0.5em;
+    width:80%;
+    height:2.8em;
+    align-self: center;
+    padding: 0.5em;
+    border-radius: 1em;
+    background-color: rgb(10, 146, 80);
+    backdrop-filter: blur(30px);
+    color:white;
+    border:none;
+    
+
+    font-weight: 500;
+    
 }
 
 
