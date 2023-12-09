@@ -153,17 +153,21 @@ main{
     flex-direction: row-reverse;
     
     justify-content: space-between;
-    width: 43.2%;
+    width: 66%;
     height: 3em;
 
 
     
 }
 .smaller{
-    width:13%;
+    width:14%;
+    border: 2px solid white;
     /* position: absolute;
     top:51%;
     right:21.4%; */
+}
+.smaller:hover{
+    border-color: black;
 }
 .bigger{
     width: 66%;
