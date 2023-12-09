@@ -672,9 +672,8 @@ footer a{
 
 
    .hotel_notes{
-    /* background-color: rgba(19, 18, 18, 0);
-    background-color: rgba(5, 16, 43, 0.541); */
-    font-weight: 600;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 500;
     background-color: #e0e0de;
     backdrop-filter: blur(30px);
     grid-column:1/2;
@@ -753,6 +752,10 @@ footer a{
         width:5em;
         height: 1.8em;
         padding-top: 0.1em;
+    }
+    footer a{
+        text-decoration: none;
+        color:rgb(179, 241, 20);
     }
 
 
