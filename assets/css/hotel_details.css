@@ -285,8 +285,8 @@ footer{
     justify-content: center;
     margin: 0 auto;
 
-    background-color: #2d0c5869;
-    backdrop-filter: blur(30px);
+    /* background-color: #2d0c5869; 
+    backdrop-filter: blur(30px);*/
     
 
   
@@ -342,7 +342,12 @@ footer a{
     height: 14em;
     width: 15em;
     border-radius: 2em;
-    
+    font-size: larger;
+    line-height: 2em;
+  }
+  .modal i{
+    color:green;
+    font-size: xx-large;
   }
   
   .modal-content {
