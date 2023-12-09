@@ -339,9 +339,10 @@ footer a{
     backdrop-filter: blur(30px);
     padding: 20px;
     z-index: 1;
-    height: 10em;
+    height: 14em;
     width: 15em;
     border-radius: 2em;
+    
   }
   
   .modal-content {

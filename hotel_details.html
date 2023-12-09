@@ -94,6 +94,7 @@
   <div id="confirmationModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
+      <p id="confirmationIcon"></p>
       <p id="confirmationMessage"></p>
       <p>reservation number:<span id="res_number"></span></p>
     </div>
@@ -167,6 +168,7 @@
             // Add logic for handling reservation, if needed
 
             // Display confirmation message in the modal
+            const confirmationIcon =document.getElementById('confirmationIcon');
             const confirmationModal = document.getElementById('confirmationModal');
             const confirmationMessage = document.getElementById('confirmationMessage');
             const reservationNumberSpan = document.getElementById('res_number');
@@ -174,7 +176,7 @@
             /* create random number */
             const randomReservationNumber = Math.floor(Math.random() * (4055555 - 250000 + 1)) + 250000;
 
-
+            confirmationIcon.innerHTML =`<i class="fa-solid fa-circle-check"></i>`;
             confirmationMessage.innerText = `Reservation for ${selectedHotel.name} confirmed!`;
             reservationNumberSpan.innerText = randomReservationNumber;
             confirmationModal.style.display = 'block';
