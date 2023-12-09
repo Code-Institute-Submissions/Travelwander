@@ -28,8 +28,8 @@ body{
     z-index: -1;
     width:109vw;
     height:100vh;
-    background-color: rgba(67, 66, 65, 0.446);
-    backdrop-filter: blur(15px);
+    background-color: #2d0c5869;
+    backdrop-filter: blur(20px);
 }
 /* ------ header ------ --------------------*/
 
@@ -133,7 +133,7 @@ header .hamburger{
         
         }
         .whole_bg{
-            display: none;
+            
         }
 
 main{
@@ -474,8 +474,10 @@ footer a{
     
     }
     .whole_bg{
-         height: 200vh; /*to cover whole page on iphone se screen */
+        width: 100%;
+         height: 100%; /*to cover whole page on iphone se screen */
         z-index: -1; 
+        
        
     }
 
@@ -730,7 +732,8 @@ footer a{
         grid-column: 1/14;
         grid-row: 3;
 
-        background-color: #18404600;
+        
+        
         color:#fff;
 
     }
