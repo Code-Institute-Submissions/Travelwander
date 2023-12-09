@@ -161,6 +161,12 @@ main{
 }
 .small_img .price_tag{
     margin-left: 6%;
+    font-size: larger;
+}
+.small_img .price_tag span{
+    color:yellow;
+    margin-left: 0.2em;
+    font-size: smaller;
 }
 .smaller{
     width:14%;
@@ -201,6 +207,8 @@ main{
 
     font-family: 'Roboto Flex', sans-serif;
     font-size: 20px;
+    position: relative;
+    
     
 }
 .hotel_notes span{
@@ -220,6 +228,21 @@ main{
     
 
     font-weight: 500;
+    
+}
+
+.reviews{
+    background-color: black;
+    border-radius: 1em;
+    display: inline;
+    color:white;
+    padding: 0.3em;
+    
+    position: absolute;
+    top:3.8%;
+    left:26%;
+    font-size: smaller;
+    
     
 }
 
