@@ -3,6 +3,9 @@
     box-sizing: border-box;
 
 }
+html {
+    scroll-behavior: smooth;
+  }
 
 body{
 
@@ -21,6 +24,7 @@ body{
    
     max-width: 100%;
     overflow-x: hidden;
+    
 
 }
 .whole_bg{
@@ -202,7 +206,7 @@ main{
     border-color: black;
 }
 .bigger{
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/9; /* for better control img size */
     width: 66%;
     height: unset;
     border: 1px solid white;
