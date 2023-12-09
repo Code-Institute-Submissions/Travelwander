@@ -153,11 +153,14 @@ main{
     flex-direction: row-reverse;
     
     justify-content: space-between;
+   align-items: center;
+   
     width: 66%;
-    height: 3em;
-
-
-    
+    color:white;
+  
+}
+.small_img .price_tag{
+    margin-left: 6%;
 }
 .smaller{
     width:14%;
