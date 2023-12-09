@@ -137,8 +137,8 @@ main{
     right:21.4%;
 }
 .bigger{
-    width: 54vw;
-    height: 46vh;
+    width: 70%;
+    height: unset;
     border: 1px solid white;
 }
 .photos{
