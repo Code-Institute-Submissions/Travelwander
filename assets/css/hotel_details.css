@@ -109,6 +109,7 @@ font-weight: 600;
 header .hamburger{
     display: none;
 }
+
 @media screen and (min-width: 710px) {
     main{
         grid-column: 2/11;
@@ -201,6 +202,7 @@ main{
     border-color: black;
 }
 .bigger{
+    aspect-ratio: 16/9;
     width: 66%;
     height: unset;
     border: 1px solid white;
