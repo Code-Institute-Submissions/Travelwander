@@ -130,17 +130,7 @@ main{
     
 
 }
-.smaller{
-    width:10%;
-    /* position: absolute;
-    top:51%;
-    right:21.4%; */
-}
-.bigger{
-    width: 72%;
-    height: unset;
-    border: 1px solid white;
-}
+
 .photos{
     /* grid-column: 2/7;
     grid-row:1/6; */
@@ -150,6 +140,28 @@ main{
     background-color: #d20c0c;
 
 }
+.small_img{ /* div container for small image .smaller */
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    justify-content: space-between;
+    width: 66%;
+    height: 3em;
+    
+}
+.smaller{
+    width:13%;
+    /* position: absolute;
+    top:51%;
+    right:21.4%; */
+}
+.bigger{
+    width: 66%;
+    height: unset;
+    border: 1px solid white;
+}
+
 
 .hotel_notes{
     background-color: rgb(132, 133, 134);
