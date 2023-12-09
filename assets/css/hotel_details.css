@@ -117,7 +117,7 @@ header .hamburger{
 
 main{
     border:2px solid blue;
-    grid-column: 2/11;
+    grid-column: 3/12;
     grid-row: 2/3;
 
     display: flex;
@@ -137,7 +137,7 @@ main{
     right:21.4%;
 }
 .bigger{
-    width: 70%;
+    width: 72%;
     height: unset;
     border: 1px solid white;
 }
