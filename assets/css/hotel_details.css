@@ -138,6 +138,8 @@ main{
     flex-direction: column-reverse;
 
     background-color: #d20c0c;
+    position: relative;
+
 
 }
 .small_img{ /* div container for small image .smaller */
@@ -168,6 +170,18 @@ main{
     height: unset;
     border: 1px solid white;
 }
+
+.map_container {
+    background: url(/assets/images/america.png);
+    background-attachment: fixed;
+    width:19rem;
+    height: 98%;
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+
 
 
 .hotel_notes{
