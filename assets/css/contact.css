@@ -170,6 +170,8 @@ form input{
 form input[type="submit"]{
     width: 7em;
     height: 2.2em;
+    background-color: #181818;
+    color:white;
 
 }
 form textarea{
@@ -397,62 +399,42 @@ footer a{
     /* ---------main ____- */
 
     main{
-        grid-column: 1/12;
-        grid-row: 2/3;
+        
         align-items: center;
         align-content: center;
         width: 100%;
         
     }
-    main .inviting{
-        color:rgb(43, 41, 41);
+    main{
+        /* background-color: blue; */
+        grid-column: 2/12;
+        grid-row: 2/3;
         
-       /*  background-color: rgba(0, 0, 0, 0.252); */
-        
-        padding:2%;
-        padding-left: 1%;
-        padding-right: 10%;
-        padding-bottom: 8%;
-        
-        
-    }
-    .inviting .text_h2_p{
-        display: none;
-    }
-    .inviting .mobile_heading{
-        display: block;
-        width:100%;
-        padding:1em;
-        line-height: 1.6em;
-        font-family: 'Roboto Serif', serif;
-        text-shadow: 1px 1px #aeb1b4;
-        color:rgb(74, 37, 37)
-
-        
-    }
-    .mobile_heading p {
-        font-size: 1.4em;
-        color: #2c2b2b;
-        text-shadow: 1px 1px #aeb1b4;
-        padding-left: 8%;
-    }
-    .continents div{
-        width: 326px;
-        height: 158px;
-        color:antiquewhite;
-        border: 1px solid rgba(255, 255, 255, 0.372);
-        font-size: 1.4em;
-        z-index: -1;
-    }
-    
-    .continents{
         display: flex;
         flex-direction: column;
-        gap:1em;
         align-items: center;
     
     }
-
+    article {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 10%;
+        width: 80%;
+        
+        /* flex-wrap: wrap; */
+    }
+    .formcontent {
+        background-color: #383838a2;
+        backdrop-filter: blur(30px);
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+   
+   
+   
     /*----footer style--- */
     footer{
         /* background-color: blanchedalmond; */
