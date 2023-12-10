@@ -132,26 +132,35 @@ main{
 }
 article{
     display: flex;
-    
+    padding: 10%;
     width: 80%;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
 
 }
 
 
 .formcontent{
-    background-color: #555555;
+    background-color: #383838a2;
+    backdrop-filter: blur(30px);
     position: relative;
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    align-items: center;
+
+   
 }
 form{
-    padding:0.9em;
-    line-height: 3em;
+    padding-top: 1.2em;
+    
+    line-height: 2.5em;
 }
 
 form input{
-    background-color: rgb(190, 181, 163);
+    background-color: rgb(227, 227, 227);
     border-radius: 1em;
-    height: 2.2em;
+    padding: 0.4em;
+    height: 1.4em;
     border:1px solid white;
     
 
@@ -159,16 +168,20 @@ form input{
 
 
 form input[type="submit"]{
-    width: 6em;
+    width: 7em;
+    height: 2.2em;
+
 }
 form textarea{
     border-radius: 1em;
     background-color: rgb(190, 181, 163);
+    padding-top: 1em;
+    margin-top: 0.5em;
 
 }
 /* --- */
 .ourinfo{
-    background-color: rgb(225, 225, 225);
+    background-color: #d5d5d5;
     display: flex;
     flex-direction: column;
     gap: 1em;
@@ -185,6 +198,7 @@ form textarea{
 .socials i{
     margin-left: 8px ;
     margin-right: 8px;
+    font-size: x-large;
 }
 
  
