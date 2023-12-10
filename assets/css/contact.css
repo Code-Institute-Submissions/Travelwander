@@ -341,11 +341,11 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 170px; 
-        height: 100%;
-        background:rgba(38, 38, 106, 0.687);
-        background: #71718596;
-        backdrop-filter: blur(20px);
+        width: 70%; 
+        height: 200vh;
+        background:rgba(26, 26, 40, 0.687);
+        background: #222228d4;
+        backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
 
@@ -361,7 +361,7 @@ footer a{
         margin-top: 1em;
       }
       .sidebar a{
-        color:rgb(51, 50, 50);
+        color:rgb(211, 210, 210);
         font-size: 1.2em;
         text-decoration: none;
         padding: 0.7em;
