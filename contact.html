@@ -15,9 +15,9 @@
       src="https://kit.fontawesome.com/ecedfde1ad.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/templates/css_temp/style.css" />
+    <link rel="stylesheet" href="/assets/css/contact.css" />
 
-    <title>Travelwander.com</title>
+    <title>Contact Us</title>
   </head>
 
   <body>
@@ -55,13 +55,39 @@
         </aside>
       </nav>
     </header>
+    <main id="maincontent">
+      <article>
+        <section class="ourinfo"></section>
+        <section class="formcontent"><form action="" method="post">
+          <legend>
+            <label for="yourname">full name:
+              <input type="text" name="yourname" id="yourname">
+            </label>
+            <br>
+            <label for="yourname">Eamil:
+              <input type="email" name="email" id="email">
+            </label>
+            <br>
+            <label for="yourname">contact no:
+              <input type="tel" name="yournumber" id="yournumber">
+            </label>
+            <br>
+            <label for="description">inquiry:</label><br>
+            <textarea name="description" id="description" cols="20" rows="8"></textarea>
+  
+          </legend>
+          <input type="submit" value="submit">
+  
+        </form></section>
+      
+    </article>
+    </main>
     <footer>
         <p>
           Call a customer support rep at
           <a href="tel:0448987555666">0448987555666</a>.
         </p>
       </footer>
-  
       <script>
         function toggleNav() {
           const sidebar = document.querySelector(".sidebar");

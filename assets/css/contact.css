@@ -17,11 +17,7 @@ body{
     display: grid;
     grid-template-columns: repeat(12,100px);
 
-    grid-template-rows: repeat(3,minmax(20px,auto));
-
-   grid-template-areas: 'header . . .'
-                        'main main footer'
-                        'footer main footer';
+    grid-template-rows: repeat(3,minmax(60px,auto));
 
 
 }
