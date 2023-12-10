@@ -137,15 +137,37 @@ article{
    justify-content: space-evenly;
 
 }
-main .inviting{
-    color:white;
+.ourinfo{
+    background-color: rgb(225, 225, 225);
+}
+.formcontent{
+    background-color: #555555;
+    position: relative;
+}
+form{
+    padding:0.9em;
+    line-height: 3em;
+}
+
+form input{
+    background-color: rgb(190, 181, 163);
+    border-radius: 1em;
+    height: 2.2em;
+    border:1px solid white;
     
-   /*  background-color: rgba(0, 0, 0, 0.252); */
-    padding: 11%;
-    padding-left: 12%;
-    padding-right: 12%;
-    padding-bottom: 6%;
-    
+
+}
+
+#yourname{
+
+}
+form input[type="submit"]{
+    width: 6em;
+}
+form textarea{
+    border-radius: 1em;
+    background-color: rgb(190, 181, 163);
+
 }
 .inviting .mobile_heading{
     display: none;
