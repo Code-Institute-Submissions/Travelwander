@@ -251,7 +251,7 @@ footer a{
 @media screen and (max-width: 500px) {
     body{
 
-        background: url(/assets/images/placementArea64282058.png);
+        
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -275,6 +275,7 @@ footer a{
     header{
         grid-column: 1/12;
         grid-row: 1/2;
+        z-index: 1;
     }
     .logo{
         width:40%;
@@ -443,8 +444,11 @@ footer a{
         flex-direction: column;
         width: 100%;
         align-items: center;
+        
     }
-   
+   input[type="submit"]{
+    margin-bottom: 0.8em;
+   }
     form .formname{
 
     
