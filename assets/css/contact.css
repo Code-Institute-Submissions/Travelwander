@@ -189,8 +189,8 @@ form .formname{
     /* align-self: center; */
     margin: 0 auto;
     width: 2em;
-    color: #191532;
-    text-shadow: 1px 1px 2px #262469;
+    color: #0c0b12;
+    text-shadow: 1px 1px 2px #5c5c68;
 
     margin-bottom: -1.5em;
 }
@@ -460,8 +460,8 @@ footer a{
         /* align-self: center; */
         margin: 0 auto;
         width: 2em;
-        color: #191532;
-        text-shadow: 1px 1px 2px #262469;
+        color: #110f1b;
+        text-shadow: 1px 1px 2px #69686d;
     
         margin-bottom: -1.5em;
     }
