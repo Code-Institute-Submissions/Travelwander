@@ -232,6 +232,9 @@ footer{
 footer a{
     color:aquamarine
 }
+.atol_img{
+    width:40%;
+}
 .sidebar{
     display: none;
 }
@@ -476,6 +479,9 @@ footer a{
     }
     footer a{
         text-decoration:none;
+    }
+    .atol_img{
+        width:40%;
     }
 
 
