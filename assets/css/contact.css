@@ -220,7 +220,19 @@ footer a{
 .sidebar{
     display: none;
 }
+@media screen and (min-width: 700px) {
+    header{
+        grid-column: 3/12;
+        padding: 1em;
+    }
+    header .social{
+        margin-left:-1em;
+    }
+    main{
+        grid-column: 3/11;
+    }
 
+}
 
 @media screen and (max-width: 500px) {
     body{
