@@ -287,6 +287,61 @@ footer a{
 }
 
 
+/* ------footer ------------------ ------ */
+
+footer{
+    /* background-color: blanchedalmond; */
+    width: 100%;
+    grid-column: 3/11;
+    
+    grid-row:3/4;
+    display: flex;
+    color:white;
+    padding: 2%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+
+    /* background-color: #2d0c5869; 
+    backdrop-filter: blur(30px);*/
+    
+
+  
+}
+.tel{
+    
+    display: flex;
+    width:28em;
+    flex-direction: column;
+    text-align: center;
+
+}
+.tel p:first-child{
+    font-size: larger;
+    margin-bottom: 1em;
+}
+.tel p:nth-child(2){
+    font-size: xxx-large;
+      
+}
+.tel p:nth-child(2) i{
+    padding: 0.2em;
+}
+footer img{
+    width: 50%;
+    
+}
+footer a{
+    font-size: larger;
+    color:wheat;
+    
+    text-decoration: none;
+   
+   
+}
+
+
+
 @media screen and (max-width: 500px) {
     body{
 
