@@ -186,6 +186,7 @@ main .inviting{
 .continents{
     display: flex;
     gap:2em;
+    padding-bottom: 7em;
 
 }
 .continents div{
@@ -272,12 +273,22 @@ main .inviting{
 /* ------footer ------------------ ------ */
 
 footer{
-    /* background-color: blanchedalmond; */
-    grid-column: 2/12;
+    width: 100%;
+     background-color: rgba(76, 75, 75, 0.62); 
+     backdrop-filter: blur(30px);
+    grid-column: 1/14;
     grid-row:3/4;
     text-align: center;
     color:white;
     padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+footer .footer_para{
+    width: fit-content;
+    padding: 2em;
+    text-align:justify  !important;
+    width: 70%;
 }
 footer a{
     color:aquamarine
@@ -291,13 +302,8 @@ footer a{
 
 footer{
     /* background-color: blanchedalmond; */
-    width: 100%;
-    grid-column: 3/11;
     
-    grid-row:3/4;
-    display: flex;
-    color:white;
-    padding: 2%;
+ 
     align-items: center;
     justify-content: center;
     margin: 0 auto;
@@ -369,6 +375,7 @@ footer a{
     header{
         grid-column: 1/12;
         grid-row: 1/2;
+        z-index: 1;
     }
     .logo{
         width:40%;
@@ -434,11 +441,11 @@ footer a{
         position: fixed;
         top: 0;
         right: -100%;
-        width: 170px; 
-        height: 100%;
-        background:rgba(38, 38, 106, 0.687);
-        background: #71718596;
-        backdrop-filter: blur(20px);
+        width: 70%; 
+        height: 200vh;
+        background:rgba(26, 26, 40, 0.687);
+        background: #222228d4;
+        backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
 
@@ -449,12 +456,11 @@ footer a{
         font-family: 'Roboto Serif', sans-serif;
 
 
-      }
-      .sidebar ul{
+      } .sidebar ul{
         margin-top: 1em;
       }
       .sidebar a{
-        color:rgb(51, 50, 50);
+        color:rgb(211, 210, 210);
         font-size: 1.2em;
         text-decoration: none;
         padding: 0.7em;
@@ -469,6 +475,7 @@ footer a{
         right: 0;
         
       }
+      
 
       .sidebar li{
         line-height: 1.7em;
