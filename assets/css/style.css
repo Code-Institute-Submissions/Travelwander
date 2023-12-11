@@ -214,6 +214,20 @@ main .inviting{
     text-shadow: 1px 1px rgba(0, 0, 0, 0.766);
 
 }
+
+.namerica:hover, .europe:hover ,.asia:hover{
+    background-color: #eee;
+    border: 1px solid #dee3e9;
+    box-shadow: 1px 1px 1px white;
+    
+    cursor:pointer;
+  }
+  
+.namerica a,.europe a,.asia a{
+    color:white;
+    text-decoration: none;
+}
+
 .continents div:nth-child(2){
     background-color: black;
     background: url(/assets/images/placementAreae6a51aa8.png) left no-repeat;
