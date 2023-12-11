@@ -39,6 +39,10 @@ header{
     color:rgba(34, 93, 119, 85%);
     text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
 }
+.navitems a{ /*by this ,remove normal a link style to menue items */
+    text-decoration: none;
+    color:none;
+}
 
 .logo{
 width:30%;

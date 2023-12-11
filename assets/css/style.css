@@ -35,7 +35,7 @@ header{
 
 
 }
-.navitems a{
+.navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
     color:none;
 }
