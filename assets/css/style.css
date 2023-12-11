@@ -558,7 +558,7 @@ footer a{
         flex-direction: column;
         gap:1em;
         align-items: center;
-    
+    padding-bottom: 3em;
     }
     .namerica:hover, .europe:hover ,.asia:hover{
         background-color: #eee;
@@ -578,7 +578,7 @@ footer a{
       
         
         
-         background-color: rgba(46, 81, 138, 0.442);
+         background-color: rgba(46, 81, 138, 0.53);
          backdrop-filter: blur(30px);
         grid-column: 1/12;
         
@@ -589,14 +589,32 @@ footer a{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        gap:1em;
     }
+    footer .footer_para p{
+        
+        color:#fbf7f7;
+        text-shadow: 1px 1px 0px rgb(121, 120, 120);
+        text-align: justify;
+        padding:1em;
+        
+    }
+    
+
+
+
+
     .tel{
     
         display: flex;
         width: unset;
         flex-direction: column;
         text-align: center;
+
     
+    }
+    .tel a{
+        color:#f79305;
     }
     footer img{
         width: 50%;
