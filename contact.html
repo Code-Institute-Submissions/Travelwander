@@ -41,10 +41,10 @@
         </div>
         <div class="navmenu">
           <ul class="menu_line">
-            <li>deals</li>
-            <li><a href="/packagesall.html">packages</a></li>
-            <li><a href="/contact.html">contact</a></li>
-            <li><a href="/contact.html">about</a></li>
+            <li id="deals">deals</li>
+          <li id="packages"><a href="/packagesall.html">packages</a></li>
+          <li id="contact"><a href="/contact.html">contact</a></li>
+          <li id="about"><a href="/about.html">about</a></li>
           </ul>
         </div>
         <div class="social">
@@ -116,6 +116,24 @@
             src="/assets/images/ATOL-andWHITE.png" alt="Atol images"></p>
       </section>
       </footer>
+      <script>
+        
+    document.addEventListener('DOMContentLoaded', function () {
+      // Get the current page URL
+      const currentPage = window.location.pathname;
+
+      // Add the 'active' class to the corresponding menu item
+      if (currentPage.includes('/deals.html')) {
+        document.getElementById('deals').classList.add('active');
+      } else if (currentPage.includes('/packagesall.html')) {
+        document.getElementById('packages').classList.add('active');
+      } else if (currentPage.includes('/contact.html')) {
+        document.getElementById('contact').classList.add('active');
+      } else if (currentPage.includes('/about.html')) {
+        document.getElementById('about').classList.add('active');
+      }
+    });
+  </script>
       <script>
         function toggleNav() {
           const sidebar = document.querySelector(".sidebar");

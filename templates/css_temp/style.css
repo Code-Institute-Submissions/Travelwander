@@ -50,7 +50,12 @@ header{
     text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
 
 }
-.navitems .social > span a{
+.active {
+    color: #ff0000 !important; /* Set the desired color for the active menu item */
+    
+    border-bottom: 2px dotted rgb(19, 16, 3);
+  }
+.navitems .social > span a{ 
     color:yellow !important;
     text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
     border-radius: 2em;
@@ -59,6 +64,7 @@ header{
 .navitems .social > span a:hover{
     text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
 }
+
 
 
 .logo{
