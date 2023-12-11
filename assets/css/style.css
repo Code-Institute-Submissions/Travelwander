@@ -495,7 +495,7 @@ footer a{
         color:antiquewhite;
         border: 1px solid rgba(255, 255, 255, 0.372);
         font-size: 1.4em;
-        z-index: -1;
+        
     }
     
     .continents{
@@ -504,6 +504,18 @@ footer a{
         gap:1em;
         align-items: center;
     
+    }
+    .namerica:hover, .europe:hover ,.asia:hover{
+        background-color: #eee;
+        border: 1px solid #dee3e9;
+        box-shadow: 1px 1px 1px white;
+        
+        cursor:pointer;
+      }
+      
+    .namerica a,.europe a,.asia a{
+        color:white;
+        text-decoration: none;
     }
 
     /*----footer style--- */
