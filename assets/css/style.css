@@ -179,6 +179,7 @@ main .inviting{
 .inviting .text_h2_p{
     width:80%;
     padding:1em;
+    font-family: 'Roboto Serif';
     
     background-color: rgba(79, 81, 80, 0.187);
 }
@@ -276,7 +277,7 @@ footer{
     width: 100%;
      background-color: rgba(76, 75, 75, 0.62); 
      backdrop-filter: blur(30px);
-    grid-column: 1/14;
+    grid-column: 1/13;
     grid-row:3/4;
     text-align: center;
     color:white;
@@ -285,11 +286,22 @@ footer{
     flex-direction: column;
 }
 footer .footer_para{
+    font-family: 'Kalnia', serif;
+
     width: fit-content;
     padding: 2em;
     text-align:justify  !important;
     width: 70%;
 }
+footer .footer_para::first-letter {
+color:rgb(238, 236, 235) !important;
+font-size: xxx-large;   
+}
+footer .footer_para{
+    color:rgb(255, 255, 255) !important;
+    font-size: large;   
+    }
+
 footer a{
     color:aquamarine
 }
@@ -339,7 +351,8 @@ footer img{
 }
 footer a{
     font-size: larger;
-    color:wheat;
+    color:rgb(255, 0, 128);
+    text-shadow: 1px 1px 0px black;
     
     text-decoration: none;
    
