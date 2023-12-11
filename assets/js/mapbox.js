@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function () {
-  // Get the country parameter from the URL
+  /* Get the country parameter from the URL */
   const urlParams = new URLSearchParams(window.location.search);
   const country = urlParams.get('country');
 

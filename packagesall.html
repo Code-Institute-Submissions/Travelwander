@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ 
+
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/assets/css/packages.css" />
+
+  <title>Travelwander.com</title>
+</head>
+
+<body>
+  <div class="whole_bg"></div>
+  <header>
+    <nav class="navitems">
+      <div class="logo">
+        <img src="/assets/images/travellogo1.png" alt="Logo of travelwander" />Travelwander.com
+      </div>
+      <div class="navmenu">
+        <ul class="menu_line">
+          <li>deals</li>
+          <li>package</li>
+          <li>contact</li>
+          <li>about</li>
+        </ul>
+      </div>
+      <div class="social">
+        <span class="insta"><i class="fa-brands fa-instagram"></i></span>
+        <span class="face"><i class="fa-brands fa-facebook-f"></i></span>
+        <span class="twitter"><i class="fa-brands fa-x-twitter"></i></span>
+      </div>
+      <button class="hamburger" onclick="toggleNav()">☰</button>
+      <aside class="sidebar">
+        <h2 class="cross"><i class="fa-solid fa-circle-xmark"></i></h2>
+        <ul class="sidebar_ul">
+          <li><a href="#"><i class="fa-solid fa-house"></i> HOME</a></li>
+          <li><a href="#"><i class="fa-solid fa-dollar-sign"></i>Deals</a></li>
+          <li><a href="#"><i class="fa-solid fa-gift"></i>Packages</a></li>
+          <li><a href="#"><i class="fa-solid fa-envelope"></i> Contact</a></li>
+          <li><a href="#"><i class="fa-solid fa-exclamation"></i>About</a></li>
+        </ul>
+      </aside>
+    </nav>
+  </header>
+  <main id="mainContents">
+    <p class='tel'><a href="tel:0448987555666">CALL OUR EXPERTS ON 0448987555666</a></p>
+
+    <div id="hotelsContainer"></div>
+<!--   -->  
+<!--     <div id="mapContainer" style="display: none;width: 500px;height: 500px;" ><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d39699.592845248124!2d-0.1571465!3d51.5457813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1701522714652!5m2!1sen!2suk" style="border:0;"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+ -->    
+    <div id="map" class="sizemp" style="display: none;"></div>
+  </main>
+  <footer>
+    <p class='tel'><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-visa"></i><img class="atol_img" src="/assets/images/ATOL-andWHITE.png" alt="Atol images"><br><a href="tel:0448987555666">CALL OUR EXPERTS ON 0448987555666</a></p>
+    <p id="mapview">
+      <!-- Call a customer support rep at
+          <a href="tel:0448987555666">0448987555666</a>. -->
+      map view
+    </p>
+  </footer>
+  <!-- to handle map view and list view -->
+  <script src="/assets/js/mapview.js"></script>
+  <script src="/assets/js/sidebar.js"></script>
+
+
+  <script>
+    const hotelNames = document.querySelectorAll('.special h3'); /*check hotel name lenght if more than 13 then decrease font size  and reduce line height*/
+          for (const hotelName of hotelNames) {
+            const contentLength = hotelName.textContent.length;
+            const parent_of_h3 = hotelName.parentElement;
+            if (contentLength > 15) {
+              hotelName.style.fontSize = '17px';
+              parent_of_h3.style.lineHeight = '1em';
+            }
+          }
+  
+</script>
+<script src="/assets/js/mapbox.js"></script>
+<script src="/assets/js/link_to_hoteldetails.js"></script><!--generat link to hotelsdetails page--> 
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+<!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
+ -->  
+
+
+  
+
+
+</body>
+
+</html>
