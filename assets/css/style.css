@@ -35,10 +35,7 @@ header{
 
 
 }
-.navitems a{ /*by this ,remove normal a link style to menue items */
-    text-decoration: none;
-    color:none;
-}
+
 .navitems{
     display:flex;
     width: 100%;
@@ -46,6 +43,28 @@ header{
     color:rgba(225, 234, 238, 0.85);
     text-shadow: 0px 2px 07px rgba(36, 34, 34, 0.246);
 }
+.navitems a{ /*by this ,remove normal a link style to menue items */
+    text-decoration: none;
+    color:white;
+    text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
+
+}
+.navitems a:hover{ /*by this ,remove normal a link style to menue items */
+    text-decoration: none;
+    color:rgb(89, 89, 89);
+    text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
+
+}
+.navitems .social > span a{
+    color:yellow !important;
+    text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
+    border-radius: 2em;
+    padding: 0.4em;
+}
+.navitems .social > span a:hover{
+    text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
+}
+
 
 .logo{
 width:30%;
