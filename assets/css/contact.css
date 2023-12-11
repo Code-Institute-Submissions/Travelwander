@@ -151,6 +151,23 @@ article{
 
    
 }
+.formname i {color: rgb(237, 237, 237);     /* envelop icon */
+text-shadow: 1px 2px 7px #1b1818;
+
+}
+form .formname{
+
+    
+    font-size: x-large;
+    /* align-self: center; */
+    margin: 0 auto;
+    width: 2em;
+
+    margin-bottom: -1.5em;
+}
+
+
+
 form{
     padding-top: 1.2em;
     
@@ -182,18 +199,7 @@ form textarea{
     margin-top: 0.5em;
 
 }
-form .formname{
 
-    
-    font-size: x-large;
-    /* align-self: center; */
-    margin: 0 auto;
-    width: 2em;
-    color: #0c0b12;
-    text-shadow: 1px 1px 2px #5c5c68;
-
-    margin-bottom: -1.5em;
-}
 /* --- */
 .ourinfo{
     background-color: #d5d5d5;
