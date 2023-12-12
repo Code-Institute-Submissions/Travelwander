@@ -402,15 +402,27 @@ footer .tel a{
         left: 9em;
     }
 
+  /*   .sidebar.active {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 10em;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        overflow: auto;
+        z-index: 1;
 
+    } */
     .sidebar {
         display: block;
         position: fixed;
         top: 0;
         right: -100%;
-        width: 200px; 
+        width: 70%; 
         height: 200vh;
-        background: #aaaaadb9;
+        background:rgba(26, 26, 40, 0.687);
+        background: #222228d4;
         backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
@@ -420,13 +432,14 @@ footer .tel a{
         
         border-top-left-radius: 1em;
         font-family: 'Roboto Serif', sans-serif;
-        
+
+
       }
       .sidebar ul{
         margin-top: 1em;
       }
       .sidebar a{
-        color:rgb(51, 50, 50);
+        color:rgb(211, 210, 210);
         font-size: 1.2em;
         text-decoration: none;
         padding: 0.7em;
@@ -440,7 +453,6 @@ footer .tel a{
       .sidebar.active {
         right: 0;
         
-     
       }
 
       .sidebar li{
@@ -452,14 +464,10 @@ footer .tel a{
       }
       
       .sidebar li i{
-        width:20px;
+        width:28px;
         padding-right: 0.6em;
 
       }
-      .sidebar .fa-solid, .fas {
-        font-weight: 900;
-        margin-top: -3px;
-    }
 
 
     
