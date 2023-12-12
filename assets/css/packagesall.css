@@ -612,11 +612,11 @@ footer .tel a{
     }
 }
 @media screen and (min-width: 600px) and (max-width: 900px) {
-    html{
-        max-height: max-content;
-    }
+   
     body {
+        
        grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+      
     }
  
     header {
@@ -627,6 +627,9 @@ footer .tel a{
     }
  
     main {
+        
+        min-height: calc(100vh - (headerHeight + footerHeight));
+         
        grid-column: 2 / 8; /* Adjust the grid column values for the main content */
     }
     main .special{
@@ -634,12 +637,22 @@ footer .tel a{
         width: unset;
 
     }
+    .sp_notes{
+        overflow: hidden;
+    }
+
     #map{
         display: none !important;
     }
+   
+    #mapview{
+        display: block !important;
+    }
  
     footer {
-       grid-column: 1 / 9; /* Adjust the grid column values for the footer */
+       grid-column: 2 / 8; /* Adjust the grid column values for the footer */
+        position: absolute;
+        bottom: 0;
        
        
     }

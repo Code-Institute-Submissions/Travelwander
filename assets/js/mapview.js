@@ -1,12 +1,15 @@
-const mainContent = document.getElementById('mainContent');
+/* const mainContent = document.getElementById('mainContent');
 const mapContainer = document.getElementById('map');
 const mapView = document.getElementById('mapview');
 const windowWidth = window.innerWidth;
 
-if (windowWidth < 600) {
+if (windowWidth < 900) {
   mapContainer.style.display = 'none';
+  console.log(window.innerWidth);
 } else {
   mapContainer.style.display = 'block';
+  //mapContainer.style.setProperty('display', 'block', 'important');
+
 }
 
     
@@ -34,3 +37,38 @@ if (windowWidth < 600) {
     }
     mapView.addEventListener('click', toggleView);
 
+ */
+const mapContainer = document.getElementById('map');
+const mapView = document.getElementById('mapview');
+const windowWidth = window.innerWidth;
+
+function updateMapDisplay() {
+  if (windowWidth < 900) {
+    mapContainer.style.display = 'none';
+  } else {
+    mapContainer.style.display = 'block';
+  }
+}
+
+// Initial update
+updateMapDisplay();
+
+// Update on window resize
+window.addEventListener('resize', () => {
+  windowWidth = window.innerWidth;
+  updateMapDisplay();
+});
+
+// Toggle view function
+function toggleView() {
+  const specialElements = document.querySelectorAll('.special-container');
+  specialElements.forEach(element => {
+    element.style.display = element.style.display === 'none' ? 'flex' : 'none';
+  });
+
+  updateMapDisplay(); // Update map display based on window width
+
+  mapView.textContent = mapContainer.style.display === 'none' ? 'Map View' : 'List View';
+}
+
+mapView.addEventListener('click', toggleView);
