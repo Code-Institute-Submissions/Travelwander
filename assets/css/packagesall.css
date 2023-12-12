@@ -645,8 +645,19 @@ footer .tel a{
         display: none !important;
     }
    
-    #mapview{
-        display: block !important;
+    #see_map{
+        padding: 0.4em;
+        font-weight: 600;
+        font-size: larger;
+        background-color: #197a30;
+        position: fixed;
+        bottom: 9em;
+        left: 50%;
+        border-radius: 1em;
+        padding: 0.5em;
+        
+        color:#dadac8;
+
     }
  
     footer {

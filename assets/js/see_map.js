@@ -1,4 +1,4 @@
- const mainContent = document.getElementById('mainContent');
+const mainContent = document.getElementById('mainContent');
 const mapContainer = document.getElementById('map');
 const mapView = document.getElementById('mapview');
 const windowWidth = window.innerWidth;
