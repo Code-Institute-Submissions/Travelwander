@@ -231,7 +231,7 @@ main .special{
 .sp_notes{
     padding: 1em;
     line-height: 1.4em; 
-    overflow:scroll;  
+    overflow:hidden;  
     
 }
 .sp_notes button{
@@ -612,16 +612,18 @@ footer .tel a{
         color: white; /* Adjust link color */
     }
 }
+
+
 @media screen and (min-width: 600px) and (max-width: 900px) {
    
     body {
         
-       grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+       grid-template-columns: repeat(8, 1fr); 
       
     }
  
     header {
-       grid-column: 1 / 8; /* Adjust the grid column values for the header */
+       grid-column: 1 / 9; /* Adjust the grid  */
     }
     .navitems{
         gap:2em;
@@ -638,7 +640,7 @@ footer .tel a{
         
         min-height: calc(100vh - (headerHeight + footerHeight));
          
-       grid-column: 2 / 8; /* Adjust the grid column values for the main content */
+       grid-column: 2 / 8; /* grid column values for the main content */
     }
     main .special{
         margin-top: 1em;
@@ -677,7 +679,7 @@ footer .tel a{
  
  
     footer {
-       grid-column: 2 / 8; /* Adjust the grid column values for the footer */
+       grid-column: 2 / 8; /*  grid column values for the footer */
         position: absolute;
         bottom: 0;
         
@@ -748,6 +750,8 @@ footer .tel a{
  
     /* Add more specific styles for tablet screens as needed */
  }
+
+ 
  
     
   
