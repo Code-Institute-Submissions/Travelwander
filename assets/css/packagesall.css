@@ -190,27 +190,6 @@ img.wicon{ /* icon image inside latest */
     top:5px;
 
 }
-/* main .special:first-child{
-    grid-column: 1/2;
-    grid-row: 1/2;
-}
-main .special:nth-child(2){
-    grid-column: 1/2;
-    grid-row: 2/3;
-}
-main .special:nth-child(3){
-    grid-column: 1/2;
-    grid-row: 3/4;
-}
-main .special:nth-child(4){
-    grid-column: 1/2;
-    grid-row: 4/5;
-}
-main #map:nth-child(5){
-    grid-row: 1/5;
-    grid-column: 2/3;
-}
- */
 
 main .special-container{
     direction: rtl;
@@ -251,7 +230,8 @@ main .special{
 
 .sp_notes{
     padding: 1em;
-    line-height: 1.4em;   
+    line-height: 1.4em; 
+    overflow: scroll;  
 }
 .sp_notes button{
     
@@ -631,6 +611,41 @@ footer .tel a{
         color: white; /* Adjust link color */
     }
 }
+@media screen and (min-width: 600px) and (max-width: 900px) {
+    html{
+        max-height: max-content;
+    }
+    body {
+       grid-template-columns: repeat(8, 1fr); /* Adjust the number of columns as needed */
+    }
+ 
+    header {
+       grid-column: 1 / 9; /* Adjust the grid column values for the header */
+    }
+    .navitems{
+        gap:1em;
+    }
+ 
+    main {
+       grid-column: 2 / 8; /* Adjust the grid column values for the main content */
+    }
+    main .special{
+        margin-top: 1em;
+        width: unset;
 
+    }
+    #map{
+        display: none !important;
+    }
+ 
+    footer {
+       grid-column: 1 / 9; /* Adjust the grid column values for the footer */
+       
+       
+    }
+ 
+    /* Add more specific styles for tablet screens as needed */
+ }
+ 
     
   
