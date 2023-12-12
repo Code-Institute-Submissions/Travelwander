@@ -149,7 +149,7 @@
     ]
 
     const selectedHotelIndex = sessionStorage.getItem('selectedHotelIndex'); /* Retrieve index from session storage */
-
+    const first_coord =[]
     if (selectedHotelIndex !== null) {
 
       fetch('hotels_data.json') /* Fetch and parse the JSON data */
@@ -166,7 +166,8 @@
 
           document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
 
-          document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
+          document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country},${selectedHotel.coordinates}`;
+          
           document.getElementById('hotelDescription').innerText = selectedHotel.description;
           //document.getElementById('hotelDetails').innerText = `${selectedHotel.details.join('')}`;
 
@@ -182,13 +183,15 @@
           /* price */
           document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
           /* reserve button */
-          
+          first_coord=selectedHotel.coordinates.split(',')
 
         })
         .catch(error => console.error('Error fetching data:', error));
     } else {
       console.error('No hotel selected.');
     }
+/* */
+   
 
   </script>
   <script src="/assets/js/reserve.js"></script>
