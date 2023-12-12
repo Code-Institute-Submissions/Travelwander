@@ -240,7 +240,7 @@ main{
 }
 
 .map {
-    background: url(/assets/images/america.png);
+    /* background: url(/assets/images/america.png); */
     background-attachment: fixed;
     width:19rem;
     height: 98%;

@@ -11,6 +11,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
@@ -65,7 +67,7 @@
   </header>
   <main id="mainContents">
     <section class="photos">
-      <div class="map"></div>
+      <div id="map" class="map"></div>
       <div class="small_img" id="small_img">
         <div class="price" id="hotelPrice"></div>
       </div>
@@ -149,7 +151,7 @@
     ]
 
     const selectedHotelIndex = sessionStorage.getItem('selectedHotelIndex'); /* Retrieve index from session storage */
-    const first_coord =[]
+    let first_coord =[]
     if (selectedHotelIndex !== null) {
 
       fetch('hotels_data.json') /* Fetch and parse the JSON data */
@@ -166,7 +168,7 @@
 
           document.getElementById('hotelRating').innerText = `Rating: ${selectedHotel.rating}`;
 
-          document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country},${selectedHotel.coordinates}`;
+          document.getElementById('hotelLocation').innerText = `Location: ${selectedHotel.location}, ${selectedHotel.country}`;
           
           document.getElementById('hotelDescription').innerText = selectedHotel.description;
           //document.getElementById('hotelDetails').innerText = `${selectedHotel.details.join('')}`;
@@ -184,6 +186,8 @@
           document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
           /* reserve button */
           first_coord=selectedHotel.coordinates.split(',')
+          const [longitude, latitude] = first_coord;
+          initializeMap([longitude, latitude]);
 
         })
         .catch(error => console.error('Error fetching data:', error));
@@ -191,11 +195,28 @@
       console.error('No hotel selected.');
     }
 /* */
+function initializeMap(coordinates) {
+    mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace with your Mapbox access token
+
+    const map = new mapboxgl.Map({
+      container: 'map',
+      style: 'mapbox://styles/mapbox/streets-v11',
+      center: coordinates,
+      zoom: 15,
+    });
+
+    // Add a marker
+    new mapboxgl.Marker()
+      .setLngLat(coordinates)
+      .addTo(map);
+  }
    
 
   </script>
   <script src="/assets/js/reserve.js"></script>
   <script src="/assets/js/swaping_img.js"></script>
+  <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
 
 
 </body>
