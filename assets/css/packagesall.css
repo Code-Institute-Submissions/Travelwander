@@ -206,10 +206,10 @@ main .special-container{
 }
 .special-container::-webkit-scrollbar {
     width: 3px; /* Mostly for vertical scrollbars */
-    height: 10px; /* Mostly for horizontal scrollbars */
+    height: 14px; /* Mostly for horizontal scrollbars */
   }
   .special-container::-webkit-scrollbar-thumb { /* Foreground */
-    background: #e6e2e200;
+    background: #504b4ba7;
   }
 main .special{
     
