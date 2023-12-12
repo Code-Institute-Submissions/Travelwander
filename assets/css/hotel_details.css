@@ -239,7 +239,7 @@ main{
     border: 1px solid white;
 }
 
-.map_container {
+.map {
     background: url(/assets/images/america.png);
     background-attachment: fixed;
     width:19rem;
@@ -425,7 +425,7 @@ footer a{
     main{
         grid-column: 3/11;
     }
-    .map_container{
+    .map{
         width: 17rem;
     }
     footer{
@@ -453,7 +453,7 @@ footer a{
     main{
         grid-column: 3/11;
     }
-    .map_container{
+    .map{
         width: 17rem;
     }
     footer{
