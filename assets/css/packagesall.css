@@ -641,24 +641,32 @@ footer .tel a{
         overflow: hidden;
     }
 
-    #map{
-        display: none !important;
-    }
-   
-    #see_map{
-        padding: 0.4em;
-        font-weight: 600;
-        font-size: larger;
+    #map {
+        display: none;
+      }
+    
+      #mapview {
+        display: block !important;
         background-color: #197a30;
-        position: fixed;
-        bottom: 9em;
-        left: 50%;
-        border-radius: 1em;
-        padding: 0.5em;
+        padding: 0.9em;
         
-        color:#dadac8;
+        position: fixed;
 
-    }
+        display: flex;
+        flex-direction: column;
+
+        color:#d9dad6;
+        font-weight: 600;
+      }
+      #mapview i{
+        font-size: xx-large;
+      }
+      #mapview{
+        box-shadow: 1px px 5px black;
+      }
+      
+    
+ 
  
     footer {
        grid-column: 2 / 8; /* Adjust the grid column values for the footer */
