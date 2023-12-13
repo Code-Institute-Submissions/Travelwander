@@ -285,19 +285,36 @@ main .special{
 footer{
     background-color: rgba(10, 2, 74, 0.376);
         backdrop-filter: blur(60px);
-    grid-column: 1/13;
+    grid-column:1/14;
     grid-row:3/4; 
     display: flex;
     color:white;
     padding: 2%;
 
-
-    align-items: end;
     justify-content: center;
+    text-align: center;
+    padding-left: 0.3em;
+   
+    
+}
+footer p{
+    padding-bottom: 0.3em;
+    
     
 }
 footer a{
-    color:aquamarine
+    color:rgb(255, 172, 127);
+    font-size: larger;
+    
+}
+
+footer img{
+    width: 30%;
+    padding-left: 0.3em;
+}
+footer .tel i{
+    font-size: xxx-large;
+    padding-left: 0.3em;
 }
 .sidebar{
     display: none;
