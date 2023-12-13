@@ -224,11 +224,12 @@ form textarea{
 
 /* --- */
 .ourinfo{
-    background-color: #d5d5d5;
+    backdrop-filter: blur(4px);
     display: flex;
     flex-direction: column;
     gap: 1em;
     padding: 2em;
+    color: azure;
 
 }
 .ourinfo p i{
