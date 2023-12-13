@@ -15,6 +15,7 @@ body{
     
     display: grid;
     grid-template-columns: repeat(12,100px);
+    grid-template-rows: repeat(3,minmax(100px ,auto));
 
     /* grid-template-rows: repeat(3,minmax(80px,auto)); */
 
@@ -36,7 +37,7 @@ body{
 header{
 /*     background-color: rgb(209, 210, 210);
  */    grid-column: 2/12;
-   /*  grid-row:1/2 ; */
+     grid-row:1/2 ; 
 
 
 }
@@ -144,7 +145,7 @@ header .hamburger{
 main{
     /* background-color: blue; */
     grid-column: 2/12;
-    /* grid-row: 2/3; */
+     grid-row: 2/3; 
     /* height: 26em; */
     
     display: flex;
@@ -285,7 +286,7 @@ footer{
     background-color: rgba(10, 2, 74, 0.376);
         backdrop-filter: blur(60px);
     grid-column: 1/13;
-    /* grid-row:3/4; */
+    grid-row:3/4; 
     display: flex;
     color:white;
     padding: 2%;
@@ -629,12 +630,24 @@ footer a{
     footer {
         background-color: rgba(10, 2, 74, 0.376);
         backdrop-filter: blur(60px);
-        grid-column: 1/ 9;
-        position: relative;
-        bottom: 0;
+        grid-column: 1/ 12;
+        grid-row:end;
+        
+        
         height: 10em;
         margin-top: 2em;
-
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    footer img{
+        width: 28%;
+        padding-left: 0.4em;
+    }
+    footer .tel i{
+        font-size: xxx-large;
+        padding-left: 0.3em;
     }
  
     /* Add more specific styles for tablet screens as needed */
@@ -651,7 +664,7 @@ footer a{
     }
  
     main {
-        position: relative;
+        margin-top: 1em;
         grid-row:2/3;
        
        grid-column: 3/11;
@@ -666,12 +679,25 @@ footer a{
     footer {
         background-color: rgba(10, 2, 74, 0.376);
         backdrop-filter: blur(60px);
-        grid-column: 1/ 12;
-        position: relative;
-        bottom: -13em;
+        grid-column: 1/ 13;
+        grid-row:end;
+        position: absolute;
+        bottom: 0;
+  
         height: 10em;
         margin-top: 2em;
-
+        text-align: center;
+        align-items: center;
+        margin: 0 auto;
+        
+    }
+    footer img{
+        width: 28%;
+        padding-left: 0.4em;
+    }
+    footer .tel i{
+        font-size: xxx-large;
+        padding-left: 0.3em;
     }
  
     /* Add more specific styles for tablet screens as needed */
