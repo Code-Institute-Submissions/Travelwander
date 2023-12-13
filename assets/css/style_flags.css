@@ -16,7 +16,7 @@ body{
     display: grid;
     grid-template-columns: repeat(12,100px);
 
-    grid-template-rows: repeat(3,minmax(80px,auto));
+    /* grid-template-rows: repeat(3,minmax(80px,auto)); */
 
    
     max-width: 100%;
@@ -36,7 +36,7 @@ body{
 header{
 /*     background-color: rgb(209, 210, 210);
  */    grid-column: 2/12;
-    grid-row:1/2 ;
+   /*  grid-row:1/2 ; */
 
 
 }
@@ -144,8 +144,8 @@ header .hamburger{
 main{
     /* background-color: blue; */
     grid-column: 2/12;
-    grid-row: 2/3;
-    height: 26em;
+    /* grid-row: 2/3; */
+    /* height: 26em; */
     
     display: flex;
     flex-wrap: wrap;
@@ -282,9 +282,9 @@ main .special{
 /* ------footer ------------------ ------ */
 
 footer{
-    /* background-color: blanchedalmond; */
-    grid-column: 2/12;
-    grid-row:3/4;
+    background-color: blanchedalmond; 
+    grid-column: 1/13;
+    /* grid-row:3/4; */
     display: flex;
     color:white;
     padding: 2%;
@@ -460,6 +460,7 @@ footer a{
         grid-row: 2/3;
         justify-content: center;
         display: flex;
+        height: 100%;
 
             
     }
@@ -581,8 +582,9 @@ footer a{
     }
  
     main {
-        
-        min-height: calc(100vh - (headerHeight + footerHeight));
+        position: relative;
+        grid-row:2/3;
+       
          
        grid-column: 2 / 8; /* grid column values for the main content */
     }
@@ -624,8 +626,8 @@ footer a{
  
     footer {
        grid-column: 2 / 8; /*  grid column values for the footer */
-        position: absolute;
-        bottom: 0;
+        
+        
         
        
        
@@ -645,8 +647,9 @@ footer a{
     }
  
     main {
-        
-        min-height: calc(100vh - (headerHeight + footerHeight)); /* try to fit main part of page */
+        position: relative;
+        grid-row:2/3;
+       
          
        grid-column: 2 / 8; /* Adjust the grid column values for the main content */
        grid-column: 3/11;
@@ -656,16 +659,11 @@ footer a{
         width: unset;
 
     }
-    
 
- 
-    
- 
  
     footer {
        grid-column: 2 / 8; /* Adjust the grid column values for the footer */
-        position: absolute;
-        bottom: 0;
+       
        
        
     }
