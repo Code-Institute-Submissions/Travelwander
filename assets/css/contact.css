@@ -278,7 +278,7 @@ footer a{
         grid-column: 3/11;
     }
 
-}
+} 
 
 @media screen and (max-width: 500px) {
     body{
@@ -612,7 +612,7 @@ footer a{
         
         min-height: calc(100vh - (headerHeight + footerHeight));
          
-       grid-column: 2 / 8; /* Adjust the grid column values for the main content */
+       grid-column: 3 / 12; /* increase grid column values for the main content  for big tablets and desktop*/
     }
     main .special{
         margin-top: 1em;
