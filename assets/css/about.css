@@ -300,8 +300,8 @@ footer a{
     main{
         grid-column: 1/9;
     }
-    article .contact-info{
-        
+    article{
+        margin-top: -3em;
 
         
     }
