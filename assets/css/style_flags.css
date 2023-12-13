@@ -282,14 +282,15 @@ main .special{
 /* ------footer ------------------ ------ */
 
 footer{
-    background-color: blanchedalmond; 
+    background-color: rgba(10, 2, 74, 0.376);
+        backdrop-filter: blur(60px);
     grid-column: 1/13;
     /* grid-row:3/4; */
     display: flex;
     color:white;
     padding: 2%;
-    
-    
+
+
     align-items: end;
     justify-content: center;
     
@@ -536,25 +537,26 @@ footer a{
         /* background-color: blanchedalmond; */
         grid-column: 1/12;
         grid-row:end;
-        height: 13em;
+        height: 6em;
         text-align: center;
+        align-items: center;
         color:white;
         padding: 0em;
         font-size: 1.1em;
-        
-        align-content: center;
 
         
     }
-    footer p{
-        background-color: rgb(27, 16, 7);
-        border-radius: 1em 1em 0 0;
-        padding: .3em;
+    footer img{
+        width: 36%;
+    height: 1.8em;
+    padding-top: 0.2em;
+  
     }
-    footer a{
-        text-decoration:none;
+    footer i{
+        padding: 0.2em;
+        font-size: larger;
     }
-
+    
 
     
   }
@@ -625,12 +627,14 @@ footer a{
  
  
     footer {
-       grid-column: 2 / 8; /*  grid column values for the footer */
-        
-        
-        
-       
-       
+        background-color: rgba(10, 2, 74, 0.376);
+        backdrop-filter: blur(60px);
+        grid-column: 1/ 9;
+        position: relative;
+        bottom: 0;
+        height: 10em;
+        margin-top: 2em;
+
     }
  
     /* Add more specific styles for tablet screens as needed */
@@ -650,8 +654,6 @@ footer a{
         position: relative;
         grid-row:2/3;
        
-         
-       grid-column: 2 / 8; /* Adjust the grid column values for the main content */
        grid-column: 3/11;
     }
     main .special{
@@ -662,10 +664,14 @@ footer a{
 
  
     footer {
-       grid-column: 2 / 8; /* Adjust the grid column values for the footer */
-       
-       
-       
+        background-color: rgba(10, 2, 74, 0.376);
+        backdrop-filter: blur(60px);
+        grid-column: 1/ 12;
+        position: relative;
+        bottom: -13em;
+        height: 10em;
+        margin-top: 2em;
+
     }
  
     /* Add more specific styles for tablet screens as needed */
