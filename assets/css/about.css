@@ -289,7 +289,7 @@ footer a{
 .sidebar{
     display: none;
 }
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) { /* ipad mini */
     header{
         grid-column: 3/12;
         padding: 1em;
@@ -298,8 +298,50 @@ footer a{
         margin-left:-1em;
     }
     main{
-        grid-column: 3/11;
+        grid-column: 1/9;
     }
+    article .contact-info{
+        
+
+        
+    }
+
+
+    .ourinfo{
+        backdrop-filter: blur(4px);
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+        padding: 2em;
+        color: azure;
+    
+    }
+   
+    
+    
+    .contact-info{
+        align-self: center;
+        color:#25280e;
+        padding: 0%;
+        backdrop-filter: blur(3px);
+    }
+    .contact-info ul{
+        list-style-type:square;
+        color:#130c1e;
+        text-shadow:1px 1px 1px #686873;
+        padding-left: 8%;
+        padding-top:5%;
+    
+    }
+    .contact-info ul a{
+        list-style-type:square;
+        color:#eeefe3;
+        padding-left: 8%;
+        padding-top:5%;
+    
+    }
+    
+     
 
 } 
 
@@ -500,19 +542,7 @@ footer a{
         color: azure;
     
     }
-    .ourinfo p i{
-        margin: 0 5px 0 5px;
-    }
-    .ourinfo .socials{
-        text-align: center;
-        
-    }
-    .socials i{
-        margin-left: 8px ;
-        margin-right: 8px;
-        font-size: x-large;
-    }
-    
+   
     
     .contact-info{
         color:#eaf0ba;
