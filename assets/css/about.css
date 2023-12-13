@@ -5,7 +5,7 @@
 body{
     font-family: 'Roboto Serif', sans-serif;
     background: 
-    url(/assets/images/contact.png)
+    url(/assets/images/sunbathing.jpg)
     /* url(/assets/images/placementAreae6a51aa8.png) */;
     background-size: cover;
     background-repeat: no-repeat;
@@ -462,9 +462,9 @@ footer a{
     }
     article {
         display: flex;
-        flex-direction: column-reverse;
-        padding: 10%;
-        width: 80%;
+        flex-direction: column;
+        padding: 5% !important;
+        width: 92%;
         
         /* flex-wrap: wrap; */
     }
