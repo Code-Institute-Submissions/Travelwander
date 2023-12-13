@@ -250,18 +250,22 @@ form textarea{
     color:#eaf0ba;
     padding: 1%;
     backdrop-filter: blur(3px);
+    align-self: center;
+    color:#1b1818
 }
 .contact-info ul{
     list-style-type:square;
     color:#eaf0ba;
-    text-shadow:1px 1px 1px #6962d3;
+    
     padding-left: 8%;
     padding-top:5%;
+    color:rgb(24, 6, 47);
 
 }
 .contact-info ul a{
     list-style-type:square;
     color:#eeefe3;
+    text-shadow: 1px 1px 1px rgb(105, 81, 81);
     padding-left: 8%;
     padding-top:5%;
 
@@ -289,7 +293,7 @@ footer a{
 .sidebar{
     display: none;
 }
-@media screen and (min-width: 700px) { /* ipad mini */
+@media screen and (min-width: 700px) and (max-width:1000px) { /* ipad mini */
     header{
         grid-column: 3/12;
         padding: 1em;
