@@ -245,6 +245,28 @@ form textarea{
     font-size: x-large;
 }
 
+
+.contact-info{
+    color:#eaf0ba;
+    padding: 1%;
+    backdrop-filter: blur(3px);
+}
+.contact-info ul{
+    list-style-type:square;
+    color:#eaf0ba;
+    text-shadow:1px 1px 1px #6962d3;
+    padding-left: 8%;
+    padding-top:5%;
+
+}
+.contact-info ul a{
+    list-style-type:square;
+    color:#eeefe3;
+    padding-left: 8%;
+    padding-top:5%;
+
+}
+
  
 
 
@@ -464,36 +486,56 @@ footer a{
     article {
         display: flex;
         flex-direction: column;
-        padding: 5% !important;
-        width: 92%;
+        padding: 2% !important;
+        width: 94%;
         
         /* flex-wrap: wrap; */
     }
-    .formcontent {
-        background-color: #383838a2;
-        backdrop-filter: blur(30px);
-        position: relative;
+    .ourinfo{
+        backdrop-filter: blur(4px);
         display: flex;
         flex-direction: column;
-        width: 100%;
-        align-items: center;
+        gap: 1em;
+        padding: 2em;
+        color: azure;
+    
+    }
+    .ourinfo p i{
+        margin: 0 5px 0 5px;
+    }
+    .ourinfo .socials{
+        text-align: center;
         
     }
-   input[type="submit"]{
-    margin-bottom: 0.8em;
-   }
-    form .formname{
-
-    
+    .socials i{
+        margin-left: 8px ;
+        margin-right: 8px;
         font-size: x-large;
-        /* align-self: center; */
-        margin: 0 auto;
-        width: 2em;
-        color: #110f1b;
-        text-shadow: 1px 1px 2px #2e2e30;
-    
-        margin-bottom: -1.5em;
     }
+    
+    
+    .contact-info{
+        color:#eaf0ba;
+        padding: 1%;
+        backdrop-filter: blur(3px);
+    }
+    .contact-info ul{
+        list-style-type:square;
+        color:#eaf0ba;
+        text-shadow:1px 1px 1px #6962d3;
+        padding-left: 8%;
+        padding-top:5%;
+    
+    }
+    .contact-info ul a{
+        list-style-type:square;
+        color:#eeefe3;
+        padding-left: 8%;
+        padding-top:5%;
+    
+    }
+    
+    
    
     /*----footer style--- */
     footer{
