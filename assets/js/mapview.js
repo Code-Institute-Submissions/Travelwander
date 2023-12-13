@@ -62,7 +62,7 @@ if (windowWidth < 900) {
       mapContainer.style.display = mapContainer.style.display === 'none' ? 'block' : 'none';
     
       // Map view text depends on mapContainer display
-      mapView.innerHTML = mapContainer.style.display === 'none' ? 'Map View <br> <i class="fa-solid fa-map-location-dot">' : 'List View <br> <i class="fa-solid fa-list"></i>';
+      mapView.innerHTML = mapContainer.style.display === 'none' ? 'Map View <br> <i class="fa-solid fa-map-location-dot"></i>' : 'List View <br> <i class="fa-solid fa-list"></i>';
     }
     
     mapView.addEventListener('click', toggleView);

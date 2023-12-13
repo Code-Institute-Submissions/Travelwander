@@ -613,7 +613,9 @@ footer .tel a{
     }
     #mapview{
         display: block;
+       
     }
+  
 
     footer a {
         text-decoration: none;
@@ -708,7 +710,7 @@ footer .tel a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+        min-height: calc(100vh - (headerHeight + footerHeight)); /* try to fit main part of page */
          
        grid-column: 2 / 8; /* Adjust the grid column values for the main content */
     }
