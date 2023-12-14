@@ -66,8 +66,16 @@ function createFlagContainer(country) {
     case 'north_america':
       continentArray = africa;
       break;
-    // Add more cases as needed
+
+    default:
+        console.error('Invalid continent key');
+    }
   
+
+    continentArray.forEach(country => {
+        const flagContainer = createFlagContainer(country);
+        flagsContainer.appendChild(flagContainer);
+      });
 
   /*
   crate something like this smaple
