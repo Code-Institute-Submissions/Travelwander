@@ -13,7 +13,7 @@ function getContinentKey() {
   return continentKey;
 }
 
-continenValue = getContinentKey();
+const continenValue = getContinentKey();
 
 function getCountriesForContinent(continent) {
   switch (continent) {
@@ -30,6 +30,11 @@ function getCountriesForContinent(continent) {
       return [];
   }
 }
+const countriesInContinent = getCountriesForContinent(continenValue);
+
+
+
+
 
 
 
@@ -67,11 +72,7 @@ function fetchWeather() {
   /* for that counry in link */
     const city = countries[country];
 
-    if (!city) {
-      console.error('Invalid country key');
-      return;
-    }
-
+    
 
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
