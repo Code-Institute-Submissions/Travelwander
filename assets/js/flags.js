@@ -18,6 +18,9 @@ function createFlagContainer(country) {
   const weatherInfo = document.createElement('div'); /* div with id for show weather */
   weatherInfo.id = `weather-info-${country.toLowerCase()}`;
 
+  const packagesCost = document.createElement('h5'); //add cost of a package 
+  packagesCost.innerHTML = `Packages cost:<br> from $699.98`;
+
   
     return flagContainer;
   }
