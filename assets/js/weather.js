@@ -33,6 +33,9 @@ function fetchWeather() {
         }
         return response.json();
       })
+      .then(data => {
+        const weatherInfoContainer = document.getElementById(`weather-info-${country.toLowerCase()}`);
+
 
     
   }
