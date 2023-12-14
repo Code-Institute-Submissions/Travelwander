@@ -1,4 +1,21 @@
 
+import { asia, europe, northAmerica } from './flags.js';
+
+
+function getContinentKey() {
+  /* Get the current URL */
+  const url = new URL(window.location.href);
+
+  /* Extract the continent key from the query parameters */
+  const params = url.searchParams;
+  const continentKey = params.get('continent');
+
+  return continentKey;
+}
+
+continenValue = getContinentKey();
+
+
 
 
 
@@ -32,9 +49,7 @@ const countries = {
 
 function fetchWeather() {
   for (const country in countries) {
-    const url = new URL(window.location.href);
-  const params = url.searchParams;
-  const countryKey = params.get('country');
+    
   /* for that counry in link */
     const city = countries[country];
 
