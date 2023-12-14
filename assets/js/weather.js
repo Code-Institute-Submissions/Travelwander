@@ -15,7 +15,21 @@ function getContinentKey() {
 
 continenValue = getContinentKey();
 
+function getCountriesForContinent(continent) {
+  switch (continent) {
+    case 'asia':
+      return asia;
+    case 'europe':
+      return europe;
+    case 'north_america':
+      return northAmerica;
+    // Add more cases for other continents as needed
 
+    default:
+      console.error('Invalid continent key');
+      return [];
+  }
+}
 
 
 
