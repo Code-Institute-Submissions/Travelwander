@@ -39,10 +39,21 @@ function createFlagContainer(country) {
     return flagContainer;
   }
 
+  function getContinentKey() {
+    /* Get the current URL */
+    const url = new URL(window.location.href);
+  
+    /* Extract the continent key from the query parameters */
+    const params = url.searchParams;
+    const continentKey = params.get('continent');
+  
+    return continentKey;
+  }
+
 
   const flagsContainer = document.getElementById('flags-container')
 
-  
+
   /*
   crate something like this smaple
   
