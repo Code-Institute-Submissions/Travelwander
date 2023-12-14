@@ -8,7 +8,11 @@ function createFlagContainer(country) {
     flagContainer.style.background = `url(/assets/images/flags/${country}.png)`; //set bg for flag container
     flagContainer.style.backgroundSize = 'cover';//set the size 
   
-    
+    /*add link */
+    const link = document.createElement('a');
+  link.href = `packages.html?country=${country}`;
+
+
   
     return flagContainer;
   }
