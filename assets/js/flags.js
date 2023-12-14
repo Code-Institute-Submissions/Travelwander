@@ -53,6 +53,21 @@ function createFlagContainer(country) {
 
   const flagsContainer = document.getElementById('flags-container')
 
+  const continentKey = getContinentKey(); //  previous response url
+
+  let continentArray;
+  switch (continentKey) {
+    case 'asia':
+      continentArray = asia;
+      break;
+    case 'europe':
+      continentArray = europe;
+      break;
+    case 'north_america':
+      continentArray = africa;
+      break;
+    // Add more cases as needed
+  
 
   /*
   crate something like this smaple
