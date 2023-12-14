@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 // Contents of script file
 const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
 
@@ -28,6 +37,13 @@ function fetchWeather() {
   const countryKey = params.get('country');
   /* for that counry in link */
     const city = countries[country];
+
+    if (!city) {
+      console.error('Invalid country key');
+      return;
+    }
+
+
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 
     fetch(apiUrl)
