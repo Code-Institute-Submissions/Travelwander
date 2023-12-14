@@ -20,6 +20,16 @@ const countries = {
   Mexico: 'Papanoa',
 };
 
+
+function fetchWeather() {
+  for (const country in countries) {
+    const city = countries[country];
+    const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
+
+    
+  }
+}
+
 // Fetch weather each city
 cities.forEach(city => {
   const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
