@@ -16,13 +16,17 @@ const countries = {
   Spain: 'Valencia',
   USA: 'Miami',
   Jamaica: 'Kingston',
-  Panama: 'Panama City',
+  Panama: 'Panama',
   Mexico: 'Papanoa',
 };
 
 
 function fetchWeather() {
   for (const country in countries) {
+    const url = new URL(window.location.href);
+  const params = url.searchParams;
+  const countryKey = params.get('country');
+  /* for that counry in link */
     const city = countries[country];
     const apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
 

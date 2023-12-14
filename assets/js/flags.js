@@ -10,7 +10,7 @@ function createFlagContainer(country) {
   
     /*add link */
     const link = document.createElement('a');
-  link.href = `packages.html?country=${country}`;
+  link.href = `packagesall.html?country=${country}`;
 
   const latestContainer = document.createElement('div');
   latestContainer.className = 'latest'; // add latest div
