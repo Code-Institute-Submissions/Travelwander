@@ -1,12 +1,12 @@
 // Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8t';
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
 
 
  /* Array of cities citis chosen base on json file  */
 const countries = {
   Japan: 'Tokyo',
 
-  Thailand: 'Khao Lak',
+  Thailand: 'Phuket',
   South_Korea: 'Seoul',
   Indonesia: 'Ubud',
   France: 'Paris',
