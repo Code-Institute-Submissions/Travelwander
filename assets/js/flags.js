@@ -21,10 +21,28 @@ function createFlagContainer(country) {
   const packagesCost = document.createElement('h5'); //add cost of a package 
   packagesCost.innerHTML = `Packages cost:<br> from $699.98`;
 
+  latestContainer.appendChild(weatherInfo);
+
+  latestContainer.appendChild(document.createElement('br'));
+
+  latestContainer.appendChild(packagesCost);
+
+  link.appendChild(latestContainer);
+
+  flagContainer.appendChild(link);
+
+  const flagsContainer = document.getElementById('flags-container');/* container where you want to display the flag containers */
+
+  
+
   
     return flagContainer;
   }
 
+
+  const flagsContainer = document.getElementById('flags-container')
+
+  
   /*
   crate something like this smaple
   
