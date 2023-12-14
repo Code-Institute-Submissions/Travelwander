@@ -21,3 +21,16 @@ function createFlagContainer(country) {
   
     return flagContainer;
   }
+
+  /*
+  crate something like this smaple
+  
+  <div class="jamaica mid_flag">
+          <a href="packages.html?country=Jamaica">
+              <div class="latest">
+                  <div id="weather-info-jamaica"></div><br>
+                  <h5>Packages cost:<br> from $699.98</h6>
+              </div>
+          </a>
+      </div> 
+      */
