@@ -12,6 +12,8 @@ function createFlagContainer(country) {
     const link = document.createElement('a');
   link.href = `packages.html?country=${country}`;
 
+  const weatherInfo = document.createElement('div'); /* div with id for show weather */
+  weatherInfo.id = `weather-info-${country.toLowerCase()}`;
 
   
     return flagContainer;
