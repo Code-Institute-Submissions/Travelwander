@@ -1,6 +1,6 @@
 const asia = ['Japan', 'Thailand', 'South_Korea', 'Indonesia'];
 const europe = ['France', 'Austria', 'Greece', 'Spain'];
-const North_america = ['USA', 'Jamaica', 'Panama', 'Mexico'];
+const north_america = ['USA', 'Jamaica', 'Panama', 'Mexico'];
 
 function createFlagContainer(country) {
     const flagContainer = document.createElement('div'); //create div
@@ -64,7 +64,7 @@ function createFlagContainer(country) {
       continentArray = europe;
       break;
     case 'north_america':
-      continentArray = africa;
+      continentArray = north_america;
       break;
 
     default:
