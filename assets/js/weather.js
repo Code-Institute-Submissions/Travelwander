@@ -36,7 +36,17 @@ function fetchWeather() {
       .then(data => {
         const weatherInfoContainer = document.getElementById(`weather-info-${country.toLowerCase()}`);
 
-
+        const htmlContent = `
+          <h4>${data.name}, ${data.sys.country}</h4>
+          <img class="wicon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="Weather Icon">
+          <p>Temp: ${data.main.temp} &deg;C</p>
+          <p>Weather: ${data.weather[0].description}</p>
+        `;
+        weatherInfoContainer.innerHTML = htmlContent;
+      })
+      .catch(error => {
+        console.error(`Error fetching data for ${city} (${country}):`, error);
+      });
     
   }
 }
