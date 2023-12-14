@@ -1,6 +1,6 @@
-const asia = ['Japan', 'Thailand', 'South_Korea', 'Indonesia'];
-const europe = ['France', 'Austria', 'Greece', 'Spain'];
-const north_america = ['USA', 'Jamaica', 'Panama', 'Mexico'];
+export const asia = ['Japan', 'Thailand', 'South_Korea', 'Indonesia'];
+export const europe = ['France', 'Austria', 'Greece', 'Spain'];
+export const northAmerica = ['USA', 'Jamaica', 'Panama', 'Mexico'];
 
 function createFlagContainer(country) {
     const flagContainer = document.createElement('div'); //create div

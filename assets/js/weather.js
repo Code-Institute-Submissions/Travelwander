@@ -1,6 +1,27 @@
 
 import { asia, europe, northAmerica } from './flags.js';
 
+// Contents of script file
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
+
+
+ /* Array of cities citis chosen base on json file  */
+const countries = {
+  Japan: 'Tokyo',
+
+  Thailand: 'Phuket',
+  South_Korea: 'Seoul',
+  Indonesia: 'Ubud',
+  France: 'Paris',
+  Austria: 'Vienna',
+
+  Greece: 'Athens',
+  Spain: 'Valencia',
+  USA: 'Miami',
+  Jamaica: 'Kingston',
+  Panama: 'Panama',
+  Mexico: 'Papanoa',
+};
 
 function getContinentKey() {
   /* Get the current URL */
@@ -33,44 +54,20 @@ function getCountriesForContinent(continent) {
 const countriesInContinent = getCountriesForContinent(continenValue);
 
 
+const countriesForWeather = countriesInContinent.reduce((acc, country) => {
+  acc[country] = countries[country];
+  return acc;
+}, {});
 
+console.log(countriesForWeather);
 
-
-
-
-
-
-
-
-
-// Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
-
-
- /* Array of cities citis chosen base on json file  */
-const countries = {
-  Japan: 'Tokyo',
-
-  Thailand: 'Phuket',
-  South_Korea: 'Seoul',
-  Indonesia: 'Ubud',
-  France: 'Paris',
-  Austria: 'Vienna',
-
-  Greece: 'Athens',
-  Spain: 'Valencia',
-  USA: 'Miami',
-  Jamaica: 'Kingston',
-  Panama: 'Panama',
-  Mexico: 'Papanoa',
-};
 
 
 function fetchWeather() {
-  for (const country in countries) {
+  for (const country in countriesForWeather) {
     
   /* for that counry in link */
-    const city = countries[country];
+    const city = countriesForWeather[country];
 
     
 
