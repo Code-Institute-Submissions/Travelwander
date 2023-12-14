@@ -2,7 +2,7 @@
 import { asia, europe, northAmerica } from './flags.js';
 
 // Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8t';
 
 
  /* Array of cities citis chosen base on json file  */
@@ -82,11 +82,12 @@ function fetchWeather() {
       })
       .then(data => {
         const weatherInfoContainer = document.getElementById(`weather-info-${country.toLowerCase()}`);
-
+        const temperature = (data.main.temp).toString().slice(0,2);
+        
         const htmlContent = `
           <h4>${data.name}, ${data.sys.country}</h4>
           <img class="wicon" src="https://openweathermap.org/img/wn/${data.weather[0].icon}.png" alt="Weather Icon">
-          <p>Temp: ${data.main.temp} &deg;C</p>
+          <p>Temp: ${temperature} &deg;C</p>
           <p>Weather: ${data.weather[0].description}</p>
         `;
         weatherInfoContainer.innerHTML = htmlContent;
