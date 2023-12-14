@@ -1,3 +1,14 @@
 const asia = ['Japan', 'Thailand', 'South Korea', 'Indonesia'];
 const europe = ['France', 'Austria', 'Greece', 'Spain'];
 const North_america = ['USA', 'Jamaica', 'Panama', 'Mexico'];
+
+function createFlagContainer(country) {
+    const flagContainer = document.createElement('div'); //create div
+    flagContainer.className = `${country.toLowerCase()} mid_flag`; //add class name
+    flagContainer.style.background = `url(/assets/images/flags/${country}.png)`; //set bg for flag container
+    flagContainer.style.backgroundSize = 'cover';//set the size 
+  
+    
+  
+    return flagContainer;
+  }
