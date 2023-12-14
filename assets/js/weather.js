@@ -2,8 +2,23 @@
 const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8t';
 
 
-// Array of cities
-const cities = ['Miami', 'Panamá', 'Papanoa', 'Jamaica'];
+ /* Array of cities citis chosen base on json file  */
+const countries = {
+  Japan: 'Tokyo',
+
+  Thailand: 'Khao Lak',
+  South_Korea: 'Seoul',
+  Indonesia: 'Ubud',
+  France: 'Paris',
+  Austria: 'Vienna',
+
+  Greece: 'Athens',
+  Spain: 'Valencia',
+  USA: 'Miami',
+  Jamaica: 'Kingston',
+  Panama: 'Panama City',
+  Mexico: 'Papanoa',
+};
 
 // Fetch weather each city
 cities.forEach(city => {
