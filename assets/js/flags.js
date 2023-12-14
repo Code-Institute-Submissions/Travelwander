@@ -1,4 +1,4 @@
-const asia = ['Japan', 'Thailand', 'South Korea', 'Indonesia'];
+const asia = ['Japan', 'Thailand', 'South_Korea', 'Indonesia'];
 const europe = ['France', 'Austria', 'Greece', 'Spain'];
 const North_america = ['USA', 'Jamaica', 'Panama', 'Mexico'];
 
@@ -31,7 +31,7 @@ function createFlagContainer(country) {
 
   flagContainer.appendChild(link);
 
-  const flagsContainer = document.getElementById('flags-container');/* container where you want to display the flag containers */
+  const flagsContainer = document.getElementById('mainContainer');/* container where you want to display the flag containers */
 
   
 
@@ -51,7 +51,7 @@ function createFlagContainer(country) {
   }
 
 
-  const flagsContainer = document.getElementById('flags-container')
+  const flagsContainer = document.getElementById('mainContainer')
 
   const continentKey = getContinentKey(); //  previous response url
 
