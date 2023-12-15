@@ -680,6 +680,8 @@ footer .tel a{
 
     #map {
         display: none;
+        width:60vw;
+        height: unset;
       }
     
       #mapview {
