@@ -213,13 +213,17 @@ main .special-container{
     overflow-x: visible;
     min-width: 29.6em;
 
+    
+
+    
+
 }
 .special-container::-webkit-scrollbar {
     width: 3px; /* Mostly for vertical scrollbars */
     height: 14px; /* Mostly for horizontal scrollbars */
   }
   .special-container::-webkit-scrollbar-thumb { /* Foreground */
-    background: #504b4ba7;
+    background: #d6d6d6a7;
   }
 main .special{
     
@@ -544,6 +548,7 @@ footer .tel a{
         min-width: 29.6em;
         height: 100%;
         
+       
     
     }
 
@@ -559,6 +564,8 @@ footer .tel a{
     
         border-radius: 1em;
         position: relative; /* Ensure relative positioning */
+
+        align-items: center;
     
     }
 
