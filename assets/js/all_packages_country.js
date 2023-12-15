@@ -52,20 +52,26 @@ function displayHotels(hotels) {
     const moreInfoButton = document.createElement('button');
     moreInfoButton.setAttribute('type', 'button');
     moreInfoButton.setAttribute('onclick', 'showHotelDetails(this)');
-    moreInfoButton.textContent = 'More Info';
+    moreInfoButton.innerHTML = 'More Info <i class="fa-solid fa-angle-right"></i>';
 
     const h4Adventure = document.createElement('h4');
-    h4Adventure.innerHTML = `<i class="fa-solid fa-tag" style="color: #e40754;"></i> adventure <br> price : ${hotel.price}`;
+    h4Adventure.innerHTML = `<i class="fa-solid fa-tag" style="color: #e40754;"></i> ${hotel.type} <br> price : ${hotel.price}`;
 
     const h4Stars = document.createElement('h4');
-    h4Stars.innerHTML = '<i class="fa-solid fa-star" style="color: #fbe709;"></i>'.repeat(hotel.rating);
+    
+    if(hotel.rating > 4 && hotel.rating < 5){
+      h4Stars.innerHTML = '<i class="fa-sharp fa-solid fa-star" style="color:#12a43e;"></i>'.repeat(hotel.rating)+`<i class="fa-sharp fa-solid fa-star-half" style="color: #12a43e;"></i>`;
+    }else{
+      h4Stars.innerHTML = '<i class="fa-solid fa-star" style="color: #fbe709;"></i>'.repeat(hotel.rating)
+    }
+    
 
     const h3HotelName = document.createElement('h3');
     h3HotelName.textContent = hotel.name;
 
     const pLocation = document.createElement('p');
 /*     pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
- */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details[0]} <br>`;
+ */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location} <br> ${hotel.details[0]} <br>`;
 
     /* Append elements to the spNotesDiv */
     spNotesDiv.appendChild(moreInfoButton);
