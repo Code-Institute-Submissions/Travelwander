@@ -94,7 +94,7 @@ function displayHotels(hotels) {
 
 /* Map initialization function */
 function initializeMap(centerCoordinates) {
-  mapboxgl.accessToken = 'pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t';
+  mapboxgl.accessToken = 'pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHBsZTJrYTcwM3lmMnFsbjJlMHRnbmFxIn0.9jRwEDR0xab-xftbdq7t7Q';
   const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11', //  map style

@@ -587,8 +587,8 @@ footer .tel a{
     
 #map{
     margin-top:0.5em;
-    width: 96vw !important ;
-    height: 66vh !important;
+    width: 100% !important ;
+    height: 40vh !important;
     
     
 }
