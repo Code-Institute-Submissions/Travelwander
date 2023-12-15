@@ -82,7 +82,7 @@
       <p id="hotelDetails"></p>
       <div class="icones" id="hotelIcons"></div>
       <div class="price" id="hotelPrice"></div>
-      <button type="submit" id="reserveBtn"></button>
+      <button type="submit" id="reserveBtn">Reseve</button>
     </section>
 
   </main>
@@ -96,12 +96,27 @@
     
   </footer>
   <!-- to handle map view and list view -->
-  <div id="confirmationModal" class="modal">
+  <div id="reservationModal" class="modal">
     <div class="modal-content">
       <span class="close">&times;</span>
+      <form id="reservationForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+  
+        <label for="tel">Telephone Number:</label>
+        <input type="tel" id="tel" name="tel" required>
+  
+        <label for="passengers">Number of Passengers:</label>
+        <input type="number" id="passengers" name="passengers" required>
+  
+        <label for="travelDate">Date of Travel:</label>
+        <input type="date" id="travelDate" name="travelDate" required>
+  
+        <button type="submit">Submit</button>
+      </form>
       <p id="confirmationIcon"></p>
       <p id="confirmationMessage"></p>
-      <p>reservation number:<span id="res_number"></span></p>
+      <p>Your reservation number: <span id="res_number"></span></p>
     </div>
   </div>
   <script>
