@@ -4,13 +4,10 @@
 
 body{
     font-family: 'Roboto Serif', sans-serif;
-    background: 
-    url(/assets/images/sunbathing.jpg)
+    background:#6d85a2;
     /* url(/assets/images/placementAreae6a51aa8.png) */;
     background-size:cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
-    
     background-position: center;
     margin:0 auto;
     justify-content: center;
@@ -134,25 +131,7 @@ header .hamburger{
     display: none;
 }
 
-#bgvid {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
-  }
-  .bgimage{
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1;
 
-  }
 /* ------main  -------------------  ------ */
 main{
     /* background-color: blue; */
@@ -374,7 +353,7 @@ footer a{
 @media screen and (max-width: 500px) {
     body{
 
-        
+        background:#373639;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -391,10 +370,7 @@ footer a{
 
     
     }
-    #bgvid,.bgimage{
-        display: none;
-    }
-
+   
     header{
         grid-column: 1/12;
         grid-row: 1/2;
@@ -447,25 +423,14 @@ footer a{
         left: 9em;
     }
 
-  /*   .sidebar.active {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 10em;
-        width: 100%;
-        height: 100vh;
-        background-color: #fff;
-        overflow: auto;
-        z-index: 1;
-
-    } */
+  
     .sidebar {
         display: block;
         position: fixed;
         top: 0;
         right: -100%;
         width: 70%; 
-        height: 200vh;
+        height: calc(100vh ); 
         background:rgba(26, 26, 40, 0.687);
         background: #222228d4;
         backdrop-filter: blur(30px);
@@ -477,6 +442,9 @@ footer a{
         
         border-top-left-radius: 1em;
         font-family: 'Roboto Serif', sans-serif;
+
+        z-index: 1;
+        
 
 
       }
@@ -575,9 +543,9 @@ footer a{
    
     
     .contact-info{
-        color:#ea9712;
+        color:#aeb945;
         padding: 1%;
-        backdrop-filter: blur(3px);
+        
         
     }
     .contact-info ul{
@@ -652,7 +620,7 @@ footer a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+        
          
        grid-column: 1 / 9; /* grid column values for the main content */
     }
@@ -661,34 +629,7 @@ footer a{
         width: unset;
 
     }
-    .sp_notes{
-        overflow: hidden;
-    }
-
-    #map {
-        display: none;
-      }
     
-      #mapview {
-        display: block !important;
-        background-color: #197a30;
-        padding: 0.9em;
-        
-        position: fixed;
-
-        display: flex;
-        flex-direction: column;
-
-        color:#d9dad6;
-        font-weight: 600;
-      }
-      #mapview i{
-        font-size: xx-large;
-      }
-      #mapview{
-        box-shadow: 1px px 5px black;
-      }
-      
     
  
  
@@ -714,7 +655,7 @@ footer a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+        
          
        grid-column: 3 / 12; /* increase grid column values for the main content  for big tablets and desktop*/
     }
@@ -731,27 +672,7 @@ footer a{
         display: none;
       }
     
-      #mapview {
-        display: block !important;
-        background-color: #197a30;
-        padding: 0.9em;
-        
-        position: fixed;
-
-        display: flex;
-        flex-direction: column;
-
-        color:#d9dad6;
-        font-weight: 600;
-      }
-      #mapview i{
-        font-size: xx-large;
-      }
-      #mapview{
-        box-shadow: 1px px 5px black;
-      }
-      
-    
+   
  
  
     footer {
