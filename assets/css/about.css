@@ -7,9 +7,9 @@ body{
     background: 
     url(/assets/images/sunbathing.jpg)
     /* url(/assets/images/placementAreae6a51aa8.png) */;
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-attachment:fixed;
     
     background-position: center;
     margin:0 auto;
@@ -19,6 +19,7 @@ body{
     grid-template-columns: repeat(12,100px);
 
     grid-template-rows: repeat(3,minmax(60px,auto));
+    backdrop-filter: blur(20px);
 
 
 }
@@ -319,6 +320,8 @@ footer a{
         backdrop-filter:blur(00px) ;
         
         padding-bottom: 0;
+
+        margin-bottom: 1em;
         
 
         
@@ -326,7 +329,7 @@ footer a{
 
 
     .ourinfo{
-        background-color: #1157ada1;
+        
         display: flex;
         flex-direction: column;
         gap: 1em;
@@ -338,7 +341,7 @@ footer a{
     
     
     .contact-info{
-        background-color: #1157ada1;
+        
         align-self: center;
         color:#25280e;
         padding-right: 2em;
