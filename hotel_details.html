@@ -2,29 +2,23 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
 
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
   <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
-  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+  <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' >
 
 
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz@1,8..144&family=Roboto:wght@300&display=swap"
     rel="stylesheet">
   <script src="https://kit.fontawesome.com/ecedfde1ad.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="/assets/css/hotel_details.css" />
+  <link rel="stylesheet" href="/assets/css/hotel_details.css" >
 
   <title>Travelwander.com</title>
 </head>
@@ -37,7 +31,7 @@
         <img
           src="/assets/images/travellogo1.png"
           alt="Logo of travelwander"
-        /><a href="/index.html" aria-label="Home" class="color_gradiant">Travelwander.com</a>
+        ><a href="/index.html" aria-label="Home" class="color_gradiant">Travelwander.com</a>
       </div>
       <div class="navmenu">
         <ul class="menu_line">
@@ -66,32 +60,32 @@
     </nav>
   </header>
   <main id="mainContents">
-    <section class="photos">
+    <div class="photos">
       <div id="map" class="map"></div>
       <div class="small_img" id="small_img">
         <div class="price" id="hotelPrice"></div>
       </div>
       <div class="big_img" id="big_img"></div>
       
-    </section>
-    <section class="hotel_notes">
-      <h3 id="hotelName"></h3>
+    </div>
+    <div class="hotel_notes">
+      <h3 id="hotelName">hotel name</h3>
       <p class="reviews" id="hotelRating"></p>
       <p id="hotelLocation"></p>
       <p id="hotelDescription"></p>
       <p id="hotelDetails"></p>
       <div class="icones" id="hotelIcons"></div>
-      <div class="price" id="hotelPrice"></div>
+      <!-- <div class="price" id="hotelPrice2"></div> -->
       <button type="submit" id="reserveBtn">Reseve</button>
-    </section>
+    </div>
 
   </main>
   <footer>
-    <section class='tel'>
+    <div class='tel'>
       <p><a href="tel:0448987555666">CALL OUR EXPERTS ON 0448987555666</a></p>
       <p><i class="fa-brands fa-cc-mastercard"></i><i class="fa-brands fa-cc-visa"></i><img class="atol_img"
           src="/assets/images/ATOL-andWHITE.png" alt="Atol images"></p>
-    </section>
+      </div>
 
     
   </footer>
@@ -209,6 +203,7 @@
           });
           /* price */
           document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`;
+          //document.getElementById('hotelPrice2').innerText = `Price: ${selectedHotel.price}
           /* reserve button */
           first_coord=selectedHotel.coordinates.split(',')
           const [longitude, latitude] = first_coord;
