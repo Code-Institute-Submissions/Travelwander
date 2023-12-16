@@ -364,18 +364,7 @@ footer a{
         left: 9em;
     }
 
-  /*   .sidebar.active {
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 10em;
-        width: 100%;
-        height: 100vh;
-        background-color: #fff;
-        overflow: auto;
-        z-index: 1;
-
-    } */
+ 
     .sidebar {
         display: block;
         position: fixed;
@@ -431,10 +420,6 @@ footer a{
 
       }
 
-
-    
-      
-    
     aside{
         padding:1em;
         position: relative;
