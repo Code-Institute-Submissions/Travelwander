@@ -335,7 +335,7 @@ footer .tel i{
 @media screen and (max-width: 500px) {
    
     body{
-
+        background:#57708e ;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -501,6 +501,7 @@ footer .tel i{
     
     }
     main .latest{
+        font-family: 'Roboto', sans-serif;
         position:relative;
         align-items: center;
         justify-content: center;
@@ -510,8 +511,8 @@ footer .tel i{
         width:7.5em;
         height: 7.5em;
         border-radius: 50%;
-        background-color: rgba(10, 38, 38, 0.125);
-        backdrop-filter: blur(2px);
+        /* background-color: rgba(10, 38, 38, 0.125);
+        backdrop-filter: blur(2px); */
         color:white;
         padding: 0.5em;
         text-align: center;

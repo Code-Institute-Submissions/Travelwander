@@ -883,7 +883,8 @@ footer a{
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #ccc;
-    background-color: #e9e4e4c7;
+    
+    background-color: #8b8f91c7;
     backdrop-filter: blur(30px);
     padding: 20px;
     z-index: 1;

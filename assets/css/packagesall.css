@@ -340,6 +340,7 @@ footer .tel a{
 @media screen and (max-width: 500px) {
    
     body{
+        background:#47596f ;
 
         background-position: center;
         background-size: cover;
@@ -566,7 +567,7 @@ footer .tel a{
         border-radius: 1em;
         position: relative; /* Ensure relative positioning */
 
-        align-items: center;
+        /* align-items: center; */
     
     }
 
