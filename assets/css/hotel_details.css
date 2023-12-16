@@ -372,7 +372,7 @@ footer a{
   .modal {
     display: none;
     position: fixed;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #ccc;
@@ -381,7 +381,7 @@ footer a{
     padding: 20px;
     z-index: 1;
     height: 19em;
-    width: 16em;
+    width: 15em;
     border-radius: 2em;
     font-size: larger;
     line-height: 2em;
@@ -404,6 +404,18 @@ footer a{
     
     
   }
+  form label:nth-child(1) {
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+
+
+  }
+  form label:nth-child(4),form label:nth-child(5) {
+    color:rgb(36, 50, 36);
+    font-size: 16px;
+
+  }
+  
   .modal-content .close{
     align-self: flex-end;
   }
@@ -412,6 +424,7 @@ footer a{
     width:80%;
     border-radius: 1em;
     border:1px solid blue;
+    align-self: center;
 
   }
   .modal-content form input[type="number"]{
@@ -432,13 +445,34 @@ footer a{
     padding: 0.6em;
     border-radius: 0.8em;
     align-self: center;
+    border-color: #16c2dc;
+    background-color: rgb(66, 188, 66);
+    color:white;
+    font-size:16px;
 
+  }
+  .modal-content form button:hover{
+    
+    align-self: center;
+    border-color: #d7670b;
+    background-color: rgb(219, 72, 10);
+    color:white;
+
+  }
+
+  .modal-content p{
+    text-align: center;
+    
   }
   
   #res_number{
-    color:red;
-    font-weight: 700;
+    color:rgb(35, 102, 202);
+    font-weight: 600;
     text-decoration: underline;
+  }
+  #confirmationMessage{
+    color:rgb(2, 89, 2);
+    font-family:'Roboto Serif', serif;;
   }
 
   .close {
@@ -846,11 +880,12 @@ footer a{
     }
 
 
-    /* Modal styles */
-.modal {
+ 
+  /* Modal styles */
+  .modal {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #ccc;
@@ -858,28 +893,106 @@ footer a{
     backdrop-filter: blur(30px);
     padding: 20px;
     z-index: 1;
-    height: 10em;
+    height: 19em;
     width: 15em;
     border-radius: 2em;
+    font-size: larger;
+    line-height: 2em;
+  }
+  .modal i{
+    color:green;
+    font-size: xx-large;
   }
   
   .modal-content {
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap:0.6em;
     
-    font-size: larger;
+    
+  }
+  form label:nth-child(1) {
+    color:rgb(0, 0, 0);
+    font-size: 18px;
+
+
+  }
+  form label:nth-child(4),form label:nth-child(5) {
+    color:rgb(36, 50, 36);
+    font-size: 16px;
+
+  }
+  
+  .modal-content .close{
+    align-self: flex-end;
+  }
+  .modal-content form input[type="text"],input[type="tel"]{
+    padding: 0.7em;
+    width:89%;
+    border-radius: 1em;
+    border:1px solid blue;
+    align-self: center;
+
+  }
+  .modal-content form input[type="number"]{
+    padding: 0.6em;
+    width:30%;
+    border-radius: 1em;
+    border:1px solid blue;
+
+  }
+  .modal-content form input[type="date"]{
+    padding: 0.7em;
+    width:58%;
+    border-radius: 1em;
+    border:1px solid blue;
+
+  }
+  .modal-content form button{
+    padding: 0.6em;
+    width: 50%;
+    border-radius: 0.8em;
+    align-self: center;
+    border-color: #16c2dc;
+    background-color: rgb(66, 188, 66);
+    color:white;
+    font-size:16px;
+
+  }
+  .modal-content form button:hover{
+    
+    align-self: center;
+    border-color: #d7670b;
+    background-color: rgb(219, 72, 10);
+    color:white;
+
+  }
+
+  .modal-content p{
+    text-align: center;
     
   }
   
   #res_number{
-    color:red;
-    font-weight: 700;
+    color:rgb(35, 102, 202);
+    font-weight: 600;
     text-decoration: underline;
+  }
+  #confirmationMessage{
+    color:rgb(4, 48, 4);
+    font-family:'Roboto Serif', serif;;
   }
 
   .close {
-    color: #aaa;
+    color: #211111;
     float: right;
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
   }
   

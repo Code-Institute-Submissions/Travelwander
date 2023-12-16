@@ -19,10 +19,10 @@ document.addEventListener('DOMContentLoaded', function () {
     // Validate and process the form data
     // For simplicity, let's generate a random reservation number
     const randomReservationNumber = Math.floor(Math.random() * (4055555 - 250000 + 1)) + 250000;
-
+    reservationNumberSpan.innerText = `quote refrence: ${randomReservationNumber}`;
     confirmationIcon.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
-    confirmationMessage.innerText = `Reservation confirmed! and one of our expert will call you !`;
-    reservationNumberSpan.innerText = randomReservationNumber;
+    confirmationMessage.innerHTML = `Reservation confirmed!<br> and one of our expert will call you !`;
+    
 
     // Optionally, you can send the form data to a server for further processing
 
