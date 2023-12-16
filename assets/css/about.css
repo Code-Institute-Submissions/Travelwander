@@ -19,6 +19,7 @@ body{
     grid-template-columns: repeat(12,100px);
 
     grid-template-rows: repeat(3,minmax(60px,auto));
+    
     backdrop-filter: blur(20px);
 
 
@@ -334,7 +335,9 @@ footer a{
         flex-direction: column;
         gap: 1em;
         padding: 2em;
-        color: azure;
+        color: rgb(235, 241, 241);
+
+        text-shadow:1px 1px #39383c;
     
     }
    
