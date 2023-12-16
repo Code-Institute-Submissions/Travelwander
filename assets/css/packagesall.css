@@ -6,12 +6,13 @@
 
 body{
 
-    background: url(/assets/images/flags/bg_image.png);
+   background: url(/assets/images/flags/bg_image.png); 
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     margin:0 auto;
     justify-content: center;
+    
     
     display: grid;
     grid-template-columns: repeat(12,100px);
@@ -29,7 +30,7 @@ body{
     width:109vw;
     height:100vh;
     background-color: rgba(67, 66, 65, 0.446);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(20px);
 }
 /* ------ header ------ --------------------*/
 
