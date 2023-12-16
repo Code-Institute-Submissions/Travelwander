@@ -372,7 +372,7 @@ footer a{
   .modal {
     display: none;
     position: fixed;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     border: 1px solid #ccc;
@@ -380,8 +380,8 @@ footer a{
     backdrop-filter: blur(30px);
     padding: 20px;
     z-index: 1;
-    height: 14em;
-    width: 15em;
+    height: 19em;
+    width: 16em;
     border-radius: 2em;
     font-size: larger;
     line-height: 2em;
@@ -392,10 +392,47 @@ footer a{
   }
   
   .modal-content {
-    text-align: center;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+
+  }
+  form{
+    display: flex;
+    flex-direction: column;
+    gap:0.6em;
     
-    font-size: larger;
     
+  }
+  .modal-content .close{
+    align-self: flex-end;
+  }
+  .modal-content form input[type="text"],input[type="tel"]{
+    padding: 0.6em;
+    width:80%;
+    border-radius: 1em;
+    border:1px solid blue;
+
+  }
+  .modal-content form input[type="number"]{
+    padding: 0.6em;
+    width:30%;
+    border-radius: 1em;
+    border:1px solid blue;
+
+  }
+  .modal-content form input[type="date"]{
+    padding: 0.7em;
+    width:50%;
+    border-radius: 1em;
+    border:1px solid blue;
+
+  }
+  .modal-content form button{
+    padding: 0.6em;
+    border-radius: 0.8em;
+    align-self: center;
+
   }
   
   #res_number{
