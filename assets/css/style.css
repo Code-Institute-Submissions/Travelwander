@@ -722,6 +722,9 @@ footer a{
        
        
     }
+    .article h2:first-child{
+        
+    }
  
     /* Add more specific styles for tablet screens as needed */
  }
@@ -747,7 +750,7 @@ footer a{
          
        grid-column: 3 / 12; /* increase grid column values for the main content  for big tablets and desktop*/
     }
-    article section:first-child{
+    .article .section:first-child{
         display: flex ;
         flex-direction: column;
         align-items: center;
@@ -772,7 +775,7 @@ footer a{
 
 
  @media screen and (min-width: 740px) { /* show on all none mobile */
-    article{display: flex;
+    .article{display: flex;
         gap:1.4em;
         width: 130%;
         height: fit-content;
@@ -781,14 +784,14 @@ footer a{
 
         padding-bottom: 1em;
     }
-    article::-webkit-scrollbar {
+    .article::-webkit-scrollbar {
         width: 1px; /* Mostly for vertical scrollbars */
         height: 10px; /* Mostly for horizontal scrollbars */
       }
       .special-container::-webkit-scrollbar-thumb { /* Foreground */
         background: #504b4ba7;
       }
-    article section{
+    .article .section{
         display: flex ;
         flex-direction: column;
         align-items: center;
@@ -802,10 +805,10 @@ footer a{
 
         
     }
-    section .stars{
+    .section .stars{
         padding-bottom: 0.6em;
     }
-    article section:first-child{
+    .article .section:first-child{
         display: flex ;
         flex-direction: column;
         align-items: center;
@@ -817,7 +820,7 @@ footer a{
 
         
     }
-    article section h5{
+    .article .section h5{
         color:rgb(89, 71, 36);
         
     }
