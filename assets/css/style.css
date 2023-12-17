@@ -47,7 +47,7 @@ header{
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
     color:white;
-    text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
+   
 
 }
 .navitems a:hover{ /*by this ,remove normal a link style to menue items */
@@ -71,16 +71,7 @@ header{
     text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
 }
 
-.color_gradiant{
-    
-    color: #91480c;
-     background-image: -webkit-linear-gradient(135deg, #91480c 47%, #1158ad 50%); 
-     background-clip: text; 
-     -webkit-background-clip: text; 
-     text-fill-color: transparent; 
-     -webkit-text-fill-color: transparent;
-}       
-        
+     
 
 .logo{
 width:30%;
@@ -433,6 +424,10 @@ footer a{
 
 
     }
+    .navitems a{ /* Logo text */
+        color:#a84102
+
+    }
     header .hamburger{
         display: block;
         height: 40px;
@@ -629,6 +624,14 @@ footer a{
         text-align: justify;
         padding:1em;
         
+    }
+    footer .footer_para{
+        font-family: 'Kalnia', serif;
+    
+        width: fit-content;
+        padding: 2em;
+        text-align:justify  !important;
+        width: 80%;
     }
     
 

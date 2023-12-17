@@ -52,7 +52,7 @@ z-index: 10;
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
     color:white;
-    text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
+    
 
 }
 .navitems a:hover{ /*by this ,remove normal a link style to menue items */
@@ -94,15 +94,7 @@ font-weight: 600;
     filter: drop-shadow(0px 2px 8px rgba(90, 85, 85, 0.558));
 }
 
-.color_gradiant{
-    
-    color: #91480c;
-     background-image: -webkit-linear-gradient(135deg, #91480c 47%, #1158ad 50%); 
-     background-clip: text; 
-     -webkit-background-clip: text; 
-     text-fill-color: transparent; 
-     -webkit-text-fill-color: transparent;
-}   
+
 .navmenu{
     
     width: 40%;
@@ -401,6 +393,10 @@ footer .tel a{
         background-color: #d7dcd6a3;
         backdrop-filter: blur(10px);
         color:#184046;
+
+    }
+    .navitems a{ /* Logo text */
+        color:#a84102
 
     }
     header .hamburger{

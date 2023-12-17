@@ -79,15 +79,7 @@ z-index: 10;
     text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
 }
 
-.color_gradiant{
-    
-    color: #91480c;
-     background-image: -webkit-linear-gradient(135deg, #000000 47%, #1158ad 50%); 
-     background-clip: text; 
-     -webkit-background-clip: text; 
-    /*  text-fill-color: transparent;  */
-     -webkit-text-fill-color: transparent;
-}   
+  
 .logo{
 width:30%;
 
@@ -635,6 +627,12 @@ footer a{
         color:#184046;
 
     }
+
+    .navitems a{ /* Logo text */
+      color:#a84102
+
+  }
+
     header .hamburger{
         display: block;
         height: 40px;
