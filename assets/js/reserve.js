@@ -1,4 +1,4 @@
-/* 
+
 document.addEventListener('DOMContentLoaded', function () {
   const reserveBtn = document.getElementById('reserveBtn');
   const reservationModal = document.getElementById('reservationModal');
@@ -7,91 +7,68 @@ document.addEventListener('DOMContentLoaded', function () {
   const confirmationMessage = document.getElementById('confirmationMessage');
   const reservationNumberSpan = document.getElementById('res_number');
 
+   /* Add event listener for the Reserve Now button */
   reserveBtn.addEventListener('click', () => {
     reservationModal.style.display = 'block';
   });
 
-  reservationForm.addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent the default form submission behavior
+  
+  reservationForm.addEventListener('submit', function (event) {/* listener for the form submission */
+    event.preventDefault(); 
 
-    console.log('Form submitted'); // Check if the form submission event is triggered
+    // Clear existing error messages
+    clearErrorMessages();
 
-    // Validate and process the form data
-    // For simplicity, let's generate a random reservation number
-    const randomReservationNumber = Math.floor(Math.random() * (4055555 - 250000 + 1)) + 250000;
-    reservationNumberSpan.innerText = `quote refrence: ${randomReservationNumber}`;
-    confirmationIcon.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
-    confirmationMessage.innerHTML = `Reservation confirmed!<br> and one of our expert will call you !`;
     
-
-    // Optionally, you can send the form data to a server for further processing
-
-    // Close the modal after submission
-    reservationModal.style.display = 'block'; // Change 'none' to 'block'
-    reservationForm.style.display = 'none';
-    // Optionally, reset the form
-    reservationForm.reset();
-  });
-
-  const closeButton = document.querySelector('.close');
-  closeButton.addEventListener('click', () => {
-    reservationModal.style.display = 'none';
-  });
-});
- */
-document.addEventListener('DOMContentLoaded', function () {
-  const reserveBtn = document.getElementById('reserveBtn');
-  const reservationModal = document.getElementById('reservationModal');
-  const reservationForm = document.getElementById('reservationForm');
-  const confirmationIcon = document.getElementById('confirmationIcon');
-  const confirmationMessage = document.getElementById('confirmationMessage');
-  const reservationNumberSpan = document.getElementById('res_number');
-
-  reserveBtn.addEventListener('click', () => {
-    reservationModal.style.display = 'block';
-  });
-
-  reservationForm.addEventListener('submit', function (event) {
-    event.preventDefault(); // Prevent the default form submission behavior
-
-    // Validate form fields
     const nameInput = document.getElementById('name');
     const telInput = document.getElementById('tel');
     const passengersInput = document.getElementById('passengers');
 
+    
     if (!isValidName(nameInput.value)) {
-      alert('Please enter a valid name.');
+      displayError(nameInput, 'Please enter a valid name.');
       return;
     }
 
-    if (!isValidPhoneNumber(telInput.value)) {
-      alert('Please enter a valid phone number.');
+    
+    if (!isValidPhoneNumber(telInput.value)) {/* phone number check */
+      displayError(telInput, 'Please enter a valid phone number.');
       return;
     }
 
-    if (!isValidPassengerNumber(passengersInput.value)) {
-      alert('Please enter a valid number of passengers.');
+    
+    if (!isValidPassengerNumber(passengersInput.value)) { /* Validate number of passengers */
+      displayError(passengersInput, 'Please enter a valid number of passengers.');
       return;
     }
 
-    // Process the form data
+     /* the form data */
     const randomReservationNumber = Math.floor(Math.random() * (4055555 - 250000 + 1)) + 250000;
-    reservationNumberSpan.innerText = `quote refrence: ${randomReservationNumber}`;
+    reservationNumberSpan.innerText = `quote reference: ${randomReservationNumber}`;
     confirmationIcon.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
-    confirmationMessage.innerHTML = `Reservation confirmed!<br> and one of our experts will call you!`;
+    confirmationMessage.innerHTML = `Reservation confirmed!<br> One of our experts will call you!`;
 
-    // Optionally, you can send the form data to a server for further processing
-
-    // Close the modal after submission
-    reservationModal.style.display = 'block'; // Change 'none' to 'block'
+    
+    /* the confirmation message */
+    confirmationMessage.style.display = 'block';
     reservationForm.style.display = 'none';
-    // Optionally, reset the form
-    reservationForm.reset();
+
+
+   
+    setTimeout(() => { /* Close modal after  */
+      reservationModal.style.display = 'none';
+      confirmationMessage.style.display = 'none';
+    }, 8000);  /* Close the modal and hide the confirmation message after 3 seconds */
+
+    
+    reservationForm.reset();/* reset the form */
   });
 
+  // the Close button
   const closeButton = document.querySelector('.close');
   closeButton.addEventListener('click', () => {
     reservationModal.style.display = 'none';
+    confirmationMessage.style.display = 'none';
   });
 
   // Helper functions for validation
@@ -100,15 +77,37 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   function isValidPhoneNumber(phoneNumber) {
-    // Implement your own validation logic for phone numbers
-    // Example: Check if it contains only numbers and is of a certain length
-    return /^\d{10}$/.test(phoneNumber);
+    
+    // Example: Check contains only numbers and length
+    return /^\d{11}$/.test(phoneNumber);
   }
 
   function isValidPassengerNumber(passengerNumber) {
-    // Implement your own validation logic for the number of passengers
-    // Example: Check if it's a positive integer
-    return /^\d+$/.test(passengerNumber) && parseInt(passengerNumber) > 0;
+    
+    return /^\d+$/.test(passengerNumber) && parseInt(passengerNumber) > 0;/*positive integer */
+  }
+
+   /* display error messages */
+  function displayError(inputElement, errorMessage) {
+    const errorElement = document.createElement('p');
+    errorElement.classList.add('error-message');
+    errorElement.innerText = errorMessage;
+
+     
+    inputElement.parentNode.insertBefore(errorElement, inputElement.nextSibling);/* Insert error message */ 
+
+    
+    document.querySelector('button[type="submit"]').disabled = true;
+  }
+
+  /* clear error messages*/
+  function clearErrorMessages() {
+    const errorMessages = document.querySelectorAll('.error-message');
+    errorMessages.forEach(message => message.remove());
+
+    // Enable submit
+    document.querySelector('button[type="submit"]').disabled = false;
   }
 });
+
 
