@@ -696,7 +696,7 @@ footer a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+      
          
        grid-column: 1 / 9; /* grid column values for the main content */
     }
