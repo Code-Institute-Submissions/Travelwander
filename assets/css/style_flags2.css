@@ -152,7 +152,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 1.8em;
-    align-items: top;
+    
     justify-content: center;
 
     padding-top: 2em;
@@ -643,13 +643,7 @@ footer .tel i{
         color:#d9dad6;
         font-weight: 600;
       }
-      #mapview i{
-        font-size: xx-large;
-      }
-      #mapview{
-        box-shadow: 1px px 5px black;
-      }
-      
+    
     
  
  
