@@ -4,8 +4,7 @@
 
 body{
     background: 
-    url(/assets/images/plane4.png)
-    /* url(/assets/images/placementAreae6a51aa8.png) */;
+    url(/assets/images/plane4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,10 +17,6 @@ body{
     grid-template-columns: repeat(12,100px);
 
     grid-template-rows: repeat(3,minmax(20px,auto));
-
-   grid-template-areas: 'header . . .'
-                        'main main footer'
-                        'footer main footer';
 
 
 }
@@ -46,7 +41,7 @@ header{
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:white;
+    color:#a84102;
    
 
 }
@@ -181,8 +176,8 @@ main .inviting{
     width:80%;
     padding:1em;
     font-family: 'Roboto Serif';
+    background-color:rgba(67, 68, 67, 0.641);
     
-    background-color: rgba(79, 81, 80, 0.187);
 }
 
 .continents{
@@ -246,8 +241,6 @@ main .inviting{
     bottom:2em;
     left:3.7em;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.399);
-
-
 }
 
 .continents div:nth-child(3){
@@ -671,7 +664,7 @@ footer a{
     
   }
 
-  @media screen and (min-width: 600px) and (max-width: 900px) {
+  @media screen and (min-width: 520px) and (max-width: 900px) {
    
     body {
         

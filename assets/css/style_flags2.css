@@ -51,7 +51,7 @@ z-index: 10;
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:white;
+    color:#a84102;
     
 
 }

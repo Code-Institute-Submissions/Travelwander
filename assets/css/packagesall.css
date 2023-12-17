@@ -6,7 +6,7 @@
 
 body{
 
-   background: url(/assets/images/flags/bg_image.png); 
+   /* background: url(/assets/images/flags/bg_image.png);  */
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -51,7 +51,7 @@ z-index: 10;
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:white;
+    color:#a84102;
     
 
 }

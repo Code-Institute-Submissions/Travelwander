@@ -32,7 +32,7 @@ body{
     z-index: -1;
     width:109vw;
     height:100vh;
-    background-color: #2d0c5869;
+    /* background-color: #2d0c5869; */
     backdrop-filter: blur(20px);
 }
 /* ------ header ------ --------------------*/
@@ -54,7 +54,7 @@ z-index: 10;
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:white;
+    color:#a84102;
    /*  text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549); */
 
 }
@@ -468,7 +468,7 @@ footer a{
   }
 
   .close {
-    color: #aaa;
+    color: #ce0a0a;
     float: right;
     font-size: 28px;
     font-weight: bold;

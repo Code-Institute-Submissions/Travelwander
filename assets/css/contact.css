@@ -41,8 +41,8 @@ header{
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:white;
-    text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549);
+    color:#a84102;
+    /* text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549); */
 
 }
 .navitems a:hover{ /*by this ,remove normal a link style to menue items */
