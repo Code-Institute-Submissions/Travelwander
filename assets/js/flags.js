@@ -64,7 +64,7 @@ function createFlagContainer(country) {
       continentArray = europe;
       break;
     case 'north_america':
-      continentArray = north_america;
+      continentArray = northAmerica;
       break;
 
     default:
