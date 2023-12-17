@@ -512,7 +512,7 @@ footer .tel a{
 
         flex-wrap: wrap;
         gap: 0.5em;
-        align-items: top;
+        
         justify-content: center;
         padding-top: 2em; 
         margin-top: -1em !important;
@@ -663,8 +663,7 @@ footer .tel a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
-         
+       
        grid-column: 2 / 8; /* grid column values for the main content */
     }
     main .special{
@@ -699,7 +698,7 @@ footer .tel a{
         font-size: xx-large;
       }
       #mapview{
-        box-shadow: 1px px 5px black;
+        box-shadow: 1px 0px 5px black;
       }
       
     
@@ -727,7 +726,6 @@ footer .tel a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight)); /* try to fit main part of page */
          
        grid-column: 2 / 8; /* Adjust the grid column values for the main content */
     }
@@ -761,7 +759,7 @@ footer .tel a{
         font-size: xx-large;
       }
       #mapview{
-        box-shadow: 1px px 5px black;
+        box-shadow: 1px 0px 5px black;
       }
       
     
