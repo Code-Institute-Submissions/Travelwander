@@ -142,7 +142,12 @@ article{
     width: 80%;
     justify-content: space-evenly;
     backdrop-filter: blur(20px);
+    position: relative;
 
+}
+article h2{
+    position: absolute;
+    margin-top: -1em;
 }
 
 
@@ -524,8 +529,11 @@ footer a{
         width: 94%;
         background-color: #00000051;
         
-        /* flex-wrap: wrap; */
+        /* f
+        lex-wrap: wrap; */
     }
+    article h2{
+        display: none;    }
     .ourinfo{
         
         display: flex;
