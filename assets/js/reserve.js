@@ -90,6 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
    /* display error messages */
   function displayError(inputElement, errorMessage) {
     const errorElement = document.createElement('p');
+    errorElement.style.color= "red";
+    errorElement.style.fontSize="13px"
+    errorElement.style.margin="-17px"
     errorElement.classList.add('error-message');
     errorElement.innerText = errorMessage;
 
