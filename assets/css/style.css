@@ -279,6 +279,15 @@ main .inviting{
 }
 
 
+.slide {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    transition: background 3s ease-in-out;
+  }
+
 /* ------footer ------------------ for company text------ */
 
 
