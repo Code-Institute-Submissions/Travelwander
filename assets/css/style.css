@@ -187,8 +187,8 @@ main .inviting{
 .inviting .text_h2_p{
     width:80%;
     padding:1em;
-    font-family: 'Roboto Serif';
-    background-color:rgba(67, 68, 67, 0.641);
+    font-family:var(--font-fmailiy-serif);
+    background-color:var(--text-bg-color);
     
 }
 
@@ -296,7 +296,7 @@ footer{
     margin: 0 auto;
 }
 footer .footer_para{
-    font-family: 'Kalnia', serif;
+    font-family: var(--nav-items-font);
 
     width: fit-content;
     padding: 2em;
@@ -594,10 +594,8 @@ footer a{
 
     /*----footer style--- */
     footer{
+
       
-        
-        
-        
          backdrop-filter: blur(30px);
         grid-column: 1/12;
         
@@ -605,6 +603,7 @@ footer a{
         color:white;
         
         font-size: 1.1em;
+        font-family: var(--nav-items-font);
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -652,9 +651,6 @@ footer a{
         flex-direction: column;
         justify-content: space-between;
       }
-  
-      
-
 
     footer a{
         text-decoration:none;
