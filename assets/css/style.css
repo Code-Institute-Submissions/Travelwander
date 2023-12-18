@@ -2,6 +2,15 @@
     padding: 0;
 }
 
+:root {
+    --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
+    --nav_items_color:#a84102;
+    --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-fmailiy-serif:'Roboto Serif', serif;
+
+  }
+
+
 body{
     background: 
     url(/assets/images/plane4.png);
@@ -43,7 +52,7 @@ header{
 
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:#a84102;
+    color:var(--nav_items_color);
     /* color:#0c578d; */
    
 
@@ -103,7 +112,7 @@ font-weight: 600;
     list-style-type: none;
     
     
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:var(--nav-items-font);
     font-weight: 500;
 
 }
@@ -268,11 +277,12 @@ main .inviting{
 }
 
 
-/* ------footer ------------------ ------ */
+/* ------footer ------------------ for company text------ */
+
 
 footer{
     width: 100%;
-     background-color: rgba(76, 75, 75, 0.62); 
+     background-color: var(--text-bg-color);
      backdrop-filter: blur(30px);
     grid-column: 1/13;
     grid-row:3/4;
@@ -281,6 +291,9 @@ footer{
     padding: 2%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 }
 footer .footer_para{
     font-family: 'Kalnia', serif;
@@ -307,22 +320,6 @@ footer a{
 }
 
 
-/* ------footer ------------------ ------ */
-
-footer{
-    /* background-color: blanchedalmond; */
-    
- 
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-
-    /* background-color: #2d0c5869; 
-    backdrop-filter: blur(30px);*/
-    
-
-  
-}
 .tel{
     
     display: flex;
@@ -348,7 +345,7 @@ footer img{
 }
 footer a{
     font-size: larger;
-    color:rgb(255, 0, 128);
+    color:rgb(231, 140, 12);
     text-shadow: 1px 1px 0px black;
     
     text-decoration: none;
@@ -600,7 +597,7 @@ footer a{
       
         
         
-         background-color: rgba(46, 81, 138, 0.53);
+        
          backdrop-filter: blur(30px);
         grid-column: 1/12;
         
