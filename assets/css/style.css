@@ -297,7 +297,7 @@ main .inviting{
     height: 200px;
     background-size: cover;
     background-position: center;
-    transition: background 4s ease-in-out; 
+    transition: background 5s ease-in-out; 
   }
   
 

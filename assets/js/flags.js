@@ -27,6 +27,7 @@ function createFlagContainer(country) {
 
   latestContainer.appendChild(packagesCost);
 
+
   link.appendChild(latestContainer);
 
   flagContainer.appendChild(link);
