@@ -237,6 +237,7 @@ main .inviting{
     color:white;
     text-decoration: none;
     font-family: var(--nav-items-font);
+    backdrop-filter: drop-shadow(20px 40px 60px black);
 }
 
 .continents div:nth-child(2){
