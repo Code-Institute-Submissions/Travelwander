@@ -12,12 +12,12 @@ document.addEventListener('DOMContentLoaded', function () {
         currentIndex = (currentIndex + 1) % images.length;
       }
 
-      const slideshowInterval = setInterval(showImage, 3000); // Change the interval as needed
+      const slideshowInterval = setInterval(showImage, 5000); 
 
-      // Pause the slideshow on hover
+      // Pause 
       slide.addEventListener('mouseover', () => clearInterval(slideshowInterval));
 
-      // Resume the slideshow on mouseout
+      // Resume 
       slide.addEventListener('mouseout', () => {
         clearInterval(slideshowInterval);
         slideshowInterval = setInterval(showImage, 3000);
