@@ -236,6 +236,7 @@ main .inviting{
 .namerica a,.europe a,.asia a{
     color:white;
     text-decoration: none;
+    font-family: var(--nav-items-font);
 }
 
 .continents div:nth-child(2){
@@ -793,7 +794,7 @@ footer a{
         align-items: center;
         width: 15em;
         padding:0.3em;
-        
+        font-family: var(--nav-items-font);
         gap:0.8em;
         background:rgb(147, 197, 177);
         backdrop-filter: blur(30px);
