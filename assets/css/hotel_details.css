@@ -2,6 +2,15 @@
     padding: 0;
     box-sizing: border-box;
 
+
+}
+
+:root {
+  --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
+  --nav_items_color:#a84102;
+  --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --font-fmailiy-serif:'Roboto Serif', serif;
+
 }
 html {
     scroll-behavior: smooth;
@@ -54,7 +63,7 @@ z-index: 10;
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:#a84102;
+    color:var(--nav_items_color)
    /*  text-shadow: 0px 2px 3px rgba(36, 31, 25, 0.549); */
 
 }
@@ -70,7 +79,7 @@ z-index: 10;
     border-bottom: 2px dotted rgb(19, 16, 3);
   }
 .navitems .social > span a{ 
-    color:yellow !important;
+  color:var(--nav_items_color);
     
     border-radius: 2em;
     padding: 0.4em;
@@ -349,7 +358,8 @@ footer img{
 }
 footer a{
     font-size: larger;
-    color:wheat;
+    color:var(--nav_items_color);
+    text-shadow: 0px 1px 1px rgb(128, 128, 128);
     
     text-decoration: none;
    

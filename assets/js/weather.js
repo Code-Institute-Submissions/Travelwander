@@ -2,7 +2,7 @@
 import { asia, europe, northAmerica } from './flags.js';
 
 // Contents of script file
-const apiKey = '2d32b95092f84b62eca3ae99ba8dfda8';
+const apiKey = '2d32b95092f84b62eca3ae99ba8dfd';
 
 
  /* Array of cities citis chosen base on json file  */
