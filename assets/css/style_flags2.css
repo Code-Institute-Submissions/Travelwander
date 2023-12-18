@@ -181,7 +181,7 @@ main .usa{
     background-size: cover;
 
 }
-main jamaica{
+main .jamaica{
    
     background:url(/assets/images/flags/Jamaica.svg.png);
     background-size: cover;
@@ -197,7 +197,7 @@ main .panama{
 main .mexico{
    
     background:url(/assets/images/flags/Mexico_flag-3.png);
-    background-size: cover;
+    background-size: center;
 
 }
 
@@ -503,13 +503,13 @@ footer .tel i{
     main {
 
         gap:3.5em;
-        justify-content: space-around;
+        /* justify-content: space-around; */
         padding-top: 6em;
     }
 
 
     main .mid_flag{
-        width: 11em;
+        width: 10em;
         height: 13.2em;
         border-radius: 1em;
     
@@ -522,7 +522,7 @@ footer .tel i{
         top:4.5em;
         line-height: 1em;
         
-        width:11em;
+        width:10em;
         height: 9em;
         border-radius: 1em;
         background-color: rgba(8, 25, 25, 0.549);
@@ -538,7 +538,7 @@ footer .tel i{
         justify-content: center;
         top:4.5em;
         
-        width:11em;
+        width:10em;
         height: 9em;
         border-radius: 1em;
         background-color: rgba(10, 38, 38, 0.427);
