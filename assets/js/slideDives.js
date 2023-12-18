@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
       // Resume 
       slide.addEventListener('mouseout', () => {
         clearInterval(slideshowInterval);
-        slideshowInterval = setInterval(showImage, 3000);
+        slideshowInterval = setInterval(showImage, 5000);
       });
     }
 

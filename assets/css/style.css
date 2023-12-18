@@ -227,7 +227,8 @@ main .inviting{
 
 .namerica:hover, .europe:hover ,.asia:hover{
     background-color: #eee;
-    border: 1px solid #dee3e9;
+    text-decoration: dotted;
+    border: 1px dotted #dee3e9;
     box-shadow: 1px 1px 1px white;
     
     cursor:pointer;
@@ -235,9 +236,11 @@ main .inviting{
   
 .namerica a,.europe a,.asia a{
     color:white;
+    
     text-decoration: none;
     font-family: var(--nav-items-font);
     backdrop-filter: drop-shadow(20px 40px 60px black);
+    font-weight: 800;
 }
 
 .continents div:nth-child(2){
@@ -285,7 +288,7 @@ main .inviting{
     height: 200px;
     background-size: cover;
     background-position: center;
-    transition: background 3s ease-in-out;
+    transition: background 4s ease-in-out;
   }
 
 /* ------footer ------------------ for company text------ */
