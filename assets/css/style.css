@@ -12,6 +12,7 @@
 
 
 body{
+    
     background: 
     url(/assets/images/plane4.png);
     background-size: cover;
@@ -162,7 +163,7 @@ header .hamburger{
   }
 /* ------main  -------------------  ------ */
 main{
-    /* background-color: blue; */
+    
     grid-column: 2/12;
     grid-row: 2/3;
     
@@ -179,6 +180,8 @@ main .inviting{
     padding-left: 12%;
     padding-right: 12%;
     padding-bottom: 6%;
+
+    border-radius: 1em;
     
 }
 .inviting .mobile_heading{
@@ -189,6 +192,7 @@ main .inviting{
     padding:1em;
     font-family:var(--font-fmailiy-serif);
     background-color:var(--text-bg-color);
+    
     
 }
 
@@ -242,6 +246,10 @@ main .inviting{
     backdrop-filter: drop-shadow(20px 40px 60px black);
     font-weight: 800;
 }
+.europe a{
+    
+    font-size: larger;
+}
 
 .continents div:nth-child(2){
     background-color: black;
@@ -263,7 +271,7 @@ main .inviting{
 .continents div:nth-child(3){
     
     background: url(/assets/images/placementArea.png) left no-repeat;
-    
+     
     background-size: cover;
 
     text-align: end;
@@ -282,14 +290,16 @@ main .inviting{
 }
 
 
-.slide {
+.slide{ /* for all slide */
+    border-radius: 1em;
     position: relative;
     width: 300px;
     height: 200px;
     background-size: cover;
     background-position: center;
-    transition: background 4s ease-in-out;
+    transition: background 4s ease-in-out; 
   }
+  
 
 /* ------footer ------------------ for company text------ */
 
