@@ -620,7 +620,7 @@ footer a{
     footer{
 
       
-         backdrop-filter: blur(30px);
+     
         grid-column: 1/12;
         
         text-align: center;
@@ -639,6 +639,9 @@ footer a{
         text-shadow: 1px 1px 0px rgb(121, 120, 120);
         text-align: justify;
         padding:1em;
+        
+        
+        
         
     }
     footer .footer_para{
@@ -670,11 +673,22 @@ footer a{
         width: 50%;
         
     }
-    article {
+    .article {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        height: 32em;
       }
+    .article .section{
+        
+        backdrop-filter: unset;
+        border-radius: 1em;
+        box-shadow: 1px 1px 10px #372c2ca4;
+         
+         
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+    }
 
     footer a{
         text-decoration:none;
