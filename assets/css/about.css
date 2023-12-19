@@ -1,6 +1,14 @@
 *{margin: 0;
     padding: 0;
 }
+:root {
+    --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
+    --nav_items_color:#a84102;
+    --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font-fmailiy-serif:'Roboto Serif', serif;
+    --footer-tel : rgb(231, 140, 12);
+  
+  }
 
 body{
     font-family: 'Roboto Serif', sans-serif;
@@ -56,7 +64,7 @@ header{
     border-bottom: 2px dotted rgb(19, 16, 3);
   }
 .navitems .social > span a{ 
-    color:yellow !important;
+    color:var(--nav_items_color);
     
     border-radius: 2em;
     padding: 0.4em;
