@@ -281,7 +281,7 @@ footer a{
 }
 @media screen and (min-width: 700px) {
     header{
-        grid-column: 3/12;
+        
         padding: 1em;
     }
     header .social{

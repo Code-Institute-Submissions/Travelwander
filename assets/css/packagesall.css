@@ -4,7 +4,7 @@
 
 }
 :root {
-    --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
+    --text-bg-color: rgba(76, 75, 75, 0.728); /* backdrop blur(30px) */
     --nav_items_color:#a84102;
     --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-fmailiy-serif:'Roboto Serif', serif;
@@ -14,7 +14,7 @@
 
 body{
 
-   /* background: url(/assets/images/flags/bg_image.png);  */
+   background: url(/assets/images/bgpack11.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -37,7 +37,7 @@ body{
     z-index: -1;
     width:109vw;
     height:100vh;
-    background-color: rgba(67, 66, 65, 0.446);
+    background-color: rgb(121 216 219 / 45%);
     backdrop-filter: blur(20px);
 }
 /* ------ header ------ --------------------*/
