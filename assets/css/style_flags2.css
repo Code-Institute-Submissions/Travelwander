@@ -567,13 +567,13 @@ footer .tel i{
         /* background-color: blanchedalmond; */
         grid-column: 1/12;
         grid-row:end;
-        height: 6em;
+        height: unset;
         text-align: center;
         align-items: center;
         color:white;
         padding: 0em;
         font-size: 1.1em;
-
+        position: unset;
         
     }
     footer img{
