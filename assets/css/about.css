@@ -9,14 +9,22 @@
     --footer-tel : rgb(231, 140, 12);
   
   }
+  html{
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    background-image: url(/assets/images/about.jpg);
+  }
 
 body{
     font-family: 'Roboto Serif', sans-serif;
-    background:#838e9c;
+
     /* url(/assets/images/placementAreae6a51aa8.png) */;
-    background-size:cover;
+    
     background-repeat: no-repeat;
-    background-position: center;
+    
     margin:0 auto;
     justify-content: center;
     
@@ -25,7 +33,7 @@ body{
 
     grid-template-rows: repeat(3,minmax(60px,auto));
     
-    backdrop-filter: blur(20px);
+    
 
 
 }
@@ -36,6 +44,7 @@ header{
 /*     background-color: rgb(209, 210, 210);
  */    grid-column: 2/12;
     grid-row:1/2 ;
+    backdrop-filter: blur;
 
 
 }
@@ -608,7 +617,17 @@ footer a{
   }
 
   @media screen and (min-width: 600px) and (max-width: 900px) {
-   
+    .whole_bg{
+        position: fixed;
+        z-index: -1;
+        width:109vw;
+        height:100vh;
+        background-color: rgba(78, 136, 138, 0.45);
+        backdrop-filter: blur(00px);
+    }
+
+
+
     body {
         
        grid-template-columns: repeat(8, 1fr); 
@@ -638,15 +657,20 @@ footer a{
     }
  
     main {
-        
-        
-         
+ 
+        padding-top: 4%;
        grid-column: 1 / 9; /* grid column values for the main content */
     }
     main .special{
-        margin-top: 1em;
+        
         width: unset;
 
+    }
+    article{
+  
+        backdrop-filter: blur(30px);
+        position: relative;
+    
     }
     
     
@@ -654,8 +678,9 @@ footer a{
  
     footer {
        grid-column: 2 / 8; /*  grid column values for the footer */
-        position: absolute;
-        bottom: 0;
+        /* position: absolute;
+        bottom: 0; */
+        
         
        
        
@@ -674,31 +699,19 @@ footer a{
  
     main {
         
-        
-         
+
        grid-column: 3 / 12; /* increase grid column values for the main content  for big tablets and desktop*/
     }
-    main .special{
-        margin-top: 1em;
-        width: unset;
-
-    }
-    .sp_notes{
-        overflow: hidden;
-    }
-
-    #map {
-        display: none;
-      }
-    
+   
+  
+ 
    
  
  
     footer {
        grid-column: 2 / 8; /* Adjust the grid column values for the footer */
-        position: absolute;
-        bottom: 0;
-       
+        
+ 
        
     }
  
