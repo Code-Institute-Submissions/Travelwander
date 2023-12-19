@@ -7,9 +7,10 @@
 
 :root {
   --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
-  --nav_items_color:#a84102;
+  --nav_items_color:#ad460f;
   --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-fmailiy-serif:'Roboto Serif', serif;
+  --footer-tel:#ad460f;
 
 }
 html {
@@ -18,7 +19,7 @@ html {
 
 body{
 
-    background: url(/assets/images/hotel_details/background_image.png);
+    background: url(/assets/images/hotel_details/background_image.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -149,7 +150,10 @@ font-weight: 600;
 header .hamburger{
     display: none;
 }
-
+footer a{
+  font-size: large;
+    
+}
 @media screen and (min-width: 710px) {
     main{
         grid-column: 2/11;
@@ -358,10 +362,11 @@ footer img{
 }
 footer a{
     font-size: larger;
-    color:var(--nav_items_color);
-    text-shadow: 0px 1px 1px rgb(128, 128, 128);
-    
+
     text-decoration: none;
+    color:var(--footer-tel);
+  text-shadow: 0px 1px 0px black;
+  text-decoration: none;
    
    
 }

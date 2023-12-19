@@ -599,8 +599,8 @@
     "price": "₩100,000",
     "rating": 4.5,
     "name": "Lotte World Hotel",
-    "location": "Seoul, South Korea",
-    "country": "South Korea",
+    "location": "Seoul, South_Korea",
+    "country": "South_Korea",
     "description": "Indulge in adventure at Lotte World Hotel, nestled in the heart of Lotte World amusement park. Enjoy direct access to the park's attractions, engage in indoor adventure sports, and experience family-friendly amenities along with a variety of dining options.",
     "details": [
       "Located in the Lotte World amusement park",
@@ -621,7 +621,7 @@
     "rating": 4.2,
     "name": "JW Marriott Seoul",
     "location": "Seoul, South Korea",
-    "country": "South Korea",
+    "country": "South_Korea",
     "description": "Relax in style at JW Marriott Seoul, a luxury hotel featuring a spa and wellness center, a Michelin-starred restaurant, panoramic city views, elegant accommodations, and attentive service for a tranquil and sophisticated escape",
     "details": [
       "Luxury hotel with a spa and wellness center",
@@ -642,7 +642,7 @@
     "rating": 4.8,
     "name": "Grand Hyatt Seoul",
     "location": "Seoul, South Korea",
-    "country": "South Korea",
+    "country": "South_Korea",
     "description": "Enjoy a family-friendly retreat at Grand Hyatt Seoul. Kids will love the dedicated club, and you can relax by the large pool. With diverse dining options and a convenient location near shopping and attractions, it's the perfect family getaway.",
     "details": [
       "Family-friendly hotel with kids' club",
@@ -663,7 +663,7 @@
     "rating": 4.7,
     "name": "The Shilla Seoul",
     "location": "Seoul, South Korea",
-    "country": "South Korea",
+    "country": "South_Korea",
     "description": "Experience luxury at The Shilla Seoul with its traditional Korean décor. Indulge in Michelin-starred dining, pamper yourself at the spa with traditional Korean treatments, and enjoy panoramic city views from your elegant accommodations.",
     "details": [
       "Luxury hotel with traditional Korean décor",
