@@ -3,7 +3,7 @@
 }
 :root {
     --text-bg-color: rgba(76, 75, 75, 0.62); /* backdrop blur(30px) */
-    --nav_items_color:#a84102;
+    --nav_items_color:#e76b28;
     --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-fmailiy-serif:'Roboto Serif', serif;
     --footer-tel : rgb(231, 140, 12);
@@ -15,7 +15,7 @@
     background-size: cover;
     background-attachment: fixed;
     
-    background-image: url(/assets/images/about.jpg);
+    background-image: url(/assets/images/about1.jpg);
   }
 
 body{
@@ -57,7 +57,7 @@ header{
 }
 .navitems a{ /*by this ,remove normal a link style to menue items */
     text-decoration: none;
-    color:#a84102;
+    color:var(--nav_items_color);
     
 
 }
@@ -372,8 +372,9 @@ footer a{
 
 @media screen and (max-width: 500px) {
     body{
+        background: url(/assets/images/about1.jpg);
 
-        background:#3c7da0;
+        background:#356e8d52;
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
@@ -636,6 +637,7 @@ footer a{
  
     header {
        grid-column: 1 / 9; /* Adjust the grid  */
+       backdrop-filter: blur(20px);
     }
     .logo {
         width: 32%;
