@@ -302,9 +302,10 @@ footer{
     grid-column: 1/14;
     grid-row:end;
     display: flex;
-    background-color: rgba(10, 2, 74, 0.376);
-    background-color:#253a5ae7;;
-    backdrop-filter: blur(60px);
+    /* background-color: rgba(10, 2, 74, 0.376);
+    background-color:#253a5ae7;; */
+    background-color: var(--text-bg-color);
+    backdrop-filter: blur(30px);
     padding: 1.5%;
     height: 10em;
 text-align: center;
