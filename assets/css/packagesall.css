@@ -8,6 +8,7 @@
     --nav_items_color:#a84102;
     --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-fmailiy-serif:'Roboto Serif', serif;
+    --footer-tel : rgb(231, 140, 12);
   
   }
 
@@ -338,7 +339,13 @@ footer .tel a{
     display: none;
 }
 body > footer > p.tel > a{
-    color:var(--nav_items_color);
+    font-size: large;
+    
+    font-size: larger;
+    color:var(--footer-tel);
+    text-shadow: 1px 1px 0px black;
+    text-decoration: none;
+    
 }
 
 @media screen and (max-width: 500px) {
