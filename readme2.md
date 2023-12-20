@@ -1,10 +1,10 @@
 # TravelWander.com
 
-![TravelWander.com Logo](assets/images/travelwander-logo.png)
+![TravelWander.com Logo](assets/images/travellogo1.png)
 
 Explore the world through TravelWander.com, your ultimate travel companion.
 
-Visit the live site: [TravelWander.com](https://www.travelwander.com/)
+Visit the live site: [TravelWander.com](https://maisam2004.github.io/Travelwander/)
 
 Embark on a virtual journey, discover new destinations, and plan your next adventure!
 
@@ -32,8 +32,8 @@ Embark on a virtual journey, discover new destinations, and plan your next adven
   - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
   - [Languages Used](#languages-used)
-  - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-- [Deployment & Local Development](#deployment--local-development)
+  - [Frameworks, Libraries &amp; Programs Used](#frameworks-libraries--programs-used)
+- [Deployment &amp; Local Development](#deployment--local-development)
   - [Deployment](#deployment)
   - [Local Development](#local-development)
     - [How to Fork](#how-to-fork)
@@ -49,7 +49,7 @@ Embark on a virtual journey, discover new destinations, and plan your next adven
 
 ---
 
-![TravelWander.com Banner](documentation/travelwander-banner.png)
+![TravelWander.com Banner](assets/images/banner.jpg)
 
 ## User Experience (UX)
 
@@ -59,11 +59,10 @@ Embark on a virtual journey, discover new destinations, and plan your next adven
 
 - I want to explore new travel destinations and get inspired for my next trip.
 - I want a user-friendly interface that allows me to navigate through the site effortlessly.
-- I want to find comprehensive travel guides and information about different countries.
+- I want to find comprehensive travel guides and information about different countries holiday packages
 
 #### Returning Visitor Goals
 
-- I want to create a user profile to save my favorite destinations and travel guides.
 - I want to interact with an interactive map to plan my itinerary effectively.
 
 #### Frequent Visitor Goals
@@ -84,17 +83,17 @@ The color scheme is carefully selected to evoke a sense of adventure and wanderl
 - Accent Colour: `#c06c84` (Dusty Rose)
 - Background: `#f8b400` (Bright Yellow)
 
-![TravelWander.com Color Scheme](documentation/color-scheme.png)
+![TravelWander.com Color Scheme](assets/wireframes/Travelwandercom.png)
 
 ### Typography
 
 The chosen fonts are both modern and easy to read, enhancing the overall user experience.
 
-- Page Title: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Page Title: [Roboto Slab italic](https://fonts.google.com/specimen/Roboto?query=roboto)
 - Body Text: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Body text : [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
+![Roboto exapmple Font Example](assets/images/robotfont.png)
 
-![Montserrat Font Example](documentation/montserrat-font.png)
-![Open Sans Font Example](documentation/open-sans-font.png)
 
 ### Imagery
 
@@ -104,10 +103,9 @@ Stunning images of landscapes and iconic landmarks are incorporated to transport
 
 Wireframes for mobile, tablet, and desktop were created using Figma.
 
-![Home Page](documentation/wireframes/home-wireframe.png)
-![Destination Page](documentation/wireframes/destination-wireframe.png)
-![User Profile Page](documentation/wireframes/user-profile-wireframe.png)
-![Interactive Map Page](documentation/wireframes/map-wireframe.png)
+![Home Page](assets/wireframes/first_wireframe_color.png)
+![Destination Page](assets/wireframes/packages.png)
+![Interactive Map Page](assets/wireframes/mobile_panama_map.png)
 
 ### Features
 
@@ -115,11 +113,11 @@ The website offers various features to provide an immersive travel experience:
 
 #### Destination Discovery
 
-Explore a vast collection of travel destinations, each with detailed information, photos, and user reviews.
+Explore a vast collection of travel destinations,first base on contintes chosen on first page, each with detailed information, photos, and user reviews.
 
 #### Travel Guides
 
-Access comprehensive travel guides for different countries, including tips, local insights, and must-visit attractions.
+Access comprehensive travel guides for different countries, local insights, visit attractions.
 
 #### User Profiles
 
@@ -127,7 +125,7 @@ Create a personalized user profile to save favorite destinations, contribute con
 
 #### Interactive Maps
 
-Use interactive maps to plan your itinerary, view travel routes, and discover nearby attractions.
+Use interactive maps to plan your itinerary, view travel routes.
 
 #### Future Enhancements
 
@@ -156,10 +154,11 @@ The website prioritizes accessibility with:
 ### Frameworks, Libraries & Programs Used
 
 - [Google Fonts](https://fonts.google.com/)
-- [Figma](https://www.figma.com/)
+- [Figma](https://www.figma.com/)- Used to create wireframes.
 - [GitHub](https://github.com/)
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
+- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
 ---
 
@@ -170,6 +169,7 @@ The website prioritizes accessibility with:
 The site is deployed using GitHub Pages. The main branch serves as the deployment branch, and updates are reflected automatically.
 
 To deploy the site:
+
 1. Fork the repository.
 2. Go to the repository settings on GitHub.
 3. Scroll down to the GitHub Pages section.
