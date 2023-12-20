@@ -703,7 +703,7 @@ footer .tel i{
         grid-row:end;
        
         
-        
+        position: relative;
         height: 10em;
         margin-top: 2em;
         text-align: center;
@@ -735,7 +735,6 @@ footer .tel i{
  
     main {
         margin-top: 1em;
-        grid-row:2/3;
        
        grid-column: 3/11;
     }
@@ -751,7 +750,7 @@ footer .tel i{
         backdrop-filter: blur(60px);
         grid-column: 1/ 13;
         grid-row:end;
-        position: absolute;
+        position: relative;
         bottom: 0;
   
         height: 10em;

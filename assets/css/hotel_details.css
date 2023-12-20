@@ -86,7 +86,9 @@ z-index: 10;
     padding: 0.4em;
 }
 .navitems .social > span a:hover{
-    text-shadow: 0px 1px 0px rgba(36, 31, 25, 0.549);
+  text-shadow: 0px 2px 0px rgba(34, 33, 32, 0.549);
+  color: #c2c242 !important;
+  
 }
 
   
@@ -361,14 +363,12 @@ footer img{
     
 }
 footer a{
-    font-size: larger;
+  font-size: larger;
 
-    text-decoration: none;
-    color:var(--footer-tel);
-  text-shadow: 0px 1px 0px black;
   text-decoration: none;
-   
-   
+  color:var(--footer-tel);
+text-shadow: 0px 1px 0px black;
+text-decoration: none; 
 }
 .sidebar{
     display: none;

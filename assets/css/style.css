@@ -222,7 +222,7 @@ main .inviting{
 
     
 }
-.continents div:nth-child(1) p{
+.continents div:nth-child(1) a{
     position: absolute;
     width: 50%;
     top:0.8em;
@@ -254,7 +254,7 @@ main .inviting{
 }
 
 .continents div:nth-child(2){
-    background-color: black;
+    
     background: url(/assets/images/placementAreae6a51aa8.png) left no-repeat;
     background-size: cover;
     position: relative;
@@ -263,12 +263,12 @@ main .inviting{
 
 
 }
-.continents div:nth-child(2) p{
+/* .continents .europe div:nth-child(1) a{
     position: absolute;
     bottom:2em;
     left:3.7em;
     text-shadow: 1px 1px rgba(0, 0, 0, 0.399);
-}
+} */
 
 .continents div:nth-child(3){
     
