@@ -9,6 +9,7 @@
     --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-fmailiy-serif:'Roboto Serif', serif;
     --footer-tel : rgb(231, 140, 12);
+    --sidebar-bg:rgba(0, 0, 0, 0.898);
   
   }
 
@@ -452,8 +453,7 @@ body > footer > p.tel > a{
         right: -100%;
         width: 70%; 
         height: 200vh;
-        background:rgba(26, 26, 40, 0.687);
-        background: #222228d4;
+        background:var(--sidebar-bg);
         backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
@@ -497,6 +497,19 @@ body > footer > p.tel > a{
       .sidebar li i{
         width:28px;
         padding-right: 0.6em;
+
+      }
+      .sicons i{
+        font-size: xx-large;
+        color:white;
+        padding: .3em;
+        
+        
+
+      }
+      .sicons i:hover{
+        
+        color:rgb(215, 209, 15);
 
       }
 

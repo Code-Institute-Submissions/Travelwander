@@ -11,6 +11,7 @@
   --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   --font-fmailiy-serif:'Roboto Serif', serif;
   --footer-tel:#ad460f;
+  --sidebar-bg:rgba(0, 0, 0, 0.898);
 
 }
 html {
@@ -671,8 +672,7 @@ text-decoration: none;
         right: -100%;
         width: 70%; 
         height: 200vh;
-        background:rgba(26, 26, 40, 0.687);
-        background: #222228d4;
+        background:var(--sidebar-bg);
         backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
@@ -717,6 +717,19 @@ text-decoration: none;
         
         padding-right: 0.6em;
         margin-right: 0.3em;
+
+      }
+      .sicons i{
+        font-size: xx-large;
+        color:white;
+        padding: .3em;
+        
+        
+
+      }
+      .sicons i:hover{
+        
+        color:rgb(215, 209, 15);
 
       }
 

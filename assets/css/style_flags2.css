@@ -9,6 +9,7 @@
     --nav_items_color:#a84102;
     --nav-items-font:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --font-fmailiy-serif:'Roboto Serif', serif;
+    --sidebar-bg:rgba(0, 0, 0, 0.898);
 
   }
 
@@ -455,8 +456,7 @@ footer .tel i{
         right: -100%;
         width: 70%; 
         height: calc(100vh ); 
-        background:rgba(26, 26, 40, 0.687);
-        background: #222228d4;
+        background:var(--sidebar-bg);
         backdrop-filter: blur(30px);
         
         transition: right 0.5s ease-out; 
@@ -503,6 +503,20 @@ footer .tel i{
       .sidebar li i{
         width:20px;
         padding-right: 1.5em;
+
+      }
+
+      .sicons i{
+        font-size: xx-large;
+        color:white;
+        padding: .3em;
+        
+        
+
+      }
+      .sicons i:hover{
+        
+        color:rgb(215, 209, 15);
 
       }
 
