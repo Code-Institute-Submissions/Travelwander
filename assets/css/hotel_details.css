@@ -157,6 +157,9 @@ footer a{
   font-size: large;
     
 }
+footer{
+  background-color: var(--text-bg-color);
+}
 @media screen and (min-width: 710px) {
     main{
         grid-column: 2/11;
@@ -324,7 +327,7 @@ main{
 footer{
     /* background-color: blanchedalmond; */
     width: 100%;
-    grid-column: 4/11;
+    grid-column: 1/13;
     
     grid-row:3/4;
     display: flex;
@@ -367,8 +370,8 @@ footer a{
   font-size: larger;
 
   text-decoration: none;
-  color:var(--footer-tel);
-text-shadow: 0px 1px 0px black;
+  color:rgb(236, 111, 111);
+text-shadow: 0px 1px 0px rgb(0, 0, 0);
 text-decoration: none; 
 }
 .sidebar{
@@ -516,7 +519,7 @@ text-decoration: none;
         width: 17rem;
     }
     footer{
-        grid-column: 3/11;
+        grid-column: 1/13;
     }
 
     .reviews {
@@ -544,7 +547,7 @@ text-decoration: none;
         width: 17rem;
     }
     footer{
-        grid-column: 3/11;
+        grid-column: 1/13;
     }
 
 
@@ -867,7 +870,7 @@ text-decoration: none;
     footer{
         display: flex;
         justify-content:center;
-        grid-column: 1/14;
+        grid-column: 1/13;
         grid-row: 3;
 
         
