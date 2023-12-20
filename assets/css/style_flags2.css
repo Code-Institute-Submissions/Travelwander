@@ -134,6 +134,7 @@ font-weight: 600;
 
 .social{
     
+    font-size: large;
     
     flex-grow:1;
     display: flex;
@@ -143,9 +144,8 @@ font-weight: 600;
     gap:1.5em;
 }
 .social > span{
-    color:rgb(202, 223, 14);
-    
-    
+    color:var(--nav_items_color);
+    font-size: large;
 
 }
 
@@ -161,6 +161,7 @@ section.explain{
     backdrop-filter: blur(5px);
   
     padding: 3em;
+    padding-bottom: 2;
 
     gap: 2em;
     display: flex;
@@ -171,7 +172,8 @@ section.explain{
 }
 section.explain h1 {
     font-size: 2.2em;
-    background: url(/assets/images/bg_image.jpg) no-repeat;
+    background: url(/assets/images/bg_image.jpg) right no-repeat;
+    filter: contrast(30);
     
     -webkit-background-clip: text;
     color: transparent;
@@ -336,7 +338,8 @@ footer{
     justify-content: center;
     text-align: center;
     padding-left: 0.3em;
-    position: absolute;
+    /* position: absolute; */
+    margin-top: 2em;
     bottom: 0;
    
     
@@ -760,7 +763,7 @@ footer .tel i{
 
  
     footer {
-        background-color: rgba(10, 2, 74, 0.376);
+        /* background-color: rgba(10, 2, 74, 0.376); */
         backdrop-filter: blur(60px);
         grid-column: 1/ 13;
         grid-row:end;
