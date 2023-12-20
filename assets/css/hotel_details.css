@@ -157,9 +157,7 @@ footer a{
   font-size: large;
     
 }
-footer{
-  background-color: var(--text-bg-color);
-}
+
 @media screen and (min-width: 710px) {
     main{
         grid-column: 2/11;
@@ -340,7 +338,9 @@ footer{
     /* background-color: #2d0c5869; 
     backdrop-filter: blur(30px);*/
     
-
+   
+      background-color: var(--text-bg-color);
+  
   
 }
 .tel{
@@ -367,6 +367,8 @@ footer img{
     
 }
 footer a{
+ 
+  
   font-size: larger;
 
   text-decoration: none;
@@ -872,6 +874,7 @@ text-decoration: none;
         justify-content:center;
         grid-column: 1/13;
         grid-row: 3;
+       
 
         
         
@@ -884,8 +887,8 @@ text-decoration: none;
         
         align-items: center;
     
-        background-color: #10107c00;
-        backdrop-filter: blur(30px);
+        
+      
     }
     footer .tel i{
         padding: 0.2em;
@@ -900,6 +903,10 @@ text-decoration: none;
     footer a{
         text-decoration: none;
         color:rgb(179, 241, 20);
+        font-size: larger;
+        
+
+       
     }
 
 
