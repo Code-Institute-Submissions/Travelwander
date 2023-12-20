@@ -699,6 +699,15 @@ body > footer > p.tel > a{
         width:60vw;
         height: unset;
       }
+      #map{
+        margin-top:0.5em;
+        width: 70vw !important ;
+        height: 46vh !important;
+        border: 1px solid red;
+        border-radius: 2em;
+        
+        
+    }
     
       #mapview {
         display: block !important;
