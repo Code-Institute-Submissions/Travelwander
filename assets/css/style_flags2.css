@@ -15,7 +15,7 @@
 
 body{
 
-    background: url(/assets/images/bg_image.jpg);
+    background: url(/assets/images/flags_asia_bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,7 +24,7 @@ body{
     
     display: grid;
     grid-template-columns: repeat(12,100px);
-    grid-template-rows: repeat(3,minmax(100px ,auto));
+    grid-template-rows: repeat(4,minmax(100px ,auto));
 
     /* grid-template-rows: repeat(3,minmax(80px,auto)); */
 
@@ -39,7 +39,7 @@ body{
     width:109vw;
     height:100vh;
     background-color: rgba(67, 66, 65, 0.446);
-    backdrop-filter: blur(1px);
+    backdrop-filter: blur(10px);
 }
 /* ------ header ------ --------------------*/
 
@@ -151,13 +151,42 @@ font-weight: 600;
 header .hamburger{
     display: none;
 }
+/* ------section explain  -------------------  ------ */
+section.explain{
+    font-family: var(--nav-items-font);
+    
+    
+    
+    backdrop-filter: blur(5px);
+  
+    padding: 3em;
 
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    
+    grid-column: 3/11;
+    grid-row: 2/3;
+}
+section.explain h1 {
+    font-size: 2.2em;
+    background: url(/assets/images/bg_image.jpg) no-repeat;
+    
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+section p{
+    color:#e1e1e1;
+    font-size: larger;
+    font-weight: 600;
+   
+}
 
 /* ------main  -------------------  ------ */
 main{
     /* background-color: blue; */
     grid-column: 2/12;
-     grid-row: 2/3; 
+     grid-row: 3/4; 
     /* height: 26em; */
     
     display: flex;
@@ -295,10 +324,10 @@ main .special{
 /* ------footer ------------------ ------ */
 
 footer{
-    background-color: rgba(10, 2, 74, 0.376);
-        backdrop-filter: blur(60px);
+    background-color:var(--text-bg-color);
+        backdrop-filter: blur(30px);
     grid-column:1/14;
-    grid-row:3/4; 
+    grid-row:4/5; 
     display: flex;
     color:white;
     padding: 2%;
@@ -323,7 +352,7 @@ footer a{
 }
 
 footer img{
-    width: 25%;
+    width: 16%;
     padding-left: 0.3em;
 }
 footer .tel i{
@@ -491,18 +520,47 @@ footer .tel i{
     }
 
 
+
+    section.explain{
+    
+
+    margin-top: 2em;
+    grid-row: 2/3;
+    border-radius: 1em;
+    padding:2em;
+    
+    
+   
+    background: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: none;
+    
+    }
+    section.explain h1 {
+        font-size: 2.2em;
+        background: url(/assets/images/bg_image.jpg) center no-repeat;
+        
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+      
+    section.explain p{
+        color:rgb(234, 234, 234);
+    }
+
+
     /* ---------main ____- */
 
     main{
         grid-column: 1/12;
-        grid-row: 2/3;
+        grid-row: 3/4;
         justify-content: center;
         display: flex;
         height: 100%;
 
             
-    }
-    main {
+    
 
         gap:3.5em;
         /* justify-content: space-around; */
@@ -612,46 +670,34 @@ footer .tel i{
         align-items: center;
         gap: 1em;
     }
+    section.explain{
+        grid-row: 2/3;
+        grid-column: 2/8;
+        padding:unset;
+        text-align: center;
+        backdrop-filter: blur(10px);
+    }
+
+    section.explain h1 {
+        margin-top: 1em;
+        font-size: 3.2em;
+        background: url(/assets/images/bg_image.jpg) center no-repeat;
+        
+        -webkit-background-clip: text;
+        color: transparent;
+      }
  
     main {
         position: relative;
-        grid-row:2/3;
+        grid-row:3/4;
        
          
        grid-column: 2 / 8; /* grid column values for the main content */
     }
-    main .special{
-        margin-top: 1em;
-        width: unset;
-
-    }
-    .sp_notes{
-        overflow: hidden;
-    }
-
-    #map {
-        display: none;
-      }
-    
-      #mapview {
-        display: block !important;
-        background-color: #197a30;
-        padding: 0.9em;
-        
-        position: fixed;
-
-        display: flex;
-        flex-direction: column;
-
-        color:#d9dad6;
-        font-weight: 600;
-      }
-    
-    
  
  
     footer {
-        background-color: rgba(10, 2, 74, 0.376);
+        background-color:var(--text-bg-color);
         backdrop-filter: blur(60px);
         grid-column: 1/ 12;
         grid-row:end;
