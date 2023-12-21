@@ -92,8 +92,7 @@ The chosen fonts are both modern and easy to read, enhancing the overall user ex
 - Page Title: [Roboto Slab italic](https://fonts.google.com/specimen/Roboto?query=roboto)
 - Body Text: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
 - Body text : [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
-![Roboto exapmple Font Example](assets/images/robotfont.png)
-
+  ![Roboto exapmple Font Example](assets/images/robotfont.png)
 
 ### Imagery
 
@@ -101,37 +100,110 @@ Stunning images of landscapes and iconic landmarks are incorporated to transport
 
 ### Wireframes
 
-Wireframes for mobile, tablet, and desktop were created using Figma.
+Wireframes for mobile, tablet/desktop were created using Adobe xd.
 
-![Home Page](assets/wireframes/first_wireframe_color.png)
-![Destination Page](assets/wireframes/packages.png)
-![Interactive Map Page](assets/wireframes/mobile_panama_map.png)
+Hompage desktop and mobile
+
+- <img src="./assets/wireframes/first_wireframe.png" style="width: 60%; height: 60%;">-<img src="./assets/wireframes/mobile_first_wireframe.png" style="width: 30%; height: 50%;">
+
+<img src="./assets/wireframes/flags.png" style="width: 60%; height: 60%;">-<img src="./assets/wireframes/flagsmobile.png" style="width: 30%; height: 50%;"> 
+--third lists and map hotels --
+- <img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;">
+- <img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/hotelsmaplisttablet1.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/hotelsmaplisttablet.png" style="width: 50%; height: 50%;">
+
+updated
+
+- <img src="./assets/wireframes/mobile_hotelslists.png" style="width: 30%; height: 50%;"> - <img src="./assets/wireframes/hotelsmaplistmobile1.png" style="width: 30%; height: 50%;">
+- <img src="./assets/wireframes/hotelsmaplistmobile2.png" style="width: 30%; height: 50%;">
+- <img src="./assets/wireframes/hotelfulldetails1.png" style="width: 60%; height: 60%;">
+- <img src="./assets/wireframes/mobile_hotelfulldetails.png" style="width: 30%; height: 50%;"><img src="./assets/wireframes/hotelfulldetailsmobile.png" style="width: 30%; height: 60%;">
 
 ### Features
 
-The website offers various features to provide an immersive travel experience:
+Explore the rich features of TravelWander.com, designed to provide an immersive and dynamic experience for users.
+
+1. **Responsive Design:**
+
+   - All pages are seamlessly responsive, ensuring a consistent and enjoyable user experience across mobile, tablet, and desktop devices.
+     and on mobile add grid system to show menu by click on hamburger lines.
+2. **Dynamic Content:**
+
+   - The website's content is dynamic, sourced partly from APIs and a locally created JSON file. This ensures up-to-date information and a diverse range of travel details and weather information.
+3. **Favicon Integration:**
+
+   - The site incorporates a distinctive favicon, enhancing brand visibility in the browser. ![Favicon](./assets/images/favicon.png)
+4. **Logo Navigation:**
+
+   - The logo at the top of each page functions as a clickable link to the homepage, providing convenient navigation. This feature is implemented using JavaScript.
+5. **Hero Video:**
+
+   - The first page features a captivating hero section with a video, setting the tone for an engaging exploration of travel destinations.
+6. **Continent Slides:**
+
+   - Above the video, three slides showcase stunning photos of different continents, offering a visual preview of the diverse destinations available.
+7. **Text Background Enhancement:**
+
+   - To enhance readability, a blur drop shadow is applied as the background for text in certain sections. This ensures a comfortable reading experience, especially for information about the company and reviews.
+8. **Footer with Telephone Link:**
+
+   - Most pages include a footer with a telephone link. Users can click on the link to open a window for a quick call, providing easy access to support or inquiries.
+
+Feel the wanderlust and enjoy the seamless features of TravelWander.com .
+
+#### Home Page
+
+The homepage of TravelWander.com offers a captivating introduction to the travel experience, blending aesthetics and functionality seamlessly.
+
+- **Site Name and Logo:**
+
+  - The site name and logo take center stage, creating a distinctive visual identity for TravelWander.com.
+- **Navbar:**
+
+  - An intuitive navigation bar ensures easy exploration, allowing users to effortlessly access different sections of the website.
+- **Social Icons:**
+
+  - Social icons are strategically placed, providing quick links to connect with TravelWander.com on various social media platforms.
+- **Welcome Text:**
+
+  - A warm welcome text invites users to embark on a virtual journey, setting the tone for an immersive travel experience.
+- **Continents Slides:**
+
+  - Three slides showcasing breathtaking images of different continents create a visually stunning backdrop, offering a glimpse into the diverse destinations awaiting exploration.
+- **Company Information:**
+
+  - Information about the company is elegantly presented, providing insights into TravelWander's mission and offerings.
+- **Customer Reviews:**
+
+  - Customer reviews add a personal touch, offering authentic perspectives and enhancing the credibility of the travel services.
+- **Background Video:**
+
+  - A dynamic background video runs throughout the homepage, adding a touch of dynamism and reinforcing the travel theme.
+
+Experience the allure of TravelWander.com's homepage, where aesthetics meet functionality to inspire your wanderlust.
+
+- <img src="./assets/wireframes/fullhomepage.jpeg" style="width: 90%; height: 70%;">
+- <img src="./assets/wireframes/homepagem1.jpeg" style="width: 40%; height: 60%;">
 
 #### Destination Discovery
 
-Explore a vast collection of travel destinations,first base on contintes chosen on first page, each with detailed information, photos, and user reviews.
-
-#### Travel Guides
-
-Access comprehensive travel guides for different countries, local insights, visit attractions.
-
-#### User Profiles
-
-Create a personalized user profile to save favorite destinations, contribute content, and connect with other travel enthusiasts.
+- Embark on a journey of exploration with TravelWander.com's Destination Discovery feature. Delve into a diverse collection of travel destinations, each represented by its unique flag. Begin your adventure by selecting a continent on the first page, where you'll find concise information about the weather and the cost of holiday packages from your chosen destination.
+- <img src="./assets/wireframes/flagspage.jpeg" style="width: 50%; height: 60%;"><img src="./assets/wireframes/flagspagemobile.jpeg" style="width: 30%; height: 60%;">
 
 #### Interactive Maps
 
-Use interactive maps to plan your itinerary, view travel routes.
+-Immerse yourself in the Interactive Maps experience, where each flag is a gateway to exciting holiday packages and detailed insights about the chosen country. With a simple click on a flag, you'll be transported to a wealth of travel information. Plan your itinerary, visualize travel routes, and make informed decisions to tailor your dream vacation with TravelWander.com.
+
+- <img src="./assets/wireframes/packageslismap.jpg" style="width: 60%; height: 60%;"><img src="./assets/wireframes/packageslistviewtable.jpg" style="width: 30%; height: 60%;"><img src="./assets/wireframes/packageslistmobile.jpg" style="width: 30%; height: 60%;"><img src="./assets/wireframes/packagesmapmobile.png" style="width: 30%; height: 60%;">
+
+Package Details
+Discover the essence of your chosen destination with a comprehensive overview. This page unfolds the allure of your selected hotel through captivating images and an interactive map. Delve into the specifics of available hotel packages, showcasing key details to assist you in making an informed decision. When ready to embark on your journey, a convenient "Reserve" button awaits your click. Engage with the button to reveal a modal form, prompting you to provide necessary information for a personalized quote. Your seamless travel experience begins here.
 
 #### Future Enhancements
 
 - Integration with social media platforms for easy sharing of travel experiences.
 - Real-time collaboration on travel itineraries with friends.
 - Language translation features for global accessibility.
+- Add new API from travel agency to be able booked on page
 
 ### Accessibility
 
@@ -155,10 +227,16 @@ The website prioritizes accessibility with:
 
 - [Google Fonts](https://fonts.google.com/)
 - [Figma](https://www.figma.com/)- Used to create wireframes.
+- [Adobe xd ](https://www.adobe.com/) - Used to create wireframes.
 - [GitHub](https://github.com/)
 - [Git](https://git-scm.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+- [Mapbox API ](https://api.mapbox.com/)-used to impliment map in pages
+- [Open weather map  ](https://openweathermap.org/)-to show current weather information
+- [Canva ](https://www.canva.com/create/logos/)-used to create logo for page
+- [Unsplashed](https://unsplash.com/) -used for photos and videos
+
+
 
 ---
 
@@ -204,8 +282,9 @@ For details on testing, including solved and known bugs, please refer to the [Te
 
 ### Code Used
 
-- Custom scroll animations: Inspired by [AOS Library](https://michalsnik.github.io/aos/).
+- Custom scroll animations: Inspired by [AOS Library](https://michalsnik.github.io/aos/). try to learn from some of code sample
 - Responsive navigation menu: Adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_responsive_navbar.asp).
+- implement map in a page by [Mapbox vido](https://www.youtube.com/watch?v=kzPdpZ1BDG4&t=1s)
 
 ### Content
 
@@ -215,7 +294,7 @@ For details on testing, including solved and known bugs, please refer to the [Te
 ### Media
 
 - Stunning travel images: Sourced from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
-
+-Used [Videezy](https://www.videezy.com/) for hompage background 
 ### Acknowledgments
 
 - My mentor for invaluable guidance and support.

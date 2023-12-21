@@ -1,4 +1,4 @@
-
+document.addEventListener('DOMContentLoaded', function () {
     const all_icons = [
       "fas fa-hotel",
       "fas fa-bed",
@@ -75,8 +75,9 @@
       console.error('No hotel selected.');
     }
 /* */
+
 function initializeMap(coordinates) {
-    mapboxgl.accessToken = 'YOUR_MAPBOX_ACCESS_TOKEN'; // Replace with your Mapbox access token
+    mapboxgl.accessToken ='pk.eyJ1IjoibWFpc2FtMjAwNCIsImEiOiJjbHFmODUyNjUwczViMmpvNnhlcW4zdnVrIn0.LzVDk1jlIltB2nH6Py8l'; 
 
     const map = new mapboxgl.Map({
       container: 'map',
@@ -91,3 +92,4 @@ function initializeMap(coordinates) {
       .addTo(map);
   }
    
+});
