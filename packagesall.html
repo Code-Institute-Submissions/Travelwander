@@ -84,26 +84,8 @@
       map view <br><i class="fa-solid fa-map-location-dot"></i>
     </p>
   </footer>
-  <script>
-
-        
-        document.addEventListener('DOMContentLoaded', function () {
-          /* Get the current page URL */
-          const currentPage = window.location.pathname;
-    
-          /*Add the 'active' class to the corresponding menu item */
-          if (currentPage.includes('/deals.html')) {
-            document.getElementById('deals').classList.add('active');
-          } else if (currentPage.includes('/packagesall.html')) {
-            document.getElementById('packages').classList.add('active');
-          } else if (currentPage.includes('/contact.html')) {
-            document.getElementById('contact').classList.add('active');
-          } else if (currentPage.includes('/about.html')) {
-            document.getElementById('about').classList.add('active');
-          }
-        });
-        
-  </script>
+ <script src="/assets/js/currentpage.js"></script>
+  
   <!-- to handle map view and list view on mobile-->
 
   <script src="/assets/js/mapview.js"></script>
@@ -124,7 +106,7 @@
 </script>
 <script src="/assets/js/homelink.js"></script>
 <script src="/assets/js/all_packages_country.js"></script>
-<script src="/assets/js/link_to_hoteldetails.js"></script><!--generat link to hotelsdetails page--> 
+<script src="/assets/js/linktohoteldetails.js"></script><!--generat link to hotelsdetails page--> 
 <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
 <!-- <script src="https://api.mapbox.com/mapbox-gl-js/v2.6.1/mapbox-gl.js"></script>
  -->  
