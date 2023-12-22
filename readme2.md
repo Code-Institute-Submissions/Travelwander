@@ -236,8 +236,6 @@ The website prioritizes accessibility with:
 - [Canva ](https://www.canva.com/create/logos/)-used to create logo for page
 - [Unsplashed](https://unsplash.com/) -used for photos and videos
 
-
-
 ---
 
 ## Deployment & Local Development
@@ -282,9 +280,10 @@ For details on testing, including solved and known bugs, please refer to the [Te
 
 ### Code Used
 
+- While utilizing an API that presented correct and incorrect answers, I employed the Fisher-Yates Shuffle to randomize answer placement on buttons, ensuring a balanced distribution. I referred to a YouTube tutorial for further optimization based on my data structure. Special thanks to the tutorial, and gratitude to RapidAPI for streamlined access to essential resources.
 - Custom scroll animations: Inspired by [AOS Library](https://michalsnik.github.io/aos/). try to learn from some of code sample
 - Responsive navigation menu: Adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_responsive_navbar.asp).
-- implement map in a page by [Mapbox vido](https://www.youtube.com/watch?v=kzPdpZ1BDG4&t=1s)
+- implement map in a page by [Mapbox video](https://www.youtube.com/watch?v=kzPdpZ1BDG4&t=1s)
 
 ### Content
 
@@ -294,7 +293,8 @@ For details on testing, including solved and known bugs, please refer to the [Te
 ### Media
 
 - Stunning travel images: Sourced from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
--Used [Videezy](https://www.videezy.com/) for hompage background 
+  -Used [Videezy](https://www.videezy.com/) for hompage background
+
 ### Acknowledgments
 
 - My mentor for invaluable guidance and support.
