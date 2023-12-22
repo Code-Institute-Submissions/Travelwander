@@ -6,8 +6,8 @@ function createFlagContainer(country) {
     const flagContainer = document.createElement('div'); //create div
     flagContainer.className = `${country.toLowerCase()} mid_flag`; //add class name
     flagContainer.style.background = `url(/assets/images/flags/${country}.png)`; //set bg for flag container
-    flagContainer.style.backgroundSize = 'cover';//set the size 
-  
+    flagContainer.style.backgroundSize = 'cover';
+    flagContainer.style.backgroundPosition = 'center center';
     /*add link */
     const link = document.createElement('a');
   link.href = `packagesall.html?country=${country}`;
