@@ -48,6 +48,21 @@ document.addEventListener('DOMContentLoaded', function () {
     confirmationIcon.innerHTML = `<i class="fa-solid fa-circle-check"></i>`;
     confirmationMessage.innerHTML = `Reservation confirmed!<br> One of our experts will call you!`;
 
+   
+    const userData = {
+      name: nameInput.value,
+      tel: telInput.value,
+      passengers: passengersInput.value,
+      reservationNumber: randomReservationNumber
+    };
+
+    // Convert the object to a JSON string
+    const userDataString = JSON.stringify(userData);
+
+    // Store the data in localStorage
+    localStorage.setItem("userData", userDataString);
+
+
     
     /* the confirmation message */
     confirmationMessage.style.display = 'block';

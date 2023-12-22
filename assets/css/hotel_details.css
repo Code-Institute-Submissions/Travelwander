@@ -158,19 +158,27 @@ footer a{
     
 }
 
-@media screen and (min-width: 710px) and (max-width: 900px) {
+@media screen and (min-width: 710px) and (max-width: 920px) {
 
-  body {
-        
-    grid-template-columns: repeat(8, 1fr); 
-   
- }
+
  header{
   grid-column: 1/8;
  }
     main{
         grid-column: 2/8;
     }
+}
+@media screen and (min-width: 925px) and (max-width:1500px) {
+
+  body {
+        
+    grid-template-columns: repeat(12, 1fr); 
+   
+ }
+ main{
+  grid-column: 2/8 !important;
+ }
+
 }
 
 /* ------main  -------------------  ------ */

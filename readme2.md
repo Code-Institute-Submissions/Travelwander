@@ -305,33 +305,31 @@ To deploy the site:
 
 #### JavaScript Validator
 
-- **main.js**: Passed.
-- **packages.js**: Passed with one warning. Async functions are only available in ES8. It also stated that there are 4 unused variables; however, these are being used.
+##### a part from thease warning all js codes passed (
+
+###### 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+###### 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').)
+
+- **homelink.js**: Passed.
+- **crrrentpage.js**: Passed.
+- **flags.js**: Passed.
+- **hoteldetails.js**: Passed.
+- **linktohoteldetails.js**: Passed.
+- **mapbox.js**: Passed.
+- **mapview**: Passed.
+- **reserve.js**: Passed.
+- **see_map.js**: Passed.
+- **mapbox.js**: Passed.
+- **mapview**: Passed.
+- **reserve.js**: Passed.
+- **sidebar**: Passed.
+- **slideDives.js**: Passed.
+- **swapingimg.js**: Passed.
+- **weather.js**: Passed.
+- **allpackagescountry.js**: Passed.
+- **linktohoteldetails.js**: Passed with one warning. Async functions are only available in ES8. It also stated that there are 4 unused variables; however, these are being used.
 - **destinations.js**: Passed.
-
-#### Lighthouse
-
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices, and SEO of the website.
-
-**Desktop Results**
-All pages of the site are achieving a score of 95 and above across the 4 categories.
-
-- **index.html**
-- **packages.html**
-- **destinations.html**
-- **404.html**
-- **500.html**
-
-**Mobile Results**
-Each page is achieving a score of 90 and above for the last three categories. The performance category is achieving a score of 85 for the first three pages and a score of 88 on the 404 & 500 pages.
-
-- **index.html**
-- **packages.html**
-- **destinations.html**
-- **404.html**
-- **500.html**
-
----
 
 ### Manual Testing
 
@@ -382,24 +380,24 @@ Additional testing was undertaken by friends and family on a variety of devices 
 
 **Home Page**
 
-| Feature                       | Expected Outcome                                                              | Testing Performed             | Result                                  | Pass/Fail |
-| ----------------------------- | ----------------------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
-| The Site's logo               | Clicking the logo directs the user back to the home page                      | Clicked on the logo           | Home page reloads                       | Pass      |
-| Navigation menu               | Easy navigation to different sections (Packages, Destinations, Blog, Contact) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
-| Search functionality          | Efficient search for specific destinations or packages                        | Typed in search queries       | Relevant results were displayed         | Pass      |
-| Featured destinations section | Visually appealing display of popular travel spots                            | Scrolled through the section  | Images and details were engaging        | Pass      |
-| Call-to-action buttons        | Prominent buttons for booking or exploring packages                           | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
+| Feature                       | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
+| ----------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
+| The Site's logo               | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
+| Navigation menu               | Easy navigation to different sections (Packages, Contact,About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
+|                               |                                                                  |                               |                                         |           |
+| Featured destinations section | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
+| Call-to-action buttons        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
 
-**Packages Page**
+**Packagesall Page**
 
-| Feature         | Expected Outcome                                       | Testing Performed                | Result                                                | Pass/Fail |
-| --------------- | ------------------------------------------------------ | -------------------------------- | ----------------------------------------------------- | --------- |
-| Package cards   | Clear display of package details and prices            | Checked each package card        | Information and prices were displayed accurately      | Pass      |
-| Filter options  | Easy filtering based on destination, price range, etc. | Used the filter options          | Packages were filtered according to selected criteria | Pass      |
-| Package details | Clicking on a package card opens detailed information  | Clicked on a package card        | Detailed information about the package was displayed  | Pass      |
-| Booking button  | Seamless experience for booking a selected package     | Clicked on the "Book Now" button | Redirected to the booking page                        | Pass      |
+| Feature         | Expected Outcome                                       | Testing Performed               | Result                                                | Pass/Fail |
+| --------------- | ------------------------------------------------------ | ------------------------------- | ----------------------------------------------------- | --------- |
+| Package cards   | Clear display of package details and prices            | Checked each package card       | Information and prices were displayed accurately      | Pass      |
+| Filter options  | Easy filtering based on destination, price range, etc. | Used the filter options         | Packages were filtered according to selected criteria | Pass      |
+| Package details | Clicking on a package card opens detailed information  | Clicked on a package card       | Detailed information about the package was displayed  | Pass      |
+| Booking button  | Seamless experience for booking a selected package     | Clicked on the "Reserve" button | Redirected to the booking page                        | Pass      |
 
-**Destinations Page**
+**hotel details Page**
 
 | Feature             | Expected Outcome                                          | Testing Performed                    | Result                                                    | Pass/Fail |
 | ------------------- | --------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------- | --------- |
@@ -408,16 +406,7 @@ Additional testing was undertaken by friends and family on a variety of devices 
 | Destination details | Clicking on a destination card opens detailed information | Clicked on a destination card        | Detailed information about the destination was displayed  | Pass      |
 | Explore button      | Quick access to explore more about a selected destination | Clicked on the "Explore More" button | Redirected to a detailed page about the destination       | Pass      |
 
-**Blog Page**
-
-| Feature              | Expected Outcome                          | Testing Performed                    | Result                                        | Pass/Fail |
-| -------------------- | ----------------------------------------- | ------------------------------------ | --------------------------------------------- | --------- |
-| Blog posts           | Informative and engaging blog posts       | Checked multiple blog posts          | Content was informative and engaging          | Pass      |
-| Search functionality | Efficient search for specific blog topics | Typed in search queries              | Relevant blog posts were displayed            | Pass      |
-| Navigation           | Easy access to different blog categories  | Clicked on different blog categories | Navigated to the corresponding category pages | Pass      |
-| Read more button     | Full access to read the entire blog post  | Clicked on "Read More"               | Redirected to the full blog post              | Pass      |
-
-**Contact Page**
+**Contact**
 
 | Feature            | Expected Outcome                             | Testing Performed             | Result                                             | Pass/Fail |
 | ------------------ | -------------------------------------------- | ----------------------------- | -------------------------------------------------- | --------- |
@@ -425,12 +414,6 @@ Additional testing was undertaken by friends and family on a variety of devices 
 | Social media links | Quick access to social media profiles        | Clicked on social media icons | Redirected to the respective social media profiles | Pass      |
 | Map integration    | Display of office location using Google Maps | Checked the map section       | Office location displayed accurately               | Pass      |
 
-**404 Error Page**
-
-| Feature          | Expected Outcome                                             | Testing Performed                       | Result                                              | Pass/Fail |
-| ---------------- | ------------------------------------------------------------ | --------------------------------------- | --------------------------------------------------- | --------- |
-| Navigation links | Options to return to the home page or explore other sections | Clicked on "Go Home" and "Explore More" | Redirected to the home page and respective sections | Pass      |
-| Visual elements  | Engaging visuals and clear messaging                         | Reviewed the overall appearance         | Visually appealing and clear messaging              | Pass      |
 
 **500 Error Page**
 
