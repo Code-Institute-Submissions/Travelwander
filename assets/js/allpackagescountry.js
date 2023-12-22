@@ -71,8 +71,17 @@ function displayHotels(hotels) {
 
     const pLocation = document.createElement('p');
 /*     pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location}<br> Flight + hotel <br> ${hotel.details.join('<br>')} <br>`;
- */    pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location} <br> ${hotel.details[0]} <br>`;
-
+ */ 
+    //pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location} <br> ${hotel.details[0]} <br>${hotel.details[1][26]}`;
+    
+if (hotel.details[1].split(' ').length < 10) {
+ 
+  pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location} <br> ${hotel.details[0]} <br>${hotel.details[1]}`;
+} else {
+ 
+  let words = hotel.details[1].split(' ').slice(0, 5).join(' ');
+  pLocation.innerHTML = `<i class="fa-solid fa-location-dot"></i>${hotel.location} <br> ${hotel.details[0]} <br> ${words}`;
+}
     /* Append elements to the spNotesDiv */
     spNotesDiv.appendChild(moreInfoButton);
     spNotesDiv.appendChild(h4Adventure);
