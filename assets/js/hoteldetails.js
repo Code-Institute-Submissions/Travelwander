@@ -27,10 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
     "fa-solid fa-table-tennis-paddle-ball",
     "fa-solid fa-place-of-worship"
 
-  ]
+  ];
 
   const selectedHotelIndex = sessionStorage.getItem('selectedHotelIndex'); /* Retrieve index from session storage */
-  let first_coord =[]
+  
   if (selectedHotelIndex !== null) {
 
     fetch('hotels_data.json') /* Fetch and parse the JSON data */
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
         /* document.getElementById('hotelPrice').innerText = `Price: ${selectedHotel.price}`; */
         //document.getElementById('hotelPrice2').innerText = `Price: ${selectedHotel.price}
         /* reserve button */
-        firstcoord=selectedHotel.coordinates.split(',')
+        firstcoord=selectedHotel.coordinates.split(',');
 
         const [longitude, latitude] = firstcoord;
         console.log(firstcoord);
