@@ -216,7 +216,7 @@ main .inviting{
 .continents div:first-child{
     background-color: azure;
     
-    background: url(/assets/images/america.png) left no-repeat;
+    background: url(/assets/images/america.jpg) left no-repeat;
     
     background-size:cover;
     position: relative;
@@ -257,7 +257,7 @@ main .inviting{
 
 .continents div:nth-child(2){
     
-    background: url(/assets/images/placementAreae6a51aa8.png) left no-repeat;
+    background: url(/assets/images/placementAreae6a51aa8.jpg) left no-repeat;
     background-size: cover;
     position: relative;
     text-align:start;
@@ -274,7 +274,7 @@ main .inviting{
 
 .continents div:nth-child(3){
     
-    background: url(/assets/images/placementArea.png) left no-repeat;
+    background: url(/assets/images/placementArea.jpg) left no-repeat;
      
     background-size: cover;
 
@@ -387,7 +387,7 @@ footer a{
 @media screen and (max-width: 500px) {
     body{
 
-        background: url(/assets/images/placementArea64282058.png);
+        background: url(/assets/images/placementArea64282058.jpg);
         background-position: center;
         background-size: cover;
         background-attachment: fixed;
