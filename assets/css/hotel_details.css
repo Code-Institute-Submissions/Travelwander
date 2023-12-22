@@ -158,9 +158,18 @@ footer a{
     
 }
 
-@media screen and (min-width: 710px) {
+@media screen and (min-width: 710px) and (max-width: 900px) {
+
+  body {
+        
+    grid-template-columns: repeat(8, 1fr); 
+   
+ }
+ header{
+  grid-column: 1/8;
+ }
     main{
-        grid-column: 2/11;
+        grid-column: 2/8;
     }
 }
 
@@ -170,12 +179,13 @@ footer a{
     
     body{
         margin: 0 auto;
+        grid-template-columns: repeat(8, 1fr);
     }
     
     
     header{
         /*     background-color: rgb(209, 210, 210);
-         */    grid-column: 3/13;
+         */    grid-column: 1/9;
             grid-row:1/2 ;
             width: 100%;
         
@@ -187,7 +197,7 @@ footer a{
 
 main{
     border:2px solid blue;
-    grid-column: 4/12;
+    grid-column: 1/9;
     grid-row: 2/3;
 
     display: flex;
@@ -507,22 +517,18 @@ text-decoration: none;
 }
 @media screen and (min-width: 710px) {
     header{
-        grid-column:3/11;
+        
         padding-left: 1em;
         
     }
     div.navmenu{
         padding-left: 4em;
     }
-    main{
-        grid-column: 3/11;
-    }
+    
     .map{
         width: 17rem;
     }
-    footer{
-        grid-column: 1/13;
-    }
+    
 
     .reviews {
         background-color: black;
@@ -538,7 +544,7 @@ text-decoration: none;
 
 }
 @media screen and (min-width: 1024px) {
-    header{
+    /* header{
         grid-column:2/11;
         
     }
@@ -550,7 +556,7 @@ text-decoration: none;
     }
     footer{
         grid-column: 1/13;
-    }
+    } */
 
 
     .reviews {
