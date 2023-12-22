@@ -523,7 +523,7 @@ text-decoration: none;
 
 
 }
-@media screen and (min-width: 710px) and (max-width: 920px) {
+@media screen and (min-width: 710px) {
     header{
         
         padding-left: 1em;
@@ -534,7 +534,7 @@ text-decoration: none;
     }
     
     .map{
-        width: 35%;
+        width: 17rem;
     }
     
 
