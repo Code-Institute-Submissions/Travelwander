@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form Data</title>
+  <style>
+    table {
+      width: 50%;
+      border-collapse: collapse;
+      margin: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f2f2f2;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Contact Form Data</h1>
+
+  <table id="contactDataTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Mobile Number</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+     <!-- Table be dynamically  -->
+    </tbody>
+  </table>
+ 
+  
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if data exists in localStorage
+      const storedContactData = localStorage.getItem("contactData");
+  
+      if (storedContactData) {
+        // Data exists in localStorage
+        const contactData = JSON.parse(storedContactData);
+  
+        // Get the table and tbody elements
+        const table = document.getElementById('contactDataTable');
+        const tbody = table.getElementsByTagName('tbody')[0];
+  
+        // Check if there is an existing row
+        const existingRow = tbody.querySelector('tr');
+  
+        if (existingRow) {
+          // Row already exists, update the existing row with the new data
+          existingRow.cells[0].innerHTML = contactData.yourname || "Not provided";
+          existingRow.cells[1].innerHTML = contactData.email || "Not provided";
+          existingRow.cells[2].innerHTML = contactData.yournumber || "Not provided";
+          existingRow.cells[3].innerHTML = contactData.description || "Not provided";
+        } else {
+          // Row does not exist, create a new row and add it to the tbody
+          const newRow = tbody.insertRow(0);
+          const cell1 = newRow.insertCell(0);
+          const cell2 = newRow.insertCell(1);
+          const cell3 = newRow.insertCell(2);
+          const cell4 = newRow.insertCell(3);
+  
+          // Populate cells with stored data
+          cell1.innerHTML = contactData.yourname || "Not provided";
+          cell2.innerHTML = contactData.email || "Not provided";
+          cell3.innerHTML = contactData.yournumber || "Not provided";
+          cell4.innerHTML = contactData.description || "Not provided";
+  
+          // Append the new row to the tbody
+          tbody.appendChild(newRow);
+        }
+      }
+    });
+  </script>
+  
+</body>
+</html>
+

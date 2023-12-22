@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Local Storage Data</title>
+</head>
+<body>
+
+  <h2>Local Storage Data</h2>
+
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Phone Number</th>
+        <th>Passengers</th>
+      </tr>
+    </thead>
+    <tbody id="userDataBody"></tbody>
+  </table>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      // Check if data exists in localStorage
+      const storedUserData = localStorage.getItem("userData");
+
+      if (storedUserData) {
+        // Data exists in localStorage
+        const userData = JSON.parse(storedUserData);
+        
+        // Display data in the table
+        const userDataBody = document.getElementById('userDataBody');
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${userData.name}</td>
+          <td>${userData.tel}</td>
+          <td>${userData.passengers}</td>
+        `;
+        userDataBody.appendChild(row);
+      }
+    });
+  </script>
+
+</body>
+</html>
