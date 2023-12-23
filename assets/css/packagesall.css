@@ -15,7 +15,7 @@
 
 body{
 
-   background: url(/assets/images/bgpack11.jpg);
+   background: url(https://maisam2004.github.io/Travelwander/assets/images/bgpack11.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -45,7 +45,7 @@ body{
 
 header{
 /*     background-color: rgb(209, 210, 210);
- */    grid-column: 2/12;
+ */    grid-column: 3/11;
     grid-row:1/2 ;
 
 
