@@ -97,6 +97,7 @@ font-weight: 600;
 .logo img{
     width: 40%;
     filter: drop-shadow(0px 2px 8px rgba(90, 85, 85, 0.558));
+    cursor: pointer;
 }
 .navmenu{
     
@@ -244,7 +245,7 @@ main .inviting{
   
 .namerica a,.europe a,.asia a{
     color:white;
-    
+    text-shadow: 1px 1px 1px rgb(53, 53, 53);
     text-decoration: none;
     font-family: var(--nav-items-font);
     backdrop-filter: drop-shadow(20px 40px 60px black);
