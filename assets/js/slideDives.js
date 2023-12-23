@@ -26,21 +26,21 @@ document.addEventListener('DOMContentLoaded', function () {
 
     usSlides.forEach(slide => {
       const images = [
-        '/assets/images/miami1.jpg', '/assets/images/miami2.jpg', '/assets/images/miami3.jpg'
+        'assets/images/miami1.jpg', 'assets/images/miami2.jpg', 'assets/images/miami3.jpg'
       ];
       createSlideshow(slide, images);
     });
 
     euSlides.forEach(slide => {
       const images = [
-        '/assets/images/eu1.jpg', '/assets/images/eu2.jpg', '/assets/images/eu3.jpg'
+        'assets/images/eu1.jpg', 'assets/images/eu2.jpg', 'assets/images/eu3.jpg'
       ];
       createSlideshow(slide, images);
     });
 
     asiaSlides.forEach(slide => {
       const images = [
-        '/assets/images/asia1.jpg', '/assets/images/asia2.jpg', '/assets/images/asia3.jpg'
+        'assets/images/asia1.jpg', 'assets/images/asia2.jpg', 'assets/images/asia3.jpg'
       ];
       createSlideshow(slide, images);
     });
