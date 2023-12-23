@@ -3,9 +3,9 @@
    
     const photoSection = document.querySelector('.photos');
 
-    /*Add a click event listener to the section */
+    /*Add a click event  */
     photoSection.addEventListener('click', function (event) {
-        /*clicked element is the smaller image */
+        /*is the smaller image */
         if (event.target.matches('.smaller')) {
             // Replace the source of the bigger image with the smaller image
             const biggerImg = document.getElementById('mainImg');

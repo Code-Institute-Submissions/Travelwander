@@ -25,8 +25,7 @@ if (windowWidth < 900) {
       });
 
       // Show/hide the map
-      //mainContent.style.display = mainContent.style.display === 'none' ? 'block' : 'none';
-
+     
       mapContainer.style.display = mapContainer.style.display === 'none' ? 'block' : 'none';
 
 

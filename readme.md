@@ -1,386 +1,545 @@
-#  TravelWander
+# TravelWander.com
 
-## Project Overview
+![TravelWander.com Logo](assets/images/travellogo1.png)
 
-TravelWander is a dynamic online platform designed to make your travel dreams come true. Our website offers a seamless and convenient way for users to explore, plan, and book holiday packages from various regions, including the USA, Europe, and Asia. With TravelWander, users can expect a one-stop solution for all their travel needs, including:
+Explore the world through TravelWander.com, your ultimate travel companion.
 
-- Easy booking of holiday packages to exciting destinations.
-- Personalized recommendations based on your interests and budget.
-- Access to a wide range of travel options, from relaxing getaways to adventurous journeys.
-- User-friendly interface for hassle-free navigation map.
-- Secure payment options for peace of mind and telephone numbers to contact.
-- A wealth of information on destinations, itineraries, and travel tips.
-- Customer support to assist you every step of the way.
+Visit the live site: [TravelWander.com](https://maisam2004.github.io/Travelwander/)
 
-Embark on a journey of discovery with TravelWander, where your dream vacations are just a click away. Start planning your next adventure today!
+Embark on a virtual journey, discover new destinations, and plan your next adventure!
 
-## Table of Contents
+![GitHub last commit](https://img.shields.io/github/last-commit/your-username/TravelWander?color=blue&style=for-the-badge)
+![GitHub contributors](https://img.shields.io/github/contributors/your-username/TravelWander?color=orange&style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/your-username/TravelWander?color=yellow&style=for-the-badge)
+![GitHub top language](https://img.shields.io/github/languages/top/your-username/TravelWander?color=green&style=for-the-badge)
+![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.travelwander.com%2F)
 
-- [Features](#features)
+## Contents
+
+- [User Experience](#user-experience-ux)
+  - [User Stories](#user-stories)
+- [Design](#design)
+  - [Colour Scheme](#colour-scheme)
+  - [Typography](#typography)
+  - [Imagery](#imagery)
+  - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Destination Discovery](#destination-discovery)
+    - [Travel Guides](#travel-guides)
+    - [User Profiles](#user-profiles)
+    - [Interactive Maps](#interactive-maps)
+    - [Future Enhancements](#future-enhancements)
+  - [Accessibility](#accessibility)
 - [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-## Features
-
-TravelWander offers a wide range of features to enhance your travel planning and booking experience:
-
-- **Interactive Map**: Explore the USA, Europe, and Asia with an interactive map highlighting holiday packages in each region.
-- **Hover-Over Previews**: Get quick insights into holiday packages, including location, base price, and key details.
-- **Detailed Package Listings**: Access comprehensive information on itineraries, pricing, and availability.
-- **Map Integration**: Each holiday package listing comes with a half-page map showing the destination's location.
-- **Pinpoint on Map**: Hover over a package to view a pinpoint on the map, indicating the holiday destination.
-- **Comprehensive Package Details**: Dive deep into package details, including accommodation, facilities, and activities.
-- **Secure Booking**: Enjoy secure payment processing for seamless and convenient booking.
-- **Customer Support**: Contact our customer support team for assistance with questions or concerns.
-- **Wishlist Creation**: Save your favorite holiday packages to a personal wishlist.
-- **Side-by-Side Comparison**: Compare multiple holiday packages side-by-side to make informed choices.
-- **Flight and Accommodation Booking**: Book flights and accommodations in addition to holiday packages.
-- **Social Media Integration**: Share your travel plans and experiences with friends and family via social media.
-- **Mobile App**: Use our mobile app for on-the-go travel planning and booking.
-
-TravelWander is committed to providing a feature-rich platform that simplifies travel planning and booking, giving you the tools and information you need to create unforgettable vacations.
-
-## Technologies Used
-
-TravelWander is built using a variety of technologies and tools to provide a seamless and feature-rich travel planning and booking experience. Our tech stack includes:
-
-- **Front-end Technologies**:
-
-  - HTML5
-  - CSS3
-  - JavaScript
-  - jQuery (for DOM manipulation and event handling)
-- **User Interface (UI) Frameworks**:
-
-  - Bootstrap or Material-UI (for responsive and user-friendly design)
-- **Payment Processing**:
-
-  - Stripe or PayPal (for secure payment processing)
-- **Mapping and Geolocation**:
-
-  - Google Maps API or Mapbox (for interactive maps and geolocation features)
-- **Version Control**:
-
-  - Git and GitHub (for version control and collaboration)
-- **Development Tools**:
-
-  - Visual Studio Code or other code editors
-  - Browser DevTools for debugging
-  - Gitpod (for cloud-based development)
-- **Social Media Integration (Optional)**:
-
-  - APIs for various social media platforms (for sharing and integration)
-
-Our technology choices have been carefully selected to ensure a user-friendly and secure travel planning experience. We aim to leverage the power of these tools to make your journey with TravelWander as smooth and enjoyable as possible.
-
-## Installation
-
-Provide step-by-step instructions on how to set up and run your project locally. Include any dependencies or environment setup required.
-
-## Usage
-
-Explain how to use your website. Include instructions, user flow, and any important details for potential users. Provide screenshots or examples if necessary.
-
-## Contributing
-
-Explain how others can contribute to your project, whether through code, bug reports, or feature requests. If contributions are not accepted, make this clear.
-
-## License
-
-Specify the license under which your project is distributed. You can choose from various open-source licenses like MIT, Apache, or GNU.
-
-## Author
-
-- Your Name
-- Contact Information or Links to Profiles
-
-## Acknowledgments
-
-- Give credit to any resources, libraries, or individuals who inspired or helped you during the project.
-- Acknowledgment 1: [Description]
-- Acknowledgment 2: [Description]
-- ...
-
-## UX and UI
-
-- In this section, document decisions at each stage of the 5 planes of UX design.
-- Strategy => Scope => Structure => Skeleten => Surface
-- Project goals, customer goals (user stories), features, information structure, presentation, and the look and feel of your site.
-- review personas and user stories
+  - [Languages Used](#languages-used)
+  - [Frameworks, Libraries &amp; Programs Used](#frameworks-libraries--programs-used)
+- [Deployment &amp; Local Development](#deployment--local-development)
+  - [Deployment](#deployment)
+  - [Local Development](#local-development)
+    - [How to Fork](#how-to-fork)
+    - [How to Clone](#how-to-clone)
+- [Testing](#testing)
+  - [Solved Bugs](#solved-bugs)
+  - [Known Bugs](#known-bugs)
+- [Credits](#credits)
+  - [Code Used](#code-used)
+  - [Content](#content)
+  - [Media](#media)
+  - [Acknowledgments](#acknowledgments)
 
 ---
 
-### Personas:
+![TravelWander.com Banner](assets/images/banner.jpg)
 
-<details>
-  <summary>Persona: Family Adventurers</summary>
+## User Experience (UX)
 
-## Background
+### User Stories
 
-- **Family Name**: Müller
-- **Parents**:
-  - **Father**: Mark Müller
-    - **Age**: 35
-    - **Occupation**: Software Engineer
-  - **Mother**: Emily Müller
-    - **Age**: 33
-    - **Occupation**: Elementary School Teacher
-- **Children**:
-  - **Oldest Child**: Sophie
-    - **Age**: 7
-  - **Youngest Child**: Noah
-    - **Age**: 4
+#### First Time Visitor Goals
 
-## Demographics
+- I want to explore new travel destinations and get inspired for my next trip.
+- I want a user-friendly interface that allows me to navigate through the site effortlessly.
+- I want to find comprehensive travel guides and information about different countries holiday packages
 
-- **Location**: Berlin, Germany
-- **Devices**: Primarily use a shared family computer and tablets.
+#### Returning Visitor Goals
 
-## Goals
+- I want to interact with an interactive map to plan my itinerary effectively.
 
-- **Primary Goal**: Plan family-friendly vacations with a mix of adventure and kid-friendly activities.
-- **Secondary Goals**: Ensure travel plans cater to the needs and safety of young children, find affordable options, and create lasting family memories.
+#### Frequent Visitor Goals
 
-## Challenges
+- I want to contribute by sharing my travel experiences and tips.
+- I want to connect with other travel enthusiasts through user profiles.
 
-- **Challenge 1**: Balancing adventure and family-friendly activities for both adults and children.
-- **Challenge 2**: Navigating travel options that accommodate the preferences and energy levels of young kids.
-- **Challenge 3**: Gather enough Informations about holiday packages
+---
 
-## Travel Details
+## Design
 
-- **Budget**: The Müller family typically budgets around €3000 for a family vacation.
-- **Preferences**:
-  - **Transportation**: Prefers family-friendly modes, such as trains or flights with kid-friendly services.
-  - **Accommodations**: Looks for comfortable and child-safe accommodations.
-  - **Activities**: Enjoys a mix of cultural experiences, outdoor adventures, and kid-centric activities.
+### Colour Scheme
 
-## Decision-Making Process
+The color scheme is carefully selected to evoke a sense of adventure and wanderlust. Earthy tones and vibrant blues are used to represent the beauty of nature and the vastness of the world.
 
-- **Research**: The family extensively researches destinations, relying on online reviews and recommendations.
-- **Consultation**: Mark and Emily discuss travel options, considering the preferences and input of both parents and children.
-- **Budget Consideration**: The Müller family carefully evaluates the cost of travel packages and assesses value for money.
-- **Community Influence**: They value insights from other families who have similar travel goals and preferences.
+- Primary Colour: `#355c7d` (Deep Blue)
+- Secondary Colour: `#6c5b7b` (Plum)
+- Accent Colour: `#c06c84` (Dusty Rose)
+- Background: `#f8b400` (Bright Yellow)
 
-## User Journey
+![TravelWander.com Color Scheme](assets/wireframes/Travelwandercom.png)
 
-1. **Discovery**: The Müller family explores TravelWander to find destinations suitable for family adventures.
-2. **Planning**: Mark and Emily use filters to discover vacation packages with  adventurous activities .
-3. **Customization**: They customize the vacation plan to include family-oriented amenities and services.
-4. **Booking**: The family securely books the vacation, ensuring it meets safety standards and provides a seamless experience for the children.
-5. **Post-Trip**: After the trip, they share their experiences on TravelWander, contributing to the family-friendly community.
+### Typography
 
-## Needs
+The chosen fonts are both modern and easy to read, enhancing the overall user experience.
 
-- **Family-Centric Packages**: Vacation options that cater to the diverse interests of both adults and children.
-- **Safety Considerations**: Information on safety measures, kid-friendly accommodations, and travel tips.
-- **Budget-Friendly Options**: Affordable travel packages and deals for a family of four.
+- Page Title: [Roboto Slab italic](https://fonts.google.com/specimen/Roboto?query=roboto)
+- Body Text: [Open Sans](https://fonts.google.com/specimen/Open+Sans)
+- Body text : [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto)
+  ![Roboto exapmple Font Example](assets/images/robotfont.png)
 
-## Quotes
+### Imagery
 
-- "We want a vacation that offers excitement for us and fun for the kids, all in a safe and family-friendly environment."
-- "Finding travel options that keep our kids engaged and happy is crucial for a successful family adventure."
+Stunning images of landscapes and iconic landmarks are incorporated to transport users to different corners of the world. Each page features visually appealing photos to enhance the travel experience.
 
-  By understanding the detailed travel preferences, budget considerations, and decision-making process of the Müller family, TravelWander can tailor its offerings to provide a more personalized and satisfactory experience.
+### Wireframes
 
-</details>
-<details>
-  <summary>Persona: Emma Adams</summary>
+Wireframes for mobile, tablet/desktop were created using Adobe xd.
 
-## Background
+Hompage desktop and mobile
 
-- **Full Name**: Emma Adams
-- **Age**: 22
-- **Occupation**: University Student
+- <img src="./assets/wireframes/first_wireframe.png" style="width: 60%; height: 60%;">-<img src="./assets/wireframes/mobile_first_wireframe.png" style="width: 30%; height: 50%;">
 
-## Demographics
+<img src="./assets/wireframes/flags.png" style="width: 60%; height: 60%;">-<img src="./assets/wireframes/flagsmobile.png" style="width: 30%; height: 50%;"> 
+--third lists and map hotels --
+- <img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;">
+- <img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/hotelsmaplisttablet1.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/hotelsmaplisttablet.png" style="width: 50%; height: 50%;">
 
-- **Location**: Toronto, Canada
-- **Devices**: Primarily uses a laptop and smartphone for research and planning.
+updated
 
-## Goals
+- <img src="./assets/wireframes/mobile_hotelslists.png" style="width: 30%; height: 50%;"> - <img src="./assets/wireframes/hotelsmaplistmobile1.png" style="width: 30%; height: 50%;">
+- <img src="./assets/wireframes/hotelsmaplistmobile2.png" style="width: 30%; height: 50%;">
+- <img src="./assets/wireframes/hotelfulldetails1.png" style="width: 60%; height: 60%;">
+- <img src="./assets/wireframes/mobile_hotelfulldetails.png" style="width: 30%; height: 50%;"><img src="./assets/wireframes/hotelfulldetailsmobile.png" style="width: 30%; height: 60%;">
 
-- **Primary Goal**: Explore diverse cultures and gain new experiences during university breaks.
-- **Secondary Goals**: Find affordable travel options, connect with fellow travelers, and discover destinations that offer a mix of adventure and relaxation.
+### Features
 
-## Challenges
+Explore the rich features of TravelWander.com, designed to provide an immersive and dynamic experience for users.
 
-- **Challenge 1**: Limited budget due to student status.
-- **Challenge 2**: Balancing academic commitments with the desire for travel experiences.
+1. **Responsive Design:**
 
-## Travel Details
+   - All pages are seamlessly responsive, ensuring a consistent and enjoyable user experience across mobile, tablet, and desktop devices.
+     and on mobile add grid system to show menu by click on hamburger lines.
+2. **Dynamic Content:**
 
-- **Budget**: Emma typically budgets $1500 for a budget-friendly vacation.
-- **Preferences**:
-  - **Transportation**: Seeks budget-friendly flights and public transportation.
-  - **Accommodations**: Comfortable hostels or budget hotels.
-  - **Activities**: Enjoys a mix of cultural exploration, outdoor activities, and social experiences.
+   - The website's content is dynamic, sourced partly from APIs and a locally created JSON file. This ensures up-to-date information and a diverse range of travel details and weather information.
+3. **Favicon Integration:**
 
-## Decision-Making Process
+   - The site incorporates a distinctive favicon, enhancing brand visibility in the browser. ![Favicon](./assets/images/favicon.png)
+4. **Logo Navigation:**
 
-- **Research**: Emma relies on online platforms and student travel communities for destination ideas.
-- **Affordability**: Prioritizes destinations and packages that fit within her limited budget.
-- **Community Engagement**: Values insights and tips from fellow students and young travelers.
+   - The logo at the top of each page functions as a clickable link to the homepage, providing convenient navigation. This feature is implemented using JavaScript.
+5. **Hero Video:**
 
-## User Journey
+   - The first page features a captivating hero section with a video, setting the tone for an engaging exploration of travel destinations.
+6. **Continent Slides:**
 
-1. **Discovery**: Emma explores TravelWander to find budget-friendly travel options for her university breaks.
-2. **Filtering**: She uses filters to narrow down options based on affordability, travel dates, and student-friendly activities.
-3. **Exploration**: Emma reviews detailed information about each destination, considering factors such as cultural experiences and budget-friendly activities.
-4. **Decision**: She selects a travel package that aligns with her budget and interests.
-5. **Booking**: Emma completes a secure booking, ensuring it fits within her academic schedule.
+   - Above the video, three slides showcase stunning photos of different continents, offering a visual preview of the diverse destinations available.
+7. **Text Background Enhancement:**
 
-## Needs
+   - To enhance readability, a blur drop shadow is applied as the background for text in certain sections. This ensures a comfortable reading experience, especially for information about the company and reviews.
+8. **Footer with Telephone Link:**
 
-- **Budget-Friendly Options**: Access to affordable travel packages that cater to student budgets.
-- **Student-Focused Activities**: Packages that offer a mix of cultural exploration and social experiences suitable for young travelers.
-- **Community Connection**: Engaging with a community of fellow students for travel insights and recommendations.
+   - Most pages include a footer with a telephone link. Users can click on the link to open a window for a quick call, providing easy access to support or inquiries.
 
-## Quotes
+Feel the wanderlust and enjoy the seamless features of TravelWander.com .
 
-- "I want to see the world without breaking the bank, especially during my university breaks."
-- "Finding destinations that offer affordable adventures and opportunities to connect with other students is essential for my travel plans."
+#### Home Page
 
-  By understanding Emma's unique needs as a university student, TravelWander can provide tailored options that align with her budget and desire for diverse travel experiences.
+The homepage of TravelWander.com offers a captivating introduction to the travel experience, blending aesthetics and functionality seamlessly.
 
-</details>
-<details>
-  <summary>Persona: Mark Johnson</summary>
+- **Site Name and Logo:**
 
-## Background
+  - The site name and logo take center stage, creating a distinctive visual identity for TravelWander.com.
+- **Navbar:**
 
-- **Full Name**: Mark Johnson
-- **Age**: 42
-- **Occupation**: Marketing Manager
+  - An intuitive navigation bar ensures easy exploration, allowing users to effortlessly access different sections of the website.
+- **Social Icons:**
 
-## Demographics
+  - Social icons are strategically placed, providing quick links to connect with TravelWander.com on various social media platforms.
+- **Welcome Text:**
 
-- **Location**: New York, USA
-- **Devices**: Primarily uses a laptop and smartphone.
+  - A warm welcome text invites users to embark on a virtual journey, setting the tone for an immersive travel experience.
+- **Continents Slides:**
 
-## Goals
+  - Three slides showcasing breathtaking images of different continents create a visually stunning backdrop, offering a glimpse into the diverse destinations awaiting exploration.
+- **Company Information:**
 
-- **Primary Goal**: Explore diverse and exciting destinations during holidays.
-- **Secondary Goals**: Find travel packages that offer unique experiences, discover hidden gems, and capture memorable moments.
+  - Information about the company is elegantly presented, providing insights into TravelWander's mission and offerings.
+- **Customer Reviews:**
 
-## Challenges
+  - Customer reviews add a personal touch, offering authentic perspectives and enhancing the credibility of the travel services.
+- **Background Video:**
 
-- **Challenge 1**: Limited time for vacation planning due to work commitments.
-- **Challenge 2**: Seeking personalized travel experiences within a reasonable budget.
+  - A dynamic background video runs throughout the homepage, adding a touch of dynamism and reinforcing the travel theme.
 
-## Travel Details
+Experience the allure of TravelWander.com's homepage, where aesthetics meet functionality to inspire your wanderlust.
 
-- **Budget**: Mark typically allocates $5000 for an international vacation.
-- **Preferences**:
-  - **Transportation**: Prefers direct flights for convenience.
-  - **Accommodations**: Enjoys boutique hotels with character.
-  - **Activities**: Interested in cultural experiences, local cuisine, and adventure activities.
+- <img src="./assets/wireframes/fullhomepage.jpeg" style="width: 90%; height: 70%;">
+- <img src="./assets/wireframes/homepagem1.jpeg" style="width: 40%; height: 60%;">
 
-## Decision-Making Process
+#### Destination Discovery
 
-- **Research**: Mark relies on online travel platforms, reviews, and recommendations.
-- **Efficiency**: Values time-efficient booking processes and user-friendly platforms.
-- **Feedback**: Considers the experiences of fellow travelers to inform his decisions.
+- Embark on a journey of exploration with TravelWander.com's Destination Discovery feature. Delve into a diverse collection of travel destinations, each represented by its unique flag. Begin your adventure by selecting a continent on the first page, where you'll find concise information about the weather and the cost of holiday packages from your chosen destination.
+- <img src="./assets/wireframes/flagspage.jpeg" style="width: 50%; height: 60%;"><img src="./assets/wireframes/flagspagemobile.jpeg" style="width: 30%; height: 60%;">
 
-## User Journey
+#### Interactive Maps
 
-1. **Discovery**: Mark explores TravelWander to find unique and exciting travel destinations.
-2. **Filtering**: He uses filters to narrow down options based on his budget, preferred activities, and travel dates.
-3. **Exploration**: Mark reads detailed information about each destination and the experiences offered.
-4. **Decision**: After comparing options, he selects a travel package that aligns with his interests.
-5. **Booking**: Mark completes a secure and efficient booking process.
+-Immerse yourself in the Interactive Maps experience, where each flag is a gateway to exciting holiday packages and detailed insights about the chosen country. With a simple click on a flag, you'll be transported to a wealth of travel information. Plan your itinerary, visualize travel routes, and make informed decisions to tailor your dream vacation with TravelWander.com.
 
-## Needs
+- <img src="./assets/wireframes/packageslismap.jpg" style="width: 60%; height: 60%;"><img src="./assets/wireframes/packageslistviewtable.jpg" style="width: 30%; height: 60%;"><img src="./assets/wireframes/packageslistmobile.jpg" style="width: 30%; height: 60%;"><img src="./assets/wireframes/packagesmapmobile.png" style="width: 30%; height: 60%;">
 
-- **Diverse Options**: Access to a variety of travel packages that cater to different interests.
-- **Efficient Booking**: A streamlined and time-efficient booking process.
-- **User Reviews**: Insights from other travelers to inform decision-making.
+Package Details
+Discover the essence of your chosen destination with a comprehensive overview. This page unfolds the allure of your selected hotel through captivating images and an interactive map. Delve into the specifics of available hotel packages, showcasing key details to assist you in making an informed decision. When ready to embark on your journey, a convenient "Reserve" button awaits your click. Engage with the button to reveal a modal form, prompting you to provide necessary information for a personalized quote. Your seamless travel experience begins here.
 
-## Quotes
+#### Future Enhancements
 
-- "I want my vacations to be a perfect blend of adventure, culture, and relaxation."
-- "Efficiency is key for me when it comes to planning vacations. I need a platform that understands my preferences and simplifies the booking process."
+- Integration with social media platforms for easy sharing of travel experiences.
+- Real-time collaboration on travel itineraries with friends.
+- Language translation features for global accessibility.
+- Add new API from travel agency to be able booked on page
 
-  By understanding Mark's preferences and priorities, TravelWander can provide a seamless and personalized experience for his vacation planning.
+### Accessibility
 
-</details>
+The website prioritizes accessibility with:
 
-### User Stories:
+- Semantic HTML5 elements for improved screen reader compatibility.
+- High color contrast for text and background elements.
+- Focus states on interactive elements for clear navigation.
 
-1. **Family Adventurers (Müller Family):**
+---
 
-   - **Discover Family-Friendly Vacations:**
-     - Explore a user-friendly interface to easily discover family-friendly vacation options on TravelWander.
-   - **Customize Vacation Plans:**
-     - Utilize a simple and intuitive platform to customize vacation plans, considering the needs of both adults and children.
-   - **Access Comprehensive Information:**
-     - Find comprehensive information on safety measures, kid-friendly accommodations, and valuable travel tips.
-   - **Flexible Itineraries:**
-     - Choose from flexible itineraries that cater to the interests and energy levels of both adults and children.
-   - **Engage with the Community:**
-     - Connect with and contribute to the family-friendly community on TravelWander.
-2. **Emma Adams (University Student):**
+## Technologies Used
 
-   - **Explore Budget-Friendly Options:**
-     - Navigate a visually engaging platform to explore budget-friendly travel options for university breaks.
-   - **Efficient Filtering:**
-     - Use efficient filtering options to explore travel packages based on affordability, travel dates, and student-friendly activities.
-   - **Detailed Destination Information:**
-     - Access detailed information about each destination, including cultural experiences and budget-friendly activities.
-   - **Secure Booking Process:**
-     - Experience a secure and efficient booking process that accommodates academic schedules.
-   - **Connect with Fellow Students:**
-     - Connect with a community of fellow students for travel insights and recommendations.
-3. **Solo Explorer (Mark Johnson):**
+### Languages Used
 
-   - **Visually Engaging Discovery:**
-     - Discover unique and exciting destinations through a visually engaging platform on TravelWander.
-   - **Efficient Filtering Options:**
-     - Use efficient filtering options to explore travel packages based on budget, preferred activities, and travel dates.
-   - **Informed Decision-Making:**
-     - Access detailed information about each destination to make informed decisions about solo adventures.
-   - **Streamlined Booking Process:**
-     - Enjoy a streamlined and secure booking process for the selected travel package.
+- HTML5
+- CSS3
+- JavaScript
 
-## Wireframes
+### Frameworks, Libraries & Programs Used
 
-- Provide links to wireframes that serve as blueprints for your site. Include wireframes for different screen sizes (mobile, tablet, desktop).
-- <img src="./assets/wireframes/first_wireframe.png" style="width: 60%; height: 60%;">  - <img src="./assets/wireframes/mobile_first_wireframe.png" style="width: 30%; height: 50%;">-- <img src="./assets/wireframes/mobile_first_modify.png" style="width: 30%; height: 50%;">--<img src="./assets/wireframes/secondpage.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_secondpage.png" style="width: 30%; height: 50%;">--third lists and map hotels --<img src="./assets/wireframes/hotelsmaplists.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_hotelsmap.png" style="width: 30%; height: 50%;">
+- [Google Fonts](https://fonts.google.com/)
+- [Figma](https://www.figma.com/)- Used to create wireframes.
+- [Adobe xd ](https://www.adobe.com/) - Used to create wireframes.
+- [GitHub](https://github.com/)
+- [Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [Mapbox API ](https://api.mapbox.com/)-used to impliment map in pages
+- [Open weather map  ](https://openweathermap.org/)-to show current weather information
+- [Canva ](https://www.canva.com/create/logos/)-used to create logo for page
+- [Unsplashed](https://unsplash.com/) -used for photos and videos
 
-<img src="./assets/wireframes/mobile_hotelslists.png" style="width: 30%; height: 50%;">--<img src="./assets/wireframes/hotelfulldetails.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_hotelfulldetails.png" style="width: 30%; height: 50%;">
+---
 
-<img src="./assets/wireframes/homepage1.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_firstpage_color.png" style="width: 30%; height: 50%;">
+## Deployment & Local Development
 
-<img src="./assets/wireframes/countries.png" style="width: 60%; height: 60%;"><img src="./assets/wireframes/mobile_second_page_col1.png" style="width: 24%; height: 38%;">
---
-<img src="./assets/wireframes/mobile_panama_packages.png" style="width: 24%; height: 38%;"><img src="./assets/wireframes/mobile_panama_map.png" style="width: 24%; height: 38%;">
+### Deployment
 
-<img src="./assets/wireframes/packages.png" style="width: 60%; height: 60%;">
-<img src="./assets/wireframes/package_details.png" style="width: 60%; height: 60%;">
-<img src="./assets/wireframes/contact_page.png" style="width: 60%; height: 60%;">
-<img src="./assets/wireframes/contact1.png" style="width: 60%; height: 60%;">
-<img src="./assets/wireframes/deals1.png" style="width: 60%; height: 60%;">
-<img src="./assets/wireframes/mobile_contact_menu.png" style="width: 24%; height: 38%;">
-<img src="./assets/wireframes/mobile_contact.png" style="width: 24%; height: 38%;">
-<img src="./assets/wireframes/mobile_signup.png" style="width: 24%; height: 38%;">
-<img src="./assets/wireframes/mobile_signin.png" style="width: 24%; height: 38%;">
+The site is deployed using GitHub Pages. The main branch serves as the deployment branch, and updates are reflected automatically.
 
-## Mock-ups (Optional)
+To deploy the site:
 
-- If available, showcase images that represent how your finished site looks on different screen sizes.
+1. Fork the repository.
+2. Go to the repository settings on GitHub.
+3. Scroll down to the GitHub Pages section.
+4. Choose the main branch as the source.
 
-## Testing (To Be Added)
+### Local Development
 
-- Used Map box api for generate map base of hotels address  [mapbox Api link ](https://www.mapbox.com)
-- I have been using Rapidapi/booking [booking api link](https://rapidapi.com/apidojo/api/booking) but their system and api cost alot so decided to use local Json data file for fetching Data results
-- Used and testing weather open api for fetching recent information [Api link](https://api.openweathermap.org) used for flags html
-- By using json file tried to create **dynamic web page**
+#### How to Fork
 
-## Next Steps (Optional)
+1. On GitHub, navigate to the repository.
+2. In the top-right corner, click "Fork."
+3. After forking, you'll have your copy of the repository.
 
-- Mention what's coming next in your project, new features, or planned improvements.
+#### How to Clone
+
+1. On GitHub, navigate to your fork of the repository.
+2. Click the green "Code" button.
+3. Copy the URL.
+4. Open your terminal.
+5. Change the current working directory to the location where you want the cloned directory.
+6. Type `git clone`, paste the URL, and press Enter.
+
+---
+
+## Testing
+
+### Contents
+
+- [Automated Testing](#automated-testing)
+  - [W3C Validator](#w3c-validator)
+  - [JavaScript Validator](#javascript-validator)
+  - [Lighthouse](#lighthouse)
+- [Manual Testing](#manual-testing)
+  - [Testing User Stories](#testing-user-stories)
+  - [Full Testing](#full-testing)
+
+---
+
+### Automated Testing 
+
+- <img src="./assets/wireframes/validatorhtml.jpg" style="width: 90%; height: 70%;">
+
+- <img src="./assets/wireframes/cssvalidtion.png" style="width: 90%; height: 70%;">
+
+#### W3C Validator (html , css)
+
+- **index.html**: Passed.
+- **packagesall.html**: No errors, 1 Warning. The warning is for an empty H2 tag. This is where package details are inserted dynamically.
+- **flags.html**: Passed.
+- **contact.html**: Passed.
+- **about.html**: Passed.
+- **hotel_details.html**: Passed.
+- **style.css**: Passed, no errors found.
+- **style.css**: Passed.
+- **packagesall.css**: passed.
+- **flags.css**: Passed.
+- **contact.css**: Passed.
+- **about.css**: Passed.
+- **hotel_details.css**: Passed.
+- **style.css**: Passed, no errors found.
+
+#### JavaScript Validator
+
+##### a part from thease warning all js codes passed (
+
+###### 'const' is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz).
+
+###### 'arrow function syntax (=>)' is only available in ES6 (use 'esversion: 6').)
+
+- **homelink.js**: Passed.
+- **crrrentpage.js**: Passed.
+- **flags.js**: Passed.
+- **hoteldetails.js**: Passed.
+- **linktohoteldetails.js**: Passed.
+- **mapbox.js**: Passed.
+- **mapview**: Passed.
+- **reserve.js**: Passed.
+- **see_map.js**: Passed.
+- **mapbox.js**: Passed.
+- **mapview**: Passed.
+- **reserve.js**: Passed.
+- **sidebar**: Passed.
+- **slideDives.js**: Passed.
+- **swapingimg.js**: Passed.
+- **weather.js**: Passed.
+- **allpackagescountry.js**: Passed.
+- **linktohoteldetails.js**: Passed with one warning. Async functions are only available in ES8. It also stated that there are 4 unused variables; however, these are being used.
+- **destinations.js**: Passed.
+
+### Manual Testing
+
+#### Testing User Stories
+
+**First Time Visitors**
+
+| Goals                                                                         | How are they achieved?                                                                                |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| I want to explore travel destinations and available packages.                 | The TravelWander website provides a variety of destinations and travel packages for users to explore. |
+| I want to easily navigate through the website to find the information I need. | Intuitive navigation and clear calls-to-action are implemented for easy exploration.                  |
+| I want visually appealing content that showcases destinations and packages.   | High-quality images and well-crafted content are used to visually engage first-time visitors.         |
+
+**Returning Visitors**
+
+| Goals                                                              | How are they achieved?                                                                                 |
+| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------ |
+| I want to review and compare travel packages efficiently.          | The packages page allows users to view and compare details of various travel packages easily.          |
+| I want to find new and exciting destinations to plan my next trip. | The destinations page highlights different travel spots, providing inspiration for returning visitors. |
+
+**Frequent Visitors**
+
+| Goals                                                             | How are they achieved?                                                                                |
+| ----------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| I want to check for any new travel packages or updates regularly. | A blog or news section keeps frequent visitors informed about new packages, travel tips, and updates. |
+| I want a seamless booking experience for selected packages.       | The booking process is streamlined, providing an efficient and user-friendly experience.              |
+
+#### Full Testing
+
+Full testing was performed on the following devices:
+
+**Laptop:**
+
+- MacBook Pro 2021 13-inch screen
+
+**Mobile Devices:**
+
+- iPhone 12 Pro.
+- Samsung Galaxy S21.
+
+Each device tested the site using the following browsers:
+
+- Google Chrome
+- Safari
+- Firefox
+
+Additional testing was undertaken by friends and family on a variety of devices and screen sizes. They reported no issues when browsing and exploring the website.
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Home page </h2>
+</div>
+
+| Feature                           | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
+| --------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
+| **Site's Logo**                   | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
+| **Navigation Menu**               | Easy navigation to different sections (Packages, Contact, About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
+|                                   |                                                                  |                               |                                         |           |
+| **Featured Destinations Section** | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
+| **Call-to-Action Buttons**        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
+
+## Additional Details
+
+- **Hero Page Content:** The home page serves as the hero page, featuring small notes about the company and customer reviews.
+
+- **Continents Section:** Three photo slide cards represent each continent. Clicking on each card leads to the Flags page, displaying flags of countries within that continent.
+
+- **Footer:** 
+  - **Phone Number:** Clicking the phone number link allows users to call.
+  - **Social Links:** Icons for social media links.
+  - **Agency Protection:** Displays photos of visa cards and the agency protection stamp by ATOL agency.
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Flags Page </h2>
+</div>
+
+Each country is represented by a flag card, providing a quick overview of available travel opportunities. The card includes:
+
+| Feature      | Expected Outcome                                         | Testing Performed           | Result                                                         | Pass/Fail |
+| ------------ | -------------------------------------------------------- | --------------------------- | -------------------------------------------------------------- | --------- |
+| Flag         | Iconic representation of the country's flag.             | Visual inspection           | Flags are displayed accurately.                                | Pass      |
+| Package Info | Brief details about available travel packages and costs. | Clicked on flag cards       | Information about travel packages is displayed correctly.      | Pass      |
+| Weather Info | Real-time weather conditions in the country.             | Checked weather information | Weather updates are accurate and aligned with OpenWeather API. | Pass      |
+
+###### - navigation to Packages Page
+
+To explore comprehensive travel packages for a specific country:
+
+1. Click on the flag card corresponding to the desired country.
+2. You will be redirected to the Packages page for that country, where you can find detailed information about available packages, facilities, and more.
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Packagesall Page </h2>
+</div>
+
+| Feature         | Expected Outcome                                               | Testing Performed         | Result                                               | Pass/Fail |
+| --------------- | -------------------------------------------------------------- | ------------------------- | ---------------------------------------------------- | --------- |
+| Package cards   | Clear display of package details and prices                    | Checked each package card | Information and prices were displayed accurately     | Pass      |
+| Package details | By click on More info button takes you different dynamic page | Clicked on a package card | Detailed information about the package was displayed | Pass      |
+
+**Additional Features for Mobile View:**
+
+- **Interactive Map:**
+
+  - **Expected Outcome:** Users can view the locations of packages on an interactive map.
+  - **Testing Performed:** Checked the map display on mobile devices.
+  - **Result:** The map accurately displays the locations of packages.
+  - **Pass/Fail:** Pass
+- **Show Map Button:**
+
+  - **Expected Outcome:** On mobile view, a button is provided to show the interactive map.
+  - **Testing Performed:** Clicked the "Show Map" button.
+  - **Result:** The map is displayed when the button is clicked.
+  - **Pass/Fail:** Pass
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Hotel details Page</h2>
+</div>
+
+| Feature              | Expected Outcome                                               | Testing Performed                 | Result                                                                 | Pass/Fail |
+| -------------------- | -------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- | --------- |
+| Hotel Information    | Detailed display of hotel information and available facilities | Reviewed hotel details            | Accurate information and facilities were displayed                     | Pass      |
+| Map (Tablet/Desktop) | Map displaying the hotel location on tablet and desktop view   | Checked map on tablet/desktop     | The map accurately shows the hotel location                            | Pass      |
+| Rating               | User rating provided for the hotel                             | Checked and verified user ratings | Ratings were displayed appropriately and aligned with user feedback    | Pass      |
+| Reserve Button       | Clicking on "Reserve" button opens a modal form                | Clicked on "Reserve" button       | Modal form opened as expected, prompting user to enter name and number | Pass      |
+| Modal Form           | User can enter name and number for reservation                 | Submitted form with valid data    | Form submitted successfully, displaying a reservation quote number     | Pass      |
+
+**Reservation Data Storage:**
+
+- **Local Storage:**
+
+  - **Technology:** HTML5 provides localStorage for storing data on the client side.
+  - **Workflow:** On form submission, user's name, number, and reservation quote number are stored in the browser's localStorage for a short period.
+  - **Result:** Data is temporarily stored and can be accessed on the Displayinfo Page.
+  - **Pass/Fail:** Pass
+
+  ###### Displayinfo Page:*
+
+| Feature                  | Expected Outcome                           | Testing Performed          | Result                                                 | Pass/Fail |
+| ------------------------ | ------------------------------------------ | -------------------------- | ------------------------------------------------------ | --------- |
+| Display Reservation Data | Show user's name, number, and quote number | Checked the displayed data | Information stored from Hoteldetails page is displayed | Pass      |
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2>Contact page</h2>
+</div>
+
+| Feature            | Expected Outcome                             | Testing Performed             | Result                                             | Pass/Fail |
+| ------------------ | -------------------------------------------- | ----------------------------- | -------------------------------------------------- | --------- |
+| Contact form       | User-friendly form for inquiries or feedback | Filled out the contact form   | Form submission successful                         | Pass      |
+| Social media links | Quick access to social media profiles        | Clicked on social media icons | Redirected to the respective social media profiles | Pass      |
+| Map integration    | Display of office location using Google Maps | Checked the map section       | Office location displayed accurately               | Pass      |
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2>About page</h2>
+</div>
+
+| Feature                         | Expected Outcome                                       | Testing Performed               | Result                                    | Pass/Fail |
+| ------------------------------- | ------------------------------------------------------ | ------------------------------- | ----------------------------------------- | --------- |
+| **Site's Logo**                 | Clicking the logo directs the user back to the home page | Clicked on the logo             | Home page reloads                         | Pass      |
+| **Navigation Menu**             | Easy navigation to different sections (Home, Packages, Contact) | Clicked on each menu item     | Navigated to the corresponding sections   | Pass      |
+| **Social Media Icons**          | Icons linking to social media profiles                 | Clicked on each social icon    | Redirected to the respective social media | Pass      |
+|                                 |                                                        |                                 |                                           |           |
+| **About TravelWander Section**  | Comprehensive text about TravelWander company          | Read through the content      | Detailed information about the company   | Pass      |
+| **Contact Information**         | Brief contact details at the end of the page           | Verified the contact details | Contact information is accurate and clear | Pass      |
+| **Footer**                      | ATOL protected stamp                                   | Inspected the ATOL stamp      | Assurance of agency protection           | Pass      |
+
+## Additional Details
+
+- **Company Overview:** The About page provides in-depth information about TravelWander, its mission, and values.
+
+- **Contact Information:**
+  - **Email:** contact@travelwander.com
+  - **Phone:** [+44 8987555666]
+
+- **Footer:**
+  - The ATOL protected stamp ensures the agency's protection compliance.
+
+
+## Credits
+
+### Code Used
+
+- While utilizing an API that presented correct and incorrect answers, I employed the Fisher-Yates Shuffle to randomize answer placement on buttons, ensuring a balanced distribution. I referred to a YouTube tutorial for further optimization based on my data structure. Special thanks to the tutorial, and gratitude to RapidAPI for streamlined access to essential resources.
+- Custom scroll animations: Inspired by [AOS Library](https://michalsnik.github.io/aos/). try to learn from some of code sample
+- Responsive navigation menu: Adapted from [W3Schools](https://www.w3schools.com/howto/howto_js_responsive_navbar.asp).
+- implement map in a page by [Mapbox video](https://www.youtube.com/watch?v=kzPdpZ1BDG4&t=1s)
+
+### Content
+
+- Travel guides and information: Curated from various travel blogs and resources.
+- User reviews: Provided by the TravelWander.com community.
+
+### Media
+
+- Stunning travel images: Sourced from [Unsplash](https://unsplash.com/) and [Pexels](https://www.pexels.com/).
+  -Used [Videezy](https://www.videezy.com/) for hompage background
+
+### Acknowledgments
+
+- My mentor for invaluable guidance and support.
+- The travel community for sharing their passion and insights.
+- Code Institute for the educational resources and challenges.
+
+---
+
+Thank you for exploring the world with TravelWander.com!
