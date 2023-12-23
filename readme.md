@@ -8,11 +8,6 @@ Visit the live site: [TravelWander.com](https://maisam2004.github.io/Travelwande
 
 Embark on a virtual journey, discover new destinations, and plan your next adventure!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/your-username/TravelWander?color=blue&style=for-the-badge)
-![GitHub contributors](https://img.shields.io/github/contributors/your-username/TravelWander?color=orange&style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/your-username/TravelWander?color=yellow&style=for-the-badge)
-![GitHub top language](https://img.shields.io/github/languages/top/your-username/TravelWander?color=green&style=for-the-badge)
-![W3C Validation](https://img.shields.io/w3c-validation/html?logoColor=blue&style=for-the-badge&targetUrl=https%3A%2F%2Fwww.travelwander.com%2F)
 
 ## Contents
 
@@ -284,10 +279,9 @@ To deploy the site:
 
 ---
 
-### Automated Testing 
+### Automated Testing
 
 - <img src="./assets/wireframes/validatorhtml.jpg" style="width: 90%; height: 70%;">
-
 - <img src="./assets/wireframes/cssvalidtion.png" style="width: 90%; height: 70%;">
 
 #### W3C Validator (html , css)
@@ -386,25 +380,23 @@ Additional testing was undertaken by friends and family on a variety of devices 
  <h2> Home page </h2>
 </div>
 
-| Feature                           | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
-| --------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
+| Feature                                 | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
+| --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
 | **Site's Logo**                   | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
 | **Navigation Menu**               | Easy navigation to different sections (Packages, Contact, About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
-|                                   |                                                                  |                               |                                         |           |
+|                                         |                                                                  |                               |                                         |           |
 | **Featured Destinations Section** | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
 | **Call-to-Action Buttons**        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
 
 ## Additional Details
 
 - **Hero Page Content:** The home page serves as the hero page, featuring small notes about the company and customer reviews.
-
 - **Continents Section:** Three photo slide cards represent each continent. Clicking on each card leads to the Flags page, displaying flags of countries within that continent.
+- **Footer:**
 
-- **Footer:** 
   - **Phone Number:** Clicking the phone number link allows users to call.
   - **Social Links:** Icons for social media links.
   - **Agency Protection:** Displays photos of visa cards and the agency protection stamp by ATOL agency.
-
 
 <div style="border: 2px solid #fff; padding: 6px;">
  <h2> Flags Page </h2>
@@ -424,7 +416,6 @@ To explore comprehensive travel packages for a specific country:
 
 1. Click on the flag card corresponding to the desired country.
 2. You will be redirected to the Packages page for that country, where you can find detailed information about available packages, facilities, and more.
-
 
 <div style="border: 2px solid #fff; padding: 6px;">
  <h2> Packagesall Page </h2>
@@ -449,7 +440,6 @@ To explore comprehensive travel packages for a specific country:
   - **Testing Performed:** Clicked the "Show Map" button.
   - **Result:** The map is displayed when the button is clicked.
   - **Pass/Fail:** Pass
-
 
 <div style="border: 2px solid #fff; padding: 6px;">
  <h2> Hotel details Page</h2>
@@ -478,7 +468,6 @@ To explore comprehensive travel packages for a specific country:
 | ------------------------ | ------------------------------------------ | -------------------------- | ------------------------------------------------------ | --------- |
 | Display Reservation Data | Show user's name, number, and quote number | Checked the displayed data | Information stored from Hoteldetails page is displayed | Pass      |
 
-
 <div style="border: 2px solid #fff; padding: 6px;">
  <h2>Contact page</h2>
 </div>
@@ -493,27 +482,26 @@ To explore comprehensive travel packages for a specific country:
  <h2>About page</h2>
 </div>
 
-| Feature                         | Expected Outcome                                       | Testing Performed               | Result                                    | Pass/Fail |
-| ------------------------------- | ------------------------------------------------------ | ------------------------------- | ----------------------------------------- | --------- |
-| **Site's Logo**                 | Clicking the logo directs the user back to the home page | Clicked on the logo             | Home page reloads                         | Pass      |
-| **Navigation Menu**             | Easy navigation to different sections (Home, Packages, Contact) | Clicked on each menu item     | Navigated to the corresponding sections   | Pass      |
-| **Social Media Icons**          | Icons linking to social media profiles                 | Clicked on each social icon    | Redirected to the respective social media | Pass      |
-|                                 |                                                        |                                 |                                           |           |
-| **About TravelWander Section**  | Comprehensive text about TravelWander company          | Read through the content      | Detailed information about the company   | Pass      |
-| **Contact Information**         | Brief contact details at the end of the page           | Verified the contact details | Contact information is accurate and clear | Pass      |
-| **Footer**                      | ATOL protected stamp                                   | Inspected the ATOL stamp      | Assurance of agency protection           | Pass      |
+| Feature                              | Expected Outcome                                                | Testing Performed            | Result                                    | Pass/Fail |
+| ------------------------------------ | --------------------------------------------------------------- | ---------------------------- | ----------------------------------------- | --------- |
+| **Site's Logo**                | Clicking the logo directs the user back to the home page        | Clicked on the logo          | Home page reloads                         | Pass      |
+| **Navigation Menu**            | Easy navigation to different sections (Home, Packages, Contact) | Clicked on each menu item    | Navigated to the corresponding sections   | Pass      |
+| **Social Media Icons**         | Icons linking to social media profiles                          | Clicked on each social icon  | Redirected to the respective social media | Pass      |
+|                                      |                                                                 |                              |                                           |           |
+| **About TravelWander Section** | Comprehensive text about TravelWander company                   | Read through the content     | Detailed information about the company    | Pass      |
+| **Contact Information**        | Brief contact details at the end of the page                    | Verified the contact details | Contact information is accurate and clear | Pass      |
+| **Footer**                     | ATOL protected stamp                                            | Inspected the ATOL stamp     | Assurance of agency protection            | Pass      |
 
 ## Additional Details
 
 - **Company Overview:** The About page provides in-depth information about TravelWander, its mission, and values.
-
 - **Contact Information:**
+
   - **Email:** contact@travelwander.com
   - **Phone:** [+44 8987555666]
-
 - **Footer:**
-  - The ATOL protected stamp ensures the agency's protection compliance.
 
+  - The ATOL protected stamp ensures the agency's protection compliance.
 
 ## Credits
 
