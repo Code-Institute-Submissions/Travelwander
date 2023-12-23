@@ -378,17 +378,53 @@ Each device tested the site using the following browsers:
 
 Additional testing was undertaken by friends and family on a variety of devices and screen sizes. They reported no issues when browsing and exploring the website.
 
-**Home Page**
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Home page </h2>
+</div>
 
-| Feature                       | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
-| ----------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
-| The Site's logo               | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
-| Navigation menu               | Easy navigation to different sections (Packages, Contact,About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
-|                               |                                                                  |                               |                                         |           |
-| Featured destinations section | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
-| Call-to-action buttons        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
+| Feature                           | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
+| --------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
+| **Site's Logo**                   | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
+| **Navigation Menu**               | Easy navigation to different sections (Packages, Contact, About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
+|                                   |                                                                  |                               |                                         |           |
+| **Featured Destinations Section** | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
+| **Call-to-Action Buttons**        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
 
-**Packagesall Page**
+## Additional Details
+
+- **Hero Page Content:** The home page serves as the hero page, featuring small notes about the company and customer reviews.
+
+- **Continents Section:** Three photo slide cards represent each continent. Clicking on each card leads to the Flags page, displaying flags of countries within that continent.
+
+- **Footer:** 
+  - **Phone Number:** Clicking the phone number link allows users to call.
+  - **Social Links:** Icons for social media links.
+  - **Agency Protection:** Displays photos of visa cards and the agency protection stamp by ATOL agency.
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Flags Page </h2>
+</div>
+
+Each country is represented by a flag card, providing a quick overview of available travel opportunities. The card includes:
+
+| Feature      | Expected Outcome                                         | Testing Performed           | Result                                                         | Pass/Fail |
+| ------------ | -------------------------------------------------------- | --------------------------- | -------------------------------------------------------------- | --------- |
+| Flag         | Iconic representation of the country's flag.             | Visual inspection           | Flags are displayed accurately.                                | Pass      |
+| Package Info | Brief details about available travel packages and costs. | Clicked on flag cards       | Information about travel packages is displayed correctly.      | Pass      |
+| Weather Info | Real-time weather conditions in the country.             | Checked weather information | Weather updates are accurate and aligned with OpenWeather API. | Pass      |
+
+###### - navigation to Packages Page
+
+To explore comprehensive travel packages for a specific country:
+
+1. Click on the flag card corresponding to the desired country.
+2. You will be redirected to the Packages page for that country, where you can find detailed information about available packages, facilities, and more.
+
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Packagesall Page </h2>
+</div>
 
 | Feature         | Expected Outcome                                               | Testing Performed         | Result                                               | Pass/Fail |
 | --------------- | -------------------------------------------------------------- | ------------------------- | ---------------------------------------------------- | --------- |
@@ -410,7 +446,10 @@ Additional testing was undertaken by friends and family on a variety of devices 
   - **Result:** The map is displayed when the button is clicked.
   - **Pass/Fail:** Pass
 
-**hotel details Page**
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2> Hotel details Page</h2>
+</div>
 
 | Feature              | Expected Outcome                                               | Testing Performed                 | Result                                                                 | Pass/Fail |
 | -------------------- | -------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- | --------- |
@@ -435,7 +474,10 @@ Additional testing was undertaken by friends and family on a variety of devices 
 | ------------------------ | ------------------------------------------ | -------------------------- | ------------------------------------------------------ | --------- |
 | Display Reservation Data | Show user's name, number, and quote number | Checked the displayed data | Information stored from Hoteldetails page is displayed | Pass      |
 
-**Contact**
+
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2>Contact page</h2>
+</div>
 
 | Feature            | Expected Outcome                             | Testing Performed             | Result                                             | Pass/Fail |
 | ------------------ | -------------------------------------------- | ----------------------------- | -------------------------------------------------- | --------- |
@@ -443,14 +485,31 @@ Additional testing was undertaken by friends and family on a variety of devices 
 | Social media links | Quick access to social media profiles        | Clicked on social media icons | Redirected to the respective social media profiles | Pass      |
 | Map integration    | Display of office location using Google Maps | Checked the map section       | Office location displayed accurately               | Pass      |
 
-**500 Error Page**
+<div style="border: 2px solid #fff; padding: 6px;">
+ <h2>About page</h2>
+</div>
 
-| Feature          | Expected Outcome                                             | Testing Performed                       | Result                                              | Pass/Fail |
-| ---------------- | ------------------------------------------------------------ | --------------------------------------- | --------------------------------------------------- | --------- |
-| Navigation links | Options to return to the home page or explore other sections | Clicked on "Go Home" and "Explore More" | Redirected to the home page and respective sections | Pass      |
-| Visual elements  | Engaging visuals and clear messaging                         | Reviewed the overall appearance         | Visually appealing and clear messaging              | Pass      |
+| Feature                         | Expected Outcome                                       | Testing Performed               | Result                                    | Pass/Fail |
+| ------------------------------- | ------------------------------------------------------ | ------------------------------- | ----------------------------------------- | --------- |
+| **Site's Logo**                 | Clicking the logo directs the user back to the home page | Clicked on the logo             | Home page reloads                         | Pass      |
+| **Navigation Menu**             | Easy navigation to different sections (Home, Packages, Contact) | Clicked on each menu item     | Navigated to the corresponding sections   | Pass      |
+| **Social Media Icons**          | Icons linking to social media profiles                 | Clicked on each social icon    | Redirected to the respective social media | Pass      |
+|                                 |                                                        |                                 |                                           |           |
+| **About TravelWander Section**  | Comprehensive text about TravelWander company          | Read through the content      | Detailed information about the company   | Pass      |
+| **Contact Information**         | Brief contact details at the end of the page           | Verified the contact details | Contact information is accurate and clear | Pass      |
+| **Footer**                      | ATOL protected stamp                                   | Inspected the ATOL stamp      | Assurance of agency protection           | Pass      |
 
----
+## Additional Details
+
+- **Company Overview:** The About page provides in-depth information about TravelWander, its mission, and values.
+
+- **Contact Information:**
+  - **Email:** contact@travelwander.com
+  - **Phone:** [+44 8987555666]
+
+- **Footer:**
+  - The ATOL protected stamp ensures the agency's protection compliance.
+
 
 ## Credits
 
