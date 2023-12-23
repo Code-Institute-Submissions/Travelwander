@@ -877,7 +877,7 @@ footer a{
         
     }
     .customer_img1{
-        background: url(assets/images/customer4.jpg);
+        background: url(/assets/images/customer4.jpg);
         width: 6em;
         height: 6em;
         background-size: cover;
@@ -885,21 +885,21 @@ footer a{
 
     }
     .customer_img2{
-        background: url(assets/images/customer1.jpg);
+        background: url(/assets/images/customer1.jpg);
         width: 6em;
         height: 6em;
         background-size: cover;
         border-radius: 3em;
   
     }.customer_img3{
-        background: url(assets/images/customer2.jpg);
+        background: url(/assets/images/customer2.jpg);
         width: 6em;
         height: 6em;
         background-size: cover;
         border-radius: 3em;
   
     }.customer_img4{
-        background: url(assets/images/customer31.jpg);
+        background: url(/assets/images/customer31.jpg);
         width: 6em;
         height: 6em;
         background-size: cover;
