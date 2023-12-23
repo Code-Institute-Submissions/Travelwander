@@ -217,7 +217,7 @@ main .inviting{
 .continents div:first-child{
     background-color: azure;
     
-    background: url(/assets/images/america.jpg) left no-repeat;
+    background: url(assets/images/america.jpg) left no-repeat;
     
     background-size:cover;
     position: relative;
