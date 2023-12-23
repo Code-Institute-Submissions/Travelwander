@@ -65,8 +65,8 @@
       "Adventure concierge service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Family_Adventures_Resort1.jpg",
-      "/assets/images/hotel_images/Family_Adventures_Resort2.jpg"
+      "assets/images/hotel_images/Family_Adventures_Resort1.jpg",
+      "assets/images/hotel_images/Family_Adventures_Resort2.jpg"
     ]
   },
   {
@@ -88,8 +88,8 @@
       "Adventure concierge service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Villa_Paraiso1.jpg",
-      "/assets/images/hotel_images/Villa_Paraiso2.jpg"
+      "assets/images/hotel_images/Villa_Paraiso1.jpg",
+      "assets/images/hotel_images/Villa_Paraiso2.jpg"
     ]
   },
   {
@@ -110,8 +110,8 @@
       "Outdoor family adventures"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/La_Barda_villa1.jpg",
-      "/assets/images/hotel_images/La_Barda_villa2.jpg"
+      "assets/images/hotel_images/La_Barda_villa1.jpg",
+      "assets/images/hotel_images/La_Barda_villa2.jpg"
     ]
   },
   {
@@ -132,8 +132,8 @@
       "Champagne welcome"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Oceanview_Romantic_Retreat1.jpg",
-      "/assets/images/hotel_images/Oceanview_Romantic_Retreat2.jpg"
+      "assets/images/hotel_images/Oceanview_Romantic_Retreat1.jpg",
+      "assets/images/hotel_images/Oceanview_Romantic_Retreat2.jpg"
     ]
   },
   {
@@ -154,8 +154,8 @@
       "Adventure-packed stay"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Jungle_Adventure_Lodge1.jpg",
-      "/assets/images/hotel_images/Jungle_Adventure_Lodge2.jpg"
+      "assets/images/hotel_images/Jungle_Adventure_Lodge1.jpg",
+      "assets/images/hotel_images/Jungle_Adventure_Lodge2.jpg"
     ]
   },
   {
@@ -176,8 +176,8 @@
       "Live music events"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/South_Beach_Hotel1.jpg",
-      "/assets/images/hotel_images/South_Beach_Hotel2.jpg"
+      "assets/images/hotel_images/South_Beach_Hotel1.jpg",
+      "assets/images/hotel_images/South_Beach_Hotel2.jpg"
     ]
   },
   {
@@ -198,8 +198,8 @@
       "Sunset yoga on the beach"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Miami_Beach_Resort1.jpg",
-      "/assets/images/hotel_images/Miami_Beach_Resort2.jpg"
+      "assets/images/hotel_images/Miami_Beach_Resort1.jpg",
+      "assets/images/hotel_images/Miami_Beach_Resort2.jpg"
     ]
   },
   {
@@ -220,8 +220,8 @@
       "Adventure trails for children"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
-      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
+      "assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
+      "assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
     ]
   },
   {
@@ -245,8 +245,8 @@
       "Intimate candlelit dinners"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_El_Navegante1.jpg",
-      "/assets/images/hotel_images/Hotel_El_Navegante2.jpg"
+      "assets/images/hotel_images/Hotel_El_Navegante1.jpg",
+      "assets/images/hotel_images/Hotel_El_Navegante2.jpg"
     ]
   },
   {
@@ -270,8 +270,8 @@
       "Sunset yoga on the beach"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Miami_Beach_Resort1.jpg",
-      "/assets/images/hotel_images/Miami_Beach_Resort2.jpg"
+      "assets/images/hotel_images/Miami_Beach_Resort1.jpg",
+      "assets/images/hotel_images/Miami_Beach_Resort2.jpg"
     ]
   },
   {
@@ -295,8 +295,8 @@
       "Adventure trails for children"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
-      "/assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
+      "assets/images/hotel_images/Coconut_Grove_Family_Hotel1.jpg",
+      "assets/images/hotel_images/Coconut_Grove_Family_Hotel2.jpg"
     ]
   },
   {
@@ -316,8 +316,8 @@
       "Couples' spa treatments"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Setai_Miami_Beach1.jpg",
-      "/assets/images/hotel_images/The_Setai_Miami_Beach2.jpg"
+      "assets/images/hotel_images/The_Setai_Miami_Beach1.jpg",
+      "assets/images/hotel_images/The_Setai_Miami_Beach2.jpg"
     ]
   },
   {
@@ -340,8 +340,8 @@
       "Dining"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Royalton_Negril1.jpg",
-      "/assets/images/hotel_images/Royalton_Negril2.jpg"
+      "assets/images/hotel_images/Royalton_Negril1.jpg",
+      "assets/images/hotel_images/Royalton_Negril2.jpg"
     ]
   },
   {
@@ -367,8 +367,8 @@
       "Beachfront cabanas"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Sandals_Negril1.jpg",
-      "/assets/images/hotel_images/Sandals_Negril2.jpg"
+      "assets/images/hotel_images/Sandals_Negril1.jpg",
+      "assets/images/hotel_images/Sandals_Negril2.jpg"
     ]
   },
   {
@@ -394,8 +394,8 @@
       "On-site dining"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Moon_Palace_Jamaica1.jpg",
-      "/assets/images/hotel_images/Moon_Palace_Jamaica2.jpg"
+      "assets/images/hotel_images/Moon_Palace_Jamaica1.jpg",
+      "assets/images/hotel_images/Moon_Palace_Jamaica2.jpg"
     ]
   },
   {
@@ -415,8 +415,8 @@
       "Couples' spa treatments"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Couples_Swept_Away1.jpg",
-      "/assets/images/hotel_images/Couples_Swept_Away2.jpg"
+      "assets/images/hotel_images/Couples_Swept_Away1.jpg",
+      "assets/images/hotel_images/Couples_Swept_Away2.jpg"
     ]
   },
   {
@@ -442,8 +442,8 @@
       "Japanese cuisine"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Chinzanso1.jpg",
-      "/assets/images/hotel_images/Hotel_Chinzanso2.jpg"
+      "assets/images/hotel_images/Hotel_Chinzanso1.jpg",
+      "assets/images/hotel_images/Hotel_Chinzanso2.jpg"
     ]
   },
   {
@@ -463,8 +463,8 @@
       "Japanese gardens"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Okura_Tokyo1.jpeg",
-      "/assets/images/hotel_images/Hotel_Okura_Tokyo2.jpg"
+      "assets/images/hotel_images/Hotel_Okura_Tokyo1.jpeg",
+      "assets/images/hotel_images/Hotel_Okura_Tokyo2.jpg"
     ]
   },
   {
@@ -484,8 +484,8 @@
       "Family-friendly amenities"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta1.jpg",
-      "/assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta2.jpg"
+      "assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta1.jpg",
+      "assets/images/hotel_images/Tokyo_DisneySea_Resort_Hotel_MiraCosta2.jpg"
     ]
   },
   {
@@ -505,8 +505,8 @@
       "Panoramic views of the city"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Capitol_Hotel_Tokyu1.jpg",
-      "/assets/images/hotel_images/The_Capitol_Hotel_Tokyu2.jpg"
+      "assets/images/hotel_images/The_Capitol_Hotel_Tokyu1.jpg",
+      "assets/images/hotel_images/The_Capitol_Hotel_Tokyu2.jpg"
     ]
   },
   {
@@ -526,8 +526,8 @@
       "Thai cuisine"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Khao_Lak_Explorer1.jpg",
-      "/assets/images/hotel_images/Khao_Lak_Explorer2.jpg"
+      "assets/images/hotel_images/Khao_Lak_Explorer1.jpg",
+      "assets/images/hotel_images/Khao_Lak_Explorer2.jpg"
     ]
   },
   {
@@ -547,8 +547,8 @@
       "Panoramic views of the Andaman Sea"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Sarojin1.jpeg",
-      "/assets/images/hotel_images/The_Sarojin2.jpg"
+      "assets/images/hotel_images/The_Sarojin1.jpeg",
+      "assets/images/hotel_images/The_Sarojin2.jpg"
     ]
   },
   {
@@ -568,8 +568,8 @@
       "Beachfront location"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Bang_Niang_Beach_Resort1.jpg",
-      "/assets/images/hotel_images/Bang_Niang_Beach_Resort2.jpg"
+      "assets/images/hotel_images/Bang_Niang_Beach_Resort1.jpg",
+      "assets/images/hotel_images/Bang_Niang_Beach_Resort2.jpg"
     ]
   },
   {
@@ -589,8 +589,8 @@
       "Secluded beach"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Pavilions_Phuket1.jpg",
-      "/assets/images/hotel_images/The_Pavilions_Phuket2.jpg"
+      "assets/images/hotel_images/The_Pavilions_Phuket1.jpg",
+      "assets/images/hotel_images/The_Pavilions_Phuket2.jpg"
     ]
   },
   {
@@ -610,8 +610,8 @@
       "Multiple dining options"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Lotte_World_Hotel1.jpg",
-      "/assets/images/hotel_images/Lotte_World_Hotel2.jpg"
+      "assets/images/hotel_images/Lotte_World_Hotel1.jpg",
+      "assets/images/hotel_images/Lotte_World_Hotel2.jpg"
     ]
   },
   {
@@ -631,8 +631,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/JW_Marriott_Seoul1.jpg",
-      "/assets/images/hotel_images/JW_Marriott_Seoul2.jpg"
+      "assets/images/hotel_images/JW_Marriott_Seoul1.jpg",
+      "assets/images/hotel_images/JW_Marriott_Seoul2.jpg"
     ]
   },
   {
@@ -652,8 +652,8 @@
       "Kid-friendly amenities"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Grand_Hyatt_Seoul1.jpg",
-      "/assets/images/hotel_images/Grand_Hyatt_Seoul2.jpeg"
+      "assets/images/hotel_images/Grand_Hyatt_Seoul1.jpg",
+      "assets/images/hotel_images/Grand_Hyatt_Seoul2.jpeg"
     ]
   },
   {
@@ -673,8 +673,8 @@
       "Elegant accommodations"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Shilla_Seoul1.jpg",
-      "/assets/images/hotel_images/The_Shilla_Seoul2.jpg"
+      "assets/images/hotel_images/The_Shilla_Seoul1.jpg",
+      "assets/images/hotel_images/The_Shilla_Seoul2.jpg"
     ]
   },
   {
@@ -694,8 +694,8 @@
       "Fine dining"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Alila_Ubud1.jpg",
-      "/assets/images/hotel_images/Alila_Ubud2.jpg"
+      "assets/images/hotel_images/Alila_Ubud1.jpg",
+      "assets/images/hotel_images/Alila_Ubud2.jpg"
     ]
   },
   {
@@ -715,8 +715,8 @@
       "Panoramic views of the rainforest"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan1.jpeg",
-      "/assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan2.jpg"
+      "assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan1.jpeg",
+      "assets/images/hotel_images/Four_Seasons_Resort_Bali_at_Sayan2.jpg"
     ]
   },
   {
@@ -736,8 +736,8 @@
       "Beachfront location"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Ayana_Resort_and_Spa1.jpg",
-      "/assets/images/hotel_images/Ayana_Resort_and_Spa2.jpg"
+      "assets/images/hotel_images/Ayana_Resort_and_Spa1.jpg",
+      "assets/images/hotel_images/Ayana_Resort_and_Spa2.jpg"
     ]
   },
   {
@@ -757,8 +757,8 @@
       "Secluded beach"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/The_Ritz-Carlton,_Bali1.jpeg",
-      "/assets/images/hotel_images/The_Ritz-Carlton,_Bali2.jpg"
+      "assets/images/hotel_images/The_Ritz-Carlton,_Bali1.jpeg",
+      "assets/images/hotel_images/The_Ritz-Carlton,_Bali2.jpg"
     ]
   },
   {
@@ -778,8 +778,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Grande_Bretagne1.jpeg",
-      "/assets/images/hotel_images/Hotel_Grande_Bretagne2.jpg"
+      "assets/images/hotel_images/Hotel_Grande_Bretagne1.jpeg",
+      "assets/images/hotel_images/Hotel_Grande_Bretagne2.jpg"
     ]
   },
   {
@@ -799,8 +799,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/King_George_Hotel1.jpeg",
-      "/assets/images/hotel_images/King_George_Hotel2.jpg"
+      "assets/images/hotel_images/King_George_Hotel1.jpeg",
+      "assets/images/hotel_images/King_George_Hotel2.jpg"
     ]
   },
   {
@@ -820,8 +820,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Electra_Palace_Hotel1.jpg",
-      "/assets/images/hotel_images/Electra_Palace_Hotel2.jpg"
+      "assets/images/hotel_images/Electra_Palace_Hotel1.jpg",
+      "assets/images/hotel_images/Electra_Palace_Hotel2.jpg"
     ]
   },
   {
@@ -841,8 +841,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_New_York1.jpg",
-      "/assets/images/hotel_images/Hotel_New_York2.jpg"
+      "assets/images/hotel_images/Hotel_New_York1.jpg",
+      "assets/images/hotel_images/Hotel_New_York2.jpg"
     ]
   },
   {
@@ -862,8 +862,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Urban1.jpeg",
-      "/assets/images/hotel_images/Hotel_Urban2.jpg"
+      "assets/images/hotel_images/Hotel_Urban1.jpeg",
+      "assets/images/hotel_images/Hotel_Urban2.jpg"
     ]
   },
   {
@@ -886,8 +886,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_SH_Valencia_Palace1.jpg",
-      "/assets/images/hotel_images/Hotel_SH_Valencia_Palace2.jpg"
+      "assets/images/hotel_images/Hotel_SH_Valencia_Palace1.jpg",
+      "assets/images/hotel_images/Hotel_SH_Valencia_Palace2.jpg"
     ]
   },
   {
@@ -907,8 +907,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Sorolla_Centro1.jpeg",
-      "/assets/images/hotel_images/Hotel_Sorolla_Centro2.jpg"
+      "assets/images/hotel_images/Hotel_Sorolla_Centro1.jpeg",
+      "assets/images/hotel_images/Hotel_Sorolla_Centro2.jpg"
     ]
   },
   {
@@ -928,8 +928,8 @@
       "Attentive service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Hospes_Valencia1.jpg",
-      "/assets/images/hotel_images/Hotel_Hospes_Valencia2.jpg"
+      "assets/images/hotel_images/Hotel_Hospes_Valencia1.jpg",
+      "assets/images/hotel_images/Hotel_Hospes_Valencia2.jpg"
     ]
   },
   {
@@ -948,8 +948,8 @@
       "Has a traditional Austrian restaurant with a focus on local cuisine"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Altstadt_Vienna1.jpeg",
-      "/assets/images/hotel_images/Hotel_Altstadt_Vienna2.jpg"
+      "assets/images/hotel_images/Hotel_Altstadt_Vienna1.jpeg",
+      "assets/images/hotel_images/Hotel_Altstadt_Vienna2.jpg"
     ]
   },
   {
@@ -968,8 +968,8 @@
       "Rooftop terrace with panoramic views of the city"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Imperial_Vienna1.jpg",
-      "/assets/images/hotel_images/Hotel_Imperial_Vienna2.jpg"
+      "assets/images/hotel_images/Hotel_Imperial_Vienna1.jpg",
+      "assets/images/hotel_images/Hotel_Imperial_Vienna2.jpg"
     ]
   },
   {
@@ -988,8 +988,8 @@
       "Buffet restaurant with a variety of options to please everyone"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Schloss_Schönbrunn1.jpg",
-      "/assets/images/hotel_images/Hotel_Schloss_Schönbrunn2.jpg"
+      "assets/images/hotel_images/Hotel_Schloss_Schönbrunn1.jpg",
+      "assets/images/hotel_images/Hotel_Schloss_Schönbrunn2.jpg"
     ]
   },
   {
@@ -1008,8 +1008,8 @@
       "Panoramic views of the city from the rooftop terrace"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna1.jpg",
-      "/assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna2.jpg"
+      "assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna1.jpg",
+      "assets/images/hotel_images/Hotel_The_Ritz-Carlton_Vienna2.jpg"
     ]
   },
   {
@@ -1028,8 +1028,8 @@
       "Serves traditional French cuisine with a modern twist"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Les_Deux_Rives1.jpg",
-      "/assets/images/hotel_images/Hotel_Les_Deux_Rives2.jpg"
+      "assets/images/hotel_images/Hotel_Les_Deux_Rives1.jpg",
+      "assets/images/hotel_images/Hotel_Les_Deux_Rives2.jpg"
     ]
   },
   {
@@ -1048,8 +1048,8 @@
       "Attentive service and concierge services"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Le_Meurice1.jpg",
-      "/assets/images/hotel_images/Hotel_Le_Meurice2.jpg"
+      "assets/images/hotel_images/Hotel_Le_Meurice1.jpg",
+      "assets/images/hotel_images/Hotel_Le_Meurice2.jpg"
     ]
   },
   {
@@ -1068,8 +1068,8 @@
       "Attentive service and family-friendly amenities"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_du_Louvre1.jpeg",
-      "/assets/images/hotel_images/Hotel_du_Louvre2.jpg"
+      "assets/images/hotel_images/Hotel_du_Louvre1.jpeg",
+      "assets/images/hotel_images/Hotel_du_Louvre2.jpg"
     ]
   },
   {
@@ -1088,8 +1088,8 @@
       "Attentive service and personalized experiences"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Ritz_Paris1.jpg",
-      "/assets/images/hotel_images/Hotel_Ritz_Paris2.jpg"
+      "assets/images/hotel_images/Hotel_Ritz_Paris1.jpg",
+      "assets/images/hotel_images/Hotel_Ritz_Paris2.jpg"
     ]
   }
 ]
