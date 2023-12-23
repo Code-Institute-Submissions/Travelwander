@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     
     if (!isValidPhoneNumber(telInput.value)) {/* phone number check */
-      displayError(telInput, 'Please enter a valid phone number.');
+      displayError(telInput, 'Please enter a valid 10-digit phone number.');
       return;
     }
 

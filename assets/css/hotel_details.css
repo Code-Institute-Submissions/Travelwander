@@ -410,12 +410,12 @@ text-decoration: none;
     background-color: #e9e4e4c7;
     backdrop-filter: blur(30px);
     padding: 20px;
-    z-index: 1;
+    z-index: 2;
     height: 19em;
     width: 15em;
     border-radius: 2em;
     font-size: larger;
-    line-height: 2em;
+    line-height: 1em;
   }
   .modal i{
     color:green;
@@ -937,8 +937,8 @@ text-decoration: none;
     background-color: #8b8f91c7;
     backdrop-filter: blur(30px);
     padding: 20px;
-    z-index: 1;
-    height: 19em;
+    z-index: 2;
+    height: unset;
     width: 15em;
     border-radius: 2em;
     font-size: larger;
