@@ -167,7 +167,7 @@ main{
     align-items: center;
 
 }
-article{
+.article{
     display: flex;
     padding: 10%;
     width: 80%;
@@ -185,10 +185,20 @@ article{
     width:40%;
     align-items: center;
 
+    padding-top: 10%;;
+
    
+}
+.formcontent h5{
+    position: absolute;
+    left: 16%;
+    
+    
+    color:white;
 }
 .formname i {color: rgb(237, 237, 237);     /* envelop icon */
 text-shadow: 1px 2px 7px #1b1818;
+font-size:x-large;
 
 }
 form .formname{
@@ -475,7 +485,7 @@ footer a{
         align-items: center;
     
     }
-    article {
+    .article {
         display: flex;
         flex-direction: column-reverse;
         padding: 10%;
@@ -492,6 +502,12 @@ footer a{
         width: 100%;
         align-items: center;
         
+    }
+    .formcontent h5{
+        position: absolute;
+        left: 21%;
+        
+        color:white;
     }
    input[type="submit"]{
     margin-bottom: 0.8em;
@@ -563,7 +579,7 @@ footer a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+       
          
        grid-column: 1 / 9; /* grid column values for the main content */
     }
@@ -575,40 +591,12 @@ footer a{
     .sp_notes{
         overflow: hidden;
     }
-
-    #map {
-        display: none;
-      }
-    
-      #mapview {
-        display: block !important;
-        background-color: #197a30;
-        padding: 0.9em;
-        
-        position: fixed;
-
-        display: flex;
-        flex-direction: column;
-
-        color:#d9dad6;
-        font-weight: 600;
-      }
-      #mapview i{
-        font-size: xx-large;
-      }
-      #mapview{
-        box-shadow: 1px px 5px black;
-      }
-      
-    
- 
  
     footer {
        grid-column: 2 / 8; /*  grid column values for the footer */
         position: absolute;
         bottom: 0;
-        
-       
+
        
     }
  
@@ -625,7 +613,7 @@ footer a{
  
     main {
         
-        min-height: calc(100vh - (headerHeight + footerHeight));
+        
          
        grid-column: 3 / 12; /* increase grid column values for the main content  for big tablets and desktop*/
     }
@@ -638,29 +626,6 @@ footer a{
         overflow: hidden;
     }
 
-    #map {
-        display: none;
-      }
-    
-      #mapview {
-        display: block !important;
-        background-color: #197a30;
-        padding: 0.9em;
-        
-        position: fixed;
-
-        display: flex;
-        flex-direction: column;
-
-        color:#d9dad6;
-        font-weight: 600;
-      }
-      #mapview i{
-        font-size: xx-large;
-      }
-      #mapview{
-        box-shadow: 1px px 5px black;
-      }
       
     
  

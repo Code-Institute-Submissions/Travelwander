@@ -284,9 +284,13 @@ To deploy the site:
 
 ---
 
-### Automated Testing
+### Automated Testing 
 
-#### W3C Validator
+- <img src="./assets/wireframes/validatorhtml.jpg" style="width: 90%; height: 70%;">
+
+- <img src="./assets/wireframes/cssvalidtion.png" style="width: 90%; height: 70%;">
+
+#### W3C Validator (html , css)
 
 - **index.html**: Passed.
 - **packagesall.html**: No errors, 1 Warning. The warning is for an empty H2 tag. This is where package details are inserted dynamically.

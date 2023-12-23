@@ -45,7 +45,7 @@ header{
 /*     background-color: rgb(209, 210, 210);
  */    grid-column: 2/12;
     grid-row:1/2 ;
-    backdrop-filter: blur;
+   
 
 
 }
