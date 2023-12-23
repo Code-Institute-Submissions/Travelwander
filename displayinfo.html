@@ -3,11 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      width:80%;
+      margin: 4rem auto;
+    }
+    table{
+      background-color: rgba(224, 219, 212, 0.545);
+      border:2px solid rgb(127, 127, 130);
+    }
+    table th,td{
+      padding:0.5em;
+      border:1px solid rgb(22, 6, 144);
+    }
+    table td{
+      color:rgb(159, 73, 8);
+    }
+  </style>
   <title>Local Storage Data</title>
 </head>
 <body>
 
-  <h2>Local Storage Data</h2>
+  <h2>Submited Reserve form</h2>
 
   <table border="1">
     <thead>
@@ -15,6 +32,7 @@
         <th>Name</th>
         <th>Phone Number</th>
         <th>Passengers</th>
+        <th>Resever no.</th>
       </tr>
     </thead>
     <tbody id="userDataBody"></tbody>
@@ -36,6 +54,7 @@
           <td>${userData.name}</td>
           <td>${userData.tel}</td>
           <td>${userData.passengers}</td>
+          <td>${userData.reservationNumber}</td>
         `;
         userDataBody.appendChild(row);
       }
