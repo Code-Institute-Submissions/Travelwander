@@ -18,8 +18,8 @@
       "Adventure concierge service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Hotel_Punta_Roca1.jpg",
-      "/assets/images/hotel_images/Hotel_Punta_Roca2.jpg"
+      "assets/images/hotel_images/Hotel_Punta_Roca1.jpg",
+      "assets/images/hotel_images/Hotel_Punta_Roca2.jpg"
     ]
   },
   {
@@ -41,8 +41,8 @@
       "Personalized concierge service"
     ],
     "imageSrc": [
-      "/assets/images/hotel_images/Isla_Colon_Beach_Resort1.jpeg",
-      "/assets/images/hotel_images/Isla_Colon_Beach_Resort2.jpeg"
+      "assets/images/hotel_images/Isla_Colon_Beach_Resort1.jpeg",
+      "assets/images/hotel_images/Isla_Colon_Beach_Resort2.jpeg"
     ]
   },
   {
