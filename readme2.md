@@ -390,21 +390,50 @@ Additional testing was undertaken by friends and family on a variety of devices 
 
 **Packagesall Page**
 
-| Feature         | Expected Outcome                                       | Testing Performed               | Result                                                | Pass/Fail |
-| --------------- | ------------------------------------------------------ | ------------------------------- | ----------------------------------------------------- | --------- |
-| Package cards   | Clear display of package details and prices            | Checked each package card       | Information and prices were displayed accurately      | Pass      |
-| Filter options  | Easy filtering based on destination, price range, etc. | Used the filter options         | Packages were filtered according to selected criteria | Pass      |
-| Package details | Clicking on a package card opens detailed information  | Clicked on a package card       | Detailed information about the package was displayed  | Pass      |
-| Booking button  | Seamless experience for booking a selected package     | Clicked on the "Reserve" button | Redirected to the booking page                        | Pass      |
+| Feature         | Expected Outcome                                               | Testing Performed         | Result                                               | Pass/Fail |
+| --------------- | -------------------------------------------------------------- | ------------------------- | ---------------------------------------------------- | --------- |
+| Package cards   | Clear display of package details and prices                    | Checked each package card | Information and prices were displayed accurately     | Pass      |
+| Package details | By click on More info button takes you different dynamic page | Clicked on a package card | Detailed information about the package was displayed | Pass      |
+
+**Additional Features for Mobile View:**
+
+- **Interactive Map:**
+
+  - **Expected Outcome:** Users can view the locations of packages on an interactive map.
+  - **Testing Performed:** Checked the map display on mobile devices.
+  - **Result:** The map accurately displays the locations of packages.
+  - **Pass/Fail:** Pass
+- **Show Map Button:**
+
+  - **Expected Outcome:** On mobile view, a button is provided to show the interactive map.
+  - **Testing Performed:** Clicked the "Show Map" button.
+  - **Result:** The map is displayed when the button is clicked.
+  - **Pass/Fail:** Pass
 
 **hotel details Page**
 
-| Feature             | Expected Outcome                                          | Testing Performed                    | Result                                                    | Pass/Fail |
-| ------------------- | --------------------------------------------------------- | ------------------------------------ | --------------------------------------------------------- | --------- |
-| Destination cards   | Engaging display of different travel destinations         | Checked each destination card        | Information and images were visually appealing            | Pass      |
-| Filter options      | Easy filtering based on region, type, etc.                | Used the filter options              | Destinations were filtered according to selected criteria | Pass      |
-| Destination details | Clicking on a destination card opens detailed information | Clicked on a destination card        | Detailed information about the destination was displayed  | Pass      |
-| Explore button      | Quick access to explore more about a selected destination | Clicked on the "Explore More" button | Redirected to a detailed page about the destination       | Pass      |
+| Feature              | Expected Outcome                                               | Testing Performed                 | Result                                                                 | Pass/Fail |
+| -------------------- | -------------------------------------------------------------- | --------------------------------- | ---------------------------------------------------------------------- | --------- |
+| Hotel Information    | Detailed display of hotel information and available facilities | Reviewed hotel details            | Accurate information and facilities were displayed                     | Pass      |
+| Map (Tablet/Desktop) | Map displaying the hotel location on tablet and desktop view   | Checked map on tablet/desktop     | The map accurately shows the hotel location                            | Pass      |
+| Rating               | User rating provided for the hotel                             | Checked and verified user ratings | Ratings were displayed appropriately and aligned with user feedback    | Pass      |
+| Reserve Button       | Clicking on "Reserve" button opens a modal form                | Clicked on "Reserve" button       | Modal form opened as expected, prompting user to enter name and number | Pass      |
+| Modal Form           | User can enter name and number for reservation                 | Submitted form with valid data    | Form submitted successfully, displaying a reservation quote number     | Pass      |
+
+**Reservation Data Storage:**
+
+- **Local Storage:**
+
+  - **Technology:** HTML5 provides localStorage for storing data on the client side.
+  - **Workflow:** On form submission, user's name, number, and reservation quote number are stored in the browser's localStorage for a short period.
+  - **Result:** Data is temporarily stored and can be accessed on the Displayinfo Page.
+  - **Pass/Fail:** Pass
+
+  ###### Displayinfo Page:*
+
+| Feature                  | Expected Outcome                           | Testing Performed          | Result                                                 | Pass/Fail |
+| ------------------------ | ------------------------------------------ | -------------------------- | ------------------------------------------------------ | --------- |
+| Display Reservation Data | Show user's name, number, and quote number | Checked the displayed data | Information stored from Hoteldetails page is displayed | Pass      |
 
 **Contact**
 
@@ -413,7 +442,6 @@ Additional testing was undertaken by friends and family on a variety of devices 
 | Contact form       | User-friendly form for inquiries or feedback | Filled out the contact form   | Form submission successful                         | Pass      |
 | Social media links | Quick access to social media profiles        | Clicked on social media icons | Redirected to the respective social media profiles | Pass      |
 | Map integration    | Display of office location using Google Maps | Checked the map section       | Office location displayed accurately               | Pass      |
-
 
 **500 Error Page**
 
