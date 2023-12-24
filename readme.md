@@ -8,7 +8,6 @@ Visit the live site: [TravelWander.com](https://maisam2004.github.io/Travelwande
 
 Embark on a virtual journey, discover new destinations, and plan your next adventure!
 
-
 ## Contents
 
 - [User Experience](#user-experience-ux)
@@ -427,6 +426,8 @@ To explore comprehensive travel packages for a specific country:
 | Package details | By click on More info button takes you different dynamic page | Clicked on a package card | Detailed information about the package was displayed | Pass      |
 
 **Additional Features for Mobile View:**
+
+**recomended to view this page on mobile an tablet size to refresh it , map could do not show up
 
 - **Interactive Map:**
 

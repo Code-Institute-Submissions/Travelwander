@@ -22,7 +22,7 @@ function createFlagContainer(country) {
   weatherInfo.id = `weather-info-${country.toLowerCase()}`;
 
   const packagesCost = document.createElement('h5'); //add cost of a package 
-  packagesCost.innerHTML = `Packages cost:<br> from $${Math.round(Math.random()*820)}`;
+  packagesCost.innerHTML = `Packages cost:<br> from $${Math.round(Math.random()*825)}`;
 
   latestContainer.appendChild(weatherInfo);
 
