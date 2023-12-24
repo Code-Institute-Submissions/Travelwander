@@ -173,7 +173,7 @@ section.explain{
 }
 section.explain h1 {
     font-size: 2.2em;
-    background: url(/assets/images/bg_image.jpg) top left no-repeat;
+    background: url(../images/bg_image.jpg) top left no-repeat;
     filter: contrast(30);
     
     -webkit-background-clip: text;
