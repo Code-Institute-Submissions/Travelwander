@@ -15,7 +15,7 @@
 body{
     
     background: 
-    url(assets/images/plane4.png);
+    url(../images/plane4.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
