@@ -6,7 +6,7 @@ function createFlagContainer(country) {
     const flagContainer = document.createElement('div'); //create div
     flagContainer.className = `${country.toLowerCase()} mid_flag`; //add class name
     //flagContainer.style.background = `url(assets/images/flags/${country}.png)`; //set bg for flag container
-    flagContainer.style.background = `url(/Travelwander/assets/images/flags/${country}.png)`; //set bg for flag container
+    flagContainer.style.background = `url(/Travelwander/assets/images/flags/${country.toLowerCase()}.png)`; //set bg for flag container
 
     
     flagContainer.style.backgroundSize = 'cover';
