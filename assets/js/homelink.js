@@ -13,7 +13,8 @@
     let homeLink = document.getElementById('homeLink');
 
     // Prepend "Travelwander/" to the existing href
-    homeLink.href = "Travelwander/" + homeLink.href;
+    //homeLink.href = "Travelwander/" + homeLink.href;
+    
 
     // Add a click event listener to the logo image
     logoImage.addEventListener('click', function () {
