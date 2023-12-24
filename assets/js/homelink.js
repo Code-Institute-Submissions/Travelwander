@@ -10,7 +10,7 @@
 
   document.addEventListener('DOMContentLoaded', function () {
     const logoImage = document.getElementById('logoImage');
-    const homeLink = document.getElementById('homeLink');
+    let homeLink = document.getElementById('homeLink');
 
     // Prepend "Travelwander/" to the existing href
     homeLink.href = "Travelwander/" + homeLink.href;
@@ -21,3 +21,4 @@
         homeLink.click();
     });
 });
+
