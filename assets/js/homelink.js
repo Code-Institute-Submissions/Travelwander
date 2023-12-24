@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     logoImage.addEventListener('click', function () {
       // Trigger a click on the home link
+      homeLink = 'Travelwander/'+homeLink;
       homeLink.click();
     });
   });
