@@ -16,7 +16,7 @@
 
 body{
 
-    background: url(/assets/images/flags_asia_bg.jpg);
+    background: url(../images/flags_asia_bg.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
