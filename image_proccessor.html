@@ -12,7 +12,7 @@
   "imageSrc": "/assets/images/hotels/south-beach-hotel.jpg"
 };
 
-function generateImageSrcArray(hotelData) {
+function generateImageSrcArray(hotelData) {// modify images hotel name and replace with _
   const hotelName = hotelData.name;
   const newHotelName = hotelName.replace(/\s+/g, '_');
   const imageSrcArray = [];
