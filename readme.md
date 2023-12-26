@@ -1,5 +1,5 @@
 # TravelWander.com
-- <img src="./assets/images/travellogo1.png" style="width: 60%; height: 60%;">
+- <img src="./assets/images/travellogo1.png" style="width: 40%; height: 40%;">
 
 ![TravelWander.com Logo](assets/images/travellogo1.png)
 ![TravelWander.com different view look](assets/images/differentview.jpg)
