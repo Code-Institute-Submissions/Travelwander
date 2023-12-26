@@ -1,6 +1,8 @@
 # TravelWander.com
+- <img src="./assets/images/travellogo1.png" style="width: 60%; height: 60%;">
 
 ![TravelWander.com Logo](assets/images/travellogo1.png)
+![TravelWander.com different view look](assets/images/differentview.jpg)
 
 Explore the world through TravelWander.com, your ultimate travel companion.
 
