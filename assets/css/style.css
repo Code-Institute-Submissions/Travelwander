@@ -183,24 +183,51 @@ header .hamburger{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5); 
     display: none; 
+    font-family: var(--nav-items-font);
   }
   
   #popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #fff;
+    background-color: #e4e0e0e7;
+    backdrop-filter: blur(30px);
+    border: 1px solid gray;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    gap:0.6em;
+  }
+  #popup img{
+    display: block;
+    place-self: center;
+  }
+  #popup a{
+    color:unset;
+    text-decoration: none;
+  }
+  #popup a span{
+    color:var(--nav_items_color);
+    font-size: large;
   }
   
   #close-btn {
-    float: right;
+    align-self: center;
     background-color: transparent;
     border: none;
     cursor: pointer;
+    font-weight: 600;
+    color:white;
+
+    background-color: var(--nav_items_color);
+    border:1px solid red;
+    padding:5px;
+    border-radius: 5px;
   }
   
 /* ------main  -------------------  ------ */
