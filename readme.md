@@ -1,6 +1,5 @@
 # TravelWander.com
 
-
 <img src="./assets/images/travellogo1.png" style="width: 40%; height: 40%;">
 
 ![TravelWander.com different view look](assets/images/differentview.jpg)
@@ -180,6 +179,9 @@ Experience the allure of TravelWander.com's homepage, where aesthetics meet func
 
 - <img src="./assets/wireframes/fullhomepage.jpeg" style="width: 90%; height: 70%;">
 - <img src="./assets/wireframes/homepagem1.jpeg" style="width: 40%; height: 60%;">
+- Popup message
+  Upon visiting the index page, users will encounter a helpful popup message after 7 seconds. The popup showcases our company logo and provides direct access to our customer service team via a telephone number. Users can easily make a call by clicking on the displayed number.
+- <img src="./assets/wireframes/popupmessage.jpg" style="width: 70%; height: 40%;">
 
 #### Destination Discovery
 
@@ -382,13 +384,13 @@ Additional testing was undertaken by friends and family on a variety of devices 
  <h2> Home page </h2>
 </div>
 
-| Feature                                 | Expected Outcome                                                 | Testing Performed             | Result                                  | Pass/Fail |
-| --------------------------------------- | ---------------------------------------------------------------- | ----------------------------- | --------------------------------------- | --------- |
-| **Site's Logo**                   | Clicking the logo directs the user back to the home page         | Clicked on the logo           | Home page reloads                       | Pass      |
-| **Navigation Menu**               | Easy navigation to different sections (Packages, Contact, About) | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
-|                                         |                                                                  |                               |                                         |           |
-| **Featured Destinations Section** | Visually appealing display of popular travel spots               | Scrolled through the section  | Images and details were engaging        | Pass      |
-| **Call-to-Action Buttons**        | Prominent buttons for booking or exploring packages              | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
+| Feature                                 | Expected Outcome                                                                                       | Testing Performed             | Result                                  | Pass/Fail |
+| --------------------------------------- | ------------------------------------------------------------------------------------------------------ | ----------------------------- | --------------------------------------- | --------- |
+| **Site's Logo**                   | Clicking the logo directs the user back to the home page                                               | Clicked on the logo           | Home page reloads                       | Pass      |
+| **Navigation Menu**               | Easy navigation to different sections (Packages, Contact, About)                                       | Clicked on each menu item     | Navigated to the corresponding sections | Pass      |
+| **Page popup**                    | A dedicated telephone number for our customer service team is featured, ensuring immediate assistance. | Click on telephone nubmer     | phone feature of user divice activate   | pass      |
+| **Featured Destinations Section** | Visually appealing display of popular travel spots                                                     | Scrolled through the section  | Images and details were engaging        | Pass      |
+| **Call-to-Action Buttons**        | Prominent buttons for booking or exploring packages                                                    | Clicked on "Explore Packages" | Redirected to the Packages page         | Pass      |
 
 ## Additional Details
 
